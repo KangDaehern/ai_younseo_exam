@@ -90,9 +90,10 @@
 
     .sentence-list { display: grid; gap: 18px; }
     .sentence { overflow: hidden; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
-    .sentence-head { padding: 18px 22px; color: white; background: var(--forest); }
+    .sentence-head { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: start; padding: 18px 22px; color: white; background: var(--forest); }
     .sentence-no { display: block; color: #b9d8ca; font-size: .78rem; font-weight: 850; letter-spacing: .1em; }
     .sentence-head p { margin: 4px 0 0; font: 700 1.08rem/1.65 Georgia, serif; }
+    .sentence-hide { min-height: 38px; padding: 7px 11px; border: 1px solid rgba(255,255,255,.35); border-radius: 10px; color: white; background: rgba(255,255,255,.1); font-size: .82rem; font-weight: 750; cursor: pointer; }
     .chunks { padding: 7px 22px; }
     .chunk { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; padding: 13px 0; border-bottom: 1px dashed var(--line); }
     .chunk:last-child { border-bottom: 0; }
@@ -104,6 +105,11 @@
     .tool-button { min-height: 44px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); color: var(--ink); font-weight: 720; cursor: pointer; }
     .tool-button.primary { color: white; background: var(--forest); border-color: var(--forest); }
     .tool-button.danger { color: #8d351c; background: var(--orange-soft); border-color: #edb99f; }
+    .profile-bar { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: center; margin: 18px 0 0; padding: 15px 17px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,253,248,.86); }
+    .profile-bar p { margin: 0; }
+    .profile-buttons { display: flex; gap: 8px; }
+    .profile-button { min-height: 44px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 12px; background: white; font-weight: 780; cursor: pointer; }
+    .profile-button.active { color: white; background: var(--forest); border-color: var(--forest); }
     .storage-note { margin: -4px 0 20px; color: var(--muted); font-size: .92rem; }
     .group-title { margin: 26px 0 12px; font-size: 1.12rem; }
     .vocab-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
@@ -150,6 +156,10 @@
       .card { padding: 20px; }
       .progress-card { grid-template-columns: 1fr; }
       .progress-card .progress-count { justify-self: start; }
+      .profile-bar { grid-template-columns: 1fr; }
+      .profile-buttons { display: grid; grid-template-columns: 1fr 1fr; }
+      .sentence-head { grid-template-columns: 1fr; }
+      .sentence-hide { justify-self: start; }
     }
   </style>
 </head>
@@ -163,6 +173,13 @@
         <p><strong>단어 학습 현황</strong><br><small>‘알아요’를 누르면 목록에서 자동으로 숨겨져요.</small></p>
         <p class="progress-count" id="progressCount">0 / 0 알아요</p>
         <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+      <div class="profile-bar">
+        <p><strong id="profileName">테스트용 기록</strong><br><small id="syncStatus">서버에서 불러오는 중...</small></p>
+        <div class="profile-buttons" aria-label="학습 기록 선택">
+          <button class="profile-button active" data-profile="test">테스트용</button>
+          <button class="profile-button" data-profile="yunseo">윤서 실전용</button>
+        </div>
       </div>
     </header>
 
@@ -188,23 +205,25 @@
 
     <section class="panel" id="readingPanel" role="tabpanel" aria-labelledby="readingTab" hidden>
       <h2>한 문장씩 직독직해</h2>
+      <div class="tool-row">
+        <button class="tool-button primary" id="showHiddenSentences">숨긴 문장 보기</button>
+      </div>
+      <p class="storage-note" id="sentenceSummary">쉬워진 문장은 숨길 수 있어요.</p>
       <div class="sentence-list" id="sentenceList"></div>
+      <div class="empty" id="sentenceEmpty" hidden><strong>모든 문장을 숨겼어요.</strong><br>‘숨긴 문장 보기’를 누르면 다시 확인할 수 있어요.</div>
     </section>
 
     <section class="panel" id="vocabPanel" role="tabpanel" aria-labelledby="vocabTab" hidden>
       <h2>단어와 숙어</h2>
       <div class="tool-row">
         <button class="tool-button primary" id="showKnown">숨긴 단어 보기</button>
-        <button class="tool-button" id="exportState">학습 상태 내보내기</button>
-        <button class="tool-button" id="importState">다른 기기 상태 가져오기</button>
-        <button class="tool-button danger" id="resetState">전체 초기화</button>
-        <input class="sr-only" type="file" id="stateFile" accept="application/json,.json">
+        <button class="tool-button danger" id="resetState">이 지문 전체 초기화</button>
       </div>
-      <p class="storage-note" id="storageNote">체크 결과는 이 기기에 자동 저장됩니다. 다른 기기로 옮길 때만 내보내기와 가져오기를 사용하세요.</p>
-      <h3 class="group-title">필수 단어</h3>
-      <div class="vocab-grid" id="wordGrid"></div>
+      <p class="storage-note" id="storageNote">현재 선택한 기록에 서버 자동 저장됩니다.</p>
       <h3 class="group-title">숙어와 표현</h3>
       <div class="vocab-grid" id="phraseGrid"></div>
+      <h3 class="group-title">필수 단어</h3>
+      <div class="vocab-grid" id="wordGrid"></div>
       <div class="empty" id="emptyState" hidden><strong>모두 알고 있어요! 🎉</strong><br>‘숨긴 단어 보기’를 누르면 다시 확인할 수 있어요.</div>
     </section>
 
@@ -218,11 +237,11 @@
         <button class="tool-button primary" id="toggleAnswers">정답 및 해설 보기</button>
         <button class="tool-button" id="resetQuiz">푼 문제 초기화</button>
       </div>
-      <p class="storage-note" id="quizSummary">문제를 풀면 오답 여부가 이 기기에 자동 저장됩니다.</p>
+      <p class="storage-note" id="quizSummary">문제를 풀면 오답 여부가 현재 서버 기록에 자동 저장됩니다.</p>
       <div class="quiz-list" id="quizList"></div>
     </section>
 
-    <p class="footer-note">2026년 6월 고2 전국연합학력평가 영어 20번 · 기기 안에서 작동하는 오프라인 학습 페이지</p>
+    <p class="footer-note">2026년 6월 고2 전국연합학력평가 영어 20번 · 학습 상태는 kd6 서버에 저장됩니다.</p>
   </main>
   <div class="meaning-toast" id="meaningToast" role="status" aria-live="polite"></div>
 
@@ -264,32 +283,79 @@
       { title: "8. 어법", q: "Each of the two managers assume the other is in charge. 고칠 부분은?", choices: ["Each → All", "managers → manager", "assume → assumes", "the other → another", "is → are"], correct: 2, why: "each는 ‘각각’이므로 단수 동사 assumes를 써요." }
     ];
 
-    const storeKey = "yunseo-english-01-v1";
-    let state = { known: {}, unknown: {}, quiz: {} };
+    function emptyState() { return { version: 1, known: {}, unknown: {}, quiz: {}, hiddenSentences: {} }; }
+    let currentProfile = sessionStorage.getItem("yunseo-profile") === "yunseo" ? "yunseo" : "test";
+    let state = emptyState();
     let revealKnown = false;
+    let revealHiddenSentences = false;
+    let saveQueue = Promise.resolve();
 
-    function safeLoad() {
+    function apiUrl(profile) { return new URL(`api/state/01/${profile}`, document.baseURI); }
+
+    async function safeLoad(profile = currentProfile) {
+      setSyncStatus("서버에서 불러오는 중...");
       try {
-        const saved = localStorage.getItem(storeKey);
-        if (saved) state = { known: {}, unknown: {}, quiz: {}, ...JSON.parse(saved) };
-      } catch (_) {
-        document.getElementById("storageNote").textContent = "이 보기 방식에서는 자동 저장이 제한될 수 있어요. 학습 상태 내보내기로 보관할 수 있어요.";
+        const response = await fetch(apiUrl(profile), { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        state = { ...emptyState(), ...await response.json() };
+        setSyncStatus("서버 저장 연결됨");
+      } catch (error) {
+        state = emptyState();
+        setSyncStatus("서버 연결 실패 - 변경사항이 저장되지 않아요", true);
       }
+      renderAll();
     }
 
     function safeSave() {
-      try { localStorage.setItem(storeKey, JSON.stringify(state)); } catch (_) {}
+      const profile = currentProfile;
+      const payload = JSON.stringify(state);
+      setSyncStatus("저장 중...");
+      saveQueue = saveQueue.catch(() => {}).then(async () => {
+        const response = await fetch(apiUrl(profile), {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: payload
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        if (profile === currentProfile) setSyncStatus("서버에 저장됨");
+      }).catch(() => {
+        if (profile === currentProfile) setSyncStatus("저장 실패 - 다시 시도해 주세요", true);
+      });
+      return saveQueue;
+    }
+
+    function setSyncStatus(message, isError = false) {
+      const status = document.getElementById("syncStatus");
+      status.textContent = message;
+      status.style.color = isError ? "#9a3d21" : "";
+    }
+
+    function updateProfileUI() {
+      document.getElementById("profileName").textContent = currentProfile === "test" ? "테스트용 기록" : "윤서 실전용 기록";
+      document.querySelectorAll(".profile-button").forEach(button => button.classList.toggle("active", button.dataset.profile === currentProfile));
     }
 
     function idFor(type, term) { return `${type}:${term}`; }
 
     function renderSentences() {
-      document.getElementById("sentenceList").innerHTML = sentences.map((s, i) => `
+      const visible = sentences.map((s, i) => ({ s, i })).filter(({ i }) => revealHiddenSentences || !state.hiddenSentences[i]);
+      document.getElementById("sentenceList").innerHTML = visible.map(({ s, i }) => `
         <article class="sentence">
-          <div class="sentence-head"><span class="sentence-no">SENTENCE ${i + 1}</span><p>${s.en}</p></div>
+          <div class="sentence-head"><div><span class="sentence-no">SENTENCE ${i + 1}</span><p>${s.en}</p></div><button class="sentence-hide" data-sentence="${i}">${state.hiddenSentences[i] ? "문장 다시 보이기" : "쉬운 문장 숨기기"}</button></div>
           <div class="chunks">${s.chunks.map(c => `<div class="chunk"><div class="chunk-en">${c[0]}</div><div class="chunk-ko">${c[1]}</div></div>`).join("")}</div>
           <p class="sentence-meaning">→ ${s.ko}</p>
         </article>`).join("");
+      const hiddenCount = sentences.filter((_, i) => state.hiddenSentences[i]).length;
+      document.getElementById("showHiddenSentences").textContent = revealHiddenSentences ? "숨긴 문장 다시 감추기" : `숨긴 문장 보기 (${hiddenCount})`;
+      document.getElementById("sentenceSummary").textContent = `숨긴 문장 ${hiddenCount}개 · 현재 ${currentProfile === "test" ? "테스트용" : "윤서 실전용"} 기록`;
+      document.getElementById("sentenceEmpty").hidden = revealHiddenSentences || visible.length > 0;
+    }
+
+    function renderAll() {
+      updateProfileUI();
+      renderSentences();
+      renderVocab();
+      renderQuizzes();
     }
 
     function vocabCard(type, item) {
@@ -386,25 +452,39 @@
 
     document.getElementById("showKnown").addEventListener("click", () => { revealKnown = !revealKnown; renderVocab(); });
     document.getElementById("resetState").addEventListener("click", () => {
-      if (!confirm("단어 체크 상태를 모두 지울까요?")) return;
-      state = { known: {}, unknown: {} }; revealKnown = false; safeSave(); renderVocab();
+      const label = currentProfile === "test" ? "테스트용" : "윤서 실전용";
+      if (!confirm(`${label}의 1번 지문 학습 기록을 모두 초기화할까요?\n다른 지문의 기록은 지워지지 않습니다.`)) return;
+      state = emptyState();
+      revealKnown = false;
+      revealHiddenSentences = false;
+      answersVisible = false;
+      safeSave(); renderAll();
     });
 
-    document.getElementById("exportState").addEventListener("click", () => {
-      const blob = new Blob([JSON.stringify({ version: 1, savedAt: new Date().toISOString(), ...state }, null, 2)], { type: "application/json" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a"); a.href = url; a.download = "윤서영어_학습상태_01.json"; a.click();
-      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    document.querySelectorAll(".profile-button").forEach(button => button.addEventListener("click", async () => {
+      const nextProfile = button.dataset.profile;
+      if (nextProfile === currentProfile) return;
+      await saveQueue.catch(() => {});
+      currentProfile = nextProfile;
+      sessionStorage.setItem("yunseo-profile", currentProfile);
+      revealKnown = false;
+      revealHiddenSentences = false;
+      answersVisible = false;
+      await safeLoad(currentProfile);
+    }));
+
+    document.getElementById("readingPanel").addEventListener("click", event => {
+      const button = event.target.closest("[data-sentence]");
+      if (!button) return;
+      const index = Number(button.dataset.sentence);
+      if (state.hiddenSentences[index]) delete state.hiddenSentences[index];
+      else state.hiddenSentences[index] = true;
+      safeSave(); renderSentences();
     });
-    document.getElementById("importState").addEventListener("click", () => document.getElementById("stateFile").click());
-    document.getElementById("stateFile").addEventListener("change", async event => {
-      const file = event.target.files[0]; if (!file) return;
-      try {
-        const imported = JSON.parse(await file.text());
-        if (!imported.known || !imported.unknown) throw new Error("bad format");
-        state = { known: imported.known, unknown: imported.unknown }; safeSave(); renderVocab(); alert("학습 상태를 가져왔어요.");
-      } catch (_) { alert("올바른 학습 상태 파일이 아니에요."); }
-      event.target.value = "";
+
+    document.getElementById("showHiddenSentences").addEventListener("click", () => {
+      revealHiddenSentences = !revealHiddenSentences;
+      renderSentences();
     });
 
     document.getElementById("quizPanel").addEventListener("click", event => {
@@ -474,7 +554,8 @@
       renderQuizzes();
     });
 
-    safeLoad(); renderSentences(); renderVocab(); renderQuizzes();
+    updateProfileUI();
+    safeLoad(currentProfile);
   </script>
 </body>
 </html>

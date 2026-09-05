@@ -29,6 +29,7 @@ nohup python3 "${PROJECT_DIR}/deploy/hardened_static_server.py" \
   --port "${PORT}" \
   --web-root "${WEB_DIR}" \
   --token-file "${TOKEN_FILE}" \
+  --state-dir "${STATE_DIR}/profiles" \
   >>"${LOG_FILE}" 2>&1 &
 
 server_pid="$!"
