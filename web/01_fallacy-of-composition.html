@@ -119,7 +119,12 @@
 
     .quiz-list { display: grid; gap: 14px; }
     details.quiz { background: var(--white); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); }
-    details.quiz summary { padding: 18px 20px; font-weight: 800; cursor: pointer; }
+    details.quiz summary { display: flex; justify-content: space-between; gap: 12px; align-items: center; padding: 18px 20px; font-weight: 800; cursor: pointer; }
+    details.quiz summary::marker { color: var(--orange); }
+    .quiz-status { flex: 0 0 auto; padding: 3px 9px; border-radius: 99px; color: var(--muted); background: var(--paper-deep); font-size: .76rem; }
+    .quiz-status.wrong { color: #963c20; background: var(--orange-soft); }
+    .quiz-status.correct { color: #11543c; background: var(--forest-soft); }
+    .quiz-status.hidden-status { color: #555; background: #e7e7e2; }
     .quiz-body { padding: 0 20px 20px; }
     .quiz-passage { padding: 14px 16px; border-left: 4px solid var(--forest); background: var(--forest-soft); border-radius: 0 12px 12px 0; font-family: Georgia, serif; white-space: pre-line; }
     .quiz-choices { display: grid; gap: 8px; margin: 14px 0; }
@@ -127,6 +132,8 @@
     .quiz-choice:has(input:checked) { border-color: var(--forest); background: var(--forest-soft); }
     .quiz-choice input { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--forest); }
     .check-answer { min-height: 44px; padding: 8px 16px; color: white; background: var(--forest); border: 0; border-radius: 11px; font-weight: 800; cursor: pointer; }
+    .quiz-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+    .hide-question { min-height: 44px; padding: 8px 14px; color: var(--muted); background: var(--white); border: 1px solid var(--line); border-radius: 11px; font-weight: 750; cursor: pointer; }
     .feedback { margin: 12px 0 0; padding: 12px 14px; border-radius: 11px; font-weight: 800; }
     .feedback.correct { color: #11543c; background: #dff2e8; }
     .feedback.wrong { color: #8d351c; background: var(--orange-soft); }
@@ -205,9 +212,13 @@
       <h2>윤서용 재구성 문제</h2>
       <p class="storage-note">중복은 줄였지만 원자료에서 영어로 나온 선택지와 문장은 영어로 유지했습니다. 답을 고른 뒤 `채점하기`를 누르세요.</p>
       <div class="tool-row">
+        <button class="tool-button primary quiz-filter" data-filter="all">전체 문제</button>
+        <button class="tool-button quiz-filter" data-filter="wrong">오답만</button>
+        <button class="tool-button quiz-filter" data-filter="hidden">숨긴 문제</button>
         <button class="tool-button primary" id="toggleAnswers">정답 및 해설 보기</button>
         <button class="tool-button" id="resetQuiz">푼 문제 초기화</button>
       </div>
+      <p class="storage-note" id="quizSummary">문제를 풀면 오답 여부가 이 기기에 자동 저장됩니다.</p>
       <div class="quiz-list" id="quizList"></div>
     </section>
 
@@ -254,13 +265,13 @@
     ];
 
     const storeKey = "yunseo-english-01-v1";
-    let state = { known: {}, unknown: {} };
+    let state = { known: {}, unknown: {}, quiz: {} };
     let revealKnown = false;
 
     function safeLoad() {
       try {
         const saved = localStorage.getItem(storeKey);
-        if (saved) state = { known: {}, unknown: {}, ...JSON.parse(saved) };
+        if (saved) state = { known: {}, unknown: {}, quiz: {}, ...JSON.parse(saved) };
       } catch (_) {
         document.getElementById("storageNote").textContent = "이 보기 방식에서는 자동 저장이 제한될 수 있어요. 학습 상태 내보내기로 보관할 수 있어요.";
       }
@@ -306,19 +317,36 @@
     }
 
     let answersVisible = false;
+    let quizFilter = "all";
     function numberSymbol(index) { return ["①", "②", "③", "④", "⑤"][index]; }
+    function quizStatus(index) {
+      return state.quiz[index] || { selected: null, checked: false, wrong: false, hidden: false };
+    }
     function renderQuizzes() {
-      document.getElementById("quizList").innerHTML = quizzes.map((x, quizIndex) => `<details class="quiz" open>
-        <summary>${x.title}</summary>
+      const visible = quizzes.map((x, index) => ({ x, index, status: quizStatus(index) })).filter(item => {
+        if (quizFilter === "wrong") return item.status.wrong && !item.status.hidden;
+        if (quizFilter === "hidden") return item.status.hidden;
+        return !item.status.hidden;
+      });
+      document.getElementById("quizList").innerHTML = visible.map(({ x, index: quizIndex, status }) => `<details class="quiz">
+        <summary><span>${x.title}</span><span class="quiz-status ${status.hidden ? "hidden-status" : status.wrong ? "wrong" : status.checked ? "correct" : ""}">${status.hidden ? "숨김" : status.wrong ? "오답" : status.checked ? "정답" : "미풀이"}</span></summary>
         <div class="quiz-body">
           <p><strong>${x.q}</strong></p>
           ${x.passage ? `<div class="quiz-passage">${x.passage}</div>` : ""}
-          <div class="quiz-choices">${x.choices.map((choice, choiceIndex) => `<label class="quiz-choice"><input type="radio" name="quiz-${quizIndex}" value="${choiceIndex}"><span>${numberSymbol(choiceIndex)} ${choice}</span></label>`).join("")}</div>
-          <button class="check-answer" data-quiz="${quizIndex}">채점하기</button>
-          <p class="feedback" id="feedback-${quizIndex}" hidden></p>
+          <div class="quiz-choices">${x.choices.map((choice, choiceIndex) => `<label class="quiz-choice"><input type="radio" name="quiz-${quizIndex}" value="${choiceIndex}" ${status.selected !== null && Number(status.selected) === choiceIndex ? "checked" : ""}><span>${numberSymbol(choiceIndex)} ${choice}</span></label>`).join("")}</div>
+          <div class="quiz-actions">
+            <button class="check-answer" data-quiz="${quizIndex}">채점하기</button>
+            <button class="hide-question" data-hide-quiz="${quizIndex}">${status.hidden ? "문제 다시 보이기" : "쉬운 문제 숨기기"}</button>
+          </div>
+          <p class="feedback ${status.checked ? status.wrong ? "wrong" : "correct" : ""}" id="feedback-${quizIndex}" ${status.checked ? "" : "hidden"}>${status.checked ? status.wrong ? "오답입니다. 다시 생각해 보세요." : "정답입니다! 오답 목록에서 빠졌어요." : ""}</p>
           <div class="answer ${answersVisible ? "visible" : ""}" id="answer-${quizIndex}"><strong>정답 ${numberSymbol(x.correct)}</strong><br>${x.why}</div>
         </div>
       </details>`).join("");
+      if (!visible.length) document.getElementById("quizList").innerHTML = `<div class="empty"><strong>${quizFilter === "wrong" ? "현재 오답이 없어요!" : quizFilter === "hidden" ? "숨긴 문제가 없어요." : "표시할 문제가 없어요."}</strong></div>`;
+      const wrongCount = quizzes.filter((_, i) => quizStatus(i).wrong && !quizStatus(i).hidden).length;
+      const hiddenCount = quizzes.filter((_, i) => quizStatus(i).hidden).length;
+      document.getElementById("quizSummary").textContent = `오답 ${wrongCount}개 · 숨긴 문제 ${hiddenCount}개 · 문제 제목을 누르면 내용이 열립니다.`;
+      document.querySelectorAll(".quiz-filter").forEach(button => button.classList.toggle("primary", button.dataset.filter === quizFilter));
       document.getElementById("toggleAnswers").textContent = answersVisible ? "정답 및 해설 숨기기" : "정답 및 해설 보기";
     }
 
@@ -392,9 +420,42 @@
         return;
       }
       const isCorrect = Number(selected.value) === quizzes[quizIndex].correct;
+      state.quiz[quizIndex] = { ...quizStatus(quizIndex), selected: Number(selected.value), checked: true, wrong: !isCorrect };
+      safeSave();
       feedback.className = `feedback ${isCorrect ? "correct" : "wrong"}`;
-      feedback.textContent = isCorrect ? "정답입니다! 잘했어요." : "오답입니다. 다시 생각해 보세요.";
+      feedback.textContent = isCorrect ? "정답입니다! 오답 목록에서 빠졌어요." : "오답입니다. 오답 목록에 저장했어요.";
+      const details = button.closest("details");
+      const badge = details.querySelector(".quiz-status");
+      badge.className = `quiz-status ${isCorrect ? "correct" : "wrong"}`;
+      badge.textContent = isCorrect ? "정답" : "오답";
+      renderQuizSummary();
     });
+
+    function renderQuizSummary() {
+      const wrongCount = quizzes.filter((_, i) => quizStatus(i).wrong && !quizStatus(i).hidden).length;
+      const hiddenCount = quizzes.filter((_, i) => quizStatus(i).hidden).length;
+      document.getElementById("quizSummary").textContent = `오답 ${wrongCount}개 · 숨긴 문제 ${hiddenCount}개 · 문제 제목을 누르면 내용이 열립니다.`;
+    }
+
+    document.getElementById("quizPanel").addEventListener("change", event => {
+      const input = event.target.closest('input[type="radio"]');
+      if (!input) return;
+      const quizIndex = Number(input.name.replace("quiz-", ""));
+      state.quiz[quizIndex] = { ...quizStatus(quizIndex), selected: Number(input.value), checked: false };
+      safeSave();
+    });
+
+    document.getElementById("quizPanel").addEventListener("click", event => {
+      const button = event.target.closest("[data-hide-quiz]");
+      if (!button) return;
+      const quizIndex = Number(button.dataset.hideQuiz);
+      state.quiz[quizIndex] = { ...quizStatus(quizIndex), hidden: !quizStatus(quizIndex).hidden };
+      safeSave(); renderQuizzes();
+    });
+
+    document.querySelectorAll(".quiz-filter").forEach(button => button.addEventListener("click", () => {
+      quizFilter = button.dataset.filter; renderQuizzes();
+    }));
 
     document.getElementById("toggleAnswers").addEventListener("click", () => {
       answersVisible = !answersVisible;
@@ -406,8 +467,11 @@
       document.querySelectorAll('#quizPanel input[type="radio"]').forEach(input => { input.checked = false; });
       document.querySelectorAll(".feedback").forEach(feedback => { feedback.hidden = true; feedback.textContent = ""; });
       answersVisible = false;
+      state.quiz = {};
+      safeSave();
       document.querySelectorAll(".answer").forEach(answer => answer.classList.remove("visible"));
       document.getElementById("toggleAnswers").textContent = "정답 및 해설 보기";
+      renderQuizzes();
     });
 
     safeLoad(); renderSentences(); renderVocab(); renderQuizzes();
