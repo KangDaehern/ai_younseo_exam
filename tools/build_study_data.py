@@ -79,6 +79,36 @@ PHRASES = {
     "turn into": "~로 바뀌다",
     "keep up with": "~을 따라가다",
     "stand in contrast to": "~와 대조를 이루다",
+    "bring on board": "합류시키다, 참여시키다",
+    "work on": "~을 진행하다",
+    "see to it that": "반드시 ~하게 조치하다",
+    "starve to death": "굶어 죽다",
+    "be based on": "~에 근거하다",
+    "pay for": "~의 값을 지불하다",
+    "benefit from": "~로부터 이익을 얻다",
+    "be familiar to": "~에게 익숙하다",
+    "be sensitive to": "~에 민감하다",
+    "be unable to": "~할 수 없다",
+    "be ready to": "~할 준비가 되다",
+    "think about": "~에 관해 생각하다",
+    "think of": "~을 생각해 내다",
+    "try to": "~하려고 노력하다",
+    "empathize with": "~에게 공감하다",
+    "because of": "~ 때문에",
+    "distinguish from": "~와 구별하다",
+    "adapt to": "~에 적응하다",
+    "be involved in": "~에 관련되다",
+    "be known as": "~로 알려져 있다",
+    "be expected to": "~할 것으로 예상되다",
+    "have to do with": "~와 관련이 있다",
+    "make it possible to": "~하는 것을 가능하게 하다",
+    "in the form of": "~의 형태로",
+    "in response to": "~에 대응하여",
+    "at the same time": "동시에",
+    "for instance": "예를 들어",
+    "in this way": "이런 방식으로",
+    "a great deal of": "많은 양의",
+    "be different from": "~와 다르다",
 }
 
 
@@ -177,7 +207,7 @@ def translate_terms(terms: list[str]) -> dict[str, str]:
     return result
 
 
-def select_words(sentences: list[dict], count: int = 16) -> list[str]:
+def select_words(sentences: list[dict], count: int = 28) -> list[str]:
     words = re.findall(r"[A-Za-z][A-Za-z'-]{3,}", " ".join(item["en"] for item in sentences).lower())
     frequencies = Counter(word.strip("'-") for word in words if word.strip("'-") not in STOPWORDS)
     ranked = sorted(frequencies, key=lambda word: (frequencies[word], len(word)), reverse=True)
@@ -284,11 +314,26 @@ def build() -> list[dict]:
             "relatedSource": SOURCES[exam],
         })
     choices_to_translate = []
+    choice_words_by_passage: dict[str, list[str]] = {}
+    extra_choice_terms: list[str] = []
     for passage in passages:
+        choice_text = " ".join(choice for question in passage["questions"] for choice in question["choices"])
+        choice_words = select_words([{"en": choice_text}], count=12)
+        existing_words = {word for word, _ in passage["words"]}
+        choice_words_by_passage[passage["id"]] = [word for word in choice_words if word not in existing_words]
+        extra_choice_terms.extend(word for word in choice_words_by_passage[passage["id"]] if word not in meanings and word not in extra_choice_terms)
+        existing_phrases = {phrase for phrase, _ in passage["phrases"]}
+        passage["phrases"].extend(
+            [phrase, meaning]
+            for phrase, meaning in PHRASES.items()
+            if phrase.lower() in choice_text.lower() and phrase not in existing_phrases
+        )
         for question in passage["questions"]:
             choices_to_translate.extend(choice for choice in question["choices"] if re.search(r"[A-Za-z]", choice) and choice not in choice_meanings and choice not in choices_to_translate)
+    meanings.update(translate_terms(extra_choice_terms))
     choice_meanings.update(translate_terms(choices_to_translate))
     for passage in passages:
+        passage["words"].extend([word, meanings[word]] for word in choice_words_by_passage[passage["id"]])
         for question in passage["questions"]:
             question["choiceMeanings"] = [choice_meanings.get(choice, "") if re.search(r"[A-Za-z]", choice) else "" for choice in question["choices"]]
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)

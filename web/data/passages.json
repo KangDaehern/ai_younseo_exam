@@ -207,6 +207,86 @@
       [
         "sometimes",
         "가끔"
+      ],
+      [
+        "different",
+        "다른"
+      ],
+      [
+        "collating",
+        "대조"
+      ],
+      [
+        "prototype",
+        "프로토타입"
+      ],
+      [
+        "everyone",
+        "여러분"
+      ],
+      [
+        "interact",
+        "상호작용하다"
+      ],
+      [
+        "involved",
+        "관련된"
+      ],
+      [
+        "suppose",
+        "가정하다"
+      ],
+      [
+        "brought",
+        "가져온"
+      ],
+      [
+        "logical",
+        "논리적"
+      ],
+      [
+        "fallacy",
+        "오류"
+      ],
+      [
+        "skilled",
+        "숙련된"
+      ],
+      [
+        "assumes",
+        "가정하다"
+      ],
+      [
+        "individual",
+        "개인"
+      ],
+      [
+        "team",
+        "팀"
+      ],
+      [
+        "comprehensive",
+        "포괄적인"
+      ],
+      [
+        "direction",
+        "방향"
+      ],
+      [
+        "undermine",
+        "훼손하다"
+      ],
+      [
+        "startups",
+        "스타트업"
+      ],
+      [
+        "manager",
+        "매니저"
+      ],
+      [
+        "enhance",
+        "강화하다"
       ]
     ],
     "phrases": [
@@ -611,9 +691,102 @@
       [
         "substitute",
         "대체하다"
+      ],
+      [
+        "penalties",
+        "처벌"
+      ],
+      [
+        "evolution",
+        "진화"
+      ],
+      [
+        "generated",
+        "생성됨"
+      ],
+      [
+        "authentic",
+        "본격적인"
+      ],
+      [
+        "consuming",
+        "소비하는"
+      ],
+      [
+        "incentive",
+        "인센티브"
+      ],
+      [
+        "rehearse",
+        "연습하다"
+      ],
+      [
+        "actually",
+        "실제로"
+      ],
+      [
+        "yourself",
+        "너 자신"
+      ],
+      [
+        "appetite",
+        "식욕"
+      ],
+      [
+        "imagery",
+        "이미지"
+      ],
+      [
+        "evolved",
+        "진화하다"
+      ],
+      [
+        "unnecessary",
+        "불필요한"
+      ],
+      [
+        "categorizes",
+        "분류한다"
+      ],
+      [
+        "constraint",
+        "제약"
+      ],
+      [
+        "realistic",
+        "현실적인"
+      ],
+      [
+        "ingenious",
+        "독창적인"
+      ],
+      [
+        "limiting",
+        "제한"
+      ],
+      [
+        "evidence",
+        "증거"
+      ],
+      [
+        "envision",
+        "상상하다"
+      ],
+      [
+        "strategy",
+        "전략"
+      ],
+      [
+        "visible",
+        "보이는"
       ]
     ],
-    "phrases": [],
+    "phrases": [
+      [
+        "starve to death",
+        "굶어 죽다"
+      ]
+    ],
     "questions": [
       {
         "title": "원래 기출 21번",
@@ -841,9 +1014,98 @@
       [
         "research",
         "연구"
+      ],
+      [
+        "publicly",
+        "공개적으로"
+      ],
+      [
+        "probably",
+        "아마도"
+      ],
+      [
+        "function",
+        "기능"
+      ],
+      [
+        "goldfish",
+        "금붕어"
+      ],
+      [
+        "swimming",
+        "수영"
+      ],
+      [
+        "empathy",
+        "공감"
+      ],
+      [
+        "exactly",
+        "정확하게"
+      ],
+      [
+        "species",
+        "종"
+      ],
+      [
+        "respect",
+        "존경"
+      ],
+      [
+        "similar",
+        "비슷한"
+      ],
+      [
+        "feeling",
+        "느낌"
+      ],
+      [
+        "travels",
+        "여행"
+      ],
+      [
+        "potentially",
+        "잠재적으로"
+      ],
+      [
+        "constantly",
+        "끊임없이"
+      ],
+      [
+        "reluctant",
+        "꺼려하는"
+      ],
+      [
+        "empathize",
+        "공감하다"
+      ],
+      [
+        "effective",
+        "효과적인"
+      ],
+      [
+        "potential",
+        "잠재력"
+      ],
+      [
+        "resources",
+        "자원"
+      ],
+      [
+        "learning",
+        "학습"
+      ],
+      [
+        "cautious",
+        "신중한"
       ]
     ],
-    "phrases": [],
+    "phrases": [
+      [
+        "empathize with",
+        "~에게 공감하다"
+      ]
+    ],
     "questions": [
       {
         "title": "원래 기출 21번",
@@ -1091,6 +1353,54 @@
       [
         "five-percent",
         "5%"
+      ],
+      [
+        "subjective",
+        "주관적인"
+      ],
+      [
+        "optimistic",
+        "낙관적인"
+      ],
+      [
+        "something",
+        "뭔가"
+      ],
+      [
+        "lotteries",
+        "복권"
+      ],
+      [
+        "defined",
+        "정의된"
+      ],
+      [
+        "general",
+        "일반"
+      ],
+      [
+        "smaller",
+        "더 작은"
+      ],
+      [
+        "example",
+        "예"
+      ],
+      [
+        "lottery",
+        "복권"
+      ],
+      [
+        "however",
+        "그러나"
+      ],
+      [
+        "largest",
+        "가장 큰"
+      ],
+      [
+        "popular",
+        "인기있는"
       ]
     ],
     "phrases": [
@@ -1304,12 +1614,120 @@
       [
         "productive",
         "생산적인"
+      ],
+      [
+        "currencies",
+        "통화"
+      ],
+      [
+        "foundation",
+        "기초"
+      ],
+      [
+        "customers",
+        "고객"
+      ],
+      [
+        "companies",
+        "회사"
+      ],
+      [
+        "disappear",
+        "사라지다"
+      ],
+      [
+        "basically",
+        "기본적으로"
+      ],
+      [
+        "economies",
+        "경제"
+      ],
+      [
+        "products",
+        "제품"
+      ],
+      [
+        "straight",
+        "똑바로"
+      ],
+      [
+        "exchange",
+        "교환"
+      ],
+      [
+        "services",
+        "서비스"
+      ],
+      [
+        "benefits",
+        "혜택"
+      ],
+      [
+        "multinational",
+        "다국적"
+      ],
+      [
+        "significance",
+        "중요성"
+      ],
+      [
+        "transactions",
+        "거래"
+      ],
+      [
+        "undertaking",
+        "착수하다"
+      ],
+      [
+        "strategies",
+        "전략"
+      ],
+      [
+        "globalized",
+        "세계화"
+      ],
+      [
+        "advantages",
+        "장점"
+      ],
+      [
+        "regulation",
+        "규제"
+      ],
+      [
+        "investment",
+        "투자"
+      ],
+      [
+        "marketing",
+        "마케팅"
+      ],
+      [
+        "conflicts",
+        "갈등"
+      ],
+      [
+        "financial",
+        "금융"
       ]
     ],
     "phrases": [
       [
         "turn into",
         "~로 바뀌다"
+      ],
+      [
+        "pay for",
+        "~의 값을 지불하다"
+      ],
+      [
+        "benefit from",
+        "~로부터 이익을 얻다"
+      ],
+      [
+        "because of",
+        "~ 때문에"
       ]
     ],
     "questions": [
@@ -1557,6 +1975,90 @@
       [
         "travelled",
         "여행했다"
+      ],
+      [
+        "thousands",
+        "수천"
+      ],
+      [
+        "familiar",
+        "익숙한"
+      ],
+      [
+        "millions",
+        "수백만"
+      ],
+      [
+        "billions",
+        "수십억"
+      ],
+      [
+        "nearest",
+        "가장 가까운"
+      ],
+      [
+        "stellar",
+        "별의"
+      ],
+      [
+        "looking",
+        "찾고"
+      ],
+      [
+        "collect",
+        "수집하다"
+      ],
+      [
+        "hundred",
+        "백"
+      ],
+      [
+        "reddish",
+        "불그스름한"
+      ],
+      [
+        "started",
+        "시작했다"
+      ],
+      [
+        "journey",
+        "여행"
+      ],
+      [
+        "unidentified",
+        "미확인"
+      ],
+      [
+        "imagination",
+        "상상력"
+      ],
+      [
+        "starlight",
+        "별빛"
+      ],
+      [
+        "species",
+        "종"
+      ],
+      [
+        "history",
+        "역사"
+      ],
+      [
+        "brings",
+        "가져옵니다"
+      ],
+      [
+        "closer",
+        "더 가까이"
+      ],
+      [
+        "beyond",
+        "너머"
+      ],
+      [
+        "search",
+        "검색"
       ]
     ],
     "phrases": [],
@@ -1785,9 +2287,106 @@
       [
         "meaningful",
         "의미있는"
+      ],
+      [
+        "difference",
+        "차이"
+      ],
+      [
+        "continuum",
+        "연속체"
+      ],
+      [
+        "arbitrary",
+        "임의의"
+      ],
+      [
+        "resulting",
+        "결과"
+      ],
+      [
+        "someone's",
+        "누군가의"
+      ],
+      [
+        "one-point",
+        "원포인트"
+      ],
+      [
+        "advantage",
+        "장점"
+      ],
+      [
+        "possible",
+        "가능"
+      ],
+      [
+        "marginal",
+        "한계"
+      ],
+      [
+        "severely",
+        "심하게"
+      ],
+      [
+        "damaging",
+        "해로운"
+      ],
+      [
+        "examples",
+        "예"
+      ],
+      [
+        "appropriate",
+        "적절한"
+      ],
+      [
+        "accepting",
+        "수락"
+      ],
+      [
+        "cognitive",
+        "인지"
+      ],
+      [
+        "abilities",
+        "능력"
+      ],
+      [
+        "distinct",
+        "별개의"
+      ],
+      [
+        "drawing",
+        "그림"
+      ],
+      [
+        "improve",
+        "개선하다"
+      ],
+      [
+        "testing",
+        "테스트"
+      ],
+      [
+        "harmony",
+        "조화"
+      ],
+      [
+        "listen",
+        "들어봐"
+      ],
+      [
+        "truths",
+        "진실"
       ]
     ],
-    "phrases": [],
+    "phrases": [
+      [
+        "think of",
+        "~을 생각해 내다"
+      ]
+    ],
     "questions": [
       {
         "title": "원래 기출 24번",
@@ -2031,12 +2630,76 @@
       [
         "illustrated",
         "일러스트"
+      ],
+      [
+        "substantial",
+        "실질적인"
+      ],
+      [
+        "instructive",
+        "유익한"
+      ],
+      [
+        "potentially",
+        "잠재적으로"
+      ],
+      [
+        "operations",
+        "운영"
+      ],
+      [
+        "presenting",
+        "발표"
+      ],
+      [
+        "assumption",
+        "가정"
+      ],
+      [
+        "experience",
+        "경험"
+      ],
+      [
+        "mailed-out",
+        "우편으로 발송됨"
+      ],
+      [
+        "recipients",
+        "수신자"
+      ],
+      [
+        "error-free",
+        "오류가 없는"
+      ],
+      [
+        "pocketbook",
+        "수첩"
+      ],
+      [
+        "whitehead",
+        "화이트헤드"
+      ],
+      [
+        "producing",
+        "생산"
+      ],
+      [
+        "important",
+        "중요한"
       ]
     ],
     "phrases": [
       [
         "for example",
         "예를 들어"
+      ],
+      [
+        "think about",
+        "~에 관해 생각하다"
+      ],
+      [
+        "because of",
+        "~ 때문에"
       ]
     ],
     "questions": [
@@ -2244,6 +2907,70 @@
       [
         "inevitable",
         "피할 수 없는"
+      ],
+      [
+        "important",
+        "중요한"
+      ],
+      [
+        "calendars",
+        "달력"
+      ],
+      [
+        "latitudes",
+        "위도"
+      ],
+      [
+        "political",
+        "정치적"
+      ],
+      [
+        "religious",
+        "종교적인"
+      ],
+      [
+        "decisions",
+        "결정"
+      ],
+      [
+        "geography",
+        "지리"
+      ],
+      [
+        "lifestyle",
+        "라이프 스타일"
+      ],
+      [
+        "tradition",
+        "전통"
+      ],
+      [
+        "cultures",
+        "문화"
+      ],
+      [
+        "secondly",
+        "둘째로"
+      ],
+      [
+        "seasonal",
+        "계절의"
+      ],
+      [
+        "filtered",
+        "필터링됨"
+      ],
+      [
+        "firstly",
+        "첫째로"
+      ],
+      [
+        "through",
+        "통해"
+      ],
+      [
+        "depend",
+        "의존하다"
       ]
     ],
     "phrases": [],
@@ -2506,12 +3233,80 @@
       [
         "substitutes",
         "대체품"
+      ],
+      [
+        "forerunners",
+        "선구자"
+      ],
+      [
+        "performance",
+        "성능"
+      ],
+      [
+        "outstanding",
+        "뛰어난"
+      ],
+      [
+        "millionaire",
+        "백만장자"
+      ],
+      [
+        "competitors",
+        "경쟁자"
+      ],
+      [
+        "furthermore",
+        "게다가"
+      ],
+      [
+        "elasticity",
+        "탄력성"
+      ],
+      [
+        "technology",
+        "기술"
+      ],
+      [
+        "innovators",
+        "혁신가"
+      ],
+      [
+        "additional",
+        "추가"
+      ],
+      [
+        "households",
+        "가구"
+      ],
+      [
+        "interested",
+        "관심이 있다"
+      ],
+      [
+        "reinforces",
+        "강화하다"
+      ],
+      [
+        "lowering",
+        "낮추는 것"
+      ],
+      [
+        "customer",
+        "고객"
+      ],
+      [
+        "demand",
+        "수요"
       ]
     ],
     "phrases": [
       [
         "as well as",
         "~뿐만 아니라 ~도"
+      ],
+      [
+        "for instance",
+        "예를 들어"
       ]
     ],
     "questions": [
@@ -2789,12 +3584,96 @@
       [
         "competitive",
         "경쟁적인"
+      ],
+      [
+        "threatening",
+        "위협적인"
+      ],
+      [
+        "experiences",
+        "경험"
+      ],
+      [
+        "frustration",
+        "좌절"
+      ],
+      [
+        "intergroup",
+        "그룹 간"
+      ],
+      [
+        "exhausting",
+        "지치는"
+      ],
+      [
+        "dissimilar",
+        "서로 다른"
+      ],
+      [
+        "unfamiliar",
+        "익숙하지 않은"
+      ],
+      [
+        "accurately",
+        "정확하게"
+      ],
+      [
+        "compassion",
+        "연민"
+      ],
+      [
+        "conflicts",
+        "갈등"
+      ],
+      [
+        "encourage",
+        "격려하다"
+      ],
+      [
+        "mentality",
+        "사고방식"
+      ],
+      [
+        "efficient",
+        "효율적인"
+      ],
+      [
+        "pursuit",
+        "추격"
+      ],
+      [
+        "resist",
+        "저항하다"
+      ],
+      [
+        "unable",
+        "할 수 없다"
+      ],
+      [
+        "social",
+        "사회적"
+      ],
+      [
+        "worse",
+        "더 나쁜"
+      ],
+      [
+        "cases",
+        "사례"
       ]
     ],
     "phrases": [
       [
         "lead to",
         "~로 이어지다"
+      ],
+      [
+        "try to",
+        "~하려고 노력하다"
+      ],
+      [
+        "empathize with",
+        "~에게 공감하다"
       ]
     ],
     "questions": [
@@ -3032,6 +3911,90 @@
       [
         "uses",
         "용도"
+      ],
+      [
+        "underappreciated",
+        "과소평가된"
+      ],
+      [
+        "infrastructure",
+        "인프라"
+      ],
+      [
+        "architecture",
+        "건축"
+      ],
+      [
+        "typewriters",
+        "타자기"
+      ],
+      [
+        "persistence",
+        "끈기"
+      ],
+      [
+        "technology",
+        "기술"
+      ],
+      [
+        "marrakesh",
+        "마라케시"
+      ],
+      [
+        "including",
+        "포함하여"
+      ],
+      [
+        "economies",
+        "경제"
+      ],
+      [
+        "advantage",
+        "장점"
+      ],
+      [
+        "correctly",
+        "정확하게"
+      ],
+      [
+        "medieval",
+        "중세의"
+      ],
+      [
+        "architectural",
+        "건축"
+      ],
+      [
+        "collaborative",
+        "협력적인"
+      ],
+      [
+        "connections",
+        "연결"
+      ],
+      [
+        "innovation",
+        "혁신"
+      ],
+      [
+        "functions",
+        "기능"
+      ],
+      [
+        "evolving",
+        "진화하는"
+      ],
+      [
+        "limited",
+        "제한된"
+      ],
+      [
+        "social",
+        "사회적"
+      ],
+      [
+        "work",
+        "일"
       ]
     ],
     "phrases": [
@@ -3295,9 +4258,78 @@
       [
         "financial",
         "금융"
+      ],
+      [
+        "enjoyable",
+        "즐거운"
+      ],
+      [
+        "surprises",
+        "놀라움"
+      ],
+      [
+        "everyday",
+        "매일"
+      ],
+      [
+        "mountain",
+        "산"
+      ],
+      [
+        "climbing",
+        "등산"
+      ],
+      [
+        "chemical",
+        "화학"
+      ],
+      [
+        "dopamine",
+        "도파민"
+      ],
+      [
+        "pleasure",
+        "즐거움"
+      ],
+      [
+        "meetings",
+        "회의"
+      ],
+      [
+        "routine",
+        "루틴"
+      ],
+      [
+        "wedding",
+        "결혼식"
+      ],
+      [
+        "engaged",
+        "약혼"
+      ],
+      [
+        "vulnerability",
+        "취약성"
+      ],
+      [
+        "repetition",
+        "반복"
+      ],
+      [
+        "dependence",
+        "의존"
+      ],
+      [
+        "failure",
+        "실패"
       ]
     ],
-    "phrases": [],
+    "phrases": [
+      [
+        "think of",
+        "~을 생각해 내다"
+      ]
+    ],
     "questions": [
       {
         "title": "원래 기출 31번",
@@ -3523,6 +4555,86 @@
       [
         "competitive",
         "경쟁적인"
+      ],
+      [
+        "incentives",
+        "인센티브"
+      ],
+      [
+        "situations",
+        "상황"
+      ],
+      [
+        "capacities",
+        "용량"
+      ],
+      [
+        "strategies",
+        "전략"
+      ],
+      [
+        "mechanism",
+        "메커니즘"
+      ],
+      [
+        "knowledge",
+        "지식"
+      ],
+      [
+        "strategic",
+        "전략적"
+      ],
+      [
+        "political",
+        "정치적"
+      ],
+      [
+        "perfectly",
+        "완벽하게"
+      ],
+      [
+        "switching",
+        "스위칭"
+      ],
+      [
+        "sometimes",
+        "가끔"
+      ],
+      [
+        "strength",
+        "힘"
+      ],
+      [
+        "stabilization",
+        "안정화"
+      ],
+      [
+        "competition",
+        "경쟁"
+      ],
+      [
+        "negotiation",
+        "협상"
+      ],
+      [
+        "contribute",
+        "기여하다"
+      ],
+      [
+        "advantage",
+        "장점"
+      ],
+      [
+        "hardships",
+        "고난"
+      ],
+      [
+        "through",
+        "통해"
+      ],
+      [
+        "endure",
+        "견디다"
       ]
     ],
     "phrases": [
@@ -3533,6 +4645,10 @@
       [
         "for example",
         "예를 들어"
+      ],
+      [
+        "contribute to",
+        "~에 기여하다"
       ]
     ],
     "questions": [
@@ -3740,6 +4856,98 @@
       [
         "impactful",
         "영향력 있는"
+      ],
+      [
+        "triggered",
+        "트리거됨"
+      ],
+      [
+        "responses",
+        "응답"
+      ],
+      [
+        "rerouting",
+        "경로 재설정"
+      ],
+      [
+        "genomics",
+        "유전체학"
+      ],
+      [
+        "possible",
+        "가능"
+      ],
+      [
+        "thaliana",
+        "탈리아나"
+      ],
+      [
+        "dramatic",
+        "극적인"
+      ],
+      [
+        "response",
+        "응답"
+      ],
+      [
+        "hormones",
+        "호르몬"
+      ],
+      [
+        "analyzed",
+        "분석됨"
+      ],
+      [
+        "multiple",
+        "여러"
+      ],
+      [
+        "peering",
+        "피어링"
+      ],
+      [
+        "reproduction",
+        "재생산"
+      ],
+      [
+        "capability",
+        "능력"
+      ],
+      [
+        "lifespan",
+        "수명"
+      ],
+      [
+        "increase",
+        "증가하다"
+      ],
+      [
+        "inhibit",
+        "억제하다"
+      ],
+      [
+        "defense",
+        "방어"
+      ],
+      [
+        "maximum",
+        "최대"
+      ],
+      [
+        "impact",
+        "영향"
+      ],
+      [
+        "hinder",
+        "방해하다"
+      ],
+      [
+        "height",
+        "신장"
+      ],
+      [
+        "lift",
+        "리프트"
       ]
     ],
     "phrases": [
@@ -4031,6 +5239,94 @@
       [
         "dependency",
         "의존성"
+      ],
+      [
+        "originally",
+        "원래"
+      ],
+      [
+        "parliament",
+        "의회"
+      ],
+      [
+        "reflection",
+        "반사"
+      ],
+      [
+        "knowledge",
+        "지식"
+      ],
+      [
+        "creditors",
+        "채권자"
+      ],
+      [
+        "addiction",
+        "중독"
+      ],
+      [
+        "homeowner",
+        "집주인"
+      ],
+      [
+        "loyalists",
+        "충성파"
+      ],
+      [
+        "nicknamed",
+        "별명이 붙은"
+      ],
+      [
+        "centuries",
+        "세기"
+      ],
+      [
+        "excellent",
+        "훌륭하다"
+      ],
+      [
+        "transport",
+        "수송"
+      ],
+      [
+        "generation",
+        "세대"
+      ],
+      [
+        "cross-cultural",
+        "다문화"
+      ],
+      [
+        "communication",
+        "의사소통"
+      ],
+      [
+        "difficult",
+        "어려운"
+      ],
+      [
+        "invention",
+        "발명품"
+      ],
+      [
+        "getting",
+        "점점"
+      ],
+      [
+        "simpler",
+        "더 간단하다"
+      ],
+      [
+        "learned",
+        "배운"
+      ],
+      [
+        "period",
+        "기간"
+      ],
+      [
+        "power",
+        "힘"
       ]
     ],
     "phrases": [
@@ -4250,12 +5546,96 @@
       [
         "temperatures",
         "온도"
+      ],
+      [
+        "consequence",
+        "결과"
+      ],
+      [
+        "environment",
+        "환경"
+      ],
+      [
+        "generations",
+        "세대"
+      ],
+      [
+        "standstill",
+        "정지"
+      ],
+      [
+        "conditions",
+        "조건"
+      ],
+      [
+        "prevailing",
+        "우세한"
+      ],
+      [
+        "constantly",
+        "끊임없이"
+      ],
+      [
+        "successive",
+        "연속적인"
+      ],
+      [
+        "something",
+        "뭔가"
+      ],
+      [
+        "timescale",
+        "시간 척도"
+      ],
+      [
+        "centuries",
+        "세기"
+      ],
+      [
+        "propelled",
+        "추진"
+      ],
+      [
+        "regardless",
+        "상관없이"
+      ],
+      [
+        "gradually",
+        "점차적으로"
+      ],
+      [
+        "threatens",
+        "위협하다"
+      ],
+      [
+        "changing",
+        "변화하는"
+      ],
+      [
+        "survival",
+        "생존"
+      ],
+      [
+        "balance",
+        "균형"
+      ],
+      [
+        "species",
+        "종"
+      ],
+      [
+        "compete",
+        "경쟁하다"
       ]
     ],
     "phrases": [
       [
         "come to",
         "~하게 되다"
+      ],
+      [
+        "regardless of",
+        "~와 관계없이"
       ]
     ],
     "questions": [
@@ -4509,6 +5889,86 @@
       [
         "metropolitan",
         "대도시"
+      ],
+      [
+        "implications",
+        "의미"
+      ],
+      [
+        "intermediate",
+        "중급"
+      ],
+      [
+        "ingredients",
+        "성분"
+      ],
+      [
+        "employment",
+        "취업"
+      ],
+      [
+        "everything",
+        "모든 것"
+      ],
+      [
+        "substitute",
+        "대체하다"
+      ],
+      [
+        "efficient",
+        "효율적인"
+      ],
+      [
+        "expensive",
+        "비싸다"
+      ],
+      [
+        "operating",
+        "운영 중"
+      ],
+      [
+        "necessary",
+        "필요한"
+      ],
+      [
+        "sidewalks",
+        "보도"
+      ],
+      [
+        "consider",
+        "고려하다"
+      ],
+      [
+        "business",
+        "사업"
+      ],
+      [
+        "ingredient",
+        "성분"
+      ],
+      [
+        "outcompete",
+        "경쟁에서 이기다"
+      ],
+      [
+        "negotiate",
+        "협상하다"
+      ],
+      [
+        "suppliers",
+        "공급업체"
+      ],
+      [
+        "potential",
+        "잠재력"
+      ],
+      [
+        "customers",
+        "고객"
+      ],
+      [
+        "products",
+        "제품"
       ]
     ],
     "phrases": [
@@ -4752,6 +6212,90 @@
       [
         "photographs",
         "사진"
+      ],
+      [
+        "eliminating",
+        "제거하다"
+      ],
+      [
+        "introduced",
+        "소개"
+      ],
+      [
+        "understand",
+        "이해하다"
+      ],
+      [
+        "anchoring",
+        "정박"
+      ],
+      [
+        "direction",
+        "방향"
+      ],
+      [
+        "recognize",
+        "인식하다"
+      ],
+      [
+        "combining",
+        "결합"
+      ],
+      [
+        "emotional",
+        "감정적인"
+      ],
+      [
+        "observed",
+        "관찰됨"
+      ],
+      [
+        "possible",
+        "가능"
+      ],
+      [
+        "produces",
+        "생산하다"
+      ],
+      [
+        "accurate",
+        "정확하다"
+      ],
+      [
+        "accompanying",
+        "동반"
+      ],
+      [
+        "disregarded",
+        "무시"
+      ],
+      [
+        "completely",
+        "완전히"
+      ],
+      [
+        "isolation",
+        "격리"
+      ],
+      [
+        "receives",
+        "수신"
+      ],
+      [
+        "audience",
+        "청중"
+      ],
+      [
+        "artistic",
+        "예술적"
+      ],
+      [
+        "textual",
+        "텍스트"
+      ],
+      [
+        "focuses",
+        "초점을 맞춘다"
       ]
     ],
     "phrases": [],
@@ -5024,6 +6568,54 @@
       [
         "predators",
         "포식자"
+      ],
+      [
+        "migrating",
+        "마이그레이션"
+      ],
+      [
+        "ancestors",
+        "조상"
+      ],
+      [
+        "efficient",
+        "효율적인"
+      ],
+      [
+        "situation",
+        "상황"
+      ],
+      [
+        "affluence",
+        "풍요"
+      ],
+      [
+        "plentiful",
+        "풍부한"
+      ],
+      [
+        "struggle",
+        "투쟁"
+      ],
+      [
+        "avoiding",
+        "회피"
+      ],
+      [
+        "energies",
+        "에너지"
+      ],
+      [
+        "sleeping",
+        "자고"
+      ],
+      [
+        "constant",
+        "상수"
+      ],
+      [
+        "enjoying",
+        "즐기는"
       ]
     ],
     "phrases": [],
@@ -5288,6 +6880,54 @@
       [
         "potential",
         "잠재력"
+      ],
+      [
+        "stressful",
+        "스트레스가 많은"
+      ],
+      [
+        "traumatic",
+        "충격적인"
+      ],
+      [
+        "selection",
+        "선택"
+      ],
+      [
+        "evolution",
+        "진화"
+      ],
+      [
+        "conserved",
+        "보존된"
+      ],
+      [
+        "reactions",
+        "반응"
+      ],
+      [
+        "startled",
+        "깜짝 놀랐다"
+      ],
+      [
+        "maximize",
+        "최대화하다"
+      ],
+      [
+        "possible",
+        "가능"
+      ],
+      [
+        "creation",
+        "창조"
+      ],
+      [
+        "location",
+        "위치"
+      ],
+      [
+        "predator",
+        "육식 동물"
       ]
     ],
     "phrases": [
@@ -5298,6 +6938,14 @@
       [
         "come to",
         "~하게 되다"
+      ],
+      [
+        "think about",
+        "~에 관해 생각하다"
+      ],
+      [
+        "because of",
+        "~ 때문에"
       ]
     ],
     "questions": [
@@ -5545,6 +7193,54 @@
       [
         "naturally",
         "자연스럽게"
+      ],
+      [
+        "generally",
+        "일반적으로"
+      ],
+      [
+        "infringes",
+        "침해하다"
+      ],
+      [
+        "regressed",
+        "회귀"
+      ],
+      [
+        "organize",
+        "조직하다"
+      ],
+      [
+        "maintain",
+        "유지하다"
+      ],
+      [
+        "reacting",
+        "반응하다"
+      ],
+      [
+        "inherent",
+        "고유의"
+      ],
+      [
+        "supposed",
+        "가정"
+      ],
+      [
+        "violates",
+        "위반하다"
+      ],
+      [
+        "consider",
+        "고려하다"
+      ],
+      [
+        "argument",
+        "논쟁"
+      ],
+      [
+        "beliefs",
+        "신념"
       ]
     ],
     "phrases": [],
@@ -5787,9 +7483,62 @@
       [
         "against",
         "반대하다"
+      ],
+      [
+        "stretch",
+        "스트레칭"
+      ],
+      [
+        "surface",
+        "표면"
+      ],
+      [
+        "concern",
+        "우려"
+      ],
+      [
+        "arises",
+        "발생하다"
+      ],
+      [
+        "blocks",
+        "블록"
+      ],
+      [
+        "nailed",
+        "못을 박았다"
+      ],
+      [
+        "fibers",
+        "섬유"
+      ],
+      [
+        "length",
+        "길이"
+      ],
+      [
+        "either",
+        "어느 쪽이든"
+      ],
+      [
+        "splits",
+        "분할"
+      ],
+      [
+        "larger",
+        "더 큰"
+      ],
+      [
+        "forces",
+        "힘"
       ]
     ],
-    "phrases": [],
+    "phrases": [
+      [
+        "try to",
+        "~하려고 노력하다"
+      ]
+    ],
     "questions": [
       {
         "title": "원래 기출 37번",
@@ -6005,6 +7754,54 @@
       [
         "explanations",
         "설명"
+      ],
+      [
+        "documenting",
+        "문서화"
+      ],
+      [
+        "problematic",
+        "문제가 있는"
+      ],
+      [
+        "significant",
+        "중요한"
+      ],
+      [
+        "association",
+        "협회"
+      ],
+      [
+        "scientists",
+        "과학자들"
+      ],
+      [
+        "formulated",
+        "공식화"
+      ],
+      [
+        "witnessing",
+        "증인"
+      ],
+      [
+        "experience",
+        "경험"
+      ],
+      [
+        "phenomenon",
+        "현상"
+      ],
+      [
+        "diminished",
+        "감소한"
+      ],
+      [
+        "sympathize",
+        "동정하다"
+      ],
+      [
+        "conducted",
+        "실시"
       ]
     ],
     "phrases": [],
@@ -6239,6 +8036,54 @@
       [
         "partially",
         "부분적으로"
+      ],
+      [
+        "permanent",
+        "영구"
+      ],
+      [
+        "undamaged",
+        "손상되지 않은"
+      ],
+      [
+        "maintains",
+        "유지하다"
+      ],
+      [
+        "materials",
+        "재료"
+      ],
+      [
+        "difficult",
+        "어려운"
+      ],
+      [
+        "remaining",
+        "남은"
+      ],
+      [
+        "allowing",
+        "허용"
+      ],
+      [
+        "weakness",
+        "약점"
+      ],
+      [
+        "creasing",
+        "주름잡기"
+      ],
+      [
+        "somewhat",
+        "다소"
+      ],
+      [
+        "sheeting",
+        "시트링"
+      ],
+      [
+        "rigidity",
+        "강성"
       ]
     ],
     "phrases": [],
@@ -6471,6 +8316,54 @@
       [
         "disrupting",
         "방해하는"
+      ],
+      [
+        "realising",
+        "깨닫다"
+      ],
+      [
+        "broadcast",
+        "방송"
+      ],
+      [
+        "marketers",
+        "마케팅 담당자"
+      ],
+      [
+        "embracing",
+        "포용"
+      ],
+      [
+        "authentic",
+        "본격적인"
+      ],
+      [
+        "otherwise",
+        "그렇지 않으면"
+      ],
+      [
+        "publicity",
+        "홍보"
+      ],
+      [
+        "describes",
+        "설명하다"
+      ],
+      [
+        "employees",
+        "직원"
+      ],
+      [
+        "problems",
+        "문제"
+      ],
+      [
+        "purposes",
+        "목적"
+      ],
+      [
+        "furthers",
+        "더 나아가"
       ]
     ],
     "phrases": [
@@ -6744,6 +8637,82 @@
       [
         "expectations",
         "기대"
+      ],
+      [
+        "technically",
+        "기술적으로"
+      ],
+      [
+        "anticipated",
+        "예상됨"
+      ],
+      [
+        "possibility",
+        "가능성"
+      ],
+      [
+        "conforming",
+        "준수"
+      ],
+      [
+        "variations",
+        "변형"
+      ],
+      [
+        "appreciate",
+        "감사하다"
+      ],
+      [
+        "extraction",
+        "추출"
+      ],
+      [
+        "systematic",
+        "체계적인"
+      ],
+      [
+        "unexpected",
+        "예상치 못한"
+      ],
+      [
+        "liberties",
+        "자유"
+      ],
+      [
+        "organized",
+        "조직적인"
+      ],
+      [
+        "emotional",
+        "감정적인"
+      ],
+      [
+        "unpredictable",
+        "예측할 수 없는"
+      ],
+      [
+        "established",
+        "설립"
+      ],
+      [
+        "maintain",
+        "유지하다"
+      ],
+      [
+        "disobey",
+        "불순종하다"
+      ],
+      [
+        "repeat",
+        "반복하다"
+      ],
+      [
+        "embody",
+        "구현하다"
+      ],
+      [
+        "break",
+        "휴식"
       ]
     ],
     "phrases": [
@@ -6989,6 +8958,82 @@
       [
         "regardless",
         "상관없이"
+      ],
+      [
+        "selection",
+        "선택"
+      ],
+      [
+        "uncertain",
+        "불확실한"
+      ],
+      [
+        "squeaking",
+        "삐걱거리는 소리"
+      ],
+      [
+        "attention",
+        "주의"
+      ],
+      [
+        "wandered",
+        "방황하다"
+      ],
+      [
+        "distress",
+        "고민"
+      ],
+      [
+        "powerful",
+        "강력한"
+      ],
+      [
+        "strategy",
+        "전략"
+      ],
+      [
+        "unwanted",
+        "원하지 않는"
+      ],
+      [
+        "identify",
+        "식별하다"
+      ],
+      [
+        "possibly",
+        "아마도"
+      ],
+      [
+        "detected",
+        "감지됨"
+      ],
+      [
+        "collect",
+        "수집하다"
+      ],
+      [
+        "abandon",
+        "버리다"
+      ],
+      [
+        "distracted",
+        "산만하다"
+      ],
+      [
+        "deceived",
+        "속은"
+      ],
+      [
+        "awakened",
+        "깨어났다"
+      ],
+      [
+        "chased",
+        "쫓기다"
+      ],
+      [
+        "raise",
+        "인상"
       ]
     ],
     "phrases": [
@@ -7302,6 +9347,82 @@
       [
         "relative",
         "친척"
+      ],
+      [
+        "animal's",
+        "동물의"
+      ],
+      [
+        "managing",
+        "관리"
+      ],
+      [
+        "maximum",
+        "최대"
+      ],
+      [
+        "large",
+        "큰"
+      ],
+      [
+        "disadvantages",
+        "단점"
+      ],
+      [
+        "accumulations",
+        "축적"
+      ],
+      [
+        "accumulating",
+        "축적"
+      ],
+      [
+        "advantageous",
+        "유리한"
+      ],
+      [
+        "hibernaculum",
+        "겨울잠"
+      ],
+      [
+        "constrained",
+        "제한된"
+      ],
+      [
+        "contributes",
+        "기여하다"
+      ],
+      [
+        "temperature",
+        "온도"
+      ],
+      [
+        "animal",
+        "동물"
+      ],
+      [
+        "reserves",
+        "준비금"
+      ],
+      [
+        "survival",
+        "생존"
+      ],
+      [
+        "convert",
+        "개종하다"
+      ],
+      [
+        "outside",
+        "외부"
+      ],
+      [
+        "bigger",
+        "더 큰"
+      ],
+      [
+        "better",
+        "더 나은"
       ]
     ],
     "phrases": [
@@ -7312,6 +9433,14 @@
       [
         "in other words",
         "다시 말해"
+      ],
+      [
+        "be expected to",
+        "~할 것으로 예상되다"
+      ],
+      [
+        "in the form of",
+        "~의 형태로"
       ]
     ],
     "questions": [
@@ -7610,6 +9739,98 @@
       [
         "opec",
         "OPEC"
+      ],
+      [
+        "multinationals",
+        "다국적 기업"
+      ],
+      [
+        "performances",
+        "공연"
+      ],
+      [
+        "breakthrough",
+        "획기적인"
+      ],
+      [
+        "dramatically",
+        "극적으로"
+      ],
+      [
+        "consumption",
+        "소비"
+      ],
+      [
+        "alternative",
+        "대안"
+      ],
+      [
+        "diversified",
+        "다양하다"
+      ],
+      [
+        "combustion",
+        "연소"
+      ],
+      [
+        "signalling",
+        "신호"
+      ],
+      [
+        "attempting",
+        "시도하다"
+      ],
+      [
+        "industries",
+        "산업"
+      ],
+      [
+        "transport",
+        "수송"
+      ],
+      [
+        "competition",
+        "경쟁"
+      ],
+      [
+        "overwhelmed",
+        "압도하다"
+      ],
+      [
+        "innovation",
+        "혁신"
+      ],
+      [
+        "strategies",
+        "전략"
+      ],
+      [
+        "efficiency",
+        "효율성"
+      ],
+      [
+        "landscape",
+        "풍경"
+      ],
+      [
+        "suppliers",
+        "공급업체"
+      ],
+      [
+        "reshapes",
+        "모양을 바꾸다"
+      ],
+      [
+        "consumer",
+        "소비자"
+      ],
+      [
+        "compass",
+        "나침반"
+      ],
+      [
+        "product",
+        "제품"
       ]
     ],
     "phrases": [],
