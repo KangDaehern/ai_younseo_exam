@@ -207,8 +207,10 @@ def translate_terms(terms: list[str]) -> dict[str, str]:
     return result
 
 
-def select_words(sentences: list[dict], count: int = 28) -> list[str]:
-    words = re.findall(r"[A-Za-z][A-Za-z'-]{3,}", " ".join(item["en"] for item in sentences).lower())
+def select_words(sentences: list[dict], count: int = 200) -> list[str]:
+    # 윤서의 현재 어휘 수준에 맞춰 관사·대명사 같은 기초 기능어만 제외하고,
+    # 세 글자 이상의 내용어는 사실상 모두 뜻을 확인할 수 있게 한다.
+    words = re.findall(r"[A-Za-z][A-Za-z'-]{2,}", " ".join(item["en"] for item in sentences).lower())
     frequencies = Counter(word.strip("'-") for word in words if word.strip("'-") not in STOPWORDS)
     ranked = sorted(frequencies, key=lambda word: (frequencies[word], len(word)), reverse=True)
     return ranked[:count]
@@ -318,7 +320,7 @@ def build() -> list[dict]:
     extra_choice_terms: list[str] = []
     for passage in passages:
         choice_text = " ".join(choice for question in passage["questions"] for choice in question["choices"])
-        choice_words = select_words([{"en": choice_text}], count=12)
+        choice_words = select_words([{"en": choice_text}], count=200)
         existing_words = {word for word, _ in passage["words"]}
         choice_words_by_passage[passage["id"]] = [word for word in choice_words if word not in existing_words]
         extra_choice_terms.extend(word for word in choice_words_by_passage[passage["id"]] if word not in meanings and word not in extra_choice_terms)
