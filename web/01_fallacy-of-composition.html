@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f1e7">
+  <title>윤서 영어 - 부분과 전체</title>
+  <style>
+    :root {
+      --paper: #f6f1e7;
+      --paper-deep: #ece3d1;
+      --ink: #202621;
+      --muted: #687068;
+      --forest: #174d3a;
+      --forest-soft: #dfece6;
+      --orange: #e36b32;
+      --orange-soft: #fff0e7;
+      --line: #d6cdbc;
+      --white: #fffdf8;
+      --shadow: 0 12px 34px rgba(49, 55, 46, .09);
+      --radius: 20px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% 5%, rgba(227,107,50,.12), transparent 24rem),
+        radial-gradient(circle at 95% 30%, rgba(23,77,58,.10), transparent 28rem),
+        var(--paper);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      line-height: 1.72;
+    }
+
+    button, input { font: inherit; }
+    button { touch-action: manipulation; }
+    .shell { width: min(960px, 100%); margin: 0 auto; padding: 22px 18px 70px; }
+    .eyebrow { margin: 0 0 6px; color: var(--orange); font-weight: 800; letter-spacing: .05em; }
+    h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 8vw, 4.8rem); line-height: 1.02; }
+    .subtitle { max-width: 680px; margin: 16px 0 24px; color: var(--muted); font-size: 1.04rem; }
+
+    .progress-card {
+      display: grid; grid-template-columns: 1fr auto; gap: 12px 18px; align-items: center;
+      padding: 17px 19px; background: var(--forest); color: white; border-radius: var(--radius); box-shadow: var(--shadow);
+    }
+    .progress-card p { margin: 0; }
+    .progress-track { grid-column: 1 / -1; height: 8px; overflow: hidden; border-radius: 99px; background: rgba(255,255,255,.2); }
+    .progress-fill { width: 0; height: 100%; border-radius: inherit; background: #ffc093; transition: width .25s ease; }
+    .progress-count { font-weight: 800; }
+
+    .tabs {
+      position: sticky; top: 0; z-index: 10; display: flex; gap: 8px; overflow-x: auto;
+      margin: 18px -18px 26px; padding: 10px 18px; background: rgba(246,241,231,.93); backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(214,205,188,.75); scrollbar-width: none;
+    }
+    .tabs::-webkit-scrollbar { display: none; }
+    .tab {
+      flex: 0 0 auto; min-height: 46px; padding: 9px 16px; border: 1px solid var(--line); border-radius: 99px;
+      color: var(--ink); background: var(--white); font-weight: 750; cursor: pointer;
+    }
+    .tab[aria-selected="true"] { color: white; background: var(--forest); border-color: var(--forest); }
+    .panel[hidden] { display: none; }
+    .panel > h2 { margin: 0 0 18px; font: 800 clamp(1.55rem, 5vw, 2.3rem)/1.2 Georgia, serif; }
+
+    .card { padding: clamp(20px, 4vw, 34px); background: rgba(255,253,248,.94); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+    .original { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.12rem, 3.6vw, 1.35rem); line-height: 1.95; }
+    .original p { margin: 0 0 1.2em; }
+    .key-note { margin-top: 20px; padding: 18px; border-left: 5px solid var(--orange); background: var(--orange-soft); border-radius: 0 14px 14px 0; }
+
+    .sentence-list { display: grid; gap: 18px; }
+    .sentence { overflow: hidden; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+    .sentence-head { padding: 18px 22px; color: white; background: var(--forest); }
+    .sentence-no { display: block; color: #b9d8ca; font-size: .78rem; font-weight: 850; letter-spacing: .1em; }
+    .sentence-head p { margin: 4px 0 0; font: 700 1.08rem/1.65 Georgia, serif; }
+    .chunks { padding: 7px 22px; }
+    .chunk { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; padding: 13px 0; border-bottom: 1px dashed var(--line); }
+    .chunk:last-child { border-bottom: 0; }
+    .chunk-en { font-family: Georgia, serif; font-weight: 700; }
+    .chunk-ko { color: var(--muted); }
+    .sentence-meaning { margin: 0; padding: 16px 22px; background: var(--orange-soft); font-weight: 750; }
+
+    .tool-row { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 18px; }
+    .tool-button { min-height: 44px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); color: var(--ink); font-weight: 720; cursor: pointer; }
+    .tool-button.primary { color: white; background: var(--forest); border-color: var(--forest); }
+    .tool-button.danger { color: #8d351c; background: var(--orange-soft); border-color: #edb99f; }
+    .storage-note { margin: -4px 0 20px; color: var(--muted); font-size: .92rem; }
+    .group-title { margin: 26px 0 12px; font-size: 1.12rem; }
+    .vocab-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .vocab-card { padding: 16px; background: var(--white); border: 1px solid var(--line); border-radius: 16px; transition: opacity .2s, transform .2s; }
+    .vocab-card.known { display: none; }
+    .vocab-card.unknown { border-color: var(--orange); background: var(--orange-soft); }
+    .word { margin: 0; font: 800 1.17rem/1.25 Georgia, serif; }
+    .meaning { min-height: 2.8em; margin: 6px 0 12px; color: var(--muted); }
+    .choice-row { display: flex; gap: 7px; }
+    .choice { flex: 1; min-height: 42px; border: 1px solid var(--line); border-radius: 10px; background: white; cursor: pointer; }
+    .choice.unknown-choice { color: #983c20; }
+    .empty { padding: 36px 20px; text-align: center; border: 1px dashed var(--line); border-radius: var(--radius); background: rgba(255,255,255,.55); }
+
+    .quiz-list { display: grid; gap: 14px; }
+    details.quiz { background: var(--white); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); }
+    details.quiz summary { padding: 18px 20px; font-weight: 800; cursor: pointer; }
+    .quiz-body { padding: 0 20px 20px; }
+    .quiz-body ol { padding-left: 1.5rem; }
+    .answer { margin-top: 15px; padding: 14px 16px; background: var(--forest-soft); border-radius: 12px; }
+    .answer strong { color: var(--forest); }
+    .footer-note { margin-top: 30px; color: var(--muted); font-size: .88rem; text-align: center; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    @media (max-width: 650px) {
+      .shell { padding-top: 18px; }
+      .chunk { grid-template-columns: 1fr; gap: 2px; }
+      .vocab-grid { grid-template-columns: 1fr; }
+      .card { padding: 20px; }
+      .progress-card { grid-template-columns: 1fr; }
+      .progress-card .progress-count { justify-self: start; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">윤서 영어 · 01</p>
+      <h1>Good parts,<br>good whole?</h1>
+      <p class="subtitle">부분이 모두 훌륭해도 전체가 반드시 훌륭한 것은 아니야. 오늘은 문장을 짧게 나누어 읽고, 모르는 표현만 남겨서 공부해 보자.</p>
+      <div class="progress-card" aria-live="polite">
+        <p><strong>단어 학습 현황</strong><br><small>‘알아요’를 누르면 목록에서 자동으로 숨겨져요.</small></p>
+        <p class="progress-count" id="progressCount">0 / 0 알아요</p>
+        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+    </header>
+
+    <nav class="tabs" aria-label="학습 화면 선택" role="tablist">
+      <button class="tab" role="tab" aria-selected="true" aria-controls="originalPanel" id="originalTab">원문만</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="readingPanel" id="readingTab">직독직해</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="vocabPanel" id="vocabTab">단어·숙어</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="quizPanel" id="quizTab">연관 문제</button>
+    </nav>
+
+    <section class="panel" id="originalPanel" role="tabpanel" aria-labelledby="originalTab">
+      <h2>영어 원문</h2>
+      <article class="card original">
+        <p>We can sometimes assume that the whole will be as good as each of its parts.</p>
+        <p>Suppose, for example, you’re in charge of a startup, and you know that everyone you’ve brought on board is productive and efficient. It might seem logical to assume that, as a result, the startup will be productive and efficient, too—but this isn’t necessarily true.</p>
+        <p>The fallacy of composition fails to allow for how the different “parts” interact with each other—if, for example, your efficient administrator and your highly skilled head of IT each assumes the other is in charge of collating prototype test results, then you have a problem.</p>
+        <p>Equally, a unit composed of good people can still be working on a doomed project, and a project composed of good ideas may lack a stable center.</p>
+        <p>When assembling a team with a common goal, always check the overall view as well as the individuals involved.</p>
+      </article>
+      <div class="key-note"><strong>핵심 한 줄</strong><br>Good parts do not always make a good whole.</div>
+    </section>
+
+    <section class="panel" id="readingPanel" role="tabpanel" aria-labelledby="readingTab" hidden>
+      <h2>한 문장씩 직독직해</h2>
+      <div class="sentence-list" id="sentenceList"></div>
+    </section>
+
+    <section class="panel" id="vocabPanel" role="tabpanel" aria-labelledby="vocabTab" hidden>
+      <h2>단어와 숙어</h2>
+      <div class="tool-row">
+        <button class="tool-button primary" id="showKnown">숨긴 단어 보기</button>
+        <button class="tool-button" id="exportState">학습 상태 내보내기</button>
+        <button class="tool-button" id="importState">다른 기기 상태 가져오기</button>
+        <button class="tool-button danger" id="resetState">전체 초기화</button>
+        <input class="sr-only" type="file" id="stateFile" accept="application/json,.json">
+      </div>
+      <p class="storage-note" id="storageNote">체크 결과는 이 기기에 자동 저장됩니다. 다른 기기로 옮길 때만 내보내기와 가져오기를 사용하세요.</p>
+      <h3 class="group-title">필수 단어</h3>
+      <div class="vocab-grid" id="wordGrid"></div>
+      <h3 class="group-title">숙어와 표현</h3>
+      <div class="vocab-grid" id="phraseGrid"></div>
+      <div class="empty" id="emptyState" hidden><strong>모두 알고 있어요! 🎉</strong><br>‘숨긴 단어 보기’를 누르면 다시 확인할 수 있어요.</div>
+    </section>
+
+    <section class="panel" id="quizPanel" role="tabpanel" aria-labelledby="quizTab" hidden>
+      <h2>중복을 줄인 연관 문제</h2>
+      <p class="storage-note">문제를 먼저 풀고 각 상자를 눌러 정답과 해설을 확인하세요.</p>
+      <div class="quiz-list" id="quizList"></div>
+    </section>
+
+    <p class="footer-note">2026년 6월 고2 전국연합학력평가 영어 20번 · 기기 안에서 작동하는 오프라인 학습 페이지</p>
+  </main>
+
+  <script>
+    const sentences = [
+      { en: "We can sometimes assume / that the whole will be as good as each of its parts.", chunks: [["We can sometimes assume", "우리는 때때로 생각할 수 있다"], ["that the whole will be as good as", "전체가 ~만큼 좋을 것이라고"], ["each of its parts", "그것을 이루는 각각의 부분만큼"]], ko: "우리는 때때로 전체도 각각의 부분만큼 좋을 것이라고 생각할 수 있다." },
+      { en: "Suppose, for example, / you’re in charge of a startup, / and you know / that everyone you’ve brought on board / is productive and efficient.", chunks: [["Suppose, for example", "예를 들어, 가정해 보자"], ["you’re in charge of a startup", "여러분이 신생 기업을 책임지고 있다고"], ["and you know", "그리고 여러분이 알고 있다고"], ["that everyone you’ve brought on board", "여러분이 팀에 합류시킨 모든 사람이"], ["is productive and efficient", "생산적이고 효율적이라는 것을"]], ko: "예를 들어, 여러분이 신생 기업을 맡고 있고, 영입한 모든 사람이 생산적이고 효율적이라는 것을 안다고 가정해 보자." },
+      { en: "It might seem logical / to assume that, as a result, / the startup will be productive and efficient, too / — but this isn’t necessarily true.", chunks: [["It might seem logical", "논리적으로 보일지도 모른다"], ["to assume that, as a result", "그 결과 ~라고 생각하는 것이"], ["the startup will be productive and efficient, too", "그 신생 기업도 생산적이고 효율적일 것이라고"], ["but this isn’t necessarily true", "그러나 이것이 반드시 사실인 것은 아니다"]], ko: "그러므로 그 회사도 생산적이고 효율적일 것이라고 생각하는 것이 논리적으로 보일 수 있지만, 반드시 그렇지는 않다." },
+      { en: "The fallacy of composition / fails to allow for / how the different ‘parts’ interact with each other.", chunks: [["The fallacy of composition", "구성의 오류는"], ["fails to allow for", "~을 고려하지 못한다"], ["how the different parts interact with each other", "서로 다른 부분들이 어떻게 상호 작용하는지를"]], ko: "구성의 오류는 서로 다른 부분들이 어떻게 상호 작용하는지를 고려하지 못한다." },
+      { en: "If, for example, / your efficient administrator and your highly skilled head of IT / each assumes / the other is in charge of collating prototype test results, / then you have a problem.", chunks: [["If, for example", "예를 들어 만약"], ["your efficient administrator and your highly skilled head of IT", "유능한 관리자와 숙련된 IT 책임자가"], ["each assumes", "각자 생각한다면"], ["the other is in charge of collating prototype test results", "상대방이 시제품 시험 결과 정리를 맡고 있다고"], ["then you have a problem", "그러면 문제가 생긴다"]], ko: "두 책임자가 각각 상대방이 시제품 시험 결과 정리를 맡았다고 생각하면 문제가 생긴다." },
+      { en: "Equally, / a unit composed of good people / can still be working on a doomed project, / and a project composed of good ideas / may lack a stable center.", chunks: [["Equally", "마찬가지로"], ["a unit composed of good people", "좋은 사람들로 구성된 팀도"], ["can still be working on a doomed project", "실패할 프로젝트를 하고 있을 수 있다"], ["a project composed of good ideas", "좋은 아이디어로 이루어진 프로젝트도"], ["may lack a stable center", "안정된 중심이 부족할 수 있다"]], ko: "좋은 사람들의 팀도 실패할 프로젝트를 할 수 있고, 좋은 아이디어들의 프로젝트도 안정된 중심이 없을 수 있다." },
+      { en: "When assembling a team with a common goal, / always check the overall view / as well as the individuals involved.", chunks: [["When assembling a team with a common goal", "공동 목표를 가진 팀을 구성할 때"], ["always check the overall view", "항상 전체적인 모습을 확인하라"], ["as well as the individuals involved", "관련된 개인들뿐만 아니라"]], ko: "공동 목표를 가진 팀을 구성할 때는 개인들뿐 아니라 전체적인 모습도 반드시 확인하라." }
+    ];
+
+    const words = [
+      ["assume", "~라고 생각하다, 가정하다"], ["whole", "전체"], ["part", "부분, 구성 요소"], ["suppose", "가정해 보다"],
+      ["startup", "신생 기업"], ["productive", "생산적인, 성과를 내는"], ["efficient", "효율적인"], ["logical", "논리적인"],
+      ["necessarily", "반드시"], ["fallacy", "잘못된 생각, 오류"], ["composition", "구성, 조합"], ["interact", "상호 작용하다"],
+      ["administrator", "관리자"], ["skilled", "숙련된"], ["collate", "대조·확인하여 정리하다"], ["prototype", "시제품"],
+      ["unit", "하나의 조직, 팀"], ["compose", "구성하다"], ["doomed", "실패할 운명인"], ["lack", "~이 부족하다, 없다"],
+      ["stable", "안정된"], ["assemble", "모으다, 구성하다"], ["overall", "전체적인"], ["individual", "개인"], ["involve", "관련시키다, 참여시키다"]
+    ];
+
+    const phrases = [
+      ["as good as", "~만큼 좋은"], ["for example", "예를 들어"], ["be in charge of", "~을 책임지다, 맡다"],
+      ["bring A on board", "A를 팀에 합류시키다, 영입하다"], ["as a result", "그 결과"], ["not necessarily", "반드시 ~인 것은 아니다"],
+      ["allow for", "~을 고려하다"], ["interact with each other", "서로 상호 작용하다"], ["be composed of", "~로 구성되다"],
+      ["work on", "~을 작업하다, 진행하다"], ["as well as", "~뿐만 아니라 …도"]
+    ];
+
+    const quizzes = [
+      { title: "1. 함축 의미", q: "a stable center가 의미하는 것은?", choices: ["팀이 함께 일하는 고정 장소", "업무를 나누는 관리자 한 명", "계속 바뀌는 방향", "프로젝트에 방향과 통일성을 주는 중심 원리", "외부 투자를 공급하는 회사"], a: "④", why: "실제 장소나 사람 한 명이 아니라 아이디어들을 하나의 방향으로 묶어 주는 안정된 중심을 뜻해요." },
+      { title: "2. 내용 일치", q: "글의 내용과 일치하는 것은?", choices: ["구성원 각자가 유능해도 상호 작용 문제로 팀 전체가 비효율적일 수 있다.", "개인의 생산성이 높으면 팀 전체의 성공이 보장된다.", "상호 작용만 좋으면 어떤 프로젝트든 성공한다.", "좋은 아이디어가 많으면 안정된 중심이 반드시 생긴다.", "팀 실패의 유일한 원인은 능력 부족이다."], a: "①", why: "글은 개인의 능력만으로 전체 성공을 보장할 수 없다고 말해요." },
+      { title: "3. 제목", q: "가장 적절한 제목은?", choices: ["개인의 숨겨진 강점", "스타트업에 관리자가 필요한 이유", "실패할 프로젝트를 피하는 법", "좋은 아이디어가 성공을 보장하는 이유", "부분만으로 팀 전체를 판단하는 오류"], a: "⑤", why: "글 전체가 fallacy of composition, 즉 부분만 보고 전체도 같다고 판단하는 오류를 설명해요." },
+      { title: "4. 문맥상 어휘", q: "A unit composed of good people can still be working on a promising project. 문맥상 어색한 낱말을 고치면?", choices: ["composed → composing", "good → skilled", "still → always", "promising → doomed", "project → result"], a: "④", why: "좋은 사람들의 팀도 실패할 운명인(doomed) 프로젝트를 할 수 있다는 반대 예시가 필요해요." },
+      { title: "5. 무관한 문장", q: "흐름과 관계없는 문장은?", choices: ["모든 구성원이 효율적이면 회사 전체도 효율적일 것이라고 생각하기 쉽다.", "하지만 부분이 좋다고 전체까지 반드시 좋은 것은 아니다.", "구성의 오류는 각 부분의 상호 작용을 고려하지 못한다.", "초기 스타트업은 경쟁사보다 먼저 고객을 늘리기 위해 외부 투자를 구하기도 한다.", "팀을 만들 때 개인뿐 아니라 전체도 확인해야 한다."], a: "④", why: "④만 외부 투자와 시장 경쟁 이야기이고, 나머지는 부분·전체·상호 작용으로 이어져요." },
+      { title: "6. 글의 순서", q: "예시(B), 구성의 오류 설명(C), 추가 예시와 결론(A)의 올바른 순서는?", choices: ["A-C-B", "B-A-C", "B-C-A", "C-A-B", "C-B-A"], a: "③ B-C-A", why: "구체적인 스타트업 예시를 들고 → 문제의 원인을 설명하고 → 추가 예시 뒤 결론을 내려요." },
+      { title: "7. 요약문", q: "Interactions can (A) ___ the outcome, so examine the (B) ___ view.", choices: ["weaken / individual", "weaken / comprehensive", "improve / comprehensive", "improve / individual", "distort / partial"], a: "②", why: "상호 작용이 전체 결과를 약화할 수 있으므로 종합적(comprehensive) 관점이 필요해요." },
+      { title: "8. 어법", q: "Each of the two managers assume the other is in charge. 고칠 부분은?", choices: ["Each → All", "managers → manager", "assume → assumes", "the other → another", "is → are"], a: "③", why: "each는 ‘각각’이므로 단수 동사 assumes를 써요." }
+    ];
+
+    const storeKey = "yunseo-english-01-v1";
+    let state = { known: {}, unknown: {} };
+    let revealKnown = false;
+
+    function safeLoad() {
+      try {
+        const saved = localStorage.getItem(storeKey);
+        if (saved) state = { known: {}, unknown: {}, ...JSON.parse(saved) };
+      } catch (_) {
+        document.getElementById("storageNote").textContent = "이 보기 방식에서는 자동 저장이 제한될 수 있어요. 학습 상태 내보내기로 보관할 수 있어요.";
+      }
+    }
+
+    function safeSave() {
+      try { localStorage.setItem(storeKey, JSON.stringify(state)); } catch (_) {}
+    }
+
+    function idFor(type, term) { return `${type}:${term}`; }
+
+    function renderSentences() {
+      document.getElementById("sentenceList").innerHTML = sentences.map((s, i) => `
+        <article class="sentence">
+          <div class="sentence-head"><span class="sentence-no">SENTENCE ${i + 1}</span><p>${s.en}</p></div>
+          <div class="chunks">${s.chunks.map(c => `<div class="chunk"><div class="chunk-en">${c[0]}</div><div class="chunk-ko">${c[1]}</div></div>`).join("")}</div>
+          <p class="sentence-meaning">→ ${s.ko}</p>
+        </article>`).join("");
+    }
+
+    function vocabCard(type, item) {
+      const id = idFor(type, item[0]);
+      const isKnown = !!state.known[id];
+      const isUnknown = !!state.unknown[id];
+      return `<article class="vocab-card ${isKnown && !revealKnown ? "known" : ""} ${isUnknown ? "unknown" : ""}" data-id="${id}">
+        <p class="word">${item[0]}</p><p class="meaning">${item[1]}</p>
+        <div class="choice-row">
+          <button class="choice" data-action="known" data-id="${id}">✓ 알아요</button>
+          <button class="choice unknown-choice" data-action="unknown" data-id="${id}">? 몰라요</button>
+        </div>
+      </article>`;
+    }
+
+    function renderVocab() {
+      document.getElementById("wordGrid").innerHTML = words.map(i => vocabCard("word", i)).join("");
+      document.getElementById("phraseGrid").innerHTML = phrases.map(i => vocabCard("phrase", i)).join("");
+      const total = words.length + phrases.length;
+      const known = Object.keys(state.known).filter(k => state.known[k]).length;
+      document.getElementById("progressCount").textContent = `${known} / ${total} 알아요`;
+      document.getElementById("progressFill").style.width = `${total ? known / total * 100 : 0}%`;
+      document.getElementById("showKnown").textContent = revealKnown ? "아는 단어 다시 숨기기" : `숨긴 단어 보기 (${known})`;
+      document.getElementById("emptyState").hidden = revealKnown || known !== total;
+    }
+
+    function renderQuizzes() {
+      document.getElementById("quizList").innerHTML = quizzes.map(x => `<details class="quiz"><summary>${x.title}</summary><div class="quiz-body"><p><strong>${x.q}</strong></p><ol>${x.choices.map(c => `<li>${c}</li>`).join("")}</ol><div class="answer"><strong>정답 ${x.a}</strong><br>${x.why}</div></div></details>`).join("");
+    }
+
+    document.querySelectorAll(".tab").forEach(tab => tab.addEventListener("click", () => {
+      document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", String(t === tab)));
+      document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== tab.getAttribute("aria-controls"));
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }));
+
+    document.getElementById("vocabPanel").addEventListener("click", event => {
+      const button = event.target.closest("[data-action]");
+      if (!button) return;
+      const id = button.dataset.id;
+      if (button.dataset.action === "known") {
+        state.known[id] = true;
+        delete state.unknown[id];
+      } else {
+        state.unknown[id] = true;
+        delete state.known[id];
+      }
+      safeSave(); renderVocab();
+    });
+
+    document.getElementById("showKnown").addEventListener("click", () => { revealKnown = !revealKnown; renderVocab(); });
+    document.getElementById("resetState").addEventListener("click", () => {
+      if (!confirm("단어 체크 상태를 모두 지울까요?")) return;
+      state = { known: {}, unknown: {} }; revealKnown = false; safeSave(); renderVocab();
+    });
+
+    document.getElementById("exportState").addEventListener("click", () => {
+      const blob = new Blob([JSON.stringify({ version: 1, savedAt: new Date().toISOString(), ...state }, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a"); a.href = url; a.download = "윤서영어_학습상태_01.json"; a.click();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    });
+    document.getElementById("importState").addEventListener("click", () => document.getElementById("stateFile").click());
+    document.getElementById("stateFile").addEventListener("change", async event => {
+      const file = event.target.files[0]; if (!file) return;
+      try {
+        const imported = JSON.parse(await file.text());
+        if (!imported.known || !imported.unknown) throw new Error("bad format");
+        state = { known: imported.known, unknown: imported.unknown }; safeSave(); renderVocab(); alert("학습 상태를 가져왔어요.");
+      } catch (_) { alert("올바른 학습 상태 파일이 아니에요."); }
+      event.target.value = "";
+    });
+
+    safeLoad(); renderSentences(); renderVocab(); renderQuizzes();
+  </script>
+</body>
+</html>

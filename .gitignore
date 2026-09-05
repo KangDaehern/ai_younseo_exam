@@ -1,0 +1,30 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Temporary render and browser data
+tmp/
+
+# Source and third-party PDFs are kept locally only.
+# The GitHub repository is public, so do not redistribute them here.
+doc/*.pdf
+references/
+
+# Automatically extracted copies of the full exam are reproducible from
+# the local source PDF and are not published to the public repository.
+data/extracted/
+
+# Local study-state backups exported by the web page
+윤서영어_학습상태_*.json
