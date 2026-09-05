@@ -5,6 +5,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 20,
     "title": "구성의 오류가 보여 주는 개별 우수성과 전체 성공의 차이",
+    "englishTitle": "Misconfiguration shows the difference between individual excellence and overall success.",
     "sentences": [
       {
         "en": "We can sometimes assume that the whole will be as good as each of its parts.",
@@ -891,6 +892,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 21,
     "title": "현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상",
+    "englishTitle": "Visual imagery that allows you to rehearse real-world behavior but is not a substitute for real-life experience",
     "sentences": [
       {
         "en": "Humans excel at visual imagery.",
@@ -1393,6 +1395,22 @@
         "비트"
       ],
       [
+        "differences",
+        "차이점"
+      ],
+      [
+        "images",
+        "이미지"
+      ],
+      [
+        "interpretation",
+        "해석"
+      ],
+      [
+        "individual's",
+        "개인의"
+      ],
+      [
         "unnecessary",
         "불필요한"
       ],
@@ -1401,8 +1419,44 @@
         "분류한다"
       ],
       [
+        "uncertainty",
+        "불확실성"
+      ],
+      [
+        "experiences",
+        "경험"
+      ],
+      [
+        "maintaining",
+        "유지"
+      ],
+      [
         "constraint",
         "제약"
+      ],
+      [
+        "boundaries",
+        "경계"
+      ],
+      [
+        "continuous",
+        "연속적인"
+      ],
+      [
+        "unexpected",
+        "예상치 못한"
+      ],
+      [
+        "properties",
+        "속성"
+      ],
+      [
+        "real-world",
+        "실제 세계"
+      ],
+      [
+        "experience",
+        "경험"
       ],
       [
         "realistic",
@@ -1411,6 +1465,38 @@
       [
         "ingenious",
         "독창적인"
+      ],
+      [
+        "arbitrary",
+        "임의의"
+      ],
+      [
+        "sensation",
+        "감각"
+      ],
+      [
+        "immersion",
+        "침수"
+      ],
+      [
+        "secretion",
+        "분비"
+      ],
+      [
+        "combining",
+        "결합"
+      ],
+      [
+        "stiffness",
+        "강성"
+      ],
+      [
+        "packaging",
+        "포장"
+      ],
+      [
+        "real-life",
+        "실제 생활"
       ],
       [
         "limiting",
@@ -1429,6 +1515,38 @@
         "전략"
       ],
       [
+        "increase",
+        "증가하다"
+      ],
+      [
+        "pleasure",
+        "즐거움"
+      ],
+      [
+        "dopamine",
+        "도파민"
+      ],
+      [
+        "intended",
+        "의도한"
+      ],
+      [
+        "physical",
+        "물리적"
+      ],
+      [
+        "wrinkles",
+        "주름"
+      ],
+      [
+        "uniquely",
+        "독특하게"
+      ],
+      [
+        "behavior",
+        "행동"
+      ],
+      [
         "visible",
         "보이는"
       ],
@@ -1443,6 +1561,38 @@
       [
         "genetic",
         "유전적"
+      ],
+      [
+        "setting",
+        "설정"
+      ],
+      [
+        "greatly",
+        "크게"
+      ],
+      [
+        "provide",
+        "제공하다"
+      ],
+      [
+        "greater",
+        "더 큰"
+      ],
+      [
+        "through",
+        "통해"
+      ],
+      [
+        "readers",
+        "독자"
+      ],
+      [
+        "meaning",
+        "의미"
+      ],
+      [
+        "folding",
+        "접는"
       ],
       [
         "clever",
@@ -1465,8 +1615,28 @@
         "배고픔"
       ],
       [
-        "images",
-        "이미지"
+        "change",
+        "변화"
+      ],
+      [
+        "limits",
+        "한계"
+      ],
+      [
+        "guides",
+        "가이드"
+      ],
+      [
+        "toward",
+        "향해"
+      ],
+      [
+        "suited",
+        "적합하다"
+      ],
+      [
+        "allows",
+        "허용한다"
       ],
       [
         "human",
@@ -1477,12 +1647,32 @@
         "똑똑한"
       ],
       [
+        "small",
+        "작은"
+      ],
+      [
+        "scope",
+        "범위"
+      ],
+      [
+        "paper",
+        "종이"
+      ],
+      [
         "able",
         "할 수 있는"
       ],
       [
         "help",
         "도움"
+      ],
+      [
+        "life",
+        "생활"
+      ],
+      [
+        "text",
+        "텍스트"
       ]
     ],
     "phrases": [
@@ -1494,7 +1684,8 @@
     "questions": [
       {
         "title": "원래 기출 21번",
-        "question": "밑줄 친 a wise bit of self-restraint on your genes’ part가 다음 글에서 의미하는 바로 가장 적절한 것은? [3점]",
+        "question": "밑줄 친 부분이 다음 글에서 의미하는 바로 가장 적절한 것은?",
+        "passage": "",
         "choices": [
           "evolution’s clever limiting of how realistic your imagination is",
           "visible evidence of human failure to evolve into logical beings",
@@ -1517,21 +1708,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는",
-          "불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는",
-          "이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는",
-          "뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로",
-          "현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상"
+          "By setting arbitrary boundaries on continuous differences, small differences can greatly change an individual's life.",
+          "Uncertainty and unexpected experiences increase sensation and immersion and provide greater pleasure through the secretion of dopamine.",
+          "Combining text with images limits the scope for interpretation and guides readers toward the intended meaning.",
+          "The physical properties of paper, which can create wrinkles while maintaining stiffness, make it uniquely suited for folding and packaging.",
+          "Visual imagery that allows you to rehearse real-world behavior but is not a substitute for real-life experience"
         ],
         "answer": 4,
-        "explanation": "글 전체의 핵심은 ‘현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상’입니다.",
+        "explanation": "글 전체의 핵심은 ‘현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "지속적인 차이에 임의의 경계를 설정함으로써 작은 차이가 개인의 삶을 크게 바꿀 수 있습니다.",
+          "불확실성과 예상치 못한 경험은 감각과 몰입도를 높이고 도파민 분비를 통해 더 큰 즐거움을 선사한다.",
+          "텍스트와 이미지를 결합하면 해석의 범위가 제한되고 독자가 의도한 의미로 안내됩니다.",
+          "종이는 강성을 유지하면서도 주름이 생길 수 있는 물리적 특성으로 인해 접거나 포장하는 데 매우 적합합니다.",
+          "실제 행동을 연습할 수 있지만 실제 경험을 대체할 수는 없는 시각적 이미지"
         ]
       },
       {
@@ -1613,6 +1804,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 21,
     "title": "집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이",
+    "englishTitle": "Living in groups requires the ability to understand the perspectives and emotions of others, so mirror neurons are present in various animals.",
     "sentences": [
       {
         "en": "Mirror neurons are the hardware of empathy, and so what would make more sense than to look and see which animals possess these cells?",
@@ -2077,12 +2269,56 @@
         "지느러미"
       ],
       [
+        "ability",
+        "능력"
+      ],
+      [
+        "skills",
+        "기술"
+      ],
+      [
+        "purpose-laundering",
+        "목적세탁"
+      ],
+      [
+        "intelligence",
+        "지능"
+      ],
+      [
+        "perspectives",
+        "관점"
+      ],
+      [
         "potentially",
         "잠재적으로"
       ],
       [
+        "preferences",
+        "환경 설정"
+      ],
+      [
+        "information",
+        "정보"
+      ],
+      [
         "constantly",
         "끊임없이"
+      ],
+      [
+        "production",
+        "생산"
+      ],
+      [
+        "individual",
+        "개인"
+      ],
+      [
+        "commitment",
+        "헌신"
+      ],
+      [
+        "understand",
+        "이해하다"
       ],
       [
         "reluctant",
@@ -2105,6 +2341,18 @@
         "자원"
       ],
       [
+        "abundance",
+        "풍요로움"
+      ],
+      [
+        "ancestors",
+        "조상"
+      ],
+      [
+        "promoting",
+        "홍보"
+      ],
+      [
         "learning",
         "학습"
       ],
@@ -2117,20 +2365,132 @@
         "갈등"
       ],
       [
+        "behavior",
+        "행동"
+      ],
+      [
+        "requires",
+        "필요하다"
+      ],
+      [
+        "emotions",
+        "감정"
+      ],
+      [
+        "discount",
+        "할인"
+      ],
+      [
+        "thinking",
+        "생각"
+      ],
+      [
         "members",
         "회원"
+      ],
+      [
+        "reveals",
+        "공개하다"
+      ],
+      [
+        "through",
+        "통해"
+      ],
+      [
+        "changed",
+        "변경됨"
+      ],
+      [
+        "reality",
+        "현실"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
+        "hunting",
+        "사냥"
+      ],
+      [
+        "brought",
+        "가져온"
+      ],
+      [
+        "leisure",
+        "여가"
+      ],
+      [
+        "problem",
+        "문제"
+      ],
+      [
+        "present",
+        "현재"
+      ],
+      [
+        "various",
+        "다양한"
+      ],
+      [
+        "coupons",
+        "쿠폰"
       ],
       [
         "proven",
         "입증된"
       ],
       [
-        "skills",
-        "기술"
-      ],
-      [
         "trying",
         "노력하다"
+      ],
+      [
+        "hidden",
+        "숨겨진"
+      ],
+      [
+        "allows",
+        "허용한다"
+      ],
+      [
+        "accept",
+        "받아들이다"
+      ],
+      [
+        "causes",
+        "원인"
+      ],
+      [
+        "living",
+        "생활"
+      ],
+      [
+        "mental",
+        "정신적"
+      ],
+      [
+        "energy",
+        "에너지"
+      ],
+      [
+        "early",
+        "일찍"
+      ],
+      [
+        "leads",
+        "리드"
+      ],
+      [
+        "trust",
+        "신뢰"
+      ],
+      [
+        "money",
+        "돈"
+      ],
+      [
+        "spent",
+        "지출"
       ],
       [
         "able",
@@ -2143,6 +2503,18 @@
       [
         "hide",
         "숨기다"
+      ],
+      [
+        "true",
+        "사실"
+      ],
+      [
+        "loss",
+        "손실"
+      ],
+      [
+        "save",
+        "저장"
       ]
     ],
     "phrases": [
@@ -2154,7 +2526,8 @@
     "questions": [
       {
         "title": "원래 기출 21번",
-        "question": "밑줄 친 swimming alongside the boat가 다음 글에서 의미하는 바로 가장 적절한 것은? [3점]",
+        "question": "밑줄 친 부분이 다음 글에서 의미하는 바로 가장 적절한 것은?",
+        "passage": "",
         "choices": [
           "reluctant to empathize with other members in its group",
           "potentially able to be proven to possess mirror neurons",
@@ -2177,21 +2550,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는",
-          "사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화",
-          "진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
-          "집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이",
-          "할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능"
+          "Reveals hidden preferences and production information through individual behavior and allows people to accept changed reality",
+          "Changes in hunting skills and intelligence that brought leisure and abundance to our early ancestors",
+          "The problem of promoting social causes without true commitment leads to purpose-laundering and loss of trust.",
+          "Living in groups requires the ability to understand the perspectives and emotions of others, so mirror neurons are present in various animals.",
+          "The ability of discount coupons to save not only money, but also time and mental energy spent on thinking."
         ],
         "answer": 3,
-        "explanation": "글 전체의 핵심은 ‘집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이’입니다.",
+        "explanation": "글 전체의 핵심은 ‘집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "개인의 행동을 통해 숨겨진 선호도와 생산정보를 드러내고 변화된 현실을 수용할 수 있도록 함",
+          "초기 조상들에게 여가와 풍요를 가져온 사냥 기술과 지능의 변화",
+          "진정한 헌신 없이 사회적 대의를 추진하는 문제는 목적 세탁과 신뢰 상실로 이어집니다.",
+          "집단 생활을 하려면 타인의 관점과 감정을 이해하는 능력이 필요하기 때문에 거울 뉴런은 다양한 동물에 존재한다.",
+          "돈뿐만 아니라 생각하는 데 소비되는 시간과 정신적 에너지를 절약하는 할인 쿠폰의 기능."
         ]
       },
       {
@@ -2273,6 +2646,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 22,
     "title": "낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향",
+    "englishTitle": "The lower the objective probability, the greater the subjectively felt bias in judgment.",
     "sentences": [
       {
         "en": "For each objective probability — from one percent to 100 percent — we want to know the subjective probability weight.",
@@ -2691,6 +3065,190 @@
       [
         "odds",
         "확률"
+      ],
+      [
+        "response",
+        "응답"
+      ],
+      [
+        "threatening",
+        "위협적인"
+      ],
+      [
+        "environment",
+        "환경"
+      ],
+      [
+        "arabidopsis",
+        "애기장대"
+      ],
+      [
+        "situations",
+        "상황"
+      ],
+      [
+        "observable",
+        "관찰 가능"
+      ],
+      [
+        "importance",
+        "중요성"
+      ],
+      [
+        "thaliana's",
+        "탈리아나의"
+      ],
+      [
+        "allocation",
+        "할당"
+      ],
+      [
+        "emotional",
+        "감정적인"
+      ],
+      [
+        "immersion",
+        "침수"
+      ],
+      [
+        "tradition",
+        "전통"
+      ],
+      [
+        "different",
+        "다른"
+      ],
+      [
+        "expected",
+        "예상됨"
+      ],
+      [
+        "patterns",
+        "패턴"
+      ],
+      [
+        "judgment",
+        "판단"
+      ],
+      [
+        "politics",
+        "정치"
+      ],
+      [
+        "religion",
+        "종교"
+      ],
+      [
+        "effects",
+        "효과"
+      ],
+      [
+        "chronic",
+        "만성"
+      ],
+      [
+        "musical",
+        "뮤지컬"
+      ],
+      [
+        "greater",
+        "더 큰"
+      ],
+      [
+        "natural",
+        "자연스러운"
+      ],
+      [
+        "combine",
+        "결합하다"
+      ],
+      [
+        "measure",
+        "측정하다"
+      ],
+      [
+        "contact",
+        "연락"
+      ],
+      [
+        "genetic",
+        "유전적"
+      ],
+      [
+        "inhibit",
+        "억제하다"
+      ],
+      [
+        "freeze",
+        "얼다"
+      ],
+      [
+        "blocks",
+        "블록"
+      ],
+      [
+        "speech",
+        "연설"
+      ],
+      [
+        "appeal",
+        "항소"
+      ],
+      [
+        "broken",
+        "부서진"
+      ],
+      [
+        "effect",
+        "효과"
+      ],
+      [
+        "energy",
+        "에너지"
+      ],
+      [
+        "growth",
+        "성장"
+      ],
+      [
+        "music",
+        "음악"
+      ],
+      [
+        "arise",
+        "일어나다"
+      ],
+      [
+        "lower",
+        "더 낮은"
+      ],
+      [
+        "daily",
+        "매일"
+      ],
+      [
+        "times",
+        "배"
+      ],
+      [
+        "fear",
+        "무서움"
+      ],
+      [
+        "mind",
+        "마음"
+      ],
+      [
+        "felt",
+        "펠트"
+      ],
+      [
+        "bias",
+        "편견"
+      ],
+      [
+        "life",
+        "생활"
       ]
     ],
     "phrases": [
@@ -2703,6 +3261,7 @@
       {
         "title": "원래 기출 22번",
         "question": "다음 글의 요지로 가장 적절한 것은?",
+        "passage": "",
         "choices": [
           "비합리적 결정이 반복되면 조직이 실패할 확률이 높아진다.",
           "우리는 낮은 확률 사건의 발생 가능성을 과대평가한다.",
@@ -2725,21 +3284,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
-          "예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력",
-          "낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향",
-          "관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정",
-          "접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향"
+          "The freeze response to threatening situations blocks speech and the effects of chronic fear on the mind.",
+          "Emotional immersion and the appeal of music that arise when expected musical patterns are broken",
+          "The lower the objective probability, the greater the subjectively felt bias in judgment.",
+          "The observable natural environment and its importance in daily life combine with tradition, politics, and religion to measure different times.",
+          "The effect of contact on Arabidopsis thaliana's genetic response and energy allocation to inhibit growth."
         ],
         "answer": 2,
-        "explanation": "글 전체의 핵심은 ‘낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향’입니다.",
+        "explanation": "글 전체의 핵심은 ‘낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "위협적인 상황에 대한 동결 반응은 말을 차단하고 만성적 두려움이 마음에 미치는 영향을 차단합니다.",
+          "기대했던 음악적 패턴이 깨질 때 나타나는 감성적 몰입감과 음악의 매력",
+          "객관적인 확률이 낮을수록 판단 시 주관적으로 느끼는 편견이 커집니다.",
+          "관찰 가능한 자연환경과 그것이 일상생활에서 갖는 중요성은 전통, 정치, 종교와 결합되어 다양한 시대를 측정한다.",
+          "애기장대(Arabidopsis thaliana)의 유전적 반응과 성장을 억제하는 에너지 할당에 대한 접촉의 영향."
         ]
       },
       {
@@ -2821,6 +3380,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 23,
     "title": "공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식",
+    "englishTitle": "How a common currency can reduce transaction costs, contributing to productivity and economic growth",
     "sentences": [
       {
         "en": "Many of the barriers to trade exist not because of a lack of markets or customers, but because there are major barriers to getting products to market at competitive prices.",
@@ -3235,8 +3795,20 @@
         "지불하다"
       ],
       [
+        "kittens",
+        "새끼 고양이"
+      ],
+      [
+        "human",
+        "인간의"
+      ],
+      [
         "multinational",
         "다국적"
+      ],
+      [
+        "distinguishes",
+        "구별하다"
       ],
       [
         "significance",
@@ -3247,8 +3819,32 @@
         "거래"
       ],
       [
+        "contributing",
+        "기여"
+      ],
+      [
+        "cutting-edge",
+        "최첨단"
+      ],
+      [
         "undertaking",
         "착수하다"
+      ],
+      [
+        "insensitive",
+        "둔감하다"
+      ],
+      [
+        "substitutes",
+        "대체품"
+      ],
+      [
+        "performance",
+        "성능"
+      ],
+      [
+        "demonstrate",
+        "시연하다"
       ],
       [
         "strategies",
@@ -3271,6 +3867,18 @@
         "투자"
       ],
       [
+        "innovative",
+        "혁신적인"
+      ],
+      [
+        "constantly",
+        "끊임없이"
+      ],
+      [
+        "threatened",
+        "위협을 받다"
+      ],
+      [
         "marketing",
         "마케팅"
       ],
@@ -3287,6 +3895,42 @@
         "필요성"
       ],
       [
+        "predators",
+        "포식자"
+      ],
+      [
+        "hierarchy",
+        "계층 구조"
+      ],
+      [
+        "emphasis",
+        "강조"
+      ],
+      [
+        "creation",
+        "창조"
+      ],
+      [
+        "instinct",
+        "본능"
+      ],
+      [
+        "rational",
+        "합리적"
+      ],
+      [
+        "thinking",
+        "생각"
+      ],
+      [
+        "reaffirm",
+        "재확인하다"
+      ],
+      [
+        "existing",
+        "기존"
+      ],
+      [
         "current",
         "현재"
       ],
@@ -3297,6 +3941,18 @@
       [
         "reasons",
         "이유"
+      ],
+      [
+        "between",
+        "사이에"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
+        "meaning",
+        "의미"
       ],
       [
         "addicts",
@@ -3319,12 +3975,68 @@
         "엄격한"
       ],
       [
+        "mother",
+        "어머니"
+      ],
+      [
+        "reduce",
+        "감소시키다"
+      ],
+      [
+        "growth",
+        "성장"
+      ],
+      [
+        "demand",
+        "수요"
+      ],
+      [
+        "social",
+        "사회적"
+      ],
+      [
+        "change",
+        "변화"
+      ],
+      [
+        "status",
+        "상태"
+      ],
+      [
+        "price",
+        "가격"
+      ],
+      [
+        "one's",
+        "자신의"
+      ],
+      [
         "cash",
         "현금"
       ],
       [
         "risk",
         "위험"
+      ],
+      [
+        "keep",
+        "유지하다"
+      ],
+      [
+        "stop",
+        "중지"
+      ],
+      [
+        "cry",
+        "울다"
+      ],
+      [
+        "cat",
+        "고양이"
+      ],
+      [
+        "due",
+        "기한"
       ],
       [
         "guy",
@@ -3347,12 +4059,17 @@
       [
         "because of",
         "~ 때문에"
+      ],
+      [
+        "due to",
+        "~ 때문에"
       ]
     ],
     "questions": [
       {
         "title": "원래 기출 23번",
         "question": "다음 글의 주제로 가장 적절한 것은?",
+        "passage": "",
         "choices": [
           "significance of marketing strategies for multinational firms",
           "current conflicts caused by globalized financial markets",
@@ -3375,21 +4092,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두",
-          "공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식",
-          "대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요",
-          "addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
-          "자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적"
+          "All kittens cry when a mother cat distinguishes between her kittens and to keep out predators.",
+          "How a common currency can reduce transaction costs, contributing to productivity and economic growth",
+          "Demand for innovative, cutting-edge products insensitive to price due to lack of substitutes and emphasis on performance",
+          "The changes in meaning of addicts, husband, and guy constantly demonstrate human creation and social change.",
+          "When one's status is threatened, the human instinct to stop rational thinking and reaffirm the existing hierarchy"
         ],
         "answer": 1,
-        "explanation": "글 전체의 핵심은 ‘공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식’입니다.",
+        "explanation": "글 전체의 핵심은 ‘공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "중독자·남편·남자의 의미있는 위치를 표시해 주는 인간의 창조와 사회의 위치를 끊임없이",
-          ""
+          "모든 새끼 고양이는 어미 고양이가 새끼 고양이를 구별하고 포식자를 쫓아낼 때 웁니다.",
+          "공통 통화가 거래 비용을 줄이고 생산성과 경제 성장에 기여하는 방법",
+          "대체재 부족, 성능 중시로 인해 가격에 둔감한 혁신적 첨단제품 수요",
+          "중독자, 남편, 남자의 의미 변화는 인간의 창조와 사회변화를 끊임없이 보여준다.",
+          "자신의 지위가 위협받을 때 합리적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능"
         ]
       },
       {
@@ -3471,6 +4188,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 24,
     "title": "먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성",
+    "englishTitle": "The possibility of seeing the past of the universe and understanding its history through distant starlight.",
     "sentences": [
       {
         "en": "The light from even our nearest stellar neighbour takes four years to reach us.",
@@ -3917,20 +4635,148 @@
         "여섯"
       ],
       [
-        "unidentified",
-        "미확인"
-      ],
-      [
-        "imagination",
-        "상상력"
+        "advantageous",
+        "유리한"
       ],
       [
         "starlight",
         "별빛"
       ],
       [
+        "tension",
+        "긴장"
+      ],
+      [
+        "there",
+        "거기"
+      ],
+      [
+        "terms",
+        "용어"
+      ],
+      [
+        "environmental",
+        "환경"
+      ],
+      [
+        "unidentified",
+        "미확인"
+      ],
+      [
+        "alternatives",
+        "대안"
+      ],
+      [
+        "imagination",
+        "상상력"
+      ],
+      [
+        "possibility",
+        "가능성"
+      ],
+      [
+        "maintaining",
+        "유지"
+      ],
+      [
+        "determining",
+        "결정"
+      ],
+      [
+        "exhaustion",
+        "피로"
+      ],
+      [
+        "compassion",
+        "연민"
+      ],
+      [
+        "continuous",
+        "연속적인"
+      ],
+      [
+        "management",
+        "관리"
+      ],
+      [
+        "prevention",
+        "예방"
+      ],
+      [
+        "evolution",
+        "진화"
+      ],
+      [
+        "selection",
+        "선택"
+      ],
+      [
+        "pressures",
+        "압력"
+      ],
+      [
+        "separates",
+        "분리하다"
+      ],
+      [
+        "long-term",
+        "장기"
+      ],
+      [
+        "increase",
+        "증가하다"
+      ],
+      [
+        "conflict",
+        "갈등"
+      ],
+      [
+        "rational",
+        "합리적"
+      ],
+      [
+        "response",
+        "응답"
+      ],
+      [
         "species",
         "종"
+      ],
+      [
+        "through",
+        "통해"
+      ],
+      [
+        "empathy",
+        "공감"
+      ],
+      [
+        "causing",
+        "일으키는"
+      ],
+      [
+        "process",
+        "프로세스"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
+        "whether",
+        "여부"
+      ],
+      [
+        "surface",
+        "표면"
+      ],
+      [
+        "storage",
+        "저장"
+      ],
+      [
+        "fasting",
+        "금식"
       ],
       [
         "brings",
@@ -3957,6 +4803,34 @@
         "이사"
       ],
       [
+        "seeing",
+        "보는 것"
+      ],
+      [
+        "limits",
+        "한계"
+      ],
+      [
+        "nailed",
+        "못을 박았다"
+      ],
+      [
+        "rather",
+        "오히려"
+      ],
+      [
+        "volume",
+        "볼륨"
+      ],
+      [
+        "group",
+        "그룹"
+      ],
+      [
+        "costs",
+        "비용"
+      ],
+      [
         "long",
         "긴"
       ],
@@ -3977,15 +4851,65 @@
         "같은"
       ],
       [
+        "fact",
+        "사실"
+      ],
+      [
+        "bias",
+        "편견"
+      ],
+      [
+        "bond",
+        "채권"
+      ],
+      [
+        "wood",
+        "나무"
+      ],
+      [
+        "nail",
+        "네일"
+      ],
+      [
+        "food",
+        "음식"
+      ],
+      [
+        "body",
+        "몸"
+      ],
+      [
+        "loss",
+        "손실"
+      ],
+      [
         "sky",
         "하늘"
+      ],
+      [
+        "key",
+        "열쇠"
+      ],
+      [
+        "fat",
+        "지방"
       ]
     ],
-    "phrases": [],
+    "phrases": [
+      [
+        "rather than",
+        "~라기보다"
+      ],
+      [
+        "in response to",
+        "~에 대응하여"
+      ]
+    ],
     "questions": [
       {
         "title": "원래 기출 24번",
         "question": "다음 글의 제목으로 가장 적절한 것은?",
+        "passage": "",
         "choices": [
           "Imagination Brings Us Closer to Understanding the Universe",
           "How Long Does It Take for Stars to Burn Out in Space?",
@@ -4008,21 +4932,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성",
-          "공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
-          "환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정",
-          "못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의",
-          "저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두"
+          "The possibility of seeing the past of the universe and understanding its history through distant starlight.",
+          "There are limits to the fact that empathy can increase conflict by causing exhaustion and group bias, and there are alternatives such as rational compassion.",
+          "A continuous process of evolution in response to environmental changes and selection pressures",
+          "The key to maintaining the bond of nailed wood and determining whether or not it separates is the surface tension rather than the tension of the nail.",
+          "Food is advantageous in terms of storage volume and management costs, and body fat is advantageous in terms of loss prevention and long-term fasting."
         ],
         "answer": 0,
-        "explanation": "글 전체의 핵심은 ‘먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성’입니다.",
+        "explanation": "글 전체의 핵심은 ‘먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "먼 별빛을 통해 우주의 과거를 보고 그 역사를 이해할 수 있는 가능성.",
+          "공감이 탈진과 집단 편견을 유발해 갈등을 증폭시킬 수 있다는 점에는 한계가 있으며, 합리적 연민 등의 대안도 있다.",
+          "환경 변화와 선택 압력에 대응하는 지속적인 진화 과정",
+          "못을 박은 나무의 접착력을 유지하고 분리 여부를 결정하는 열쇠는 못의 장력보다는 표면 장력에 있습니다.",
+          "음식은 저장량과 관리 비용 측면에서 유리하고, 체지방은 손실 예방과 장기 단식 측면에서 유리합니다."
         ]
       },
       {
@@ -4104,6 +5028,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 24,
     "title": "연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는",
+    "englishTitle": "By setting arbitrary boundaries on continuous differences, small differences can greatly change an individual's life.",
     "sentences": [
       {
         "en": "Everything in the world exists on a continuum, whether in speed, size, or any other possible descriptor you could think of.",
@@ -4578,8 +5503,60 @@
         "아직"
       ],
       [
+        "desensitization",
+        "둔감화"
+      ],
+      [
+        "diversification",
+        "다양화"
+      ],
+      [
+        "long-lasting",
+        "오래 지속되는"
+      ],
+      [
+        "individual's",
+        "개인의"
+      ],
+      [
         "appropriate",
         "적절한"
+      ],
+      [
+        "accommodate",
+        "수용하다"
+      ],
+      [
+        "replacement",
+        "교체"
+      ],
+      [
+        "development",
+        "개발"
+      ],
+      [
+        "pedestrian",
+        "보행자"
+      ],
+      [
+        "commercial",
+        "상업"
+      ],
+      [
+        "automobile",
+        "자동차"
+      ],
+      [
+        "efficiency",
+        "효율성"
+      ],
+      [
+        "boundaries",
+        "경계"
+      ],
+      [
+        "continuous",
+        "연속적인"
       ],
       [
         "accepting",
@@ -4594,8 +5571,40 @@
         "능력"
       ],
       [
+        "resources",
+        "자원"
+      ],
+      [
+        "utilizing",
+        "활용"
+      ],
+      [
+        "expensive",
+        "비싸다"
+      ],
+      [
         "distinct",
         "별개의"
+      ],
+      [
+        "benefits",
+        "혜택"
+      ],
+      [
+        "changing",
+        "변화하는"
+      ],
+      [
+        "repeated",
+        "반복"
+      ],
+      [
+        "exposure",
+        "노출"
+      ],
+      [
+        "industry",
+        "산업"
       ],
       [
         "improve",
@@ -4610,12 +5619,80 @@
         "조화"
       ],
       [
+        "streets",
+        "거리"
+      ],
+      [
+        "squares",
+        "사각형"
+      ],
+      [
+        "vendors",
+        "공급 업체"
+      ],
+      [
+        "instead",
+        "대신"
+      ],
+      [
+        "violent",
+        "폭력적인"
+      ],
+      [
+        "reduced",
+        "감소"
+      ],
+      [
+        "empathy",
+        "공감"
+      ],
+      [
+        "process",
+        "프로세스"
+      ],
+      [
+        "promote",
+        "홍보하다"
+      ],
+      [
+        "setting",
+        "설정"
+      ],
+      [
+        "greatly",
+        "크게"
+      ],
+      [
         "listen",
         "들어봐"
       ],
       [
         "truths",
         "진실"
+      ],
+      [
+        "street",
+        "거리"
+      ],
+      [
+        "public",
+        "대중"
+      ],
+      [
+        "spaces",
+        "공백"
+      ],
+      [
+        "rising",
+        "상승"
+      ],
+      [
+        "prices",
+        "가격"
+      ],
+      [
+        "energy",
+        "에너지"
       ],
       [
         "stick",
@@ -4638,24 +5715,69 @@
         "인간의"
       ],
       [
+        "paths",
+        "경로"
+      ],
+      [
+        "video",
+        "비디오"
+      ],
+      [
+        "games",
+        "게임"
+      ],
+      [
+        "small",
+        "작은"
+      ],
+      [
         "done",
         "완료"
       ],
       [
         "live",
         "라이브"
+      ],
+      [
+        "city",
+        "도시"
+      ],
+      [
+        "uses",
+        "용도"
+      ],
+      [
+        "lead",
+        "리드"
+      ],
+      [
+        "fuel",
+        "연료"
+      ],
+      [
+        "cell",
+        "세포"
+      ],
+      [
+        "oil",
+        "기름"
       ]
     ],
     "phrases": [
       [
         "think of",
         "~을 생각해 내다"
+      ],
+      [
+        "lead to",
+        "~로 이어지다"
       ]
     ],
     "questions": [
       {
         "title": "원래 기출 24번",
         "question": "다음 글의 제목으로 가장 적절한 것은?",
+        "passage": "",
         "choices": [
           "Drawing Distinct Lines: Is It Appropriate?",
           "Stick to Your Ideas, Listen to Your Heart",
@@ -4678,21 +5800,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점",
-          "비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체",
-          "폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성",
-          "유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
-          "연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는"
+          "The benefits of long-lasting city streets and squares that accommodate changing uses",
+          "Replacement of resources by street vendors utilizing public pedestrian paths instead of expensive commercial spaces",
+          "Repeated exposure to violent video games may lead to desensitization and reduced empathy.",
+          "The process by which rising oil prices promote automobile efficiency, fuel cell development, and energy industry diversification",
+          "By setting arbitrary boundaries on continuous differences, small differences can greatly change an individual's life."
         ],
         "answer": 4,
-        "explanation": "글 전체의 핵심은 ‘연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는’입니다.",
+        "explanation": "글 전체의 핵심은 ‘연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "변화하는 용도를 수용하는 오래 지속되는 도시 거리와 광장의 이점",
+          "고가의 상업공간 대신 공공보도를 활용한 노점상 자원 대체",
+          "폭력적인 비디오 게임에 반복적으로 노출되면 둔감해지고 공감 능력이 저하될 수 있습니다.",
+          "유가 상승이 자동차 효율화, 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
+          "지속적인 차이에 임의의 경계를 설정함으로써 작은 차이가 개인의 삶을 크게 바꿀 수 있습니다."
         ]
       },
       {
@@ -4774,6 +5896,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 29,
     "title": "할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능",
+    "englishTitle": "The ability of discount coupons to save not only money, but also time and mental energy spent on thinking.",
     "sentences": [
       {
         "en": "The renowned British philosopher Alfred North Whitehead asserted that \"civilization advances by extending the number of operations we can perform without thinking about them.\"",
@@ -5298,8 +6421,184 @@
         "의무"
       ],
       [
+        "misconfiguration",
+        "잘못된 구성"
+      ],
+      [
+        "interpretation",
+        "해석"
+      ],
+      [
+        "maintaining",
+        "유지"
+      ],
+      [
+        "uncertainty",
+        "불확실성"
+      ],
+      [
+        "experiences",
+        "경험"
+      ],
+      [
+        "properties",
+        "속성"
+      ],
+      [
+        "difference",
+        "차이"
+      ],
+      [
+        "individual",
+        "개인"
+      ],
+      [
+        "excellence",
+        "우수성"
+      ],
+      [
+        "unexpected",
+        "예상치 못한"
+      ],
+      [
         "producing",
         "생산"
+      ],
+      [
+        "combining",
+        "결합"
+      ],
+      [
+        "stiffness",
+        "강성"
+      ],
+      [
+        "packaging",
+        "포장"
+      ],
+      [
+        "sensation",
+        "감각"
+      ],
+      [
+        "immersion",
+        "침수"
+      ],
+      [
+        "secretion",
+        "분비"
+      ],
+      [
+        "intended",
+        "의도한"
+      ],
+      [
+        "physical",
+        "물리적"
+      ],
+      [
+        "wrinkles",
+        "주름"
+      ],
+      [
+        "uniquely",
+        "독특하게"
+      ],
+      [
+        "increase",
+        "증가하다"
+      ],
+      [
+        "pleasure",
+        "즐거움"
+      ],
+      [
+        "dopamine",
+        "도파민"
+      ],
+      [
+        "readers",
+        "독자"
+      ],
+      [
+        "meaning",
+        "의미"
+      ],
+      [
+        "folding",
+        "접는"
+      ],
+      [
+        "between",
+        "사이에"
+      ],
+      [
+        "overall",
+        "전반적으로"
+      ],
+      [
+        "success",
+        "성공"
+      ],
+      [
+        "ability",
+        "능력"
+      ],
+      [
+        "provide",
+        "제공하다"
+      ],
+      [
+        "greater",
+        "더 큰"
+      ],
+      [
+        "through",
+        "통해"
+      ],
+      [
+        "images",
+        "이미지"
+      ],
+      [
+        "limits",
+        "한계"
+      ],
+      [
+        "guides",
+        "가이드"
+      ],
+      [
+        "toward",
+        "향해"
+      ],
+      [
+        "create",
+        "창조하다"
+      ],
+      [
+        "suited",
+        "적합하다"
+      ],
+      [
+        "scope",
+        "범위"
+      ],
+      [
+        "paper",
+        "종이"
+      ],
+      [
+        "shows",
+        "쇼"
+      ],
+      [
+        "spent",
+        "지출"
+      ],
+      [
+        "text",
+        "텍스트"
       ]
     ],
     "phrases": [
@@ -5319,7 +6618,8 @@
     "questions": [
       {
         "title": "원래 기출 29번",
-        "question": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+        "question": "다음 글의 밑줄 친 부분 중 어법상 틀린 것은?",
+        "passage": "",
         "choices": [
           "offered to civilization",
           "producing just as",
@@ -5342,21 +6642,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는",
-          "뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로",
-          "구성의 오류가 보여 주는 개별 우수성과 전체 성공의 차이",
-          "할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능",
-          "불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는"
+          "Combining text with images limits the scope for interpretation and guides readers toward the intended meaning.",
+          "The physical properties of paper, which can create wrinkles while maintaining stiffness, make it uniquely suited for folding and packaging.",
+          "Misconfiguration shows the difference between individual excellence and overall success.",
+          "The ability of discount coupons to save not only money, but also time and mental energy spent on thinking.",
+          "Uncertainty and unexpected experiences increase sensation and immersion and provide greater pleasure through the secretion of dopamine."
         ],
         "answer": 3,
-        "explanation": "글 전체의 핵심은 ‘할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능’입니다.",
+        "explanation": "글 전체의 핵심은 ‘할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "텍스트와 이미지를 결합하면 해석의 범위가 제한되고 독자가 의도한 의미로 안내됩니다.",
+          "종이는 강성을 유지하면서도 주름이 생길 수 있는 물리적 특성으로 인해 접거나 포장하는 데 매우 적합합니다.",
+          "잘못된 구성은 개인의 우수성과 전반적인 성공의 차이를 보여줍니다.",
+          "돈뿐만 아니라 생각하는 데 소비되는 시간과 정신적 에너지를 절약하는 할인 쿠폰의 기능.",
+          "불확실성과 예상치 못한 경험은 감각과 몰입도를 높이고 도파민 분비를 통해 더 큰 즐거움을 선사한다."
         ]
       },
       {
@@ -5438,6 +6738,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 29,
     "title": "관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정",
+    "englishTitle": "The observable natural environment and its importance in daily life combine with tradition, politics, and religion to measure different times.",
     "sentences": [
       {
         "en": "All human cultures mark the passing of time by the differences they observe in the world around them.",
@@ -5864,15 +7165,200 @@
         "덜"
       ],
       [
+        "behavior",
+        "행동"
+      ],
+      [
+        "allows",
+        "허용한다"
+      ],
+      [
+        "purpose-laundering",
+        "목적세탁"
+      ],
+      [
+        "intelligence",
+        "지능"
+      ],
+      [
+        "environment",
+        "환경"
+      ],
+      [
+        "preferences",
+        "환경 설정"
+      ],
+      [
+        "information",
+        "정보"
+      ],
+      [
+        "commitment",
+        "헌신"
+      ],
+      [
+        "real-world",
+        "실제 세계"
+      ],
+      [
+        "substitute",
+        "대체하다"
+      ],
+      [
+        "experience",
+        "경험"
+      ],
+      [
+        "importance",
+        "중요성"
+      ],
+      [
+        "production",
+        "생산"
+      ],
+      [
+        "individual",
+        "개인"
+      ],
+      [
+        "promoting",
+        "홍보"
+      ],
+      [
+        "real-life",
+        "실제 생활"
+      ],
+      [
+        "different",
+        "다른"
+      ],
+      [
+        "abundance",
+        "풍요로움"
+      ],
+      [
+        "ancestors",
+        "조상"
+      ],
+      [
+        "rehearse",
+        "연습하다"
+      ],
+      [
+        "politics",
+        "정치"
+      ],
+      [
+        "religion",
+        "종교"
+      ],
+      [
+        "problem",
+        "문제"
+      ],
+      [
+        "imagery",
+        "이미지"
+      ],
+      [
+        "combine",
+        "결합하다"
+      ],
+      [
+        "measure",
+        "측정하다"
+      ],
+      [
+        "reveals",
+        "공개하다"
+      ],
+      [
+        "changed",
+        "변경됨"
+      ],
+      [
+        "reality",
+        "현실"
+      ],
+      [
+        "hunting",
+        "사냥"
+      ],
+      [
+        "brought",
+        "가져온"
+      ],
+      [
+        "leisure",
+        "여가"
+      ],
+      [
         "depend",
         "의존하다"
+      ],
+      [
+        "social",
+        "사회적"
+      ],
+      [
+        "causes",
+        "원인"
+      ],
+      [
+        "visual",
+        "시각적"
+      ],
+      [
+        "hidden",
+        "숨겨진"
+      ],
+      [
+        "accept",
+        "받아들이다"
+      ],
+      [
+        "skills",
+        "기술"
+      ],
+      [
+        "leads",
+        "리드"
+      ],
+      [
+        "trust",
+        "신뢰"
+      ],
+      [
+        "daily",
+        "매일"
+      ],
+      [
+        "times",
+        "배"
+      ],
+      [
+        "early",
+        "일찍"
+      ],
+      [
+        "true",
+        "사실"
+      ],
+      [
+        "loss",
+        "손실"
+      ],
+      [
+        "life",
+        "생활"
       ]
     ],
     "phrases": [],
     "questions": [
       {
         "title": "원래 기출 29번",
-        "question": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+        "question": "다음 글의 밑줄 친 부분 중 어법상 틀린 것은?",
+        "passage": "",
         "choices": [
           "them",
           "depend firstly on",
@@ -5895,21 +7381,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
-          "현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상",
-          "관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정",
-          "개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는",
-          "사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화"
+          "The problem of promoting social causes without true commitment leads to purpose-laundering and loss of trust.",
+          "Visual imagery that allows you to rehearse real-world behavior but is not a substitute for real-life experience",
+          "The observable natural environment and its importance in daily life combine with tradition, politics, and religion to measure different times.",
+          "Reveals hidden preferences and production information through individual behavior and allows people to accept changed reality",
+          "Changes in hunting skills and intelligence that brought leisure and abundance to our early ancestors"
         ],
         "answer": 2,
-        "explanation": "글 전체의 핵심은 ‘관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정’입니다.",
+        "explanation": "글 전체의 핵심은 ‘관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "진정한 헌신 없이 사회적 대의를 추진하는 문제는 목적 세탁과 신뢰 상실로 이어집니다.",
+          "실제 행동을 연습할 수 있지만 실제 경험을 대체할 수는 없는 시각적 이미지",
+          "관찰 가능한 자연환경과 그것이 일상생활에서 갖는 중요성은 전통, 정치, 종교와 결합되어 다양한 시대를 측정한다.",
+          "개인의 행동을 통해 숨겨진 선호도와 생산정보를 드러내고 변화된 현실을 수용할 수 있도록 함",
+          "초기 조상들에게 여가와 풍요를 가져온 사냥 기술과 지능의 변화"
         ]
       },
       {
@@ -5991,6 +7477,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 30,
     "title": "대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요",
+    "englishTitle": "Demand for innovative, cutting-edge products insensitive to price due to lack of substitutes and emphasis on performance",
     "sentences": [
       {
         "en": "Usually, innovative high-tech products have low price elasticity.",
@@ -6519,8 +8006,192 @@
         "세트"
       ],
       [
+        "response",
+        "응답"
+      ],
+      [
+        "perspectives",
+        "관점"
+      ],
+      [
+        "cutting-edge",
+        "최첨단"
+      ],
+      [
+        "insensitive",
+        "둔감하다"
+      ],
+      [
+        "arabidopsis",
+        "애기장대"
+      ],
+      [
+        "threatening",
+        "위협적인"
+      ],
+      [
+        "understand",
+        "이해하다"
+      ],
+      [
+        "thaliana's",
+        "탈리아나의"
+      ],
+      [
+        "allocation",
+        "할당"
+      ],
+      [
+        "situations",
+        "상황"
+      ],
+      [
+        "emotional",
+        "감정적인"
+      ],
+      [
+        "immersion",
+        "침수"
+      ],
+      [
         "customer",
         "고객"
+      ],
+      [
+        "requires",
+        "필요하다"
+      ],
+      [
+        "emotions",
+        "감정"
+      ],
+      [
+        "emphasis",
+        "강조"
+      ],
+      [
+        "expected",
+        "예상됨"
+      ],
+      [
+        "patterns",
+        "패턴"
+      ],
+      [
+        "ability",
+        "능력"
+      ],
+      [
+        "neurons",
+        "뉴런"
+      ],
+      [
+        "present",
+        "현재"
+      ],
+      [
+        "various",
+        "다양한"
+      ],
+      [
+        "animals",
+        "동물"
+      ],
+      [
+        "contact",
+        "연락"
+      ],
+      [
+        "genetic",
+        "유전적"
+      ],
+      [
+        "inhibit",
+        "억제하다"
+      ],
+      [
+        "effects",
+        "효과"
+      ],
+      [
+        "chronic",
+        "만성"
+      ],
+      [
+        "musical",
+        "뮤지컬"
+      ],
+      [
+        "living",
+        "생활"
+      ],
+      [
+        "groups",
+        "그룹"
+      ],
+      [
+        "others",
+        "다른 사람"
+      ],
+      [
+        "mirror",
+        "거울"
+      ],
+      [
+        "effect",
+        "효과"
+      ],
+      [
+        "energy",
+        "에너지"
+      ],
+      [
+        "growth",
+        "성장"
+      ],
+      [
+        "freeze",
+        "얼다"
+      ],
+      [
+        "blocks",
+        "블록"
+      ],
+      [
+        "speech",
+        "연설"
+      ],
+      [
+        "appeal",
+        "항소"
+      ],
+      [
+        "broken",
+        "부서진"
+      ],
+      [
+        "music",
+        "음악"
+      ],
+      [
+        "arise",
+        "일어나다"
+      ],
+      [
+        "lack",
+        "부족하다"
+      ],
+      [
+        "fear",
+        "무서움"
+      ],
+      [
+        "mind",
+        "마음"
+      ],
+      [
+        "due",
+        "기한"
       ]
     ],
     "phrases": [
@@ -6531,12 +8202,17 @@
       [
         "for instance",
         "예를 들어"
+      ],
+      [
+        "due to",
+        "~ 때문에"
       ]
     ],
     "questions": [
       {
         "title": "원래 기출 30번",
-        "question": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+        "question": "다음 글의 밑줄 친 낱말 중 문맥상 쓰임이 적절하지 않은 것은?",
+        "passage": "",
         "choices": [
           "demand",
           "high",
@@ -6559,21 +8235,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이",
-          "대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요",
-          "접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향",
-          "위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
-          "예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력"
+          "Living in groups requires the ability to understand the perspectives and emotions of others, so mirror neurons are present in various animals.",
+          "Demand for innovative, cutting-edge products insensitive to price due to lack of substitutes and emphasis on performance",
+          "The effect of contact on Arabidopsis thaliana's genetic response and energy allocation to inhibit growth.",
+          "The freeze response to threatening situations blocks speech and the effects of chronic fear on the mind.",
+          "Emotional immersion and the appeal of music that arise when expected musical patterns are broken"
         ],
         "answer": 1,
-        "explanation": "글 전체의 핵심은 ‘대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요’입니다.",
+        "explanation": "글 전체의 핵심은 ‘대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "집단 생활을 하려면 타인의 관점과 감정을 이해하는 능력이 필요하기 때문에 거울 뉴런은 다양한 동물에 존재한다.",
+          "대체재 부족, 성능 중시로 인해 가격에 둔감한 혁신적 첨단제품 수요",
+          "애기장대(Arabidopsis thaliana)의 유전적 반응과 성장을 억제하는 에너지 할당에 대한 접촉의 영향.",
+          "위협적인 상황에 대한 동결 반응은 말을 차단하고 만성적 두려움이 마음에 미치는 영향을 차단합니다.",
+          "기대했던 음악적 패턴이 깨질 때 나타나는 감성적 몰입감과 음악의 매력"
         ]
       },
       {
@@ -6655,6 +8331,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 30,
     "title": "공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
+    "englishTitle": "There are limits to the fact that empathy can increase conflict by causing exhaustion and group bias, and there are alternatives such as rational compassion.",
     "sentences": [
       {
         "en": "Although empathy is widely praised by scholars and public figures, not everyone is an empathy booster.",
@@ -7199,8 +8876,104 @@
         "시도하다"
       ],
       [
+        "kittens",
+        "새끼 고양이"
+      ],
+      [
+        "there",
+        "거기"
+      ],
+      [
+        "human",
+        "인간의"
+      ],
+      [
+        "bias",
+        "편견"
+      ],
+      [
+        "distinguishes",
+        "구별하다"
+      ],
+      [
+        "alternatives",
+        "대안"
+      ],
+      [
+        "subjectively",
+        "주관적으로"
+      ],
+      [
+        "demonstrate",
+        "시연하다"
+      ],
+      [
+        "probability",
+        "확률"
+      ],
+      [
+        "exhaustion",
+        "피로"
+      ],
+      [
+        "constantly",
+        "끊임없이"
+      ],
+      [
+        "threatened",
+        "위협을 받다"
+      ],
+      [
         "efficient",
         "효율적인"
+      ],
+      [
+        "hierarchy",
+        "계층 구조"
+      ],
+      [
+        "predators",
+        "포식자"
+      ],
+      [
+        "objective",
+        "목표"
+      ],
+      [
+        "increase",
+        "증가하다"
+      ],
+      [
+        "creation",
+        "창조"
+      ],
+      [
+        "instinct",
+        "본능"
+      ],
+      [
+        "thinking",
+        "생각"
+      ],
+      [
+        "reaffirm",
+        "재확인하다"
+      ],
+      [
+        "existing",
+        "기존"
+      ],
+      [
+        "judgment",
+        "판단"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
+        "meaning",
+        "의미"
       ],
       [
         "addicts",
@@ -7211,8 +8984,64 @@
         "남편"
       ],
       [
+        "between",
+        "사이에"
+      ],
+      [
+        "greater",
+        "더 큰"
+      ],
+      [
+        "limits",
+        "한계"
+      ],
+      [
+        "change",
+        "변화"
+      ],
+      [
+        "status",
+        "상태"
+      ],
+      [
+        "mother",
+        "어머니"
+      ],
+      [
+        "group",
+        "그룹"
+      ],
+      [
+        "one's",
+        "자신의"
+      ],
+      [
+        "lower",
+        "더 낮은"
+      ],
+      [
+        "stop",
+        "중지"
+      ],
+      [
+        "keep",
+        "유지하다"
+      ],
+      [
+        "felt",
+        "펠트"
+      ],
+      [
         "guy",
         "남자"
+      ],
+      [
+        "cry",
+        "울다"
+      ],
+      [
+        "cat",
+        "고양이"
       ]
     ],
     "phrases": [
@@ -7232,7 +9061,8 @@
     "questions": [
       {
         "title": "원래 기출 30번",
-        "question": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은? [3점]",
+        "question": "다음 글의 밑줄 친 낱말 중 문맥상 쓰임이 적절하지 않은 것은?",
+        "passage": "",
         "choices": [
           "worse",
           "resist empathizing with",
@@ -7255,21 +9085,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
-          "addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
-          "자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적",
-          "어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두",
-          "낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향"
+          "There are limits to the fact that empathy can increase conflict by causing exhaustion and group bias, and there are alternatives such as rational compassion.",
+          "The changes in meaning of addicts, husband, and guy constantly demonstrate human creation and social change.",
+          "When one's status is threatened, the human instinct to stop rational thinking and reaffirm the existing hierarchy",
+          "All kittens cry when a mother cat distinguishes between her kittens and to keep out predators.",
+          "The lower the objective probability, the greater the subjectively felt bias in judgment."
         ],
         "answer": 0,
-        "explanation": "글 전체의 핵심은 ‘공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의’입니다.",
+        "explanation": "글 전체의 핵심은 ‘공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "중독자·남편·남자의 의미있는 위치를 표시해 주는 인간의 창조와 사회의 위치를 끊임없이",
-          "",
-          "",
-          ""
+          "공감이 탈진과 집단 편견을 유발해 갈등을 증폭시킬 수 있다는 점에는 한계가 있으며, 합리적 연민 등의 대안도 있다.",
+          "중독자, 남편, 남자의 의미 변화는 인간의 창조와 사회변화를 끊임없이 보여준다.",
+          "자신의 지위가 위협받을 때 합리적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능",
+          "모든 새끼 고양이는 어미 고양이가 새끼 고양이를 구별하고 포식자를 쫓아낼 때 웁니다.",
+          "객관적인 확률이 낮을수록 판단 시 주관적으로 느끼는 편견이 커집니다."
         ]
       },
       {
@@ -7351,6 +9181,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 31,
     "title": "변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점",
+    "englishTitle": "The benefits of long-lasting city streets and squares that accommodate changing uses",
     "sentences": [
       {
         "en": "One easily underappreciated feature of a city street or square is its \"future-proof\" nature.",
@@ -7871,6 +9702,22 @@
         "차"
       ],
       [
+        "advantageous",
+        "유리한"
+      ],
+      [
+        "tension",
+        "긴장"
+      ],
+      [
+        "terms",
+        "용어"
+      ],
+      [
+        "costs",
+        "비용"
+      ],
+      [
         "architectural",
         "건축"
       ],
@@ -7879,40 +9726,217 @@
         "협력적인"
       ],
       [
+        "environmental",
+        "환경"
+      ],
+      [
+        "contributing",
+        "기여"
+      ],
+      [
+        "productivity",
+        "생산성"
+      ],
+      [
+        "long-lasting",
+        "오래 지속되는"
+      ],
+      [
         "connections",
         "연결"
+      ],
+      [
+        "maintaining",
+        "유지"
+      ],
+      [
+        "determining",
+        "결정"
+      ],
+      [
+        "transaction",
+        "거래"
+      ],
+      [
+        "accommodate",
+        "수용하다"
       ],
       [
         "innovation",
         "혁신"
       ],
       [
+        "continuous",
+        "연속적인"
+      ],
+      [
+        "management",
+        "관리"
+      ],
+      [
+        "prevention",
+        "예방"
+      ],
+      [
         "functions",
         "기능"
+      ],
+      [
+        "evolution",
+        "진화"
+      ],
+      [
+        "selection",
+        "선택"
+      ],
+      [
+        "pressures",
+        "압력"
+      ],
+      [
+        "separates",
+        "분리하다"
+      ],
+      [
+        "long-term",
+        "장기"
+      ],
+      [
+        "response",
+        "응답"
+      ],
+      [
+        "currency",
+        "통화"
+      ],
+      [
+        "economic",
+        "경제적"
+      ],
+      [
+        "benefits",
+        "혜택"
+      ],
+      [
+        "changing",
+        "변화하는"
       ],
       [
         "limited",
         "제한된"
       ],
       [
+        "process",
+        "프로세스"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
+        "whether",
+        "여부"
+      ],
+      [
+        "surface",
+        "표면"
+      ],
+      [
+        "storage",
+        "저장"
+      ],
+      [
+        "fasting",
+        "금식"
+      ],
+      [
+        "streets",
+        "거리"
+      ],
+      [
         "social",
         "사회적"
       ],
       [
+        "nailed",
+        "못을 박았다"
+      ],
+      [
+        "rather",
+        "오히려"
+      ],
+      [
+        "volume",
+        "볼륨"
+      ],
+      [
+        "common",
+        "공통의"
+      ],
+      [
+        "reduce",
+        "감소시키다"
+      ],
+      [
+        "growth",
+        "성장"
+      ],
+      [
         "work",
         "일"
+      ],
+      [
+        "bond",
+        "채권"
+      ],
+      [
+        "wood",
+        "나무"
+      ],
+      [
+        "nail",
+        "네일"
+      ],
+      [
+        "food",
+        "음식"
+      ],
+      [
+        "body",
+        "몸"
+      ],
+      [
+        "loss",
+        "손실"
+      ],
+      [
+        "key",
+        "열쇠"
+      ],
+      [
+        "fat",
+        "지방"
       ]
     ],
     "phrases": [
       [
         "for example",
         "예를 들어"
+      ],
+      [
+        "rather than",
+        "~라기보다"
+      ],
+      [
+        "in response to",
+        "~에 대응하여"
       ]
     ],
     "questions": [
       {
         "title": "원래 기출 31번",
-        "question": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+        "question": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        "passage": "One easily underappreciated feature of a city street or square is its “future-proof” nature. The ancient medieval squares in places like Marrakesh and Siena are still places where stuff is sold every day, even if the stuff itself has changed over the last five hundred years. The city square is a fairly future-proof technology, as is the shopping street, even in an age of online shopping. For example, the same physical store that once sold buggy whips and typewriters might now repair damaged phones and sell bubble tea. The same infrastructure supports _______ . Jane Jacobs, the great prophet of the city economy, made much of this fact in her books, including The Death and Life of Great American Cities and The Nature of Economies. As she pointed out, the great advantage of a city architecture is its ability to support change in uses, and Jacobs correctly predicted the persistence of the city itself, unlike those who predicted the rise of the Internet would mean the death of the city.",
         "choices": [
           "evolving uses",
           "social connections",
@@ -7935,21 +9959,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정",
-          "못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의",
-          "저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두",
-          "공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식",
-          "변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점"
+          "A continuous process of evolution in response to environmental changes and selection pressures",
+          "The key to maintaining the bond of nailed wood and determining whether or not it separates is the surface tension rather than the tension of the nail.",
+          "Food is advantageous in terms of storage volume and management costs, and body fat is advantageous in terms of loss prevention and long-term fasting.",
+          "How a common currency can reduce transaction costs, contributing to productivity and economic growth",
+          "The benefits of long-lasting city streets and squares that accommodate changing uses"
         ],
         "answer": 4,
-        "explanation": "글 전체의 핵심은 ‘변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점’입니다.",
+        "explanation": "글 전체의 핵심은 ‘변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "환경 변화와 선택 압력에 대응하는 지속적인 진화 과정",
+          "못을 박은 나무의 접착력을 유지하고 분리 여부를 결정하는 열쇠는 못의 장력보다는 표면 장력에 있습니다.",
+          "음식은 저장량과 관리 비용 측면에서 유리하고, 체지방은 손실 예방과 장기 단식 측면에서 유리합니다.",
+          "공통 통화가 거래 비용을 줄이고 생산성과 경제 성장에 기여하는 방법",
+          "변화하는 용도를 수용하는 오래 지속되는 도시 거리와 광장의 이점"
         ]
       },
       {
@@ -8031,6 +10055,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 31,
     "title": "불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는",
+    "englishTitle": "Uncertainty and unexpected experiences increase sensation and immersion and provide greater pleasure through the secretion of dopamine.",
     "sentences": [
       {
         "en": "Paradoxically, it's uncertainty that makes us feel most alive.",
@@ -8555,8 +10580,40 @@
         "큰"
       ],
       [
+        "through",
+        "통해"
+      ],
+      [
+        "desensitization",
+        "둔감화"
+      ],
+      [
+        "diversification",
+        "다양화"
+      ],
+      [
         "vulnerability",
         "취약성"
+      ],
+      [
+        "understanding",
+        "이해"
+      ],
+      [
+        "development",
+        "개발"
+      ],
+      [
+        "possibility",
+        "가능성"
+      ],
+      [
+        "experiences",
+        "경험"
+      ],
+      [
+        "replacement",
+        "교체"
       ],
       [
         "repetition",
@@ -8567,20 +10624,189 @@
         "의존"
       ],
       [
+        "automobile",
+        "자동차"
+      ],
+      [
+        "efficiency",
+        "효율성"
+      ],
+      [
+        "pedestrian",
+        "보행자"
+      ],
+      [
+        "commercial",
+        "상업"
+      ],
+      [
+        "starlight",
+        "별빛"
+      ],
+      [
+        "sensation",
+        "감각"
+      ],
+      [
+        "immersion",
+        "침수"
+      ],
+      [
+        "secretion",
+        "분비"
+      ],
+      [
+        "resources",
+        "자원"
+      ],
+      [
+        "utilizing",
+        "활용"
+      ],
+      [
+        "expensive",
+        "비싸다"
+      ],
+      [
+        "repeated",
+        "반복"
+      ],
+      [
+        "exposure",
+        "노출"
+      ],
+      [
+        "industry",
+        "산업"
+      ],
+      [
+        "universe",
+        "우주"
+      ],
+      [
+        "increase",
+        "증가하다"
+      ],
+      [
         "failure",
         "실패"
+      ],
+      [
+        "violent",
+        "폭력적인"
+      ],
+      [
+        "reduced",
+        "감소"
+      ],
+      [
+        "empathy",
+        "공감"
+      ],
+      [
+        "process",
+        "프로세스"
+      ],
+      [
+        "promote",
+        "홍보하다"
+      ],
+      [
+        "history",
+        "역사"
+      ],
+      [
+        "distant",
+        "먼"
+      ],
+      [
+        "provide",
+        "제공하다"
+      ],
+      [
+        "vendors",
+        "공급 업체"
+      ],
+      [
+        "instead",
+        "대신"
+      ],
+      [
+        "rising",
+        "상승"
+      ],
+      [
+        "prices",
+        "가격"
+      ],
+      [
+        "energy",
+        "에너지"
+      ],
+      [
+        "seeing",
+        "보는 것"
+      ],
+      [
+        "street",
+        "거리"
+      ],
+      [
+        "public",
+        "대중"
+      ],
+      [
+        "spaces",
+        "공백"
+      ],
+      [
+        "video",
+        "비디오"
+      ],
+      [
+        "games",
+        "게임"
+      ],
+      [
+        "paths",
+        "경로"
+      ],
+      [
+        "lead",
+        "리드"
+      ],
+      [
+        "fuel",
+        "연료"
+      ],
+      [
+        "cell",
+        "세포"
+      ],
+      [
+        "past",
+        "과거"
+      ],
+      [
+        "oil",
+        "기름"
       ]
     ],
     "phrases": [
       [
         "think of",
         "~을 생각해 내다"
+      ],
+      [
+        "lead to",
+        "~로 이어지다"
       ]
     ],
     "questions": [
       {
         "title": "원래 기출 31번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        "passage": "Paradoxically, it’s that makes us feel most alive. Think of events that shake you out of your everyday routine: maybe attending a family wedding, making a big presentation, or going somewhere you’ve never been. It’s on those occasions that time seems to slow down a little, and you feel more fully engaged. The same holds true if the experience is risky, like mountain climbing or parasailing. Your senses are sharper. You notice more. Thanks to the release of a feel-good chemical in the brain called dopamine, you get a greater rush of pleasure from chance encounters with people than planned meetings. Good news, financial rewards, and gifts are more enjoyable if they are surprises. It’s why the most popular television shows and movies are the ones with unexpected plot twists and astonishing endings.",
         "choices": [
           "failure",
           "uncertainty",
@@ -8603,21 +10829,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성",
-          "유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
-          "먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성",
-          "불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는",
-          "비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체"
+          "Repeated exposure to violent video games may lead to desensitization and reduced empathy.",
+          "The process by which rising oil prices promote automobile efficiency, fuel cell development, and energy industry diversification",
+          "The possibility of seeing the past of the universe and understanding its history through distant starlight.",
+          "Uncertainty and unexpected experiences increase sensation and immersion and provide greater pleasure through the secretion of dopamine.",
+          "Replacement of resources by street vendors utilizing public pedestrian paths instead of expensive commercial spaces"
         ],
         "answer": 3,
-        "explanation": "글 전체의 핵심은 ‘불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는’입니다.",
+        "explanation": "글 전체의 핵심은 ‘불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "폭력적인 비디오 게임에 반복적으로 노출되면 둔감해지고 공감 능력이 저하될 수 있습니다.",
+          "유가 상승이 자동차 효율화, 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
+          "먼 별빛을 통해 우주의 과거를 보고 그 역사를 이해할 수 있는 가능성.",
+          "불확실성과 예상치 못한 경험은 감각과 몰입도를 높이고 도파민 분비를 통해 더 큰 즐거움을 선사한다.",
+          "고가의 상업공간 대신 공공보도를 활용한 노점상 자원 대체"
         ]
       },
       {
@@ -8699,6 +10925,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 32,
     "title": "개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는",
+    "englishTitle": "Reveals hidden preferences and production information through individual behavior and allows people to accept changed reality",
     "sentences": [
       {
         "en": "A great strength of the market mechanism is that there are incentives for individuals to reveal their knowledge through their behavior.",
@@ -9181,8 +11408,28 @@
         "하자"
       ],
       [
+        "differences",
+        "차이점"
+      ],
+      [
+        "individual",
+        "개인"
+      ],
+      [
+        "misconfiguration",
+        "잘못된 구성"
+      ],
+      [
+        "interpretation",
+        "해석"
+      ],
+      [
         "stabilization",
         "안정화"
+      ],
+      [
+        "individual's",
+        "개인의"
       ],
       [
         "competition",
@@ -9193,8 +11440,36 @@
         "협상"
       ],
       [
+        "information",
+        "정보"
+      ],
+      [
+        "maintaining",
+        "유지"
+      ],
+      [
         "contribute",
         "기여하다"
+      ],
+      [
+        "difference",
+        "차이"
+      ],
+      [
+        "excellence",
+        "우수성"
+      ],
+      [
+        "boundaries",
+        "경계"
+      ],
+      [
+        "continuous",
+        "연속적인"
+      ],
+      [
+        "properties",
+        "속성"
       ],
       [
         "advantage",
@@ -9205,12 +11480,120 @@
         "고난"
       ],
       [
+        "arbitrary",
+        "임의의"
+      ],
+      [
+        "combining",
+        "결합"
+      ],
+      [
+        "stiffness",
+        "강성"
+      ],
+      [
+        "packaging",
+        "포장"
+      ],
+      [
+        "intended",
+        "의도한"
+      ],
+      [
+        "physical",
+        "물리적"
+      ],
+      [
+        "wrinkles",
+        "주름"
+      ],
+      [
+        "uniquely",
+        "독특하게"
+      ],
+      [
+        "between",
+        "사이에"
+      ],
+      [
+        "overall",
+        "전반적으로"
+      ],
+      [
+        "success",
+        "성공"
+      ],
+      [
+        "setting",
+        "설정"
+      ],
+      [
+        "greatly",
+        "크게"
+      ],
+      [
+        "reveals",
+        "공개하다"
+      ],
+      [
+        "changed",
+        "변경됨"
+      ],
+      [
+        "reality",
+        "현실"
+      ],
+      [
+        "readers",
+        "독자"
+      ],
+      [
+        "meaning",
+        "의미"
+      ],
+      [
+        "folding",
+        "접는"
+      ],
+      [
         "endure",
         "견디다"
       ],
       [
         "skills",
         "기술"
+      ],
+      [
+        "hidden",
+        "숨겨진"
+      ],
+      [
+        "allows",
+        "허용한다"
+      ],
+      [
+        "images",
+        "이미지"
+      ],
+      [
+        "limits",
+        "한계"
+      ],
+      [
+        "guides",
+        "가이드"
+      ],
+      [
+        "toward",
+        "향해"
+      ],
+      [
+        "create",
+        "창조하다"
+      ],
+      [
+        "suited",
+        "적합하다"
       ],
       [
         "until",
@@ -9225,8 +11608,32 @@
         "피하다"
       ],
       [
+        "shows",
+        "쇼"
+      ],
+      [
+        "small",
+        "작은"
+      ],
+      [
+        "scope",
+        "범위"
+      ],
+      [
+        "paper",
+        "종이"
+      ],
+      [
         "take",
         "가져가다"
+      ],
+      [
+        "life",
+        "생활"
+      ],
+      [
+        "text",
+        "텍스트"
       ]
     ],
     "phrases": [
@@ -9246,7 +11653,8 @@
     "questions": [
       {
         "title": "원래 기출 32번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        "passage": "A great strength of the market mechanism is that there are incentives for individuals _______ . This stands in contrast to many strategic situations ― for example, in political negotiations ― in which it is wise not to let the other side know what one’s true preferences or production capacities are. A perfectly competitive market that clears on the spot leaves no room for such strategies. If prices are not sticky ― as many models assume ― individuals adapt their behavior instantaneously, whenever their preferences or the circumstances change. They stop buying items that do not satisfy their needs and stop selling items that do not provide them with optimal gains, maybe switching to the production of other items. If they have motivational problems, for example, falling into denial about the fact that there is no demand for their products, markets reveal to them, sometimes in quite brutal ways, that they better accept this fact.",
         "choices": [
           "to take advantage of political situations",
           "to endure hardships until prices go down",
@@ -9269,21 +11677,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "구성의 오류가 보여 주는 개별 우수성과 전체 성공의 차이",
-          "연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는",
-          "개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는",
-          "이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는",
-          "뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로"
+          "Misconfiguration shows the difference between individual excellence and overall success.",
+          "By setting arbitrary boundaries on continuous differences, small differences can greatly change an individual's life.",
+          "Reveals hidden preferences and production information through individual behavior and allows people to accept changed reality",
+          "Combining text with images limits the scope for interpretation and guides readers toward the intended meaning.",
+          "The physical properties of paper, which can create wrinkles while maintaining stiffness, make it uniquely suited for folding and packaging."
         ],
         "answer": 2,
-        "explanation": "글 전체의 핵심은 ‘개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는’입니다.",
+        "explanation": "글 전체의 핵심은 ‘개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "잘못된 구성은 개인의 우수성과 전반적인 성공의 차이를 보여줍니다.",
+          "지속적인 차이에 임의의 경계를 설정함으로써 작은 차이가 개인의 삶을 크게 바꿀 수 있습니다.",
+          "개인의 행동을 통해 숨겨진 선호도와 생산정보를 드러내고 변화된 현실을 수용할 수 있도록 함",
+          "텍스트와 이미지를 결합하면 해석의 범위가 제한되고 독자가 의도한 의미로 안내됩니다.",
+          "종이는 강성을 유지하면서도 주름이 생길 수 있는 물리적 특성으로 인해 접거나 포장하는 데 매우 적합합니다."
         ]
       },
       {
@@ -9365,6 +11773,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 32,
     "title": "접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향",
+    "englishTitle": "The effect of contact on Arabidopsis thaliana's genetic response and energy allocation to inhibit growth.",
     "sentences": [
       {
         "en": "The genomics revolution made it possible to see just how impactful touch is to plants on a deeper level.",
@@ -9811,12 +12220,60 @@
         "절단"
       ],
       [
+        "purpose-laundering",
+        "목적세탁"
+      ],
+      [
         "reproduction",
         "재생산"
       ],
       [
+        "intelligence",
+        "지능"
+      ],
+      [
         "capability",
         "능력"
+      ],
+      [
+        "thaliana's",
+        "탈리아나의"
+      ],
+      [
+        "allocation",
+        "할당"
+      ],
+      [
+        "commitment",
+        "헌신"
+      ],
+      [
+        "real-world",
+        "실제 세계"
+      ],
+      [
+        "substitute",
+        "대체하다"
+      ],
+      [
+        "experience",
+        "경험"
+      ],
+      [
+        "abundance",
+        "풍요로움"
+      ],
+      [
+        "ancestors",
+        "조상"
+      ],
+      [
+        "promoting",
+        "홍보"
+      ],
+      [
+        "real-life",
+        "실제 생활"
       ],
       [
         "lifespan",
@@ -9827,12 +12284,64 @@
         "증가하다"
       ],
       [
+        "discount",
+        "할인"
+      ],
+      [
+        "thinking",
+        "생각"
+      ],
+      [
+        "rehearse",
+        "연습하다"
+      ],
+      [
+        "behavior",
+        "행동"
+      ],
+      [
         "defense",
         "방어"
       ],
       [
         "maximum",
         "최대"
+      ],
+      [
+        "ability",
+        "능력"
+      ],
+      [
+        "coupons",
+        "쿠폰"
+      ],
+      [
+        "contact",
+        "연락"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
+        "hunting",
+        "사냥"
+      ],
+      [
+        "brought",
+        "가져온"
+      ],
+      [
+        "leisure",
+        "여가"
+      ],
+      [
+        "problem",
+        "문제"
+      ],
+      [
+        "imagery",
+        "이미지"
       ],
       [
         "impact",
@@ -9847,8 +12356,68 @@
         "신장"
       ],
       [
+        "mental",
+        "정신적"
+      ],
+      [
+        "effect",
+        "효과"
+      ],
+      [
+        "skills",
+        "기술"
+      ],
+      [
+        "social",
+        "사회적"
+      ],
+      [
+        "causes",
+        "원인"
+      ],
+      [
+        "visual",
+        "시각적"
+      ],
+      [
+        "allows",
+        "허용한다"
+      ],
+      [
+        "money",
+        "돈"
+      ],
+      [
+        "spent",
+        "지출"
+      ],
+      [
+        "early",
+        "일찍"
+      ],
+      [
+        "leads",
+        "리드"
+      ],
+      [
+        "trust",
+        "신뢰"
+      ],
+      [
         "lift",
         "리프트"
+      ],
+      [
+        "save",
+        "저장"
+      ],
+      [
+        "true",
+        "사실"
+      ],
+      [
+        "loss",
+        "손실"
       ]
     ],
     "phrases": [
@@ -9860,7 +12429,8 @@
     "questions": [
       {
         "title": "원래 기출 32번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        "passage": "The genomics revolution made it possible to see just how impactful touch is to plants on a deeper level. Peering at the genes of Arabidopsis thaliana, a weedy plant in the mustard family and the lab rat of the plant biology world, researchers saw that touch quietly triggered such a dramatic response in their hormones and gene expression that it could substantially _______ . They stroked the arabidopsis with soft paintbrushes, and then analyzed the plants’ genetic responses. Within thirty minutes of being touched, 10 percent of the plant’s genome was altered. Clearly, the plant was reorganizing its priorities to deal with the disturbance, and rerouting energy away from the hard work of getting taller. Touched multiple times, arabidopsis cut its upward growth rate by as much as 30 percent.",
         "choices": [
           "impact their lifespan",
           "inhibit their growth",
@@ -9883,21 +12453,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능",
-          "접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향",
-          "사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화",
-          "진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
-          "현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상"
+          "The ability of discount coupons to save not only money, but also time and mental energy spent on thinking.",
+          "The effect of contact on Arabidopsis thaliana's genetic response and energy allocation to inhibit growth.",
+          "Changes in hunting skills and intelligence that brought leisure and abundance to our early ancestors",
+          "The problem of promoting social causes without true commitment leads to purpose-laundering and loss of trust.",
+          "Visual imagery that allows you to rehearse real-world behavior but is not a substitute for real-life experience"
         ],
         "answer": 1,
-        "explanation": "글 전체의 핵심은 ‘접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향’입니다.",
+        "explanation": "글 전체의 핵심은 ‘접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "돈뿐만 아니라 생각하는 데 소비되는 시간과 정신적 에너지를 절약하는 할인 쿠폰의 기능.",
+          "애기장대(Arabidopsis thaliana)의 유전적 반응과 성장을 억제하는 에너지 할당에 대한 접촉의 영향.",
+          "초기 조상들에게 여가와 풍요를 가져온 사냥 기술과 지능의 변화",
+          "진정한 헌신 없이 사회적 대의를 추진하는 문제는 목적 세탁과 신뢰 상실로 이어집니다.",
+          "실제 행동을 연습할 수 있지만 실제 경험을 대체할 수는 없는 시각적 이미지"
         ]
       },
       {
@@ -9979,6 +12549,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 33,
     "title": "addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
+    "englishTitle": "The changes in meaning of addicts, husband, and guy constantly demonstrate human creation and social change.",
     "sentences": [
       {
         "en": "Dictionary definitions are constantly revised to keep up with our changing uses and knowledge.",
@@ -10627,8 +13198,88 @@
         "의사소통"
       ],
       [
+        "perspectives",
+        "관점"
+      ],
+      [
+        "demonstrate",
+        "시연하다"
+      ],
+      [
+        "threatening",
+        "위협적인"
+      ],
+      [
+        "environment",
+        "환경"
+      ],
+      [
+        "situations",
+        "상황"
+      ],
+      [
+        "understand",
+        "이해하다"
+      ],
+      [
+        "observable",
+        "관찰 가능"
+      ],
+      [
+        "importance",
+        "중요성"
+      ],
+      [
         "difficult",
         "어려운"
+      ],
+      [
+        "emotional",
+        "감정적인"
+      ],
+      [
+        "immersion",
+        "침수"
+      ],
+      [
+        "tradition",
+        "전통"
+      ],
+      [
+        "different",
+        "다른"
+      ],
+      [
+        "creation",
+        "창조"
+      ],
+      [
+        "response",
+        "응답"
+      ],
+      [
+        "expected",
+        "예상됨"
+      ],
+      [
+        "patterns",
+        "패턴"
+      ],
+      [
+        "requires",
+        "필요하다"
+      ],
+      [
+        "emotions",
+        "감정"
+      ],
+      [
+        "politics",
+        "정치"
+      ],
+      [
+        "religion",
+        "종교"
       ],
       [
         "getting",
@@ -10643,8 +13294,96 @@
         "배운"
       ],
       [
+        "changes",
+        "변화"
+      ],
+      [
+        "meaning",
+        "의미"
+      ],
+      [
+        "effects",
+        "효과"
+      ],
+      [
+        "chronic",
+        "만성"
+      ],
+      [
+        "ability",
+        "능력"
+      ],
+      [
+        "neurons",
+        "뉴런"
+      ],
+      [
+        "present",
+        "현재"
+      ],
+      [
+        "various",
+        "다양한"
+      ],
+      [
+        "animals",
+        "동물"
+      ],
+      [
+        "natural",
+        "자연스러운"
+      ],
+      [
+        "combine",
+        "결합하다"
+      ],
+      [
+        "measure",
+        "측정하다"
+      ],
+      [
         "period",
         "기간"
+      ],
+      [
+        "social",
+        "사회적"
+      ],
+      [
+        "change",
+        "변화"
+      ],
+      [
+        "freeze",
+        "얼다"
+      ],
+      [
+        "blocks",
+        "블록"
+      ],
+      [
+        "appeal",
+        "항소"
+      ],
+      [
+        "broken",
+        "부서진"
+      ],
+      [
+        "living",
+        "생활"
+      ],
+      [
+        "groups",
+        "그룹"
+      ],
+      [
+        "others",
+        "다른 사람"
+      ],
+      [
+        "mirror",
+        "거울"
       ],
       [
         "power",
@@ -10675,8 +13414,32 @@
         "필요"
       ],
       [
+        "music",
+        "음악"
+      ],
+      [
+        "arise",
+        "일어나다"
+      ],
+      [
+        "daily",
+        "매일"
+      ],
+      [
         "long",
         "긴"
+      ],
+      [
+        "fear",
+        "무서움"
+      ],
+      [
+        "mind",
+        "마음"
+      ],
+      [
+        "life",
+        "생활"
       ]
     ],
     "phrases": [
@@ -10692,7 +13455,8 @@
     "questions": [
       {
         "title": "원래 기출 33번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        "passage": "Dictionary definitions are constantly revised to keep up with our changing uses and knowledge. In Roman times, “addicts” were people who were unable to pay their debts and gave themselves as slaves to their creditors. The word eventually came to be associated with drug dependency: one becomes a slave to one’s addiction. The word “husband” originally referred to being a homeowner; it had nothing to do with being married. But because owning your own property made it more likely you’d find a mate, the word eventually came to mean a male who has been wed. On November 5th, 1605, Guy Fawkes tried to blow up the British Parliament. He was captured and put to death. Loyalists burned his effigy, which they nicknamed the “guy.” Centuries later, the word lost its negative connotation and a musical named Guys and Dolls ran on Broadway. In American slang, bad means good, cool means great, and wicked means excellent. If you could transport yourself one hundred years into the future, you’d find yourself confused by your great-grandchildren’s speech because language itself _______ .",
         "choices": [
           "has the power to build trust among people",
           "makes cross-cultural communication difficult",
@@ -10715,21 +13479,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
-          "위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
-          "예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력",
-          "집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이",
-          "관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정"
+          "The changes in meaning of addicts, husband, and guy constantly demonstrate human creation and social change.",
+          "The freeze response to threatening situations blocks speech and the effects of chronic fear on the mind.",
+          "Emotional immersion and the appeal of music that arise when expected musical patterns are broken",
+          "Living in groups requires the ability to understand the perspectives and emotions of others, so mirror neurons are present in various animals.",
+          "The observable natural environment and its importance in daily life combine with tradition, politics, and religion to measure different times."
         ],
         "answer": 0,
-        "explanation": "글 전체의 핵심은 ‘addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이’입니다.",
+        "explanation": "글 전체의 핵심은 ‘addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "중독자·남편·남자의 의미있는 위치를 표시해 주는 인간의 창조와 사회의 위치를 끊임없이",
-          "",
-          "",
-          "",
-          ""
+          "중독자, 남편, 남자의 의미 변화는 인간의 창조와 사회변화를 끊임없이 보여준다.",
+          "위협적인 상황에 대한 동결 반응은 말을 차단하고 만성적 두려움이 마음에 미치는 영향을 차단합니다.",
+          "기대했던 음악적 패턴이 깨질 때 나타나는 감성적 몰입감과 음악의 매력",
+          "집단 생활을 하려면 타인의 관점과 감정을 이해하는 능력이 필요하기 때문에 거울 뉴런은 다양한 동물에 존재한다.",
+          "관찰 가능한 자연환경과 그것이 일상생활에서 갖는 중요성은 전통, 정치, 종교와 결합되어 다양한 시대를 측정한다."
         ]
       },
       {
@@ -10811,6 +13575,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 33,
     "title": "환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정",
+    "englishTitle": "A continuous process of evolution in response to environmental changes and selection pressures",
     "sentences": [
       {
         "en": "Evolution will come to a standstill until something in the conditions changes: the onset of an ice age, a change in the average rainfall of the area, a shift in the prevailing wind.",
@@ -11255,8 +14020,56 @@
         "새로운"
       ],
       [
+        "kittens",
+        "새끼 고양이"
+      ],
+      [
+        "distinguishes",
+        "구별하다"
+      ],
+      [
+        "environmental",
+        "환경"
+      ],
+      [
+        "subjectively",
+        "주관적으로"
+      ],
+      [
+        "cutting-edge",
+        "최첨단"
+      ],
+      [
+        "probability",
+        "확률"
+      ],
+      [
+        "insensitive",
+        "둔감하다"
+      ],
+      [
+        "substitutes",
+        "대체품"
+      ],
+      [
+        "performance",
+        "성능"
+      ],
+      [
         "regardless",
         "상관없이"
+      ],
+      [
+        "threatened",
+        "위협을 받다"
+      ],
+      [
+        "innovative",
+        "혁신적인"
+      ],
+      [
+        "continuous",
+        "연속적인"
       ],
       [
         "gradually",
@@ -11267,8 +14080,60 @@
         "위협하다"
       ],
       [
+        "hierarchy",
+        "계층 구조"
+      ],
+      [
+        "predators",
+        "포식자"
+      ],
+      [
+        "objective",
+        "목표"
+      ],
+      [
+        "pressures",
+        "압력"
+      ],
+      [
         "survival",
         "생존"
+      ],
+      [
+        "instinct",
+        "본능"
+      ],
+      [
+        "rational",
+        "합리적"
+      ],
+      [
+        "thinking",
+        "생각"
+      ],
+      [
+        "reaffirm",
+        "재확인하다"
+      ],
+      [
+        "existing",
+        "기존"
+      ],
+      [
+        "judgment",
+        "판단"
+      ],
+      [
+        "products",
+        "제품"
+      ],
+      [
+        "emphasis",
+        "강조"
+      ],
+      [
+        "response",
+        "응답"
       ],
       [
         "balance",
@@ -11283,12 +14148,36 @@
         "경쟁하다"
       ],
       [
+        "between",
+        "사이에"
+      ],
+      [
+        "greater",
+        "더 큰"
+      ],
+      [
+        "process",
+        "프로세스"
+      ],
+      [
         "occurs",
         "발생하다"
       ],
       [
         "nature",
         "자연"
+      ],
+      [
+        "status",
+        "상태"
+      ],
+      [
+        "mother",
+        "어머니"
+      ],
+      [
+        "demand",
+        "수요"
       ],
       [
         "local",
@@ -11311,8 +14200,56 @@
         "털이 많은"
       ],
       [
+        "one's",
+        "자신의"
+      ],
+      [
+        "human",
+        "인간의"
+      ],
+      [
+        "lower",
+        "더 낮은"
+      ],
+      [
+        "price",
+        "가격"
+      ],
+      [
         "ways",
         "방법"
+      ],
+      [
+        "stop",
+        "중지"
+      ],
+      [
+        "keep",
+        "유지하다"
+      ],
+      [
+        "felt",
+        "펠트"
+      ],
+      [
+        "bias",
+        "편견"
+      ],
+      [
+        "lack",
+        "부족하다"
+      ],
+      [
+        "cry",
+        "울다"
+      ],
+      [
+        "cat",
+        "고양이"
+      ],
+      [
+        "due",
+        "기한"
       ]
     ],
     "phrases": [
@@ -11321,14 +14258,23 @@
         "~하게 되다"
       ],
       [
+        "due to",
+        "~ 때문에"
+      ],
+      [
         "regardless of",
         "~와 관계없이"
+      ],
+      [
+        "in response to",
+        "~에 대응하여"
       ]
     ],
     "questions": [
       {
         "title": "원래 기출 33번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        "passage": "Evolution will come to a standstill until something in the conditions changes: the onset of an ice age, a change in the average rainfall of the area, a shift in the prevailing wind. Such changes do happen when we are dealing with a timescale as long as the evolutionary one. As a consequence, evolution normally does not come to a halt, but _______ . If there is a steady downward drift in the average temperature in the area, a drift that persists over centuries, successive generations of animals will be propelled by a steady selection ‘pressure’ in the direction, say, of growing longer coats of hair. If after a few thousand years of reduced temperature the trend reverses and average temperatures creep up again, the animals will come under the influence of a new selection pressure, and will be pushed towards growing shorter coats again.",
         "choices": [
           "occurs regardless of local temperature trend",
           "constantly tracks the changing environment",
@@ -11351,21 +14297,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적",
-          "어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두",
-          "낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향",
-          "대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요",
-          "환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정"
+          "When one's status is threatened, the human instinct to stop rational thinking and reaffirm the existing hierarchy",
+          "All kittens cry when a mother cat distinguishes between her kittens and to keep out predators.",
+          "The lower the objective probability, the greater the subjectively felt bias in judgment.",
+          "Demand for innovative, cutting-edge products insensitive to price due to lack of substitutes and emphasis on performance",
+          "A continuous process of evolution in response to environmental changes and selection pressures"
         ],
         "answer": 4,
-        "explanation": "글 전체의 핵심은 ‘환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정’입니다.",
+        "explanation": "글 전체의 핵심은 ‘환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "자신의 지위가 위협받을 때 합리적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능",
+          "모든 새끼 고양이는 어미 고양이가 새끼 고양이를 구별하고 포식자를 쫓아낼 때 웁니다.",
+          "객관적인 확률이 낮을수록 판단 시 주관적으로 느끼는 편견이 커집니다.",
+          "대체재 부족, 성능 중시로 인해 가격에 둔감한 혁신적 첨단제품 수요",
+          "환경 변화와 선택 압력에 대응하는 지속적인 진화 과정"
         ]
       },
       {
@@ -11447,6 +14393,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 34,
     "title": "비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체",
+    "englishTitle": "Replacement of resources by street vendors utilizing public pedestrian paths instead of expensive commercial spaces",
     "sentences": [
       {
         "en": "The high price of land in metropolitan areas has implications for the efficient employment of resources.",
@@ -11963,8 +14910,56 @@
         "개"
       ],
       [
+        "costs",
+        "비용"
+      ],
+      [
+        "advantageous",
+        "유리한"
+      ],
+      [
         "business",
         "사업"
+      ],
+      [
+        "tension",
+        "긴장"
+      ],
+      [
+        "terms",
+        "용어"
+      ],
+      [
+        "there",
+        "거기"
+      ],
+      [
+        "contributing",
+        "기여"
+      ],
+      [
+        "productivity",
+        "생산성"
+      ],
+      [
+        "alternatives",
+        "대안"
+      ],
+      [
+        "transaction",
+        "거래"
+      ],
+      [
+        "replacement",
+        "교체"
+      ],
+      [
+        "maintaining",
+        "유지"
+      ],
+      [
+        "determining",
+        "결정"
       ],
       [
         "ingredient",
@@ -11973,6 +14968,26 @@
       [
         "outcompete",
         "경쟁에서 이기다"
+      ],
+      [
+        "management",
+        "관리"
+      ],
+      [
+        "prevention",
+        "예방"
+      ],
+      [
+        "exhaustion",
+        "피로"
+      ],
+      [
+        "compassion",
+        "연민"
+      ],
+      [
+        "pedestrian",
+        "보행자"
       ],
       [
         "negotiate",
@@ -11991,8 +15006,40 @@
         "고객"
       ],
       [
+        "long-term",
+        "장기"
+      ],
+      [
+        "utilizing",
+        "활용"
+      ],
+      [
+        "separates",
+        "분리하다"
+      ],
+      [
         "products",
         "제품"
+      ],
+      [
+        "currency",
+        "통화"
+      ],
+      [
+        "economic",
+        "경제적"
+      ],
+      [
+        "increase",
+        "증가하다"
+      ],
+      [
+        "conflict",
+        "갈등"
+      ],
+      [
+        "rational",
+        "합리적"
       ],
       [
         "expands",
@@ -12007,6 +15054,34 @@
         "유치하다"
       ],
       [
+        "storage",
+        "저장"
+      ],
+      [
+        "fasting",
+        "금식"
+      ],
+      [
+        "empathy",
+        "공감"
+      ],
+      [
+        "causing",
+        "일으키는"
+      ],
+      [
+        "instead",
+        "대신"
+      ],
+      [
+        "whether",
+        "여부"
+      ],
+      [
+        "surface",
+        "표면"
+      ],
+      [
         "depend",
         "의존하다"
       ],
@@ -12019,28 +15094,109 @@
         "궁리하다"
       ],
       [
-        "costs",
-        "비용"
+        "volume",
+        "볼륨"
+      ],
+      [
+        "common",
+        "공통의"
+      ],
+      [
+        "reduce",
+        "감소시키다"
+      ],
+      [
+        "growth",
+        "성장"
+      ],
+      [
+        "limits",
+        "한계"
+      ],
+      [
+        "spaces",
+        "공백"
+      ],
+      [
+        "nailed",
+        "못을 박았다"
+      ],
+      [
+        "rather",
+        "오히려"
+      ],
+      [
+        "group",
+        "그룹"
+      ],
+      [
+        "paths",
+        "경로"
       ],
       [
         "less",
         "덜"
       ],
       [
+        "food",
+        "음식"
+      ],
+      [
+        "body",
+        "몸"
+      ],
+      [
+        "loss",
+        "손실"
+      ],
+      [
+        "fact",
+        "사실"
+      ],
+      [
+        "bias",
+        "편견"
+      ],
+      [
+        "bond",
+        "채권"
+      ],
+      [
+        "wood",
+        "나무"
+      ],
+      [
+        "nail",
+        "네일"
+      ],
+      [
         "cut",
         "절단"
+      ],
+      [
+        "fat",
+        "지방"
+      ],
+      [
+        "key",
+        "열쇠"
       ]
     ],
     "phrases": [
       [
         "for example",
         "예를 들어"
+      ],
+      [
+        "rather than",
+        "~라기보다"
       ]
     ],
     "questions": [
       {
         "title": "원래 기출 34번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        "passage": "The high price of land in metropolitan areas has implications for the efficient employment of resources. For example, in New York City, as in many large cities, sidewalk vending carts sell everything from hot dogs to ice cream. Why are these carts so popular, with over 3,000 in New York City alone? Consider the resources used to supply hot dogs: land, labor, capital, entrepreneurial ability, plus intermediate goods such as hot dogs, buns, and other ingredients. Which of these do you suppose is most expensive in New York City? Retail space along Madison Avenue rents for an average of $550 a year per square foot. Because operating a hot dog cart requires about 4 square yards, it could cost as much as $20,000 a year to rent that much commercial space. Aside from the necessary public permits, however, space on the public sidewalk is free to vendors. Profit-maximizing street vendors _______ .",
         "choices": [
           "depend less on public sidewalks as their business expands",
           "negotiate ingredient prices with suppliers to cut costs",
@@ -12063,21 +15219,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두",
-          "공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식",
-          "공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
-          "비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체",
-          "못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의"
+          "Food is advantageous in terms of storage volume and management costs, and body fat is advantageous in terms of loss prevention and long-term fasting.",
+          "How a common currency can reduce transaction costs, contributing to productivity and economic growth",
+          "There are limits to the fact that empathy can increase conflict by causing exhaustion and group bias, and there are alternatives such as rational compassion.",
+          "Replacement of resources by street vendors utilizing public pedestrian paths instead of expensive commercial spaces",
+          "The key to maintaining the bond of nailed wood and determining whether or not it separates is the surface tension rather than the tension of the nail."
         ],
         "answer": 3,
-        "explanation": "글 전체의 핵심은 ‘비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체’입니다.",
+        "explanation": "글 전체의 핵심은 ‘비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "음식은 저장량과 관리 비용 측면에서 유리하고, 체지방은 손실 예방과 장기 단식 측면에서 유리합니다.",
+          "공통 통화가 거래 비용을 줄이고 생산성과 경제 성장에 기여하는 방법",
+          "공감이 탈진과 집단 편견을 유발해 갈등을 증폭시킬 수 있다는 점에는 한계가 있으며, 합리적 연민 등의 대안도 있다.",
+          "고가의 상업공간 대신 공공보도를 활용한 노점상 자원 대체",
+          "못을 박은 나무의 접착력을 유지하고 분리 여부를 결정하는 열쇠는 못의 장력보다는 표면 장력에 있습니다."
         ]
       },
       {
@@ -12159,6 +15315,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 34,
     "title": "이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는",
+    "englishTitle": "Combining text with images limits the scope for interpretation and guides readers toward the intended meaning.",
     "sentences": [
       {
         "en": "The term \"anchoring\" was introduced by Roland Barthes who observed that text is often used next to images (his focus was on photographs) to confine meaning.",
@@ -12631,20 +15788,60 @@
         "따라서"
       ],
       [
+        "desensitization",
+        "둔감화"
+      ],
+      [
+        "diversification",
+        "다양화"
+      ],
+      [
+        "understanding",
+        "이해"
+      ],
+      [
         "accompanying",
         "동반"
+      ],
+      [
+        "long-lasting",
+        "오래 지속되는"
       ],
       [
         "disregarded",
         "무시"
       ],
       [
+        "possibility",
+        "가능성"
+      ],
+      [
+        "accommodate",
+        "수용하다"
+      ],
+      [
+        "development",
+        "개발"
+      ],
+      [
         "completely",
         "완전히"
       ],
       [
+        "automobile",
+        "자동차"
+      ],
+      [
+        "efficiency",
+        "효율성"
+      ],
+      [
         "isolation",
         "격리"
+      ],
+      [
+        "starlight",
+        "별빛"
       ],
       [
         "audience",
@@ -12653,6 +15850,30 @@
       [
         "artistic",
         "예술적"
+      ],
+      [
+        "universe",
+        "우주"
+      ],
+      [
+        "benefits",
+        "혜택"
+      ],
+      [
+        "changing",
+        "변화하는"
+      ],
+      [
+        "repeated",
+        "반복"
+      ],
+      [
+        "exposure",
+        "노출"
+      ],
+      [
+        "industry",
+        "산업"
       ],
       [
         "textual",
@@ -12667,6 +15888,46 @@
         "품질"
       ],
       [
+        "history",
+        "역사"
+      ],
+      [
+        "distant",
+        "먼"
+      ],
+      [
+        "streets",
+        "거리"
+      ],
+      [
+        "squares",
+        "사각형"
+      ],
+      [
+        "readers",
+        "독자"
+      ],
+      [
+        "violent",
+        "폭력적인"
+      ],
+      [
+        "reduced",
+        "감소"
+      ],
+      [
+        "empathy",
+        "공감"
+      ],
+      [
+        "process",
+        "프로세스"
+      ],
+      [
+        "promote",
+        "홍보하다"
+      ],
+      [
         "impact",
         "영향"
       ],
@@ -12675,19 +15936,93 @@
         "지워졌다"
       ],
       [
+        "seeing",
+        "보는 것"
+      ],
+      [
+        "limits",
+        "한계"
+      ],
+      [
+        "guides",
+        "가이드"
+      ],
+      [
+        "toward",
+        "향해"
+      ],
+      [
+        "rising",
+        "상승"
+      ],
+      [
+        "prices",
+        "가격"
+      ],
+      [
+        "energy",
+        "에너지"
+      ],
+      [
+        "scope",
+        "범위"
+      ],
+      [
+        "video",
+        "비디오"
+      ],
+      [
+        "games",
+        "게임"
+      ],
+      [
         "cues",
         "단서"
       ],
       [
         "work",
         "일"
+      ],
+      [
+        "past",
+        "과거"
+      ],
+      [
+        "city",
+        "도시"
+      ],
+      [
+        "uses",
+        "용도"
+      ],
+      [
+        "lead",
+        "리드"
+      ],
+      [
+        "fuel",
+        "연료"
+      ],
+      [
+        "cell",
+        "세포"
+      ],
+      [
+        "oil",
+        "기름"
       ]
     ],
-    "phrases": [],
+    "phrases": [
+      [
+        "lead to",
+        "~로 이어지다"
+      ]
+    ],
     "questions": [
       {
         "title": "원래 기출 34번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        "passage": "The term “anchoring” was introduced by Roland Barthes who observed that text is often used next to images (his focus was on photographs) to confine meaning. Of all possible literal or implied interpretations an image could elicit, text would point the viewer towards a desired, specific direction. In advertising, as Barthes argues, the symbolic message does not guide identification but interpretation. The viewer is not asked to recognize what they see but to understand why they see it and what it means to them. By combining images with text, advertising produces symbolic meaning that is accurate and specific on the one hand, richer on the other, thus adding depth and eliminating breadth of rational and emotional interpretations. The headline or tagline of an ad directs the reader through the intended meanings of the image, so that _______ . It “remote-controls” the reader towards a meaning chosen in advance.",
         "choices": [
           "the reader avoids some and receives others",
           "the textual cues are disregarded by the audience",
@@ -12710,21 +16045,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성",
-          "변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점",
-          "이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는",
-          "폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성",
-          "유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정"
+          "The possibility of seeing the past of the universe and understanding its history through distant starlight.",
+          "The benefits of long-lasting city streets and squares that accommodate changing uses",
+          "Combining text with images limits the scope for interpretation and guides readers toward the intended meaning.",
+          "Repeated exposure to violent video games may lead to desensitization and reduced empathy.",
+          "The process by which rising oil prices promote automobile efficiency, fuel cell development, and energy industry diversification"
         ],
         "answer": 2,
-        "explanation": "글 전체의 핵심은 ‘이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는’입니다.",
+        "explanation": "글 전체의 핵심은 ‘이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "먼 별빛을 통해 우주의 과거를 보고 그 역사를 이해할 수 있는 가능성.",
+          "변화하는 용도를 수용하는 오래 지속되는 도시 거리와 광장의 이점",
+          "텍스트와 이미지를 결합하면 해석의 범위가 제한되고 독자가 의도한 의미로 안내됩니다.",
+          "폭력적인 비디오 게임에 반복적으로 노출되면 둔감해지고 공감 능력이 저하될 수 있습니다.",
+          "유가 상승이 자동차 효율화, 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정"
         ]
       },
       {
@@ -12806,6 +16141,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 36,
     "title": "사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화",
+    "englishTitle": "Changes in hunting skills and intelligence that brought leisure and abundance to our early ancestors",
     "sentences": [
       {
         "en": "For most animals the struggle to survive takes up all their time.",
@@ -13366,13 +16702,190 @@
       [
         "era",
         "시대"
+      ],
+      [
+        "differences",
+        "차이점"
+      ],
+      [
+        "misconfiguration",
+        "잘못된 구성"
+      ],
+      [
+        "individual's",
+        "개인의"
+      ],
+      [
+        "uncertainty",
+        "불확실성"
+      ],
+      [
+        "experiences",
+        "경험"
+      ],
+      [
+        "maintaining",
+        "유지"
+      ],
+      [
+        "unexpected",
+        "예상치 못한"
+      ],
+      [
+        "properties",
+        "속성"
+      ],
+      [
+        "difference",
+        "차이"
+      ],
+      [
+        "individual",
+        "개인"
+      ],
+      [
+        "excellence",
+        "우수성"
+      ],
+      [
+        "boundaries",
+        "경계"
+      ],
+      [
+        "continuous",
+        "연속적인"
+      ],
+      [
+        "sensation",
+        "감각"
+      ],
+      [
+        "immersion",
+        "침수"
+      ],
+      [
+        "secretion",
+        "분비"
+      ],
+      [
+        "abundance",
+        "풍요로움"
+      ],
+      [
+        "stiffness",
+        "강성"
+      ],
+      [
+        "packaging",
+        "포장"
+      ],
+      [
+        "arbitrary",
+        "임의의"
+      ],
+      [
+        "increase",
+        "증가하다"
+      ],
+      [
+        "pleasure",
+        "즐거움"
+      ],
+      [
+        "dopamine",
+        "도파민"
+      ],
+      [
+        "physical",
+        "물리적"
+      ],
+      [
+        "wrinkles",
+        "주름"
+      ],
+      [
+        "uniquely",
+        "독특하게"
+      ],
+      [
+        "provide",
+        "제공하다"
+      ],
+      [
+        "through",
+        "통해"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
+        "brought",
+        "가져온"
+      ],
+      [
+        "leisure",
+        "여가"
+      ],
+      [
+        "folding",
+        "접는"
+      ],
+      [
+        "between",
+        "사이에"
+      ],
+      [
+        "overall",
+        "전반적으로"
+      ],
+      [
+        "setting",
+        "설정"
+      ],
+      [
+        "greatly",
+        "크게"
+      ],
+      [
+        "skills",
+        "기술"
+      ],
+      [
+        "create",
+        "창조하다"
+      ],
+      [
+        "suited",
+        "적합하다"
+      ],
+      [
+        "change",
+        "변화"
+      ],
+      [
+        "paper",
+        "종이"
+      ],
+      [
+        "shows",
+        "쇼"
+      ],
+      [
+        "small",
+        "작은"
+      ],
+      [
+        "life",
+        "생활"
       ]
     ],
     "phrases": [],
     "questions": [
       {
         "title": "원래 기출 36번",
-        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "passage": "(A) But as they slowly evolved into more and more efficient hunters, the situation changed. The secret of their success was the development of much greater intelligence. They used brain not brawn to kill their prey. At the end of the long hunting era, before they turned to farming, they were already enjoying some degree of affluence. (B) If they do have any time to spare, they spend it resting or sleeping. Only very young animals, under the protection of their parents, have enough surplus energy to engage in lively bouts of play. This was also true for our early ancestors. The constant search for food would have put heavy demands upon them. (C) In certain regions, at particular times of year, the prey was sufficiently plentiful and their hunting techniques sufficiently advanced for them to experience a remarkable degree of prosperity. They had time on their hands.",
         "choices": [
           "(A) - (C) - (B)",
           "(B) - (A) - (C)",
@@ -13395,21 +16908,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는",
-          "사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화",
-          "뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로",
-          "구성의 오류가 보여 주는 개별 우수성과 전체 성공의 차이",
-          "연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는"
+          "Uncertainty and unexpected experiences increase sensation and immersion and provide greater pleasure through the secretion of dopamine.",
+          "Changes in hunting skills and intelligence that brought leisure and abundance to our early ancestors",
+          "The physical properties of paper, which can create wrinkles while maintaining stiffness, make it uniquely suited for folding and packaging.",
+          "Misconfiguration shows the difference between individual excellence and overall success.",
+          "By setting arbitrary boundaries on continuous differences, small differences can greatly change an individual's life."
         ],
         "answer": 1,
-        "explanation": "글 전체의 핵심은 ‘사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화’입니다.",
+        "explanation": "글 전체의 핵심은 ‘사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "불확실성과 예상치 못한 경험은 감각과 몰입도를 높이고 도파민 분비를 통해 더 큰 즐거움을 선사한다.",
+          "초기 조상들에게 여가와 풍요를 가져온 사냥 기술과 지능의 변화",
+          "종이는 강성을 유지하면서도 주름이 생길 수 있는 물리적 특성으로 인해 접거나 포장하는 데 매우 적합합니다.",
+          "잘못된 구성은 개인의 우수성과 전반적인 성공의 차이를 보여줍니다.",
+          "지속적인 차이에 임의의 경계를 설정함으로써 작은 차이가 개인의 삶을 크게 바꿀 수 있습니다."
         ]
       },
       {
@@ -13491,6 +17004,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 37,
     "title": "위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
+    "englishTitle": "The freeze response to threatening situations blocks speech and the effects of chronic fear on the mind.",
     "sentences": [
       {
         "en": "Think about a time when you were startled.",
@@ -14035,6 +17549,170 @@
       [
         "own",
         "자신의"
+      ],
+      [
+        "behavior",
+        "행동"
+      ],
+      [
+        "allows",
+        "허용한다"
+      ],
+      [
+        "purpose-laundering",
+        "목적세탁"
+      ],
+      [
+        "threatening",
+        "위협적인"
+      ],
+      [
+        "preferences",
+        "환경 설정"
+      ],
+      [
+        "information",
+        "정보"
+      ],
+      [
+        "commitment",
+        "헌신"
+      ],
+      [
+        "real-world",
+        "실제 세계"
+      ],
+      [
+        "substitute",
+        "대체하다"
+      ],
+      [
+        "experience",
+        "경험"
+      ],
+      [
+        "production",
+        "생산"
+      ],
+      [
+        "individual",
+        "개인"
+      ],
+      [
+        "promoting",
+        "홍보"
+      ],
+      [
+        "real-life",
+        "실제 생활"
+      ],
+      [
+        "rehearse",
+        "연습하다"
+      ],
+      [
+        "discount",
+        "할인"
+      ],
+      [
+        "thinking",
+        "생각"
+      ],
+      [
+        "effects",
+        "효과"
+      ],
+      [
+        "problem",
+        "문제"
+      ],
+      [
+        "imagery",
+        "이미지"
+      ],
+      [
+        "coupons",
+        "쿠폰"
+      ],
+      [
+        "reveals",
+        "공개하다"
+      ],
+      [
+        "through",
+        "통해"
+      ],
+      [
+        "changed",
+        "변경됨"
+      ],
+      [
+        "reality",
+        "현실"
+      ],
+      [
+        "blocks",
+        "블록"
+      ],
+      [
+        "speech",
+        "연설"
+      ],
+      [
+        "social",
+        "사회적"
+      ],
+      [
+        "causes",
+        "원인"
+      ],
+      [
+        "visual",
+        "시각적"
+      ],
+      [
+        "energy",
+        "에너지"
+      ],
+      [
+        "hidden",
+        "숨겨진"
+      ],
+      [
+        "accept",
+        "받아들이다"
+      ],
+      [
+        "leads",
+        "리드"
+      ],
+      [
+        "trust",
+        "신뢰"
+      ],
+      [
+        "money",
+        "돈"
+      ],
+      [
+        "spent",
+        "지출"
+      ],
+      [
+        "mind",
+        "마음"
+      ],
+      [
+        "true",
+        "사실"
+      ],
+      [
+        "loss",
+        "손실"
+      ],
+      [
+        "save",
+        "저장"
       ]
     ],
     "phrases": [
@@ -14058,7 +17736,8 @@
     "questions": [
       {
         "title": "원래 기출 37번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "passage": "(A) But what if we can never relax? What if our experiences shape our brain to be in a constant state of fear? This interference with the proper development and integration of neural networks can result in chronic stress and even mental illness. (B) Because of this, the freeze response results in the inhibition of language in highly stressful and traumatic situations. Natural selection promoted the evolution of language but conserved the freeze rule. When the threat passes, we begin to relax and find our voices again, perhaps even to laugh at our own reactions. (C) All these responses maximize our ability to avoid detection, locate the source of possible danger, and prepare to fight or flee. As sophisticated as language has become, it is still the creation of sound that might give away our location to a potential predator.",
         "choices": [
           "(A) - (C) - (B)",
           "(B) - (A) - (C)",
@@ -14081,21 +17760,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
-          "진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
-          "현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상",
-          "할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능",
-          "개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는"
+          "The freeze response to threatening situations blocks speech and the effects of chronic fear on the mind.",
+          "The problem of promoting social causes without true commitment leads to purpose-laundering and loss of trust.",
+          "Visual imagery that allows you to rehearse real-world behavior but is not a substitute for real-life experience",
+          "The ability of discount coupons to save not only money, but also time and mental energy spent on thinking.",
+          "Reveals hidden preferences and production information through individual behavior and allows people to accept changed reality"
         ],
         "answer": 0,
-        "explanation": "글 전체의 핵심은 ‘위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향’입니다.",
+        "explanation": "글 전체의 핵심은 ‘위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "위협적인 상황에 대한 동결 반응은 말을 차단하고 만성적 두려움이 마음에 미치는 영향을 차단합니다.",
+          "진정한 헌신 없이 사회적 대의를 추진하는 문제는 목적 세탁과 신뢰 상실로 이어집니다.",
+          "실제 행동을 연습할 수 있지만 실제 경험을 대체할 수는 없는 시각적 이미지",
+          "돈뿐만 아니라 생각하는 데 소비되는 시간과 정신적 에너지를 절약하는 할인 쿠폰의 기능.",
+          "개인의 행동을 통해 숨겨진 선호도와 생산정보를 드러내고 변화된 현실을 수용할 수 있도록 함"
         ]
       },
       {
@@ -14177,6 +17856,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 36,
     "title": "자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적",
+    "englishTitle": "When one's status is threatened, the human instinct to stop rational thinking and reaffirm the existing hierarchy",
     "sentences": [
       {
         "en": "We're naturally wired to organize the world into a hierarchy.",
@@ -14653,13 +18333,226 @@
       [
         "i'm",
         "나는"
+      ],
+      [
+        "perspectives",
+        "관점"
+      ],
+      [
+        "environment",
+        "환경"
+      ],
+      [
+        "arabidopsis",
+        "애기장대"
+      ],
+      [
+        "understand",
+        "이해하다"
+      ],
+      [
+        "observable",
+        "관찰 가능"
+      ],
+      [
+        "importance",
+        "중요성"
+      ],
+      [
+        "thaliana's",
+        "탈리아나의"
+      ],
+      [
+        "allocation",
+        "할당"
+      ],
+      [
+        "threatened",
+        "위협을 받다"
+      ],
+      [
+        "emotional",
+        "감정적인"
+      ],
+      [
+        "immersion",
+        "침수"
+      ],
+      [
+        "tradition",
+        "전통"
+      ],
+      [
+        "different",
+        "다른"
+      ],
+      [
+        "expected",
+        "예상됨"
+      ],
+      [
+        "patterns",
+        "패턴"
+      ],
+      [
+        "requires",
+        "필요하다"
+      ],
+      [
+        "emotions",
+        "감정"
+      ],
+      [
+        "politics",
+        "정치"
+      ],
+      [
+        "religion",
+        "종교"
+      ],
+      [
+        "response",
+        "응답"
+      ],
+      [
+        "instinct",
+        "본능"
+      ],
+      [
+        "rational",
+        "합리적"
+      ],
+      [
+        "reaffirm",
+        "재확인하다"
+      ],
+      [
+        "existing",
+        "기존"
+      ],
+      [
+        "musical",
+        "뮤지컬"
+      ],
+      [
+        "ability",
+        "능력"
+      ],
+      [
+        "neurons",
+        "뉴런"
+      ],
+      [
+        "present",
+        "현재"
+      ],
+      [
+        "various",
+        "다양한"
+      ],
+      [
+        "animals",
+        "동물"
+      ],
+      [
+        "natural",
+        "자연스러운"
+      ],
+      [
+        "combine",
+        "결합하다"
+      ],
+      [
+        "measure",
+        "측정하다"
+      ],
+      [
+        "contact",
+        "연락"
+      ],
+      [
+        "genetic",
+        "유전적"
+      ],
+      [
+        "inhibit",
+        "억제하다"
+      ],
+      [
+        "appeal",
+        "항소"
+      ],
+      [
+        "broken",
+        "부서진"
+      ],
+      [
+        "living",
+        "생활"
+      ],
+      [
+        "groups",
+        "그룹"
+      ],
+      [
+        "others",
+        "다른 사람"
+      ],
+      [
+        "mirror",
+        "거울"
+      ],
+      [
+        "effect",
+        "효과"
+      ],
+      [
+        "energy",
+        "에너지"
+      ],
+      [
+        "growth",
+        "성장"
+      ],
+      [
+        "music",
+        "음악"
+      ],
+      [
+        "arise",
+        "일어나다"
+      ],
+      [
+        "daily",
+        "매일"
+      ],
+      [
+        "times",
+        "배"
+      ],
+      [
+        "one's",
+        "자신의"
+      ],
+      [
+        "human",
+        "인간의"
+      ],
+      [
+        "life",
+        "생활"
+      ],
+      [
+        "stop",
+        "중지"
       ]
     ],
     "phrases": [],
     "questions": [
       {
         "title": "원래 기출 36번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "passage": "(A) Or consider when you get frustrated with your kids and end an argument with “Because I said so.” (Or the office equivalent: “Because I’m the boss.”) In these moments you’ve stopped thinking and regressed to your biological tendencies of reaffirming the hierarchy. (B) You’re reacting to a threat to your inherent sense of hierarchy. On the road we are all equals. We’re all supposed to play by the same rules. Cutting someone off violates those rules and implies higher status. (C) But when someone infringes on our place in the world and our understanding of how it works, we react without thinking. When someone cuts you off on the highway and road rage kicks in, that’s your unconscious mind saying, “Who are you to cut me off?”",
         "choices": [
           "(A) - (C) - (B)",
           "(B) - (A) - (C)",
@@ -14682,21 +18575,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력",
-          "집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이",
-          "관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정",
-          "접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향",
-          "자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적"
+          "Emotional immersion and the appeal of music that arise when expected musical patterns are broken",
+          "Living in groups requires the ability to understand the perspectives and emotions of others, so mirror neurons are present in various animals.",
+          "The observable natural environment and its importance in daily life combine with tradition, politics, and religion to measure different times.",
+          "The effect of contact on Arabidopsis thaliana's genetic response and energy allocation to inhibit growth.",
+          "When one's status is threatened, the human instinct to stop rational thinking and reaffirm the existing hierarchy"
         ],
         "answer": 4,
-        "explanation": "글 전체의 핵심은 ‘자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적’입니다.",
+        "explanation": "글 전체의 핵심은 ‘자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "기대했던 음악적 패턴이 깨질 때 나타나는 감성적 몰입감과 음악의 매력",
+          "집단 생활을 하려면 타인의 관점과 감정을 이해하는 능력이 필요하기 때문에 거울 뉴런은 다양한 동물에 존재한다.",
+          "관찰 가능한 자연환경과 그것이 일상생활에서 갖는 중요성은 전통, 정치, 종교와 결합되어 다양한 시대를 측정한다.",
+          "애기장대(Arabidopsis thaliana)의 유전적 반응과 성장을 억제하는 에너지 할당에 대한 접촉의 영향.",
+          "자신의 지위가 위협받을 때 합리적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능"
         ]
       },
       {
@@ -14778,6 +18671,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 37,
     "title": "못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의",
+    "englishTitle": "The key to maintaining the bond of nailed wood and determining whether or not it separates is the surface tension rather than the tension of the nail.",
     "sentences": [
       {
         "en": "Once a nail is hammered in, it is friction that holds it in place.",
@@ -15214,6 +19108,98 @@
         "지금"
       ],
       [
+        "kittens",
+        "새끼 고양이"
+      ],
+      [
+        "distinguishes",
+        "구별하다"
+      ],
+      [
+        "subjectively",
+        "주관적으로"
+      ],
+      [
+        "cutting-edge",
+        "최첨단"
+      ],
+      [
+        "probability",
+        "확률"
+      ],
+      [
+        "insensitive",
+        "둔감하다"
+      ],
+      [
+        "substitutes",
+        "대체품"
+      ],
+      [
+        "performance",
+        "성능"
+      ],
+      [
+        "demonstrate",
+        "시연하다"
+      ],
+      [
+        "maintaining",
+        "유지"
+      ],
+      [
+        "determining",
+        "결정"
+      ],
+      [
+        "innovative",
+        "혁신적인"
+      ],
+      [
+        "constantly",
+        "끊임없이"
+      ],
+      [
+        "objective",
+        "목표"
+      ],
+      [
+        "separates",
+        "분리하다"
+      ],
+      [
+        "predators",
+        "포식자"
+      ],
+      [
+        "judgment",
+        "판단"
+      ],
+      [
+        "products",
+        "제품"
+      ],
+      [
+        "emphasis",
+        "강조"
+      ],
+      [
+        "creation",
+        "창조"
+      ],
+      [
+        "greater",
+        "더 큰"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
+        "meaning",
+        "의미"
+      ],
+      [
         "addicts",
         "중독자"
       ],
@@ -15222,20 +19208,105 @@
         "남편"
       ],
       [
+        "whether",
+        "여부"
+      ],
+      [
+        "between",
+        "사이에"
+      ],
+      [
+        "demand",
+        "수요"
+      ],
+      [
+        "social",
+        "사회적"
+      ],
+      [
+        "change",
+        "변화"
+      ],
+      [
+        "rather",
+        "오히려"
+      ],
+      [
+        "mother",
+        "어머니"
+      ],
+      [
+        "lower",
+        "더 낮은"
+      ],
+      [
+        "price",
+        "가격"
+      ],
+      [
+        "human",
+        "인간의"
+      ],
+      [
+        "felt",
+        "펠트"
+      ],
+      [
+        "bias",
+        "편견"
+      ],
+      [
+        "lack",
+        "부족하다"
+      ],
+      [
+        "bond",
+        "채권"
+      ],
+      [
+        "keep",
+        "유지하다"
+      ],
+      [
+        "due",
+        "기한"
+      ],
+      [
         "guy",
         "남자"
+      ],
+      [
+        "key",
+        "열쇠"
+      ],
+      [
+        "cry",
+        "울다"
+      ],
+      [
+        "cat",
+        "고양이"
       ]
     ],
     "phrases": [
       [
         "try to",
         "~하려고 노력하다"
+      ],
+      [
+        "due to",
+        "~ 때문에"
+      ],
+      [
+        "rather than",
+        "~라기보다"
       ]
     ],
     "questions": [
       {
         "title": "원래 기출 37번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "passage": "(A) The force it would take to stretch the nail is much larger than the friction forces on the surface, so we don’t have to worry too much about the former. It’s the friction with which we need to concern ourselves. (B) If you try to pull apart two blocks of wood that have been nailed together, the wood fibers grip the shaft of the nail. The nail feels a force trying to rip it apart along its length, and we call that force tension. (C) Your experiment can now fail in one of two ways―either the nail stretches and splits in half because the tension force is too large for the nail, or the nail comes loose because the friction force is overcome.",
         "choices": [
           "(A) - (C) - (B)",
           "(B) - (A) - (C)",
@@ -15258,21 +19329,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향",
-          "대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요",
-          "addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
-          "못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의",
-          "어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두"
+          "The lower the objective probability, the greater the subjectively felt bias in judgment.",
+          "Demand for innovative, cutting-edge products insensitive to price due to lack of substitutes and emphasis on performance",
+          "The changes in meaning of addicts, husband, and guy constantly demonstrate human creation and social change.",
+          "The key to maintaining the bond of nailed wood and determining whether or not it separates is the surface tension rather than the tension of the nail.",
+          "All kittens cry when a mother cat distinguishes between her kittens and to keep out predators."
         ],
         "answer": 3,
-        "explanation": "글 전체의 핵심은 ‘못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의’입니다.",
+        "explanation": "글 전체의 핵심은 ‘못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "중독자·남편·남자의 의미있는 위치를 표시해 주는 인간의 창조와 사회의 위치를 끊임없이",
-          "",
-          ""
+          "객관적인 확률이 낮을수록 판단 시 주관적으로 느끼는 편견이 커집니다.",
+          "대체재 부족, 성능 중시로 인해 가격에 둔감한 혁신적 첨단제품 수요",
+          "중독자, 남편, 남자의 의미 변화는 인간의 창조와 사회변화를 끊임없이 보여준다.",
+          "못을 박은 나무의 접착력을 유지하고 분리 여부를 결정하는 열쇠는 못의 장력보다는 표면 장력에 있습니다.",
+          "모든 새끼 고양이는 어미 고양이가 새끼 고양이를 구별하고 포식자를 쫓아낼 때 웁니다."
         ]
       },
       {
@@ -15354,6 +19425,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 38,
     "title": "폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성",
+    "englishTitle": "Repeated exposure to violent video games may lead to desensitization and reduced empathy.",
     "sentences": [
       {
         "en": "Video gaming is one of the most studied technologies with regard to empathy.",
@@ -15852,13 +19924,179 @@
       [
         "work",
         "일"
+      ],
+      [
+        "advantageous",
+        "유리한"
+      ],
+      [
+        "terms",
+        "용어"
+      ],
+      [
+        "costs",
+        "비용"
+      ],
+      [
+        "environmental",
+        "환경"
+      ],
+      [
+        "alternatives",
+        "대안"
+      ],
+      [
+        "contributing",
+        "기여"
+      ],
+      [
+        "productivity",
+        "생산성"
+      ],
+      [
+        "transaction",
+        "거래"
+      ],
+      [
+        "exhaustion",
+        "피로"
+      ],
+      [
+        "compassion",
+        "연민"
+      ],
+      [
+        "continuous",
+        "연속적인"
+      ],
+      [
+        "management",
+        "관리"
+      ],
+      [
+        "prevention",
+        "예방"
+      ],
+      [
+        "evolution",
+        "진화"
+      ],
+      [
+        "selection",
+        "선택"
+      ],
+      [
+        "pressures",
+        "압력"
+      ],
+      [
+        "long-term",
+        "장기"
+      ],
+      [
+        "increase",
+        "증가하다"
+      ],
+      [
+        "conflict",
+        "갈등"
+      ],
+      [
+        "rational",
+        "합리적"
+      ],
+      [
+        "response",
+        "응답"
+      ],
+      [
+        "currency",
+        "통화"
+      ],
+      [
+        "economic",
+        "경제적"
+      ],
+      [
+        "causing",
+        "일으키는"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
+        "storage",
+        "저장"
+      ],
+      [
+        "fasting",
+        "금식"
+      ],
+      [
+        "limits",
+        "한계"
+      ],
+      [
+        "volume",
+        "볼륨"
+      ],
+      [
+        "common",
+        "공통의"
+      ],
+      [
+        "reduce",
+        "감소시키다"
+      ],
+      [
+        "growth",
+        "성장"
+      ],
+      [
+        "group",
+        "그룹"
+      ],
+      [
+        "fact",
+        "사실"
+      ],
+      [
+        "bias",
+        "편견"
+      ],
+      [
+        "lead",
+        "리드"
+      ],
+      [
+        "food",
+        "음식"
+      ],
+      [
+        "loss",
+        "손실"
+      ],
+      [
+        "fat",
+        "지방"
       ]
     ],
-    "phrases": [],
+    "phrases": [
+      [
+        "lead to",
+        "~로 이어지다"
+      ],
+      [
+        "in response to",
+        "~에 대응하여"
+      ]
+    ],
     "questions": [
       {
         "title": "원래 기출 38번",
-        "question": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+        "question": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+        "passage": "Video gaming is one of the most studied technologies with regard to empathy. ( ① ) Because there have been longstanding concerns about the impact of violent video games on youth, much research has been conducted over the last couple of decades on the topic. ( ② ) While measuring and documenting the impact of video game violence, scientists have formulated credible explanations of how video gaming could affect empathy. ( ③ ) Part of a normal, healthy reaction to witnessing violent events is to feel negative emotions, and to experience physiological arousal that is connected to fear or disgust. ( ④ ) With repeated exposure to violent events—such as what might happen when a person plays violent video games—this normal reaction might become blunted, a phenomenon known as desensitization. ( ⑤ ) A significant body of work shows an association between extensive violent video gaming and reduced empathy in people. The next step in this problematic process would be having diminished emotional responses to violence, which could also interfere with the ability to recognize and/or to sympathize with others, leading to reduced empathy.",
         "choices": [
           "①의 위치",
           "②의 위치",
@@ -15881,21 +20119,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
-          "환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정",
-          "폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성",
-          "저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두",
-          "공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식"
+          "There are limits to the fact that empathy can increase conflict by causing exhaustion and group bias, and there are alternatives such as rational compassion.",
+          "A continuous process of evolution in response to environmental changes and selection pressures",
+          "Repeated exposure to violent video games may lead to desensitization and reduced empathy.",
+          "Food is advantageous in terms of storage volume and management costs, and body fat is advantageous in terms of loss prevention and long-term fasting.",
+          "How a common currency can reduce transaction costs, contributing to productivity and economic growth"
         ],
         "answer": 2,
-        "explanation": "글 전체의 핵심은 ‘폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성’입니다.",
+        "explanation": "글 전체의 핵심은 ‘폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "공감이 탈진과 집단 편견을 유발해 갈등을 증폭시킬 수 있다는 점에는 한계가 있으며, 합리적 연민 등의 대안도 있다.",
+          "환경 변화와 선택 압력에 대응하는 지속적인 진화 과정",
+          "폭력적인 비디오 게임에 반복적으로 노출되면 둔감해지고 공감 능력이 저하될 수 있습니다.",
+          "음식은 저장량과 관리 비용 측면에서 유리하고, 체지방은 손실 예방과 장기 단식 측면에서 유리합니다.",
+          "공통 통화가 거래 비용을 줄이고 생산성과 경제 성장에 기여하는 방법"
         ]
       },
       {
@@ -15977,6 +20215,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 39,
     "title": "뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로",
+    "englishTitle": "The physical properties of paper, which can create wrinkles while maintaining stiffness, make it uniquely suited for folding and packaging.",
     "sentences": [
       {
         "en": "Paper's mechanical properties lend themselves to folding and bending.",
@@ -16515,13 +20754,202 @@
       [
         "few",
         "거의"
+      ],
+      [
+        "diversification",
+        "다양화"
+      ],
+      [
+        "understanding",
+        "이해"
+      ],
+      [
+        "long-lasting",
+        "오래 지속되는"
+      ],
+      [
+        "replacement",
+        "교체"
+      ],
+      [
+        "maintaining",
+        "유지"
+      ],
+      [
+        "development",
+        "개발"
+      ],
+      [
+        "possibility",
+        "가능성"
+      ],
+      [
+        "accommodate",
+        "수용하다"
+      ],
+      [
+        "pedestrian",
+        "보행자"
+      ],
+      [
+        "commercial",
+        "상업"
+      ],
+      [
+        "automobile",
+        "자동차"
+      ],
+      [
+        "efficiency",
+        "효율성"
+      ],
+      [
+        "resources",
+        "자원"
+      ],
+      [
+        "utilizing",
+        "활용"
+      ],
+      [
+        "expensive",
+        "비싸다"
+      ],
+      [
+        "stiffness",
+        "강성"
+      ],
+      [
+        "packaging",
+        "포장"
+      ],
+      [
+        "starlight",
+        "별빛"
+      ],
+      [
+        "physical",
+        "물리적"
+      ],
+      [
+        "wrinkles",
+        "주름"
+      ],
+      [
+        "industry",
+        "산업"
+      ],
+      [
+        "universe",
+        "우주"
+      ],
+      [
+        "benefits",
+        "혜택"
+      ],
+      [
+        "changing",
+        "변화하는"
+      ],
+      [
+        "vendors",
+        "공급 업체"
+      ],
+      [
+        "instead",
+        "대신"
+      ],
+      [
+        "process",
+        "프로세스"
+      ],
+      [
+        "promote",
+        "홍보하다"
+      ],
+      [
+        "history",
+        "역사"
+      ],
+      [
+        "distant",
+        "먼"
+      ],
+      [
+        "streets",
+        "거리"
+      ],
+      [
+        "squares",
+        "사각형"
+      ],
+      [
+        "street",
+        "거리"
+      ],
+      [
+        "public",
+        "대중"
+      ],
+      [
+        "spaces",
+        "공백"
+      ],
+      [
+        "create",
+        "창조하다"
+      ],
+      [
+        "rising",
+        "상승"
+      ],
+      [
+        "prices",
+        "가격"
+      ],
+      [
+        "energy",
+        "에너지"
+      ],
+      [
+        "seeing",
+        "보는 것"
+      ],
+      [
+        "paths",
+        "경로"
+      ],
+      [
+        "fuel",
+        "연료"
+      ],
+      [
+        "cell",
+        "세포"
+      ],
+      [
+        "past",
+        "과거"
+      ],
+      [
+        "city",
+        "도시"
+      ],
+      [
+        "uses",
+        "용도"
+      ],
+      [
+        "oil",
+        "기름"
       ]
     ],
     "phrases": [],
     "questions": [
       {
         "title": "원래 기출 39번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+        "passage": "Paper’s mechanical properties lend themselves to folding and bending. ( ① ) The cellulose fibers of which it is made can be partially snapped in the area of maximum bend, allowing a permanent crease to form, while sufficient fibers remain undamaged for the material not to crack and fall apart. ( ② ) Indeed, in this state it pretty much maintains its ability to resist being pulled apart, but it can also be torn easily and accurately along the crease if a point of weakness―a small, initial tear―is opened up. ( ③ ) This winning combination of mechanical properties allows it to assume the shape of any object through creasing and folding― hence the art of origami. ( ④ ) Plastic sheeting doesn’t tend to hold a crease at all, unless it is very soft, in which case it lacks the rigidity required of a good wrapping material. ( ⑤ ) So it is its ability to hold a crease while remaining stiff that makes paper uniquely suited to this purpose. There are very few materials as good: metal foils can hold a crease, but control of the crease is somewhat more difficult.",
         "choices": [
           "①의 위치",
           "②의 위치",
@@ -16544,21 +20972,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체",
-          "뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로",
-          "유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
-          "먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성",
-          "변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점"
+          "Replacement of resources by street vendors utilizing public pedestrian paths instead of expensive commercial spaces",
+          "The physical properties of paper, which can create wrinkles while maintaining stiffness, make it uniquely suited for folding and packaging.",
+          "The process by which rising oil prices promote automobile efficiency, fuel cell development, and energy industry diversification",
+          "The possibility of seeing the past of the universe and understanding its history through distant starlight.",
+          "The benefits of long-lasting city streets and squares that accommodate changing uses"
         ],
         "answer": 1,
-        "explanation": "글 전체의 핵심은 ‘뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로’입니다.",
+        "explanation": "글 전체의 핵심은 ‘뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "고가의 상업공간 대신 공공보도를 활용한 노점상 자원 대체",
+          "종이는 강성을 유지하면서도 주름이 생길 수 있는 물리적 특성으로 인해 접거나 포장하는 데 매우 적합합니다.",
+          "유가 상승이 자동차 효율화, 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
+          "먼 별빛을 통해 우주의 과거를 보고 그 역사를 이해할 수 있는 가능성.",
+          "변화하는 용도를 수용하는 오래 지속되는 도시 거리와 광장의 이점"
         ]
       },
       {
@@ -16640,6 +21068,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 39,
     "title": "진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
+    "englishTitle": "The problem of promoting social causes without true commitment leads to purpose-laundering and loss of trust.",
     "sentences": [
       {
         "en": "Realising the benefits of differentiation, some brands broadcast their social purpose before they do much actual good.",
@@ -17116,6 +21545,198 @@
       [
         "old",
         "늙은"
+      ],
+      [
+        "differences",
+        "차이점"
+      ],
+      [
+        "purpose-laundering",
+        "목적세탁"
+      ],
+      [
+        "misconfiguration",
+        "잘못된 구성"
+      ],
+      [
+        "interpretation",
+        "해석"
+      ],
+      [
+        "individual's",
+        "개인의"
+      ],
+      [
+        "uncertainty",
+        "불확실성"
+      ],
+      [
+        "experiences",
+        "경험"
+      ],
+      [
+        "individual",
+        "개인"
+      ],
+      [
+        "excellence",
+        "우수성"
+      ],
+      [
+        "boundaries",
+        "경계"
+      ],
+      [
+        "continuous",
+        "연속적인"
+      ],
+      [
+        "unexpected",
+        "예상치 못한"
+      ],
+      [
+        "promoting",
+        "홍보"
+      ],
+      [
+        "arbitrary",
+        "임의의"
+      ],
+      [
+        "sensation",
+        "감각"
+      ],
+      [
+        "immersion",
+        "침수"
+      ],
+      [
+        "secretion",
+        "분비"
+      ],
+      [
+        "combining",
+        "결합"
+      ],
+      [
+        "increase",
+        "증가하다"
+      ],
+      [
+        "pleasure",
+        "즐거움"
+      ],
+      [
+        "dopamine",
+        "도파민"
+      ],
+      [
+        "intended",
+        "의도한"
+      ],
+      [
+        "problem",
+        "문제"
+      ],
+      [
+        "between",
+        "사이에"
+      ],
+      [
+        "overall",
+        "전반적으로"
+      ],
+      [
+        "success",
+        "성공"
+      ],
+      [
+        "setting",
+        "설정"
+      ],
+      [
+        "greatly",
+        "크게"
+      ],
+      [
+        "provide",
+        "제공하다"
+      ],
+      [
+        "greater",
+        "더 큰"
+      ],
+      [
+        "through",
+        "통해"
+      ],
+      [
+        "readers",
+        "독자"
+      ],
+      [
+        "meaning",
+        "의미"
+      ],
+      [
+        "causes",
+        "원인"
+      ],
+      [
+        "change",
+        "변화"
+      ],
+      [
+        "images",
+        "이미지"
+      ],
+      [
+        "limits",
+        "한계"
+      ],
+      [
+        "guides",
+        "가이드"
+      ],
+      [
+        "toward",
+        "향해"
+      ],
+      [
+        "leads",
+        "리드"
+      ],
+      [
+        "trust",
+        "신뢰"
+      ],
+      [
+        "shows",
+        "쇼"
+      ],
+      [
+        "small",
+        "작은"
+      ],
+      [
+        "scope",
+        "범위"
+      ],
+      [
+        "true",
+        "사실"
+      ],
+      [
+        "loss",
+        "손실"
+      ],
+      [
+        "life",
+        "생활"
+      ],
+      [
+        "text",
+        "텍스트"
       ]
     ],
     "phrases": [
@@ -17127,7 +21748,8 @@
     "questions": [
       {
         "title": "원래 기출 39번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+        "passage": "Realising the benefits of differentiation, some brands broadcast their social purpose before they do much actual good. ( ① ) Their marketers are using social purpose to boost the brand’s reputation, rather than embracing the purpose itself. ( ② ) Otherwise the mission is just window-dressing, or what we call “purpose-washing”―similar to green-washing, where purpose-driven activities serve mainly for publicity purposes. ( ③ ) We end up with what Anand Giridhardas describes in Winners Take All: “social purpose that just furthers the charade of elites disrupting the old order without giving much back”. ( ④ ) Purpose-washing brands gain one of the benefits of social purpose, differentiation, but only for a short while. ( ⑤ ) They lose out on positioning for future markets, and they might even make employees feel worse about working for them. Making a real difference with social problems is hard enough; to succeed, it has to follow from an authentic, companywide commitment to the purpose.",
         "choices": [
           "①의 위치",
           "②의 위치",
@@ -17150,21 +21772,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
-          "구성의 오류가 보여 주는 개별 우수성과 전체 성공의 차이",
-          "연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는",
-          "불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는",
-          "이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는"
+          "The problem of promoting social causes without true commitment leads to purpose-laundering and loss of trust.",
+          "Misconfiguration shows the difference between individual excellence and overall success.",
+          "By setting arbitrary boundaries on continuous differences, small differences can greatly change an individual's life.",
+          "Uncertainty and unexpected experiences increase sensation and immersion and provide greater pleasure through the secretion of dopamine.",
+          "Combining text with images limits the scope for interpretation and guides readers toward the intended meaning."
         ],
         "answer": 0,
-        "explanation": "글 전체의 핵심은 ‘진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제’입니다.",
+        "explanation": "글 전체의 핵심은 ‘진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "진정한 헌신 없이 사회적 대의를 추진하는 문제는 목적 세탁과 신뢰 상실로 이어집니다.",
+          "잘못된 구성은 개인의 우수성과 전반적인 성공의 차이를 보여줍니다.",
+          "지속적인 차이에 임의의 경계를 설정함으로써 작은 차이가 개인의 삶을 크게 바꿀 수 있습니다.",
+          "불확실성과 예상치 못한 경험은 감각과 몰입도를 높이고 도파민 분비를 통해 더 큰 즐거움을 선사한다.",
+          "텍스트와 이미지를 결합하면 해석의 범위가 제한되고 독자가 의도한 의미로 안내됩니다."
         ]
       },
       {
@@ -17246,6 +21868,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 40,
     "title": "예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력",
+    "englishTitle": "Emotional immersion and the appeal of music that arise when expected musical patterns are broken",
     "sentences": [
       {
         "en": "The brain needs to create a model of a constant pulse — a schema — so that we know when the musicians are not conforming to it.",
@@ -17756,16 +22379,128 @@
         "예측할 수 없는"
       ],
       [
+        "behavior",
+        "행동"
+      ],
+      [
+        "allows",
+        "허용한다"
+      ],
+      [
+        "intelligence",
+        "지능"
+      ],
+      [
         "established",
         "설립"
+      ],
+      [
+        "preferences",
+        "환경 설정"
+      ],
+      [
+        "information",
+        "정보"
+      ],
+      [
+        "real-world",
+        "실제 세계"
+      ],
+      [
+        "substitute",
+        "대체하다"
+      ],
+      [
+        "experience",
+        "경험"
+      ],
+      [
+        "production",
+        "생산"
+      ],
+      [
+        "individual",
+        "개인"
+      ],
+      [
+        "real-life",
+        "실제 생활"
+      ],
+      [
+        "abundance",
+        "풍요로움"
+      ],
+      [
+        "ancestors",
+        "조상"
+      ],
+      [
+        "immersion",
+        "침수"
       ],
       [
         "maintain",
         "유지하다"
       ],
       [
+        "rehearse",
+        "연습하다"
+      ],
+      [
+        "discount",
+        "할인"
+      ],
+      [
+        "thinking",
+        "생각"
+      ],
+      [
+        "expected",
+        "예상됨"
+      ],
+      [
         "disobey",
         "불순종하다"
+      ],
+      [
+        "imagery",
+        "이미지"
+      ],
+      [
+        "ability",
+        "능력"
+      ],
+      [
+        "coupons",
+        "쿠폰"
+      ],
+      [
+        "reveals",
+        "공개하다"
+      ],
+      [
+        "changed",
+        "변경됨"
+      ],
+      [
+        "reality",
+        "현실"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
+        "hunting",
+        "사냥"
+      ],
+      [
+        "brought",
+        "가져온"
+      ],
+      [
+        "leisure",
+        "여가"
       ],
       [
         "repeat",
@@ -17774,6 +22509,50 @@
       [
         "embody",
         "구현하다"
+      ],
+      [
+        "visual",
+        "시각적"
+      ],
+      [
+        "energy",
+        "에너지"
+      ],
+      [
+        "hidden",
+        "숨겨진"
+      ],
+      [
+        "accept",
+        "받아들이다"
+      ],
+      [
+        "skills",
+        "기술"
+      ],
+      [
+        "appeal",
+        "항소"
+      ],
+      [
+        "broken",
+        "부서진"
+      ],
+      [
+        "money",
+        "돈"
+      ],
+      [
+        "spent",
+        "지출"
+      ],
+      [
+        "early",
+        "일찍"
+      ],
+      [
+        "save",
+        "저장"
       ]
     ],
     "phrases": [
@@ -17785,7 +22564,8 @@
     "questions": [
       {
         "title": "원래 기출 40번",
-        "question": "가장 적절한 것을 고르시오.",
+        "question": "요약문의 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+        "passage": "The brain needs to create a model of a constant pulse ― a schema ― so that we know when the musicians are not conforming to it. This is similar to variations of a melody: We need to have a mental representation of what the melody is in order to know―and appreciate when the musician is taking liberties with it. Metrical extraction, knowing what the pulse is and when we expect it to occur, is a crucial part of musical emotion. Music communicates to us emotionally through systematic violations of expectations. These violations can occur in any domain―the domain of pitch, rhythm, tempo, and so on―but occur they must. Music is organized sound, but the organization has to involve some element of the unexpected or it is emotionally flat and robotic. Too much organization may technically still be music, but it would be music that no one wants to listen to.  (A) (B)",
         "choices": [
           "unpredictable  ……    repeat",
           "unpredictable  ……   disobey",
@@ -17808,21 +22588,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상",
-          "할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능",
-          "개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는",
-          "사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화",
-          "예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력"
+          "Visual imagery that allows you to rehearse real-world behavior but is not a substitute for real-life experience",
+          "The ability of discount coupons to save not only money, but also time and mental energy spent on thinking.",
+          "Reveals hidden preferences and production information through individual behavior and allows people to accept changed reality",
+          "Changes in hunting skills and intelligence that brought leisure and abundance to our early ancestors",
+          "Emotional immersion and the appeal of music that arise when expected musical patterns are broken"
         ],
         "answer": 4,
-        "explanation": "글 전체의 핵심은 ‘예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력’입니다.",
+        "explanation": "글 전체의 핵심은 ‘예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "실제 행동을 연습할 수 있지만 실제 경험을 대체할 수는 없는 시각적 이미지",
+          "돈뿐만 아니라 생각하는 데 소비되는 시간과 정신적 에너지를 절약하는 할인 쿠폰의 기능.",
+          "개인의 행동을 통해 숨겨진 선호도와 생산정보를 드러내고 변화된 현실을 수용할 수 있도록 함",
+          "초기 조상들에게 여가와 풍요를 가져온 사냥 기술과 지능의 변화",
+          "기대했던 음악적 패턴이 깨질 때 나타나는 감성적 몰입감과 음악의 매력"
         ]
       },
       {
@@ -17904,6 +22684,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 40,
     "title": "어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두",
+    "englishTitle": "All kittens cry when a mother cat distinguishes between her kittens and to keep out predators.",
     "sentences": [
       {
         "en": "Mother cats can tell which kittens belong to them — when litters are mixed up they use their kittens' scent to distinguish them from offspring of other mothers.",
@@ -18378,12 +23159,68 @@
         "나쁜"
       ],
       [
+        "response",
+        "응답"
+      ],
+      [
         "abandon",
         "버리다"
       ],
       [
+        "distinguishes",
+        "구별하다"
+      ],
+      [
+        "perspectives",
+        "관점"
+      ],
+      [
+        "environment",
+        "환경"
+      ],
+      [
+        "arabidopsis",
+        "애기장대"
+      ],
+      [
+        "threatening",
+        "위협적인"
+      ],
+      [
         "distracted",
         "산만하다"
+      ],
+      [
+        "observable",
+        "관찰 가능"
+      ],
+      [
+        "importance",
+        "중요성"
+      ],
+      [
+        "thaliana's",
+        "탈리아나의"
+      ],
+      [
+        "allocation",
+        "할당"
+      ],
+      [
+        "situations",
+        "상황"
+      ],
+      [
+        "understand",
+        "이해하다"
+      ],
+      [
+        "tradition",
+        "전통"
+      ],
+      [
+        "different",
+        "다른"
       ],
       [
         "deceived",
@@ -18394,12 +23231,148 @@
         "깨어났다"
       ],
       [
+        "politics",
+        "정치"
+      ],
+      [
+        "religion",
+        "종교"
+      ],
+      [
+        "requires",
+        "필요하다"
+      ],
+      [
+        "emotions",
+        "감정"
+      ],
+      [
+        "natural",
+        "자연스러운"
+      ],
+      [
+        "combine",
+        "결합하다"
+      ],
+      [
+        "measure",
+        "측정하다"
+      ],
+      [
+        "contact",
+        "연락"
+      ],
+      [
+        "genetic",
+        "유전적"
+      ],
+      [
+        "inhibit",
+        "억제하다"
+      ],
+      [
+        "effects",
+        "효과"
+      ],
+      [
+        "chronic",
+        "만성"
+      ],
+      [
+        "between",
+        "사이에"
+      ],
+      [
+        "ability",
+        "능력"
+      ],
+      [
+        "neurons",
+        "뉴런"
+      ],
+      [
+        "present",
+        "현재"
+      ],
+      [
+        "various",
+        "다양한"
+      ],
+      [
+        "animals",
+        "동물"
+      ],
+      [
         "chased",
         "쫓기다"
       ],
       [
+        "effect",
+        "효과"
+      ],
+      [
+        "energy",
+        "에너지"
+      ],
+      [
+        "growth",
+        "성장"
+      ],
+      [
+        "freeze",
+        "얼다"
+      ],
+      [
+        "blocks",
+        "블록"
+      ],
+      [
+        "speech",
+        "연설"
+      ],
+      [
+        "living",
+        "생활"
+      ],
+      [
+        "groups",
+        "그룹"
+      ],
+      [
+        "mirror",
+        "거울"
+      ],
+      [
         "raise",
         "인상"
+      ],
+      [
+        "daily",
+        "매일"
+      ],
+      [
+        "times",
+        "배"
+      ],
+      [
+        "life",
+        "생활"
+      ],
+      [
+        "fear",
+        "무서움"
+      ],
+      [
+        "mind",
+        "마음"
+      ],
+      [
+        "keep",
+        "유지하다"
+      ],
+      [
+        "cry",
+        "울다"
       ]
     ],
     "phrases": [
@@ -18411,7 +23384,8 @@
     "questions": [
       {
         "title": "원래 기출 40번",
-        "question": "다음 글을 읽고 물음에 답하시오.",
+        "question": "요약문의 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+        "passage": "Mother cats can tell which kittens belong to them ― when litters are mixed up they use their kittens’ scent to distinguish them from offspring of other mothers. Despite this, when faced with a selection of kittens who have wandered from the nest, her own and others that aren’t hers, a mother cat doesn’t appear to favor her own offspring when retrieving them. The reason for this is uncertain, although distress vocalizations from kittens that are lost from their nest are known to be very powerful, so it may just be hard for the mother to resist retrieving them, regardless of whether they are hers. In the wild, a squeaking kitten out in the open is likely to attract predators, which is bad news for any other kittens around it. A rapid rescue of any crying kitten would be a good strategy to prevent them from drawing unwanted attention.  (A) (B)",
         "choices": [
           "raise ……   deceived",
           "collect  ……   detected",
@@ -18434,21 +23408,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정",
-          "접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향",
-          "위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
-          "어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두",
-          "집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이"
+          "The observable natural environment and its importance in daily life combine with tradition, politics, and religion to measure different times.",
+          "The effect of contact on Arabidopsis thaliana's genetic response and energy allocation to inhibit growth.",
+          "The freeze response to threatening situations blocks speech and the effects of chronic fear on the mind.",
+          "All kittens cry when a mother cat distinguishes between her kittens and to keep out predators.",
+          "Living in groups requires the ability to understand the perspectives and emotions of others, so mirror neurons are present in various animals."
         ],
         "answer": 3,
-        "explanation": "글 전체의 핵심은 ‘어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두’입니다.",
+        "explanation": "글 전체의 핵심은 ‘어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "관찰 가능한 자연환경과 그것이 일상생활에서 갖는 중요성은 전통, 정치, 종교와 결합되어 다양한 시대를 측정한다.",
+          "애기장대(Arabidopsis thaliana)의 유전적 반응과 성장을 억제하는 에너지 할당에 대한 접촉의 영향.",
+          "위협적인 상황에 대한 동결 반응은 말을 차단하고 만성적 두려움이 마음에 미치는 영향을 차단합니다.",
+          "모든 새끼 고양이는 어미 고양이가 새끼 고양이를 구별하고 포식자를 쫓아낼 때 웁니다.",
+          "집단 생활을 하려면 타인의 관점과 감정을 이해하는 능력이 필요하기 때문에 거울 뉴런은 다양한 동물에 존재한다."
         ]
       },
       {
@@ -18530,6 +23504,7 @@
     "examLabel": "2025년 9월",
     "examNumber": 41,
     "title": "저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두",
+    "englishTitle": "Food is advantageous in terms of storage volume and management costs, and body fat is advantageous in terms of loss prevention and long-term fasting.",
     "sentences": [
       {
         "en": "Many animals pursue a mixed strategy of accumulating both body fat and food, which leads one to ask, \"What are the relative advantages and disadvantages of these two forms of energy storage?\"",
@@ -19156,8 +24131,112 @@
         "동물"
       ],
       [
+        "human",
+        "인간의"
+      ],
+      [
+        "terms",
+        "용어"
+      ],
+      [
+        "subjectively",
+        "주관적으로"
+      ],
+      [
+        "cutting-edge",
+        "최첨단"
+      ],
+      [
+        "demonstrate",
+        "시연하다"
+      ],
+      [
+        "probability",
+        "확률"
+      ],
+      [
+        "insensitive",
+        "둔감하다"
+      ],
+      [
+        "substitutes",
+        "대체품"
+      ],
+      [
+        "performance",
+        "성능"
+      ],
+      [
+        "constantly",
+        "끊임없이"
+      ],
+      [
+        "threatened",
+        "위협을 받다"
+      ],
+      [
+        "management",
+        "관리"
+      ],
+      [
+        "prevention",
+        "예방"
+      ],
+      [
+        "innovative",
+        "혁신적인"
+      ],
+      [
+        "hierarchy",
+        "계층 구조"
+      ],
+      [
+        "long-term",
+        "장기"
+      ],
+      [
+        "objective",
+        "목표"
+      ],
+      [
         "survival",
         "생존"
+      ],
+      [
+        "creation",
+        "창조"
+      ],
+      [
+        "instinct",
+        "본능"
+      ],
+      [
+        "rational",
+        "합리적"
+      ],
+      [
+        "thinking",
+        "생각"
+      ],
+      [
+        "reaffirm",
+        "재확인하다"
+      ],
+      [
+        "existing",
+        "기존"
+      ],
+      [
+        "judgment",
+        "판단"
+      ],
+      [
+        "products",
+        "제품"
+      ],
+      [
+        "emphasis",
+        "강조"
       ],
       [
         "convert",
@@ -19166,6 +24245,14 @@
       [
         "outside",
         "외부"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
+        "meaning",
+        "의미"
       ],
       [
         "addicts",
@@ -19192,6 +24279,26 @@
         "내부"
       ],
       [
+        "social",
+        "사회적"
+      ],
+      [
+        "change",
+        "변화"
+      ],
+      [
+        "status",
+        "상태"
+      ],
+      [
+        "volume",
+        "볼륨"
+      ],
+      [
+        "demand",
+        "수요"
+      ],
+      [
         "sizes",
         "크기"
       ],
@@ -19200,12 +24307,48 @@
         "자다"
       ],
       [
+        "one's",
+        "자신의"
+      ],
+      [
+        "lower",
+        "더 낮은"
+      ],
+      [
+        "price",
+        "가격"
+      ],
+      [
         "role",
         "역할"
       ],
       [
+        "stop",
+        "중지"
+      ],
+      [
+        "loss",
+        "손실"
+      ],
+      [
+        "felt",
+        "펠트"
+      ],
+      [
+        "bias",
+        "편견"
+      ],
+      [
+        "lack",
+        "부족하다"
+      ],
+      [
         "guy",
         "남자"
+      ],
+      [
+        "due",
+        "기한"
       ]
     ],
     "phrases": [
@@ -19224,12 +24367,17 @@
       [
         "in the form of",
         "~의 형태로"
+      ],
+      [
+        "due to",
+        "~ 때문에"
       ]
     ],
     "questions": [
       {
         "title": "원래 기출 41번",
         "question": "윗글의 제목으로 가장 적절한 것은?",
+        "passage": "",
         "choices": [
           "The Body Sizes of Animals: Is Bigger Better?",
           "Fat Storage and Its Impact on Body Temperature",
@@ -19251,6 +24399,7 @@
       {
         "title": "원래 기출 42번",
         "question": "밑줄 친 (a)~(e) 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+        "passage": "",
         "choices": [
           "(a)",
           "(b)",
@@ -19273,21 +24422,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
-          "자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적",
-          "저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두",
-          "낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향",
-          "대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요"
+          "The changes in meaning of addicts, husband, and guy constantly demonstrate human creation and social change.",
+          "When one's status is threatened, the human instinct to stop rational thinking and reaffirm the existing hierarchy",
+          "Food is advantageous in terms of storage volume and management costs, and body fat is advantageous in terms of loss prevention and long-term fasting.",
+          "The lower the objective probability, the greater the subjectively felt bias in judgment.",
+          "Demand for innovative, cutting-edge products insensitive to price due to lack of substitutes and emphasis on performance"
         ],
         "answer": 2,
-        "explanation": "글 전체의 핵심은 ‘저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두’입니다.",
+        "explanation": "글 전체의 핵심은 ‘저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "중독자·남편·남자의 의미있는 위치를 표시해 주는 인간의 창조와 사회의 위치를 끊임없이",
-          "",
-          "",
-          "",
-          ""
+          "중독자, 남편, 남자의 의미 변화는 인간의 창조와 사회변화를 끊임없이 보여준다.",
+          "자신의 지위가 위협받을 때 합리적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능",
+          "음식은 저장량과 관리 비용 측면에서 유리하고, 체지방은 손실 예방과 장기 단식 측면에서 유리합니다.",
+          "객관적인 확률이 낮을수록 판단 시 주관적으로 느끼는 편견이 커집니다.",
+          "대체재 부족, 성능 중시로 인해 가격에 둔감한 혁신적 첨단제품 수요"
         ]
       },
       {
@@ -19369,6 +24518,7 @@
     "examLabel": "2026년 6월",
     "examNumber": 41,
     "title": "유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
+    "englishTitle": "The process by which rising oil prices promote automobile efficiency, fuel cell development, and energy industry diversification",
     "sentences": [
       {
         "en": "The major consumer of oil is transport.",
@@ -19997,8 +25147,60 @@
         "경쟁"
       ],
       [
+        "efficiency",
+        "효율성"
+      ],
+      [
+        "tension",
+        "긴장"
+      ],
+      [
+        "process",
+        "프로세스"
+      ],
+      [
+        "common",
+        "공통의"
+      ],
+      [
+        "diversification",
+        "다양화"
+      ],
+      [
+        "environmental",
+        "환경"
+      ],
+      [
+        "contributing",
+        "기여"
+      ],
+      [
+        "productivity",
+        "생산성"
+      ],
+      [
+        "alternatives",
+        "대안"
+      ],
+      [
         "overwhelmed",
         "압도하다"
+      ],
+      [
+        "maintaining",
+        "유지"
+      ],
+      [
+        "determining",
+        "결정"
+      ],
+      [
+        "development",
+        "개발"
+      ],
+      [
+        "transaction",
+        "거래"
       ],
       [
         "innovation",
@@ -20009,8 +25211,20 @@
         "전략"
       ],
       [
-        "efficiency",
-        "효율성"
+        "automobile",
+        "자동차"
+      ],
+      [
+        "exhaustion",
+        "피로"
+      ],
+      [
+        "compassion",
+        "연민"
+      ],
+      [
+        "continuous",
+        "연속적인"
       ],
       [
         "landscape",
@@ -20021,8 +25235,52 @@
         "공급업체"
       ],
       [
+        "separates",
+        "분리하다"
+      ],
+      [
+        "evolution",
+        "진화"
+      ],
+      [
+        "selection",
+        "선택"
+      ],
+      [
+        "pressures",
+        "압력"
+      ],
+      [
         "reshapes",
         "모양을 바꾸다"
+      ],
+      [
+        "industry",
+        "산업"
+      ],
+      [
+        "currency",
+        "통화"
+      ],
+      [
+        "economic",
+        "경제적"
+      ],
+      [
+        "increase",
+        "증가하다"
+      ],
+      [
+        "conflict",
+        "갈등"
+      ],
+      [
+        "rational",
+        "합리적"
+      ],
+      [
+        "response",
+        "응답"
       ],
       [
         "compass",
@@ -20037,12 +25295,56 @@
         "품질"
       ],
       [
+        "whether",
+        "여부"
+      ],
+      [
+        "surface",
+        "표면"
+      ],
+      [
+        "promote",
+        "홍보하다"
+      ],
+      [
+        "empathy",
+        "공감"
+      ],
+      [
+        "causing",
+        "일으키는"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
         "jungle",
         "정글"
       ],
       [
-        "common",
-        "공통의"
+        "nailed",
+        "못을 박았다"
+      ],
+      [
+        "rather",
+        "오히려"
+      ],
+      [
+        "rising",
+        "상승"
+      ],
+      [
+        "reduce",
+        "감소시키다"
+      ],
+      [
+        "growth",
+        "성장"
+      ],
+      [
+        "limits",
+        "한계"
       ],
       [
         "power",
@@ -20057,15 +25359,53 @@
         "주기"
       ],
       [
+        "costs",
+        "비용"
+      ],
+      [
+        "group",
+        "그룹"
+      ],
+      [
         "lost",
         "잃어버린"
+      ],
+      [
+        "bond",
+        "채권"
+      ],
+      [
+        "wood",
+        "나무"
+      ],
+      [
+        "nail",
+        "네일"
+      ],
+      [
+        "bias",
+        "편견"
+      ],
+      [
+        "key",
+        "열쇠"
       ]
     ],
-    "phrases": [],
+    "phrases": [
+      [
+        "rather than",
+        "~라기보다"
+      ],
+      [
+        "in response to",
+        "~에 대응하여"
+      ]
+    ],
     "questions": [
       {
         "title": "원래 기출 41번",
         "question": "윗글의 제목으로 가장 적절한 것은?",
+        "passage": "",
         "choices": [
           "Oil Under Threat: Innovation Reshapes the Energy Landscape",
           "Suppliers’ Strategies Overwhelmed by Consumer Power",
@@ -20087,6 +25427,7 @@
       {
         "title": "원래 기출 42번",
         "question": "밑줄 친 (a)~(e) 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+        "passage": "",
         "choices": [
           "(a)",
           "(b)",
@@ -20109,21 +25450,21 @@
         "title": "연관 변형 · 제목",
         "question": "윗글의 제목으로 가장 적절한 것은?",
         "choices": [
-          "못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의",
-          "유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
-          "공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식",
-          "공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
-          "환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정"
+          "The key to maintaining the bond of nailed wood and determining whether or not it separates is the surface tension rather than the tension of the nail.",
+          "The process by which rising oil prices promote automobile efficiency, fuel cell development, and energy industry diversification",
+          "How a common currency can reduce transaction costs, contributing to productivity and economic growth",
+          "There are limits to the fact that empathy can increase conflict by causing exhaustion and group bias, and there are alternatives such as rational compassion.",
+          "A continuous process of evolution in response to environmental changes and selection pressures"
         ],
         "answer": 1,
-        "explanation": "글 전체의 핵심은 ‘유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정’입니다.",
+        "explanation": "글 전체의 핵심은 ‘유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
         "kind": "reconstructed",
         "choiceMeanings": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "못을 박은 나무의 접착력을 유지하고 분리 여부를 결정하는 열쇠는 못의 장력보다는 표면 장력에 있습니다.",
+          "유가 상승이 자동차 효율화, 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
+          "공통 통화가 거래 비용을 줄이고 생산성과 경제 성장에 기여하는 방법",
+          "공감이 탈진과 집단 편견을 유발해 갈등을 증폭시킬 수 있다는 점에는 한계가 있으며, 합리적 연민 등의 대안도 있다.",
+          "환경 변화와 선택 압력에 대응하는 지속적인 진화 과정"
         ]
       },
       {

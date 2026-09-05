@@ -170,8 +170,28 @@ def extract_choices(text: str) -> list[list[str]]:
 
 
 def question_prompt(text: str, page: int, number: int) -> str:
-    if page >= 29:
-        return "윗글의 제목으로 가장 적절한 것은?" if number == 41 else "밑줄 친 (a)~(e) 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?"
+    prompts = {
+        20: "다음 글에서 필자가 주장하는 바로 가장 적절한 것은?",
+        21: "밑줄 친 부분이 다음 글에서 의미하는 바로 가장 적절한 것은?",
+        22: "다음 글의 요지로 가장 적절한 것은?",
+        23: "다음 글의 주제로 가장 적절한 것은?",
+        24: "다음 글의 제목으로 가장 적절한 것은?",
+        29: "다음 글의 밑줄 친 부분 중 어법상 틀린 것은?",
+        30: "다음 글의 밑줄 친 낱말 중 문맥상 쓰임이 적절하지 않은 것은?",
+        31: "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        32: "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        33: "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        34: "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+        36: "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        37: "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        38: "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+        39: "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳은?",
+        40: "요약문의 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+        41: "윗글의 제목으로 가장 적절한 것은?",
+        42: "밑줄 친 (a)~(e) 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+    }
+    if number in prompts:
+        return prompts[number]
     lines = [line.strip() for line in text.splitlines()]
     code_pos = next((i for i, line in enumerate(lines) if re.search(r"\d{2}-\d{1,2}-\d{1,2}", line)), 0)
     numbered_pos = next((i for i in range(code_pos, -1, -1) if re.match(r"^\d+\.\s*", lines[i])), code_pos)
@@ -184,14 +204,33 @@ def question_prompt(text: str, page: int, number: int) -> str:
     return instruction
 
 
-def translate_terms(terms: list[str]) -> dict[str, str]:
+def original_question_passage(text: str, number: int) -> str:
+    """Extract the question-specific passage when the printed form contains blanks or labels."""
+    if number not in {31, 32, 33, 34, 36, 37, 38, 39, 40}:
+        return ""
+    raw_lines = text.splitlines()
+    lines = [line.strip() for line in raw_lines]
+    code_index = next((i for i, line in enumerate(lines) if re.search(rf"\b\d{{2}}-\d{{1,2}}-{number}\b", line)), -1)
+    if code_index < 0:
+        return ""
+    first_choice = next((i for i in range(code_index + 1, len(lines)) if re.match(r"^①", lines[i])), len(lines))
+    selected_lines = [line for line in raw_lines[code_index + 1:first_choice] if line.strip() and not line.strip().startswith("*")]
+    body = " ".join(selected_lines)
+    if number in {31, 32, 33, 34}:
+        body = re.sub(r"[ \t]{12,}", " _______ ", body)
+    body = re.sub(r"\s+", " ", body)
+    body = re.sub(r"\s*\[\d점\]\s*", " ", body).strip()
+    return body
+
+
+def translate_terms(terms: list[str], source: str = "en", target: str = "ko") -> dict[str, str]:
     result: dict[str, str] = {}
     session = requests.Session()
     headers = {"User-Agent": "Mozilla/5.0"}
     for start in range(0, len(terms), 25):
         batch = terms[start : start + 25]
         try:
-            response = session.get("https://translate.google.com/m", params={"sl": "en", "tl": "ko", "q": "\n".join(batch)}, headers=headers, timeout=20)
+            response = session.get("https://translate.google.com/m", params={"sl": source, "tl": target, "q": "\n".join(batch)}, headers=headers, timeout=20)
             response.encoding = "utf-8"
             match = re.search(r'<div class="result-container">(.*?)</div>', response.text, re.S)
             translated = html.unescape(match.group(1)) if match else ""
@@ -260,15 +299,15 @@ def add_reconstructed_questions(passages: list[dict]) -> None:
             continue
 
         # Title question: neighboring passage titles make plausible but clearly sourced distractors.
-        title_pool = [passages[(index + offset) % len(passages)]["title"] for offset in (0, 5, 11, 17, 23)]
+        title_pool = [passages[(index + offset) % len(passages)]["englishTitle"] for offset in (0, 5, 11, 17, 23)]
         shift = index % 5
         title_choices = title_pool[shift:] + title_pool[:shift]
         passage["questions"].append({
             "title": "연관 변형 · 제목",
             "question": "윗글의 제목으로 가장 적절한 것은?",
             "choices": title_choices,
-            "answer": title_choices.index(passage["title"]),
-            "explanation": f"글 전체의 핵심은 ‘{passage['title']}’입니다.",
+            "answer": title_choices.index(passage["englishTitle"]),
+            "explanation": f"글 전체의 핵심은 ‘{passage['title']}’입니다. 정답 선택지는 이를 영어로 표현한 것입니다.",
             "kind": "reconstructed",
         })
 
@@ -345,12 +384,14 @@ def build() -> list[dict]:
     meanings: dict[str, str] = {}
     chunk_meanings: dict[str, str] = {}
     choice_meanings: dict[str, str] = {}
+    english_titles: dict[str, str] = {}
     if OUTPUT.exists():
         try:
             previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
             meanings = {word: meaning for item in previous for key in ("words", "lookupWords") for word, meaning in item.get(key, [])}
             chunk_meanings = {chunk[0]: chunk[1] for item in previous for sentence in item.get("sentences", []) for chunk in sentence.get("chunks", [])}
             choice_meanings = {choice: meaning for item in previous for question in item.get("questions", []) for choice, meaning in zip(question.get("choices", []), question.get("choiceMeanings", [])) if meaning}
+            english_titles = {item["title"]: item["englishTitle"] for item in previous if item.get("englishTitle")}
         except (json.JSONDecodeError, OSError, ValueError):
             meanings = {}
     meanings.update(translate_terms([term for term in all_terms if term not in meanings]))
@@ -371,6 +412,7 @@ def build() -> list[dict]:
             original_questions.append({
                 "title": f"원래 기출 {number}번",
                 "question": question_prompt(raw, page, number),
+                "passage": original_question_passage(raw, number),
                 "choices": choices,
                 "answer": ANSWERS[exam].get(number, 1) - 1,
                 "explanation": f"공식 정답은 {ANSWERS[exam].get(number, 1)}번입니다. 글의 핵심: {section['title']}",
@@ -396,6 +438,7 @@ def build() -> list[dict]:
             "examLabel": "2026년 6월" if exam == "26-6" else "2025년 9월",
             "examNumber": first_number,
             "title": section["title"],
+            "englishTitle": english_titles.get(section["title"], ""),
             "sentences": section["sentences"],
             "words": [[word, meanings[word]] for word in study_words],
             "lookupWords": [[word, meanings[word]] for word in words],
@@ -403,6 +446,10 @@ def build() -> list[dict]:
             "questions": original_questions,
             "relatedSource": SOURCES[exam],
         })
+    missing_titles = [passage["title"] for passage in passages if not passage["englishTitle"]]
+    english_titles.update(translate_terms(missing_titles, source="ko", target="en"))
+    for passage in passages:
+        passage["englishTitle"] = english_titles[passage["title"]]
     add_reconstructed_questions(passages)
     choices_to_translate = []
     choice_words_by_passage: dict[str, list[str]] = {}
