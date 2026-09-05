@@ -1,0 +1,4139 @@
+[
+  {
+    "id": "01",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 20,
+    "title": "구성의 오류가 보여 주는 개별 우수성과 전체 성공의 차이",
+    "sentences": [
+      {
+        "en": "We can sometimes assume that the whole will be as good as each of its parts.",
+        "ko": "우리는 때때로 전체가 그것의 각 부분들만큼 좋을 것이라고 가정할 수 있다."
+      },
+      {
+        "en": "Suppose, for example, you're in charge of a startup, and you know that everyone you've brought on board is productive and efficient.",
+        "ko": "예를 들어, 당신이 스타트업의 책임을 지고 있고, 당신이 합류시킨 모든 사람이 생산적이고 효율적이라는 것을 안다고 가정해 보자."
+      },
+      {
+        "en": "It might seem logical to assume that, as a result, the startup will be productive and efficient, too — but this isn't necessarily true.",
+        "ko": "그 결과, 스타트업 역시 생산적이고 효율적일 것이라고 가정하는 것이 논리적으로 보일 수 있지만 — 이것이 꼭 사실은 아니다."
+      },
+      {
+        "en": "The fallacy of composition fails to allow for how the different \"parts\" interact with each other — if, for example, your efficient administrator and your highly skilled head of IT each assumes the other is in charge of collating prototype test results, then you have a problem.",
+        "ko": "구성의 오류는 다른 \"부분\"들이 어떻게 서로 상호작용하는지를 고려하지 못한다 — 예를 들어, 당신의 효율적인 행정 담당자와 고도로 숙련된 IT 책임자가 서로 상대방이 시제품 테스트 결과를 대조 확인하는 것을 담당한다고 생각한다면, 당신은 문제를 가지게 된다."
+      },
+      {
+        "en": "Equally, a unit composed of good people can still be working on a doomed project, and a project composed of good ideas may lack a stable center.",
+        "ko": "동일하게, 훌륭한 인재들로 구성된 팀이 운이 다한 프로젝트를 여전히 진행할 수도 있으며, 훌륭한 아이디어로 구성된 프로젝트가 안정적인 중심이 결여될 수도 있다."
+      },
+      {
+        "en": "When assembling a team with a common goal, always check the overall view as well as the individuals involved.",
+        "ko": "공동의 목표를 가진 팀을 구성할 때, 관련된 개개인뿐만 아니라 전체적인 관점도 항상 확인하라. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "efficient",
+        "효율적인"
+      ],
+      [
+        "good",
+        "좋아"
+      ],
+      [
+        "productive",
+        "생산적인"
+      ],
+      [
+        "composed",
+        "작곡"
+      ],
+      [
+        "example",
+        "예"
+      ],
+      [
+        "startup",
+        "시작"
+      ],
+      [
+        "project",
+        "프로젝트"
+      ],
+      [
+        "assume",
+        "가정하다"
+      ],
+      [
+        "charge",
+        "요금"
+      ],
+      [
+        "parts",
+        "부품"
+      ],
+      [
+        "administrator",
+        "관리자"
+      ],
+      [
+        "necessarily",
+        "필연적으로"
+      ],
+      [
+        "composition",
+        "구성"
+      ],
+      [
+        "individuals",
+        "개인"
+      ],
+      [
+        "assembling",
+        "조립"
+      ],
+      [
+        "sometimes",
+        "가끔"
+      ]
+    ],
+    "phrases": [
+      [
+        "as well as",
+        "~뿐만 아니라 ~도"
+      ],
+      [
+        "in charge of",
+        "~을 담당하는"
+      ],
+      [
+        "allow for",
+        "~을 고려하다"
+      ],
+      [
+        "interact with",
+        "~와 상호작용하다"
+      ],
+      [
+        "for example",
+        "예를 들어"
+      ],
+      [
+        "as a result",
+        "그 결과"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "1. 함축 의미",
+        "question": "a stable center가 의미하는 바로 가장 적절한 것은?",
+        "passage": "",
+        "choices": [
+          "a fixed physical location for the team",
+          "a reliable person who leads the group",
+          "a manager who assigns roles to individuals",
+          "a constantly changing direction of work",
+          "a coherent organizing principle that gives the project direction"
+        ],
+        "answer": 4,
+        "explanation": "실제 장소나 사람 한 명이 아니라 아이디어들을 하나의 방향으로 묶어 주는 안정된 중심을 뜻해요.",
+        "kind": "reconstructed"
+      },
+      {
+        "title": "2. 내용 일치",
+        "question": "글의 내용과 일치하는 것은?",
+        "passage": "",
+        "choices": [
+          "구성원 각자가 유능해도 상호 작용 문제로 팀 전체가 비효율적일 수 있다.",
+          "개인의 생산성이 높으면 팀 전체의 성공이 보장된다.",
+          "상호 작용만 좋으면 어떤 프로젝트든 성공한다.",
+          "좋은 아이디어가 많으면 안정된 중심이 반드시 생긴다.",
+          "팀 실패의 유일한 원인은 능력 부족이다."
+        ],
+        "answer": 0,
+        "explanation": "글은 개인의 능력만으로 전체 성공을 보장할 수 없다고 말해요.",
+        "kind": "reconstructed"
+      },
+      {
+        "title": "3. 제목",
+        "question": "다음 글의 제목으로 가장 적절한 것은?",
+        "passage": "",
+        "choices": [
+          "The Hidden Strengths of Individual Talent",
+          "The Reason Startups Need More Efficient Administrators",
+          "The Importance of Avoiding Doomed Projects",
+          "The Way Good Ideas Guarantee Project Success",
+          "The Fallacy of Judging a Team by Its Parts"
+        ],
+        "answer": 4,
+        "explanation": "글 전체가 fallacy of composition, 즉 부분만 보고 전체도 같다고 판단하는 오류를 설명해요.",
+        "kind": "reconstructed"
+      },
+      {
+        "title": "4. 문맥상 어휘",
+        "question": "A unit composed of good people can still be working on a promising project. 문맥상 어색한 낱말을 고치면?",
+        "passage": "",
+        "choices": [
+          "composed → composing",
+          "good → skilled",
+          "still → always",
+          "promising → doomed",
+          "project → result"
+        ],
+        "answer": 3,
+        "explanation": "좋은 사람들의 팀도 실패할 운명인(doomed) 프로젝트를 할 수 있다는 반대 예시가 필요해요.",
+        "kind": "reconstructed"
+      },
+      {
+        "title": "5. 무관한 문장",
+        "question": "글의 흐름과 관계없는 문장은?",
+        "passage": "",
+        "choices": [
+          "It might seem logical to assume that the startup will be productive and efficient.",
+          "But this is not necessarily true.",
+          "The fallacy of composition fails to allow for how the different parts interact.",
+          "Early startups often seek outside funding to expand their customer base before competitors enter the market.",
+          "When assembling a team, check the overall view as well as the individuals involved."
+        ],
+        "answer": 3,
+        "explanation": "④만 외부 투자와 시장 경쟁 이야기이고, 나머지는 부분·전체·상호 작용으로 이어져요.",
+        "kind": "reconstructed"
+      },
+      {
+        "title": "6. 글의 순서",
+        "question": "주어진 첫 문장 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "passage": "We can sometimes assume that the whole will be as good as each of its parts.\n\n(A) Equally, a unit composed of good people can still be working on a doomed project, and a project composed of good ideas may lack a stable center. When assembling a team with a common goal, always check the overall view as well as the individuals involved.\n\n(B) Suppose, for example, you’re in charge of a startup, and you know that everyone you’ve brought on board is productive and efficient. It might seem logical to assume that, as a result, the startup will be productive and efficient, too—but this isn’t necessarily true.\n\n(C) The fallacy of composition fails to allow for how the different “parts” interact with each other—if your administrator and head of IT each assumes the other is in charge of collating test results, then you have a problem.",
+        "choices": [
+          "(A)-(C)-(B)",
+          "(B)-(A)-(C)",
+          "(B)-(C)-(A)",
+          "(C)-(A)-(B)",
+          "(C)-(B)-(A)"
+        ],
+        "answer": 2,
+        "explanation": "구체적인 스타트업 예시를 들고 → 문제의 원인을 설명하고 → 추가 예시 뒤 결론을 내려요.",
+        "kind": "reconstructed"
+      },
+      {
+        "title": "7. 요약문",
+        "question": "When forming a team, interactions among individuals can (A) ___ the overall outcome, so it is essential to examine the (B) ___ view.",
+        "passage": "",
+        "choices": [
+          "undermine / individual",
+          "undermine / comprehensive",
+          "enhance / comprehensive",
+          "enhance / individual",
+          "distort / partial"
+        ],
+        "answer": 1,
+        "explanation": "상호 작용이 전체 결과를 undermine(약화)할 수 있으므로 comprehensive(종합적인) 관점이 필요해요.",
+        "kind": "reconstructed"
+      },
+      {
+        "title": "8. 어법",
+        "question": "Each of the two managers assume the other is in charge. 고칠 부분은?",
+        "passage": "",
+        "choices": [
+          "Each → All",
+          "managers → manager",
+          "assume → assumes",
+          "the other → another",
+          "is → are"
+        ],
+        "answer": 2,
+        "explanation": "each는 ‘각각’이므로 단수 동사 assumes를 써요.",
+        "kind": "reconstructed"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "02",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 21,
+    "title": "현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상",
+    "sentences": [
+      {
+        "en": "Humans excel at visual imagery.",
+        "ko": "인간은 시각적 심상에 뛰어나다."
+      },
+      {
+        "en": "Our brains evolved this ability to create an internal mental picture or model of the world in which we can rehearse forthcoming actions, without the risks or the penalties of doing them in the real world.",
+        "ko": "우리의 뇌는 실제 세계에서 그것들을 행하는 위험이나 불이익 없이, 다가올 행동들을 예행 연습할 수 있는 세계의 내적 정신적 그림 혹은 모델을 만들어내는 이 능력을 진화시켰다."
+      },
+      {
+        "en": "There are even hints from brain-imaging studies by Harvard University psychologist Steve Kosslyn showing that your brain uses the same regions to imagine a scene as when you actually view one.",
+        "ko": "심지어 당신의 뇌가 장면을 상상하기 위해 당신이 실제로 장면을 볼 때와 같은 영역을 사용하는 것을 보여주는 Harvard 대학교 심리학자 Steve Kosslyn에 의한 뇌 영상 연구로부터 나온 단서도 있다."
+      },
+      {
+        "en": "But evolution has seen to it that such internally generated representations are never as authentic as the real thing.",
+        "ko": "그러나 진화는 그러한 내적으로 생성된 표상들이 결코 실제만큼 진짜일 수는 없도록 해 왔다."
+      },
+      {
+        "en": "This is a wise bit of self-restraint on your genes' part.",
+        "ko": "이것은 당신의 유전자 편에서는 하나의 지혜로운 자기 절제이다."
+      },
+      {
+        "en": "If your internal model of the world were a perfect substitute, then anytime you felt hungry you could simply imagine yourself at a banquet, consuming a feast.",
+        "ko": "만약 세계에 대한 당신의 내적 모델이 완벽한 대체물이라면, 당신이 언제든 배고픔을 느낄 때 연회에서 당신 자신이 진수성찬을 먹는 것을 단순히 상상할 것이다."
+      },
+      {
+        "en": "You would have no incentive to find real food and would soon starve to death.",
+        "ko": "당신은 실제 음식을 찾을 동기가 전혀 없게 되고 곧 굶어 죽게 될 것이다."
+      },
+      {
+        "en": "As the Bard said, \"You cannot cloy the hungry edge of appetite by bare imagination of a feast.\"",
+        "ko": "Bard가 말했듯, \"진수성찬에 대한 있는 그대로의 상상으로 식욕의 굶주린 날을 배 불릴 수 없다.\" [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "world",
+        "세계"
+      ],
+      [
+        "real",
+        "진짜"
+      ],
+      [
+        "internal",
+        "내부"
+      ],
+      [
+        "imagine",
+        "상상하다"
+      ],
+      [
+        "hungry",
+        "배고픈"
+      ],
+      [
+        "model",
+        "모델"
+      ],
+      [
+        "feast",
+        "잔치"
+      ],
+      [
+        "representations",
+        "표현"
+      ],
+      [
+        "self-restraint",
+        "자제"
+      ],
+      [
+        "brain-imaging",
+        "뇌영상"
+      ],
+      [
+        "psychologist",
+        "심리학자"
+      ],
+      [
+        "forthcoming",
+        "곧"
+      ],
+      [
+        "imagination",
+        "상상력"
+      ],
+      [
+        "university",
+        "대학"
+      ],
+      [
+        "internally",
+        "내부적으로"
+      ],
+      [
+        "substitute",
+        "대체하다"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 21번",
+        "question": "밑줄 친 a wise bit of self-restraint on your genes’ part가 다음 글에서 의미하는 바로 가장 적절한 것은? [3점]",
+        "choices": [
+          "evolution’s clever limiting of how realistic your imagination is",
+          "visible evidence of human failure to evolve into logical beings",
+          "an unnecessary constraint on what you are able to envision",
+          "a smart genetic strategy to help you ignore real hunger",
+          "an ingenious way your brain categorizes mental images"
+        ],
+        "answer": 0,
+        "explanation": "공식 정답은 1번입니다. 글의 핵심: 현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "03",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 21,
+    "title": "집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이",
+    "sentences": [
+      {
+        "en": "Mirror neurons are the hardware of empathy, and so what would make more sense than to look and see which animals possess these cells?",
+        "ko": "거울 뉴런은 공감의 하드웨어이고, 그러니 어떤 동물이 이 세포를 가지고 있는지 살펴보는 것보다 어떤 것이 더 타당하겠는가?"
+      },
+      {
+        "en": "And this is exactly where modern research now stands: all researchers know so far is that apes possess mirror neurons.",
+        "ko": "그리고 이것이 바로 현대 연구가 서 있는 곳으로, 현재까지 연구자들이 아는 것은 유인원이 거울 뉴런을 갖고 있다는 것뿐이다."
+      },
+      {
+        "en": "We still need to test to see which other species are like us in this respect.",
+        "ko": "우리는 여전히 어떤 다른 종이 이 점에서 우리와 비슷한지 알아보기 위해 검증할 필요가 있다."
+      },
+      {
+        "en": "Scientists often publicly speculate that we can probably expect surprises here, too.",
+        "ko": "과학자들은 종종 우리가 아마도 여기서 놀라움을 기대할 수도 있을 것이라고 공공연하게 추측한다."
+      },
+      {
+        "en": "They assume that all animals that live in herds or large groups possess similar brain mechanisms, because social units function only if individuals can see things from the perspective of others in the group and feel what they are feeling.",
+        "ko": "그들은 무리나 큰 집단으로 사는 모든 동물은 비슷한 두뇌 작동 기제를 가지고 있다고 가정하는데, 왜냐하면 사회적 (구성)단위는 개인이 집단 내 다른 이들의 관점에서 사물을 보고 그들이 느끼고 있는 것을 느낄 수 있어야만 기능하기 때문이다."
+      },
+      {
+        "en": "I can see a goldfish waving its fin at us.",
+        "ko": "나는 우리를 향해 지느러미를 흔들고 있는 금붕어를 볼 수 있다."
+      },
+      {
+        "en": "As an animal that travels around in a tightly-knit group, it's on board with this idea — or at least swimming alongside the boat.",
+        "ko": "긴밀하게 결속된 무리를 지어 다니는 동물로서, 그것은 이러한 생각에 부합하는 배에 올라타 있거나 적어도 그 배와 나란히 헤엄치고 있다. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "possess",
+        "소유하다"
+      ],
+      [
+        "neurons",
+        "뉴런"
+      ],
+      [
+        "animals",
+        "동물"
+      ],
+      [
+        "mirror",
+        "거울"
+      ],
+      [
+        "group",
+        "그룹"
+      ],
+      [
+        "tightly-knit",
+        "촘촘하게 짜여진"
+      ],
+      [
+        "researchers",
+        "연구원"
+      ],
+      [
+        "individuals",
+        "개인"
+      ],
+      [
+        "perspective",
+        "관점"
+      ],
+      [
+        "scientists",
+        "과학자들"
+      ],
+      [
+        "mechanisms",
+        "메커니즘"
+      ],
+      [
+        "speculate",
+        "추측하다"
+      ],
+      [
+        "surprises",
+        "놀라움"
+      ],
+      [
+        "alongside",
+        "나란히"
+      ],
+      [
+        "hardware",
+        "하드웨어"
+      ],
+      [
+        "research",
+        "연구"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 21번",
+        "question": "밑줄 친 swimming alongside the boat가 다음 글에서 의미하는 바로 가장 적절한 것은? [3점]",
+        "choices": [
+          "reluctant to empathize with other members in its group",
+          "potentially able to be proven to possess mirror neurons",
+          "learning effective swimming skills with the help of others",
+          "constantly trying to hide from animals that have mirror neurons",
+          "cautious about potential conflict over resources with other species"
+        ],
+        "answer": 1,
+        "explanation": "공식 정답은 2번입니다. 글의 핵심: 집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "04",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 22,
+    "title": "낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향",
+    "sentences": [
+      {
+        "en": "For each objective probability — from one percent to 100 percent — we want to know the subjective probability weight.",
+        "ko": "각각의 객관적 확률 — 1퍼센트부터 100퍼센트까지 — 에 대해 우리는 주관적인 확률의 가중치를 알고 싶어 한다."
+      },
+      {
+        "en": "When we make decisions, do we treat a one-percent chance just like one percent, or like something else?",
+        "ko": "우리가 의사를 결정할 때, 우리는 1퍼센트의 가능성을 단순히 1퍼센트로 취급하는가, 아니면 다른 것으로 취급하는가?"
+      },
+      {
+        "en": "Events that could happen but aren't likely — low-probability events — can be defined as probabilities up to about 25 percent.",
+        "ko": "발생할 수 있으나 그럴 것 같지 않은 사건들은 — 낮은 확률 사건들은 — 대략 25퍼센트까지의 확률로 정의될 수 있다."
+      },
+      {
+        "en": "Low-probability events tend to factor more into decisions than they should.",
+        "ko": "낮은 확률 사건들은 그래야 하는 것보다 더 크게 의사결정에 반영되는 경향이 있다."
+      },
+      {
+        "en": "That is, an event that has an objective one-percent chance of occurring could subjectively seem like it has a five-percent chance of occurring.",
+        "ko": "즉, 객관적인 1퍼센트의 발생 가능성을 가진 사건이 주관적으로는 5퍼센트의 발생 가능성을 가진 것처럼 보일 수 있다."
+      },
+      {
+        "en": "We overestimate the likelihood of these low-probability events.",
+        "ko": "우리는 이러한 낮은 확률 사건의 가능성을 과대평가한다."
+      },
+      {
+        "en": "In general, the smaller the probability, the more we overestimate its likelihood.",
+        "ko": "일반적으로, 확률이 더 작을수록, 우리는 그것의 가능성을 더 과대평가한다."
+      },
+      {
+        "en": "For example, people who play the lottery are often optimistic about winning.",
+        "ko": "예를 들어, 복권을 사는 사람들은 당첨되는 것에 대해 낙관하는 경우가 흔하다."
+      },
+      {
+        "en": "However, the odds of a single ticket winning the largest, most popular U.S. lotteries are on the order of one in 175 million.",
+        "ko": "그러나, 가장 규모가 크고, 가장 인기있는 미국 복권에 단 하나의 티켓이 당첨될 가능성은 1억 7,500만 분의 1과 비슷하다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "percent",
+        "퍼센트"
+      ],
+      [
+        "events",
+        "이벤트"
+      ],
+      [
+        "low-probability",
+        "확률이 낮은"
+      ],
+      [
+        "probability",
+        "확률"
+      ],
+      [
+        "chance",
+        "기회"
+      ],
+      [
+        "like",
+        "같은"
+      ],
+      [
+        "overestimate",
+        "과대평가하다"
+      ],
+      [
+        "one-percent",
+        "1%"
+      ],
+      [
+        "likelihood",
+        "가능성"
+      ],
+      [
+        "objective",
+        "목표"
+      ],
+      [
+        "decisions",
+        "결정"
+      ],
+      [
+        "occurring",
+        "발생"
+      ],
+      [
+        "winning",
+        "승리"
+      ],
+      [
+        "probabilities",
+        "확률"
+      ],
+      [
+        "subjectively",
+        "주관적으로"
+      ],
+      [
+        "five-percent",
+        "5%"
+      ]
+    ],
+    "phrases": [
+      [
+        "for example",
+        "예를 들어"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 22번",
+        "question": "다음 글의 요지로 가장 적절한 것은?",
+        "choices": [
+          "비합리적 결정이 반복되면 조직이 실패할 확률이 높아진다.",
+          "우리는 낮은 확률 사건의 발생 가능성을 과대평가한다.",
+          "행운에만 의존하는 것은 개인의 내적 성장을 저해한다.",
+          "우리는 단순한 사건을 복잡하게 해석하는 경향이 있다.",
+          "다양한 가능성을 고려하면 최선의 의사 결정을 내릴 수 있다."
+        ],
+        "answer": 1,
+        "explanation": "공식 정답은 2번입니다. 글의 핵심: 낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "05",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 23,
+    "title": "공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식",
+    "sentences": [
+      {
+        "en": "Many of the barriers to trade exist not because of a lack of markets or customers, but because there are major barriers to getting products to market at competitive prices.",
+        "ko": "무역에 대한 많은 장벽들은 시장이나 고객의 부족 때문이 아니라, 제품들을 경쟁력 있는 가격으로 시장에 내놓는 데에 큰 장벽들이 있기 때문에 존재하는 것이다."
+      },
+      {
+        "en": "Transaction costs are significant for companies — not only the straight exchange costs, but also the cost of converting, paying, and hedging funds just to pay for the goods and services.",
+        "ko": "거래 비용은 기업들에 상당한데 — 단지 직접적인 교환 비용들뿐만 아니라, 상품과 서비스에 대해 지불하기 위해서 자금을 전환하고, 지급하고, 그리고 헤지 거래를 하는 비용 또한 그러하다."
+      },
+      {
+        "en": "Having a common currency means that many of those transaction costs disappear and the savings can be reinvested back into firms' productivity and innovation.",
+        "ko": "공동 통화를 갖는다는 것은 그러한 많은 거래 비용들이 사라지고 그 절감분이 기업들의 생산성과 혁신으로 재투자될 수 있음을 의미한다."
+      },
+      {
+        "en": "Basically, useless costs turn into productive costs — with longer-term benefits to the whole economy.",
+        "ko": "기본적으로, 쓸모없는 비용들이 생산적인 비용들로 전환된다 — 전체 경제에 대한 더 장기적인 이익들과 함께."
+      },
+      {
+        "en": "By unifying some of the currencies, whole economies benefit and grow more than they would as independents.",
+        "ko": "일부 통화들을 통합함으로써, 전체 경제들은 독립체들로서 그렇게 될 것보다 더 많이 이익을 받고 성장한다."
+      },
+      {
+        "en": "So a common currency provides for a strong economic foundation that all can benefit from.",
+        "ko": "그러므로 공동 통화는 모두가 이익을 얻을 수 있는 강력한 경제적 토대를 제공한다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "costs",
+        "비용"
+      ],
+      [
+        "transaction",
+        "거래"
+      ],
+      [
+        "barriers",
+        "장벽"
+      ],
+      [
+        "currency",
+        "통화"
+      ],
+      [
+        "benefit",
+        "혜택"
+      ],
+      [
+        "common",
+        "공통의"
+      ],
+      [
+        "whole",
+        "전체"
+      ],
+      [
+        "productivity",
+        "생산성"
+      ],
+      [
+        "independents",
+        "무소속"
+      ],
+      [
+        "competitive",
+        "경쟁적인"
+      ],
+      [
+        "significant",
+        "중요한"
+      ],
+      [
+        "longer-term",
+        "장기적"
+      ],
+      [
+        "converting",
+        "변환 중"
+      ],
+      [
+        "reinvested",
+        "재투자"
+      ],
+      [
+        "innovation",
+        "혁신"
+      ],
+      [
+        "productive",
+        "생산적인"
+      ]
+    ],
+    "phrases": [
+      [
+        "turn into",
+        "~로 바뀌다"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 23번",
+        "question": "다음 글의 주제로 가장 적절한 것은?",
+        "choices": [
+          "significance of marketing strategies for multinational firms",
+          "current conflicts caused by globalized financial markets",
+          "economic advantages of a common currency system",
+          "necessity for strict regulation of cash transactions",
+          "various reasons for undertaking risk in investment"
+        ],
+        "answer": 2,
+        "explanation": "공식 정답은 3번입니다. 글의 핵심: 공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "06",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 24,
+    "title": "먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성",
+    "sentences": [
+      {
+        "en": "The light from even our nearest stellar neighbour takes four years to reach us.",
+        "ko": "심지어 우리의 가장 가까운 별의 이웃으로부터 온 빛도 우리에게 도달하는 데 4년이 걸린다."
+      },
+      {
+        "en": "When we look at the stars, we are looking back in time.",
+        "ko": "우리가 별들을 바라볼 때, 우리는 과거의 시간을 돌아보고 있다."
+      },
+      {
+        "en": "This is an incredible gift.",
+        "ko": "이는 놀라운 선물이다."
+      },
+      {
+        "en": "We can see parts of space, parts of our universe, as they were many years ago.",
+        "ko": "우리는 우주 공간의 일부분, 우리 우주의 일부분들을 수년 전의 모습대로 볼 수 있다."
+      },
+      {
+        "en": "The further we can collect light from, the further back in time we can look.",
+        "ko": "우리가 더 멀리서 온 빛을 모을수록, 우리는 과거의 더 먼 시간을 되돌아볼 수 있다."
+      },
+      {
+        "en": "If you look at the bright star Betelgeuse, which glows in the Orion constellation, you wind time back more than six hundred years.",
+        "ko": "Orion 자리에서 빛나는 밝은 별 Betelgeuse를 바라보면, 당신은 600년 이상의 시간을 거슬러 올라간다."
+      },
+      {
+        "en": "Its reddish glow started its journey to Earth in the Middle Ages.",
+        "ko": "그것의 붉은 빛은 중세 시대에 지구로 향하는 여정을 시작했다."
+      },
+      {
+        "en": "The stars in Orion's belt are even further away.",
+        "ko": "Orion 벨트의 별들은 훨씬 더 멀리 떨어져 있다."
+      },
+      {
+        "en": "Their light, familiar to generations of humans, has travelled at least 1,000 years to reach us.",
+        "ko": "여러 세대의 인간에게 익숙한, 그것들의 빛은 최소 1,000년을 이동하여 우리에게 도달했다."
+      },
+      {
+        "en": "This means we have a chance of understanding the history of the universe because we can see the more distant parts of it as they were in the past, thousands or millions or billions of years ago.",
+        "ko": "이는 우리가 그것의 더 먼 부분들을 수천 또는 수백만 또는 수십억 년 전 과거의 모습대로 볼 수 있기 때문에 우주의 역사를 이해할 기회를 가질 수 있음을 의미한다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "years",
+        "년"
+      ],
+      [
+        "further",
+        "더 나아가"
+      ],
+      [
+        "light",
+        "빛"
+      ],
+      [
+        "parts",
+        "부품"
+      ],
+      [
+        "look",
+        "봐"
+      ],
+      [
+        "back",
+        "뒤로"
+      ],
+      [
+        "universe",
+        "우주"
+      ],
+      [
+        "reach",
+        "도달하다"
+      ],
+      [
+        "stars",
+        "별"
+      ],
+      [
+        "constellation",
+        "별자리"
+      ],
+      [
+        "understanding",
+        "이해"
+      ],
+      [
+        "generations",
+        "세대"
+      ],
+      [
+        "incredible",
+        "믿어지지 않는"
+      ],
+      [
+        "betelgeuse",
+        "베텔기우스"
+      ],
+      [
+        "neighbour",
+        "이웃"
+      ],
+      [
+        "travelled",
+        "여행했다"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 24번",
+        "question": "다음 글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "Imagination Brings Us Closer to Understanding the Universe",
+          "How Long Does It Take for Stars to Burn Out in Space?",
+          "Life Beyond Earth: The Search for Unidentified Species",
+          "Starlight as a Window into the History of the Universe",
+          "Why Stars in the Sky Look Like They’re Moving"
+        ],
+        "answer": 3,
+        "explanation": "공식 정답은 4번입니다. 글의 핵심: 먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "07",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 24,
+    "title": "연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는",
+    "sentences": [
+      {
+        "en": "Everything in the world exists on a continuum, whether in speed, size, or any other possible descriptor you could think of.",
+        "ko": "세상의 모든 것은 속도, 크기, 또는 여러분이 생각할 수 있는 어떤 다른 가능한 기술어(記述語)에서든, 연속선상에 존재한다."
+      },
+      {
+        "en": "Still, we create and mindlessly adopt sharp distinctions, and those distinctions change lives far more dramatically than marginal differences ever do.",
+        "ko": "그럼에도, 우리는 뚜렷한 구분을 만들고 생각 없이 받아들이며, 그러한 구분은 근소한 차이가 그렇게 하는(삶을 변화시키는) 것보다 훨씬 더 극적으로 삶을 변화시킨다."
+      },
+      {
+        "en": "Indeed, all differences are arbitrary, but drawing hard lines between categories hides this arbitrariness and can be severely damaging.",
+        "ko": "사실, 모든 차이는 자의적이지만, 범주들 사이에 확고한 선을 긋는 것은 이러한 자의성을 숨기고 심각하게 피해를 줄 수 있다."
+      },
+      {
+        "en": "I call this resulting damage \"the borderline effect.\"",
+        "ko": "나는 이러한 결과적인 피해를 '경계선 효과'라고 부른다."
+      },
+      {
+        "en": "The examples are endless.",
+        "ko": "그 예는 끝이 없다."
+      },
+      {
+        "en": "Someone's IQ is 69 and someone else's is 70 — but only the score of 70 is deemed to be within the range of normal.",
+        "ko": "어떤 사람의 IQ가 69이고 다른 사람의 IQ가 70인데, 70이라는 점수만 정상 범위 내에 있는 것으로 간주된다."
+      },
+      {
+        "en": "We don't have to be statisticians to know there is not a meaningful difference between 69 and 70.",
+        "ko": "우리는 69와 70 사이에 의미 있는 차이가 없다는 것을 알기 위해 통계학자가 되어야 할 필요는 없다."
+      },
+      {
+        "en": "Yet once the person with the lower score is labeled \"cognitively impaired,\" his or her life will unfold differently than the person with a one-point advantage.",
+        "ko": "하지만 일단 점수가 더 낮은 사람이 '인지적으로 어려움이 있는'이라고 꼬리표가 붙게 되면, 그 사람의 삶은 1점의 우위가 있는 사람과는 다르게 전개될 것이다. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "distinctions",
+        "구별"
+      ],
+      [
+        "differences",
+        "차이점"
+      ],
+      [
+        "between",
+        "사이에"
+      ],
+      [
+        "person",
+        "사람"
+      ],
+      [
+        "score",
+        "점수"
+      ],
+      [
+        "arbitrariness",
+        "임의성"
+      ],
+      [
+        "statisticians",
+        "통계학자"
+      ],
+      [
+        "dramatically",
+        "극적으로"
+      ],
+      [
+        "cognitively",
+        "인지적으로"
+      ],
+      [
+        "differently",
+        "다르게"
+      ],
+      [
+        "everything",
+        "모든 것"
+      ],
+      [
+        "descriptor",
+        "설명자"
+      ],
+      [
+        "mindlessly",
+        "아무 생각 없이"
+      ],
+      [
+        "categories",
+        "카테고리"
+      ],
+      [
+        "borderline",
+        "경계선"
+      ],
+      [
+        "meaningful",
+        "의미있는"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 24번",
+        "question": "다음 글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "Drawing Distinct Lines: Is It Appropriate?",
+          "Stick to Your Ideas, Listen to Your Heart",
+          "What Should Be Done to Improve IQ Testing?",
+          "Accepting Differences: How to Live in Harmony",
+          "Myths and Truths about Human Cognitive Abilities"
+        ],
+        "answer": 0,
+        "explanation": "공식 정답은 1번입니다. 글의 핵심: 연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "08",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 29,
+    "title": "할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능",
+    "sentences": [
+      {
+        "en": "The renowned British philosopher Alfred North Whitehead asserted that \"civilization advances by extending the number of operations we can perform without thinking about them.\"",
+        "ko": "저명한 영국 철학자 Alfred North Whitehead는 \"문명은 우리가 그것들에 대해 생각하지 않고 수행할 수 있는 작업들의 수를 확장함으로써 진보한다.\"라고 주장했다."
+      },
+      {
+        "en": "Take, for example, the \"advance\" offered to civilization by the discount coupon, which allows consumers to assume that they will receive a reduced purchase price by presenting the coupon.",
+        "ko": "예를 들어, 할인 쿠폰에 의해 문명에 제공되는 \"진보\"를 살펴보면, 이것은 소비자가 쿠폰을 제시함으로써 그들이 할인된 구매 가격을 받을 것이라고 가정하도록 해 준다."
+      },
+      {
+        "en": "The extent to which we have learned to operate mechanically on that assumption is illustrated in the experience of one automobile-tire company.",
+        "ko": "우리가 그 가정에 기반하여 기계적으로 움직이는 법을 배워 온 정도는 한 자동차 타이어 회사의 경험에서 설명된다."
+      },
+      {
+        "en": "Mailed-out coupons that — because of a printing error — offered no savings to recipients produced just as much customer response as did error-free coupons that offered substantial savings.",
+        "ko": "수령자에게 아무런 절약도 제공하지 않는 — 인쇄 오류로 인해 — 우편 발송된 쿠폰들이 상당한 절약을 제공했던 오류 없는 쿠폰들이 그랬던 것과 똑같이 많은 고객 반응을 만들어 냈다."
+      },
+      {
+        "en": "The obvious but instructive point here is that we expect discount coupons to do double duty.",
+        "ko": "여기서 명백하지만 교훈적인 점은 우리가 할인 쿠폰들이 이중 임무를 수행할 것으로 기대한다는 것이다."
+      },
+      {
+        "en": "Not only do we expect them to save us money, we also expect them to save us the time and mental energy required to think about how to do it.",
+        "ko": "우리는 그것들이 우리에게 돈을 절약하게 해 줄 것을 기대할 뿐만 아니라, 또한 우리는 그것을 어떻게 할지에 대해 생각하는 데 필요한 시간과 정신적 에너지도 그것들이 절약해 줄 것으로 기대한다."
+      },
+      {
+        "en": "In today's world, we need the first advantage to handle pocketbook strain; but we need the second advantage to handle something potentially more important — brain strain.",
+        "ko": "오늘날의 세상에서, 우리는 금전적인 부담을 처리하는 첫 번째 이점이 필요하지만, 우리는 잠재적으로 더 중요한 무언가를 처리하는 두 번째 이점도 필요하다 — 두뇌 부담. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "offered",
+        "제공"
+      ],
+      [
+        "coupons",
+        "쿠폰"
+      ],
+      [
+        "expect",
+        "기대하다"
+      ],
+      [
+        "civilization",
+        "문명"
+      ],
+      [
+        "advantage",
+        "장점"
+      ],
+      [
+        "discount",
+        "할인"
+      ],
+      [
+        "savings",
+        "저축"
+      ],
+      [
+        "coupon",
+        "쿠폰"
+      ],
+      [
+        "handle",
+        "핸들"
+      ],
+      [
+        "strain",
+        "긴장"
+      ],
+      [
+        "save",
+        "저장"
+      ],
+      [
+        "need",
+        "필요"
+      ],
+      [
+        "automobile-tire",
+        "자동차 타이어"
+      ],
+      [
+        "mechanically",
+        "기계적으로"
+      ],
+      [
+        "philosopher",
+        "철학자"
+      ],
+      [
+        "illustrated",
+        "일러스트"
+      ]
+    ],
+    "phrases": [
+      [
+        "for example",
+        "예를 들어"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 29번",
+        "question": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+        "choices": [
+          "offered to civilization",
+          "producing just as",
+          "that we expect",
+          "do we expect",
+          "potentially more important"
+        ],
+        "answer": 1,
+        "explanation": "공식 정답은 2번입니다. 글의 핵심: 할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "09",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 29,
+    "title": "관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정",
+    "sentences": [
+      {
+        "en": "All human cultures mark the passing of time by the differences they observe in the world around them.",
+        "ko": "인류의 모든 문화들은 그것들을 둘러싼 세계에서 그것들이 관찰하는 차이에 따라 시간의 흐름을 표시한다."
+      },
+      {
+        "en": "Our choice of which differences to mark depends firstly on what we can observe and secondly on what is important in our lives.",
+        "ko": "어떤 차이를 표시할지에 대한 우리의 선택은 첫째로 우리가 무엇을 관찰할 수 있는지와 둘째로 우리 삶에서 무엇이 중요한지에 따라 달라진다."
+      },
+      {
+        "en": "How we mark the differences — the shapes of our calendars and our rituals — depends on the connections we make between those two things.",
+        "ko": "우리의 달력과 의식의 형태처럼 우리가 그 차이들을 표시하는 방법은 그 두 가지 사이에 우리가 만드는 연결에 따라 달라진다."
+      },
+      {
+        "en": "In the agricultural society of pre-modern Europe, where higher latitudes make the seasons easily observable, it was natural to monitor the solar cycle.",
+        "ko": "위도가 높아 계절을 쉽게 관찰할 수 있었던 전근대 유럽의 농경 사회에서는 태양의 주기를 관찰하는 것은 자연스러운 일이었다."
+      },
+      {
+        "en": "Conversely, among the largely nomadic peoples of Arabia, for whom seasonal changes were less significant, the lunar calendar was a more sensible choice.",
+        "ko": "반대로, 계절 변화가 덜 중요한 아라비아의 대체로 유목 생활을 하는 민족들에게는 음력이 더 합리적인 선택이었다."
+      },
+      {
+        "en": "That did not make it inevitable that Islam would use a lunar calendar and Roman Christianity a solar one, but political and religious decisions were made from options limited by geography and lifestyle, filtered through tradition.",
+        "ko": "그렇다고 해서 이슬람교가 음력을, 로마 기독교가 양력을 사용하는 것이 필연적인 것은 아니었지만, 지리와 생활 방식에 의해 제한된 선택지 중에서 전통을 통해 걸러져 정치적, 종교적 결정이 이루어졌다. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "differences",
+        "차이점"
+      ],
+      [
+        "mark",
+        "마크"
+      ],
+      [
+        "calendar",
+        "달력"
+      ],
+      [
+        "observe",
+        "관찰하다"
+      ],
+      [
+        "depends",
+        "의존한다"
+      ],
+      [
+        "choice",
+        "선택"
+      ],
+      [
+        "solar",
+        "태양의"
+      ],
+      [
+        "lunar",
+        "달"
+      ],
+      [
+        "agricultural",
+        "농업"
+      ],
+      [
+        "christianity",
+        "기독교"
+      ],
+      [
+        "connections",
+        "연결"
+      ],
+      [
+        "significant",
+        "중요한"
+      ],
+      [
+        "pre-modern",
+        "전근대적인"
+      ],
+      [
+        "observable",
+        "관찰 가능"
+      ],
+      [
+        "conversely",
+        "반대로"
+      ],
+      [
+        "inevitable",
+        "피할 수 없는"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 29번",
+        "question": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+        "choices": [
+          "them",
+          "depend firstly on",
+          "observable",
+          "for whom\nseasonal",
+          "filtered through tradition"
+        ],
+        "answer": 1,
+        "explanation": "공식 정답은 2번입니다. 글의 핵심: 관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "10",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 30,
+    "title": "대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요",
+    "sentences": [
+      {
+        "en": "Usually, innovative high-tech products have low price elasticity.",
+        "ko": "일반적으로, 혁신적인 첨단 기술 제품은 낮은 가격 탄력성을 지닌다."
+      },
+      {
+        "en": "This means that high variation in price, an increase as well as a decrease, does not significantly modify demand.",
+        "ko": "이는, 하락뿐만 아니라 상승인, 높은 가격 변동이 수요를 크게 바꾸지 않는다는 것을 의미한다."
+      },
+      {
+        "en": "These high-tech products have few substitutes, meaning that the costs to switch to another product are high.",
+        "ko": "이러한 첨단 제품은 대체품이 거의 없는데, 이는 다른 제품으로 전환하는 비용이 높다는 것을 의미한다."
+      },
+      {
+        "en": "Additionally, at the first stage of the technology, buyers — either innovators or forerunners — are less sensitive to price than to additional performance; they often have deep pockets or are ready to spend a lot for a new innovative and outstanding product.",
+        "ko": "게다가, 기술 초기 단계에서, 구매자들은 — 혁신자들 또는 선구자들은 — 추가 성능보다 가격에 덜 민감하며, 그들은 흔히 자금력이 풍부하거나 혁신적이고 뛰어난 신제품에 많은 돈을 쓸 준비가 되어 있다."
+      },
+      {
+        "en": "For instance, with its new product range, a high-end mobile phone manufacturer is aiming at the 3% of millionaire households with assets of more than $2.5 million; those are customers who are ready to accept the price range the manufacturer has set.",
+        "ko": "예를 들어, 한 고급형 휴대전화 제조업체는, 그것의 새로운 제품군으로, 250만 달러가 넘는 자산을 가진 3퍼센트의 백만장자 가구를 겨냥하고 있는데, 그들은 제조업체가 선정한 가격대를 수용할 준비가 된 고객들이다."
+      },
+      {
+        "en": "At that stage, the competitors are not interested in lowering their price significantly whatsoever, because they are chasing the same categories of customers, not sensitive to price.",
+        "ko": "그 단계에서, 경쟁사들은 그들의 가격을 크게 인하하는 데 전혀 관심이 없는데, 왜냐하면 그들은 가격에 민감하지 않은, 동일한 고객층을 겨냥하고 있기 때문이다."
+      },
+      {
+        "en": "Furthermore, the high price of these products is often perceived as a sign of quality and reinforces a customer's confidence in the company.",
+        "ko": "더욱이, 이러한 제품들의 높은 가격은 흔히 우수함의 표시로 인식되고 그 회사에 대한 고객의 신뢰를 강화한다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "price",
+        "가격"
+      ],
+      [
+        "products",
+        "제품"
+      ],
+      [
+        "product",
+        "제품"
+      ],
+      [
+        "high",
+        "높다"
+      ],
+      [
+        "significantly",
+        "상당히"
+      ],
+      [
+        "manufacturer",
+        "제조업체"
+      ],
+      [
+        "innovative",
+        "혁신적인"
+      ],
+      [
+        "high-tech",
+        "하이테크"
+      ],
+      [
+        "sensitive",
+        "민감한"
+      ],
+      [
+        "customers",
+        "고객"
+      ],
+      [
+        "stage",
+        "무대"
+      ],
+      [
+        "often",
+        "자주"
+      ],
+      [
+        "ready",
+        "준비"
+      ],
+      [
+        "range",
+        "범위"
+      ],
+      [
+        "additionally",
+        "추가적으로"
+      ],
+      [
+        "substitutes",
+        "대체품"
+      ]
+    ],
+    "phrases": [
+      [
+        "as well as",
+        "~뿐만 아니라 ~도"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 30번",
+        "question": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+        "choices": [
+          "demand",
+          "high",
+          "more sensitive to",
+          "lowering their price",
+          "reinforces a customer"
+        ],
+        "answer": 2,
+        "explanation": "공식 정답은 3번입니다. 글의 핵심: 대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "11",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 30,
+    "title": "공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
+    "sentences": [
+      {
+        "en": "Although empathy is widely praised by scholars and public figures, not everyone is an empathy booster.",
+        "ko": "공감은 학자들과 유명 인사들에 의해 널리 칭송받지만, 모든 사람이 공감을 지지하는 사람인 것은 아니다."
+      },
+      {
+        "en": "Critics of empathy argue that empathy will not save us from interpersonal and intergroup conflict.",
+        "ko": "공감에 대해 비판하는 사람들은 공감이 사람 간 그리고 집단 간 갈등으로부터 우리를 구해주지 않을 것이라고 주장한다."
+      },
+      {
+        "en": "In fact, they argue, empathy makes such conflicts worse.",
+        "ko": "사실, 그들은 공감이 그러한 갈등을 더 악화시킨다고 주장한다."
+      },
+      {
+        "en": "These critics maintain that empathy can be exhausting and lead to burnout or insensitivity to suffering.",
+        "ko": "이런 비평가들은 공감은 소모적일 수 있으며, 번아웃 또는 고통에 대한 무감각으로 이어질 수 있다고 주장한다."
+      },
+      {
+        "en": "They argue that we tend to empathize strongly with our in-group and resist empathizing with out-groups, and even enjoy the suffering of out-groups in competitive or threatening contexts.",
+        "ko": "그들은 우리가 내집단에는 강하게 공감하고 외집단에 대한 공감에는 저항하며, 심지어 경쟁적이거나 위협적인 상황에서는 외집단의 고통을 즐기는 경향이 있다고 주장한다."
+      },
+      {
+        "en": "Thus, the prescription for more empathy is often counterproductive in cases of conflict.",
+        "ko": "따라서, 더 많은 공감을 처방하는 것은 갈등 상황에서 종종 역효과를 낸다."
+      },
+      {
+        "en": "Empathy, they argue, can further encourage conflict and force us into an us vs. them mentality.",
+        "ko": "그들이 주장하기로는, 공감은 더 나아가 갈등을 조장하고 우리를 우리 대 그들이라는 사고방식으로 몰아넣을 수 있다."
+      },
+      {
+        "en": "Finally, even when we try to empathize with others who are dissimilar from us or in unfamiliar contexts, sometimes we are unable to accurately empathize with their experiences, causing further misunderstandings and frustration.",
+        "ko": "마지막으로, 우리와 다르거나 낯선 상황에 있는 타인에게 공감하려고 할 때조차도, 때때로 우리는 그들의 경험을 정확하게 공감하지 못하고, 그 이상의 오해와 좌절을 유발한다."
+      },
+      {
+        "en": "Critics of empathy argue that we should give up on empathy and employ other tools in pursuit of social harmony, e.g., rational compassion or moral emotions like fear, anger, and shame.",
+        "ko": "공감을 비판하는 사람들은 우리가 공감을 포기하고 사회적 조화를 얻기 위해 다른 도구를 이용해야 한다고 주장하는데, 예를 들면 이성적 연민 또는 두려움, 분노, 수치심과 같은 도덕적 감정들이다. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "empathy",
+        "공감"
+      ],
+      [
+        "argue",
+        "논쟁하다"
+      ],
+      [
+        "empathize",
+        "공감하다"
+      ],
+      [
+        "conflict",
+        "갈등"
+      ],
+      [
+        "critics",
+        "비평가"
+      ],
+      [
+        "out-groups",
+        "외집단"
+      ],
+      [
+        "suffering",
+        "괴로움"
+      ],
+      [
+        "contexts",
+        "컨텍스트"
+      ],
+      [
+        "further",
+        "더 나아가"
+      ],
+      [
+        "counterproductive",
+        "비생산적인"
+      ],
+      [
+        "misunderstandings",
+        "오해"
+      ],
+      [
+        "interpersonal",
+        "대인관계"
+      ],
+      [
+        "insensitivity",
+        "무감각"
+      ],
+      [
+        "prescription",
+        "처방전"
+      ],
+      [
+        "empathizing",
+        "공감하다"
+      ],
+      [
+        "competitive",
+        "경쟁적인"
+      ]
+    ],
+    "phrases": [
+      [
+        "lead to",
+        "~로 이어지다"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 30번",
+        "question": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은? [3점]",
+        "choices": [
+          "worse",
+          "resist empathizing with",
+          "efficient in cases",
+          "unable to accurately",
+          "pursuit of social"
+        ],
+        "answer": 2,
+        "explanation": "공식 정답은 3번입니다. 글의 핵심: 공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "12",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 31,
+    "title": "변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점",
+    "sentences": [
+      {
+        "en": "One easily underappreciated feature of a city street or square is its \"future-proof\" nature.",
+        "ko": "도시의 거리나 광장에 대한 한 가지 쉽게 과소평가되는 특징은 그것의 \"미래를 견뎌 내는\" 속성이다."
+      },
+      {
+        "en": "The ancient medieval squares in places like Marrakesh and Siena are still places where stuff is sold every day, even if the stuff itself has changed over the last five hundred years.",
+        "ko": "Marrakesh와 Siena 같은 장소들 안의 먼 옛날의 중세 광장들은, 비록 물건 자체가 지난 오백 년 동안에 걸쳐 바뀌었을지라도, 여전히 매일 물건이 팔리는 장소들이다."
+      },
+      {
+        "en": "The city square is a fairly future-proof technology, as is the shopping street, even in an age of online shopping.",
+        "ko": "도시 광장은, 쇼핑 거리가 그렇듯, 온라인 쇼핑의 시대에서조차, 상당히 미래를 견뎌 내는 기술이다."
+      },
+      {
+        "en": "For example, the same physical store that once sold buggy whips and typewriters might now repair damaged phones and sell bubble tea.",
+        "ko": "예를 들어, 한때 마차 채찍과 타자기를 팔았던 동일한 물리적 상점이 지금은 손상된 전화기들을 수리하고 버블티를 팔지도 모른다."
+      },
+      {
+        "en": "The same infrastructure supports evolving uses.",
+        "ko": "동일한 기반 시설이 진화하는 용도들을 지원한다."
+      },
+      {
+        "en": "Jane Jacobs, the great prophet of the city economy, made much of this fact in her books, including The Death and Life of Great American Cities and The Nature of Economies.",
+        "ko": "도시 경제의 위대한 예언자인 Jane Jacobs는, The Death and Life of Great American Cities와 The Nature of Economies를 포함하는 그녀의 책들에서, 이 사실을 많이 중시했다."
+      },
+      {
+        "en": "As she pointed out, the great advantage of a city architecture is its ability to support change in uses, and Jacobs correctly predicted the persistence of the city itself, unlike those who predicted the rise of the Internet would mean the death of the city.",
+        "ko": "그녀가 지적했듯이, 도시 건축의 큰 이점은 용도들의 변화를 지원하는 그것의 능력이며, 그리고 Jacobs는, 인터넷의 부상이 도시의 소멸을 의미할 것이라고 예측했던 사람들과는 달리, 도시 그 자체의 지속성을 정확히 예측했다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "city",
+        "도시"
+      ],
+      [
+        "great",
+        "대단해"
+      ],
+      [
+        "future-proof",
+        "미래에도 사용할 수 있는"
+      ],
+      [
+        "predicted",
+        "예측됨"
+      ],
+      [
+        "shopping",
+        "쇼핑"
+      ],
+      [
+        "street",
+        "거리"
+      ],
+      [
+        "square",
+        "광장"
+      ],
+      [
+        "nature",
+        "자연"
+      ],
+      [
+        "places",
+        "장소"
+      ],
+      [
+        "itself",
+        "그 자체"
+      ],
+      [
+        "jacobs",
+        "제이콥스"
+      ],
+      [
+        "stuff",
+        "물건"
+      ],
+      [
+        "death",
+        "죽음"
+      ],
+      [
+        "sold",
+        "팔렸다"
+      ],
+      [
+        "same",
+        "같은"
+      ],
+      [
+        "uses",
+        "용도"
+      ]
+    ],
+    "phrases": [
+      [
+        "for example",
+        "예를 들어"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 31번",
+        "question": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+        "choices": [
+          "evolving uses",
+          "social connections",
+          "limited functions",
+          "architectural innovation",
+          "collaborative work"
+        ],
+        "answer": 0,
+        "explanation": "공식 정답은 1번입니다. 글의 핵심: 변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "13",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 31,
+    "title": "불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는",
+    "sentences": [
+      {
+        "en": "Paradoxically, it's uncertainty that makes us feel most alive.",
+        "ko": "역설적으로, 우리가 가장 살아있다고 느끼게 만드는 것은 바로 불확실성이다."
+      },
+      {
+        "en": "Think of events that shake you out of your everyday routine: maybe attending a family wedding, making a big presentation, or going somewhere you've never been.",
+        "ko": "여러분을 일상적인 삶에서 벗어나게 만드는 사건들을 생각해 보아라. 아마도 가족 결혼식에 참석하거나, 중대한 발표를 하거나, 한 번도 가보지 못한 곳에 가는 것 같은 일들 말이다."
+      },
+      {
+        "en": "It's on those occasions that time seems to slow down a little, and you feel more fully engaged.",
+        "ko": "시간이 약간 느려지는 것 같고, 여러분이 더 온전히 몰입한다고 느끼는 때는 바로 그러한 순간들이다."
+      },
+      {
+        "en": "The same holds true if the experience is risky, like mountain climbing or parasailing.",
+        "ko": "등산이나 패러세일링처럼 그 경험이 위험한 경우에도 마찬가지이다."
+      },
+      {
+        "en": "Your senses are sharper.",
+        "ko": "여러분의 감각들이 더 예민해진다."
+      },
+      {
+        "en": "You notice more.",
+        "ko": "여러분은 더 많은 것을 알아차린다."
+      },
+      {
+        "en": "Thanks to the release of a feel-good chemical in the brain called dopamine, you get a greater rush of pleasure from chance encounters with people than planned meetings.",
+        "ko": "'도파민'이라고 불리는 기분 좋게 하는 화학 물질이 뇌 안에서 분비되는 덕분에, 여러분은 계획된 만남보다 사람들과의 우연한 만남에서 더 크게 몰려오는 즐거움을 얻게 된다."
+      },
+      {
+        "en": "Good news, financial rewards, and gifts are more enjoyable if they are surprises.",
+        "ko": "좋은 소식, 금전적 보상, 그리고 선물은 뜻밖의 일일 때 더 즐겁다."
+      },
+      {
+        "en": "It's why the most popular television shows and movies are the ones with unexpected plot twists and astonishing endings.",
+        "ko": "그것이 가장 인기 있는 텔레비전 쇼와 영화가 예기치 않은 줄거리의 반전과 놀라운 결말을 가진 것들인 이유다. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "it's",
+        "그것은"
+      ],
+      [
+        "feel",
+        "느낌"
+      ],
+      [
+        "paradoxically",
+        "역설적이게도"
+      ],
+      [
+        "presentation",
+        "프레젠테이션"
+      ],
+      [
+        "uncertainty",
+        "불확실성"
+      ],
+      [
+        "parasailing",
+        "패러세일링"
+      ],
+      [
+        "astonishing",
+        "놀라운"
+      ],
+      [
+        "experience",
+        "경험"
+      ],
+      [
+        "encounters",
+        "만남"
+      ],
+      [
+        "television",
+        "텔레비전"
+      ],
+      [
+        "unexpected",
+        "예상치 못한"
+      ],
+      [
+        "attending",
+        "참석하다"
+      ],
+      [
+        "somewhere",
+        "어딘가에"
+      ],
+      [
+        "occasions",
+        "경우"
+      ],
+      [
+        "feel-good",
+        "기분 좋은"
+      ],
+      [
+        "financial",
+        "금융"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 31번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "failure",
+          "uncertainty",
+          "repetition",
+          "dependence",
+          "vulnerability"
+        ],
+        "answer": 1,
+        "explanation": "공식 정답은 2번입니다. 글의 핵심: 불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "14",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 32,
+    "title": "개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는",
+    "sentences": [
+      {
+        "en": "A great strength of the market mechanism is that there are incentives for individuals to reveal their knowledge through their behavior.",
+        "ko": "시장 메커니즘의 한 가지 큰 장점은 사람들이 자신의 행동을 통해 자신이 알고 있는 것을 드러내도록 하는 유인이 있다는 것이다."
+      },
+      {
+        "en": "This stands in contrast to many strategic situations — for example, in political negotiations — in which it is wise not to let the other side know what one's true preferences or production capacities are.",
+        "ko": "이는 자신의 진정한 선호나 생산 능력이 무엇인지 상대측이 알게 하지 '않는' 것이 현명한 여러 '전략적' 상황과 대조적인데, 정치적 협상을 예로 들 수 있다."
+      },
+      {
+        "en": "A perfectly competitive market that clears on the spot leaves no room for such strategies.",
+        "ko": "상품이 바로바로 다 팔리는 완전 경쟁 시장은 그러한 전략을 위한 여지를 남겨두지 않는다."
+      },
+      {
+        "en": "If prices are not sticky — as many models assume — individuals adapt their behavior instantaneously, whenever their preferences or the circumstances change.",
+        "ko": "많은 모델이 가정하는 것처럼 가격이 고착되어 있지 않다면, 사람들은 자신의 선호나 상황이 변할 때마다 즉각적으로 행동을 조정한다."
+      },
+      {
+        "en": "They stop buying items that do not satisfy their needs and stop selling items that do not provide them with optimal gains, maybe switching to the production of other items.",
+        "ko": "그들은 자신의 필요를 충족시키지 못하는 물품의 구매를 중단하고 그들에게 최적의 이익을 제공하지 않는 물품의 판매를 중단하고, 다른 물품의 생산으로 전환할지도 모른다."
+      },
+      {
+        "en": "If they have motivational problems, for example, falling into denial about the fact that there is no demand for their products, markets reveal to them, sometimes in quite brutal ways, that they better accept this fact.",
+        "ko": "예를 들어, 그들이 그들의 제품에 대한 수요가 없다는 사실을 부정하는 것에 빠지는 동기적 문제가 있다면, 시장은 그들이 이 사실을 받아들이는 편이 좋다는 것을 때로는 꽤 잔혹한 방법으로 그들에게 드러낸다. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "items",
+        "아이템"
+      ],
+      [
+        "individuals",
+        "개인"
+      ],
+      [
+        "preferences",
+        "환경 설정"
+      ],
+      [
+        "production",
+        "생산"
+      ],
+      [
+        "behavior",
+        "행동"
+      ],
+      [
+        "example",
+        "예"
+      ],
+      [
+        "market",
+        "시장"
+      ],
+      [
+        "reveal",
+        "공개하다"
+      ],
+      [
+        "there",
+        "거기"
+      ],
+      [
+        "stop",
+        "중지"
+      ],
+      [
+        "fact",
+        "사실"
+      ],
+      [
+        "instantaneously",
+        "순간적으로"
+      ],
+      [
+        "circumstances",
+        "상황"
+      ],
+      [
+        "negotiations",
+        "협상"
+      ],
+      [
+        "motivational",
+        "동기 부여"
+      ],
+      [
+        "competitive",
+        "경쟁적인"
+      ]
+    ],
+    "phrases": [
+      [
+        "in contrast to",
+        "~와 대조적으로"
+      ],
+      [
+        "for example",
+        "예를 들어"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 32번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "to take advantage of political situations",
+          "to endure hardships until prices go down",
+          "to contribute to the price stabilization of items",
+          "to avoid competition by using negotiation skills",
+          "to reveal their knowledge through their behavior"
+        ],
+        "answer": 4,
+        "explanation": "공식 정답은 5번입니다. 글의 핵심: 개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "15",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 32,
+    "title": "접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향",
+    "sentences": [
+      {
+        "en": "The genomics revolution made it possible to see just how impactful touch is to plants on a deeper level.",
+        "ko": "유전체학 혁명은 접촉이 식물에 정말 얼마나 영향을 미치는지를 더 깊은 차원에서 확인할 수 있게 해 주었다."
+      },
+      {
+        "en": "Peering at the genes of Arabidopsis thaliana, a weedy plant in the mustard family and the lab rat of the plant biology world, researchers saw that touch quietly triggered such a dramatic response in their hormones and gene expression that it could substantially inhibit their growth.",
+        "ko": "겨자과 잡초이자 식물생물학계의 실험용 쥐인 Arabidopsis thaliana의 유전자들을 들여다 보면서, 연구자들은 접촉이 그것들의 호르몬과 유전자 발현에 매우 극적인 반응을 조용히 유발해 상당히 그들의 성장을 억제할 수 있음을 확인했다."
+      },
+      {
+        "en": "They stroked the arabidopsis with soft paintbrushes, and then analyzed the plants' genetic responses.",
+        "ko": "그들은 부드러운 페인트 붓으로 애기장대를 쓰다듬었고, 그리고 나서 그 식물들의 유전적 반응을 분석했다."
+      },
+      {
+        "en": "Within thirty minutes of being touched, 10 percent of the plant's genome was altered.",
+        "ko": "접촉된 지 30분 이내에, 그 식물 게놈의 10퍼센트가 변형되었다."
+      },
+      {
+        "en": "Clearly, the plant was reorganizing its priorities to deal with the disturbance, and rerouting energy away from the hard work of getting taller.",
+        "ko": "분명히, 그 식물은 그 교란에 대처하기 위해 그것의 우선순위들을 재조직하고 있었으며, 더 키가 커지는 힘든 작업으로부터 에너지를 다른 곳으로 돌리고 있었다."
+      },
+      {
+        "en": "Touched multiple times, arabidopsis cut its upward growth rate by as much as 30 percent.",
+        "ko": "여러 번 접촉되었을 때, 애기장대는 그것의 위로 자라는 성장률을 많게는 30퍼센트까지 줄였다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "arabidopsis",
+        "애기장대"
+      ],
+      [
+        "plant",
+        "식물"
+      ],
+      [
+        "touched",
+        "만진"
+      ],
+      [
+        "percent",
+        "퍼센트"
+      ],
+      [
+        "plants",
+        "식물"
+      ],
+      [
+        "growth",
+        "성장"
+      ],
+      [
+        "touch",
+        "접촉"
+      ],
+      [
+        "substantially",
+        "실질적으로"
+      ],
+      [
+        "paintbrushes",
+        "붓"
+      ],
+      [
+        "reorganizing",
+        "재구성"
+      ],
+      [
+        "researchers",
+        "연구원"
+      ],
+      [
+        "disturbance",
+        "소란"
+      ],
+      [
+        "revolution",
+        "혁명"
+      ],
+      [
+        "expression",
+        "표현"
+      ],
+      [
+        "priorities",
+        "우선순위"
+      ],
+      [
+        "impactful",
+        "영향력 있는"
+      ]
+    ],
+    "phrases": [
+      [
+        "deal with",
+        "~을 다루다"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 32번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "impact their lifespan",
+          "inhibit their growth",
+          "lift their reproduction rate",
+          "hinder their defense capability",
+          "increase their maximum height"
+        ],
+        "answer": 1,
+        "explanation": "공식 정답은 2번입니다. 글의 핵심: 접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "16",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 33,
+    "title": "addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
+    "sentences": [
+      {
+        "en": "Dictionary definitions are constantly revised to keep up with our changing uses and knowledge.",
+        "ko": "사전적 정의는 우리의 변화하는 용례와 지식에 뒤처지지 않기 위해 끊임없이 수정된다."
+      },
+      {
+        "en": "In Roman times, \"addicts\" were people who were unable to pay their debts and gave themselves as slaves to their creditors.",
+        "ko": "로마 시대에 'addicts'는 빚을 갚을 수 없어서 스스로 채권자의 노예가 된 사람들이었다."
+      },
+      {
+        "en": "The word eventually came to be associated with drug dependency: one becomes a slave to one's addiction.",
+        "ko": "그 단어는 결국 약물 의존과 연관되었는데, 사람은 자신이 중독된 것에 노예가 된다는 것이다."
+      },
+      {
+        "en": "The word \"husband\" originally referred to being a homeowner; it had nothing to do with being married.",
+        "ko": "'husband'라는 단어는 원래 주택 소유자가 되는 것을 가리켰고, 기혼 상태와는 아무런 관련이 없었다."
+      },
+      {
+        "en": "But because owning your own property made it more likely you'd find a mate, the word eventually came to mean a male who has been wed.",
+        "ko": "그러나 재산을 소유하는 것은 여러분이 배우자를 찾을 가능성을 더 높게 만들었기 때문에 결국 그 단어는 결혼한 남성을 의미하게 되었다."
+      },
+      {
+        "en": "On November 5th, 1605, Guy Fawkes tried to blow up the British Parliament.",
+        "ko": "1605년 11월 5일, Guy Fawkes는 영국 의사당을 폭파하려 했다."
+      },
+      {
+        "en": "He was captured and put to death.",
+        "ko": "그는 체포되어 처형당했다."
+      },
+      {
+        "en": "Loyalists burned his effigy, which they nicknamed the \"guy.\"",
+        "ko": "로열리스트들은 그를 닮은 인형을 불태웠는데 그들은 그것에 'guy'라는 별명을 붙였다."
+      },
+      {
+        "en": "Centuries later, the word lost its negative connotation and a musical named Guys and Dolls ran on Broadway.",
+        "ko": "수 세기 후, 그 단어는 부정적인 함축을 잃었고 Guys and Dolls라는 제목의 뮤지컬이 브로드웨이에서 상연되었다."
+      },
+      {
+        "en": "In American slang, bad means good, cool means great, and wicked means excellent.",
+        "ko": "미국 속어에서 'bad'는 '좋은'을, 'cool'은 '멋진'을, 'wicked'는 '탁월한'을 의미한다."
+      },
+      {
+        "en": "If you could transport yourself one hundred years into the future, you'd find yourself confused by your great-grandchildren's speech because language itself is an ever-changing reflection of human invention.",
+        "ko": "언어 자체가 인간이 만들어 내는 것의 계속 변화하는 반영물이기 때문에 여러분이 100년 후 미래로 이동할 수 있다면 여러분의 증손자의 말에 당황하게 될 것이다. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "word",
+        "단어"
+      ],
+      [
+        "means",
+        "의미한다"
+      ],
+      [
+        "eventually",
+        "결국"
+      ],
+      [
+        "yourself",
+        "너 자신"
+      ],
+      [
+        "you'd",
+        "당신은"
+      ],
+      [
+        "came",
+        "왔다"
+      ],
+      [
+        "find",
+        "찾기"
+      ],
+      [
+        "great-grandchildren's",
+        "증손자의"
+      ],
+      [
+        "ever-changing",
+        "끊임없이 변화하는"
+      ],
+      [
+        "definitions",
+        "정의"
+      ],
+      [
+        "connotation",
+        "의미"
+      ],
+      [
+        "dictionary",
+        "사전"
+      ],
+      [
+        "constantly",
+        "끊임없이"
+      ],
+      [
+        "themselves",
+        "그들 자신"
+      ],
+      [
+        "associated",
+        "관련된"
+      ],
+      [
+        "dependency",
+        "의존성"
+      ]
+    ],
+    "phrases": [
+      [
+        "be associated with",
+        "~와 관련되다"
+      ],
+      [
+        "keep up with",
+        "~을 따라가다"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 33번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "has the power to build trust among people",
+          "makes cross-cultural communication difficult",
+          "is getting simpler generation after generation",
+          "needs to be learned over a long period of time",
+          "is an ever-changing reflection of human invention"
+        ],
+        "answer": 4,
+        "explanation": "공식 정답은 5번입니다. 글의 핵심: addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "17",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 33,
+    "title": "환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정",
+    "sentences": [
+      {
+        "en": "Evolution will come to a standstill until something in the conditions changes: the onset of an ice age, a change in the average rainfall of the area, a shift in the prevailing wind.",
+        "ko": "진화는 빙하기의 시작, 그 지역의 평균 강수량의 변화, 항상풍의 변화와 같은, 상황들 속의 어떤 것이 변할 때까지 정지할 것이다."
+      },
+      {
+        "en": "Such changes do happen when we are dealing with a timescale as long as the evolutionary one.",
+        "ko": "그러한 변화들은 우리가 진화적인 것만큼 긴 시간 규모를 다루고 있을 때 실제로 일어난다."
+      },
+      {
+        "en": "As a consequence, evolution normally does not come to a halt, but constantly tracks the changing environment.",
+        "ko": "그 결과, 진화는 보통 정지하지 않고, 변화하는 환경을 끊임없이 추적한다."
+      },
+      {
+        "en": "If there is a steady downward drift in the average temperature in the area, a drift that persists over centuries, successive generations of animals will be propelled by a steady selection 'pressure' in the direction, say, of growing longer coats of hair.",
+        "ko": "만약 그 지역에서, 수 세기에 걸쳐 지속되는 추세인, 평균 기온의 꾸준한 하향 추세가 있다면, 꾸준한 선택 '압력'에 의해 동물들의 다음 세대는, 이를테면 더 긴 털을 자라게 하는 방향으로, 나아가게 될 것이다."
+      },
+      {
+        "en": "If after a few thousand years of reduced temperature the trend reverses and average temperatures creep up again, the animals will come under the influence of a new selection pressure, and will be pushed towards growing shorter coats again.",
+        "ko": "만약 수천 년의 낮아진 기온 이후에 그 추세가 역전되고 평균 기온이 다시 서서히 올라간다면, 그 동물들은 새로운 선택 압력의 영향 아래 놓이게 될 것이며, 다시 더 짧은 털을 자라게 하는 쪽으로 나아가게 될 것이다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "average",
+        "평균"
+      ],
+      [
+        "come",
+        "오다"
+      ],
+      [
+        "temperature",
+        "온도"
+      ],
+      [
+        "evolution",
+        "진화"
+      ],
+      [
+        "selection",
+        "선택"
+      ],
+      [
+        "pressure",
+        "압력"
+      ],
+      [
+        "changes",
+        "변화"
+      ],
+      [
+        "animals",
+        "동물"
+      ],
+      [
+        "growing",
+        "성장하는"
+      ],
+      [
+        "steady",
+        "꾸준한"
+      ],
+      [
+        "drift",
+        "드리프트"
+      ],
+      [
+        "coats",
+        "코트"
+      ],
+      [
+        "again",
+        "다시"
+      ],
+      [
+        "area",
+        "지역"
+      ],
+      [
+        "evolutionary",
+        "진화론적인"
+      ],
+      [
+        "temperatures",
+        "온도"
+      ]
+    ],
+    "phrases": [
+      [
+        "come to",
+        "~하게 되다"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 33번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "occurs regardless of local temperature trend",
+          "constantly tracks the changing environment",
+          "finds ways to bring nature into balance",
+          "makes species compete with one another",
+          "gradually threatens the survival of hairy animals"
+        ],
+        "answer": 1,
+        "explanation": "공식 정답은 2번입니다. 글의 핵심: 환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "18",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 34,
+    "title": "비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체",
+    "sentences": [
+      {
+        "en": "The high price of land in metropolitan areas has implications for the efficient employment of resources.",
+        "ko": "대도시의 높은 토지 가격은 자원의 효율적 활용에 영향을 미친다."
+      },
+      {
+        "en": "For example, in New York City, as in many large cities, sidewalk vending carts sell everything from hot dogs to ice cream.",
+        "ko": "예를 들어, 뉴욕시에서는, 많은 대도시에서처럼, 보행로 판매 카트는 핫도그부터 아이스크림까지 모든 것을 판매한다."
+      },
+      {
+        "en": "Why are these carts so popular, with over 3,000 in New York City alone?",
+        "ko": "왜 뉴욕시에서만 3,000대가 넘는 카트들이 이렇게 인기가 많을까?"
+      },
+      {
+        "en": "Consider the resources used to supply hot dogs: land, labor, capital, entrepreneurial ability, plus intermediate goods such as hot dogs, buns, and other ingredients.",
+        "ko": "핫도그를 공급하는 데 사용되는 자원인 토지, 노동력, 자본, 기업가의 능력과 이에 더해 핫도그 소시지, 빵, 그리고 기타 재료 같은 중간재들을 살펴보자."
+      },
+      {
+        "en": "Which of these do you suppose is most expensive in New York City?",
+        "ko": "당신은 이 중 뉴욕시에서 가장 비싼 것은 무엇이라고 생각하는가?"
+      },
+      {
+        "en": "Retail space along Madison Avenue rents for an average of $550 a year per square foot.",
+        "ko": "Madison Avenue를 따라 있는 소매 공간은 평방피트당 연평균 550달러로 임대된다."
+      },
+      {
+        "en": "Because operating a hot dog cart requires about 4 square yards, it could cost as much as $20,000 a year to rent that much commercial space.",
+        "ko": "핫도그 카트 운영에는 약 4제곱야드가 필요하므로, 그만큼의 상업 공간을 임대하는 데는 일 년에 20,000달러까지 비용이 들 수 있다."
+      },
+      {
+        "en": "Aside from the necessary public permits, however, space on the public sidewalk is free to vendors.",
+        "ko": "그러나, 필수적인 공공 허가 말고는, 공공 보행로 위의 공간은 노점상들에게 무료이다."
+      },
+      {
+        "en": "Profit-maximizing street vendors substitute public sidewalks for costly commercial space.",
+        "ko": "이익 극대화를 추구하는 노점상들은 공공 보행로를 값비싼 상업 공간 대신으로 쓴다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "space",
+        "공간"
+      ],
+      [
+        "public",
+        "대중"
+      ],
+      [
+        "york",
+        "요크"
+      ],
+      [
+        "city",
+        "도시"
+      ],
+      [
+        "dogs",
+        "개"
+      ],
+      [
+        "commercial",
+        "상업"
+      ],
+      [
+        "resources",
+        "자원"
+      ],
+      [
+        "sidewalk",
+        "보도"
+      ],
+      [
+        "vendors",
+        "공급 업체"
+      ],
+      [
+        "square",
+        "광장"
+      ],
+      [
+        "carts",
+        "카트"
+      ],
+      [
+        "land",
+        "땅"
+      ],
+      [
+        "year",
+        "년"
+      ],
+      [
+        "profit-maximizing",
+        "이익 극대화"
+      ],
+      [
+        "entrepreneurial",
+        "기업가적"
+      ],
+      [
+        "metropolitan",
+        "대도시"
+      ]
+    ],
+    "phrases": [
+      [
+        "for example",
+        "예를 들어"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 34번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "depend less on public sidewalks as their business expands",
+          "negotiate ingredient prices with suppliers to cut costs",
+          "devise new products to outcompete other vendors",
+          "promote their business to attract potential customers",
+          "substitute public sidewalks for costly commercial space"
+        ],
+        "answer": 4,
+        "explanation": "공식 정답은 5번입니다. 글의 핵심: 비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "19",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 34,
+    "title": "이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는",
+    "sentences": [
+      {
+        "en": "The term \"anchoring\" was introduced by Roland Barthes who observed that text is often used next to images (his focus was on photographs) to confine meaning.",
+        "ko": "'anchoring'이라는 용어는 의미를 한정하기 위해 텍스트가 자주 이미지 옆에 사용되는 점을 관찰한 Roland Barthes(그는 사진에 중점을 두었다)에 의해 도입되었다."
+      },
+      {
+        "en": "Of all possible literal or implied interpretations an image could elicit, text would point the viewer towards a desired, specific direction.",
+        "ko": "이미지가 이끌어 낼 수 있는 모든 가능한 있는 그대로의 또는 함축된 해석 중에서, 텍스트는 보는 사람을 원하는, 특정한 방향으로 향하게 할 것이다."
+      },
+      {
+        "en": "In advertising, as Barthes argues, the symbolic message does not guide identification but interpretation.",
+        "ko": "광고할 때, Barthes가 주장하는 것처럼, 상징적 메시지는 식별이 아니라 해석을 유도한다."
+      },
+      {
+        "en": "The viewer is not asked to recognize what they see but to understand why they see it and what it means to them.",
+        "ko": "보는 사람은 그들이 보는 것을 인식하도록 요구되는 것이 아니라 왜 그들이 그것을 보는지 그리고 그것이 그들에게 무엇을 의미하는지를 이해하도록 요구된다."
+      },
+      {
+        "en": "By combining images with text, advertising produces symbolic meaning that is accurate and specific on the one hand, richer on the other, thus adding depth and eliminating breadth of rational and emotional interpretations.",
+        "ko": "이미지와 텍스트를 결합함으로써, 광고는 한편으로는 정확하고 구체적이며, 다른 한편으로는 더욱 풍부한 상징적 의미를 만들어 내어, 그 결과 이성적이고 감성적 해석의 깊이를 더하고 폭은 제거한다."
+      },
+      {
+        "en": "The headline or tagline of an ad directs the reader through the intended meanings of the image, so that the reader avoids some and receives others.",
+        "ko": "광고의 헤드라인이나 끝맺음말이 이미지의 의도된 의미를 통해 독자를 안내하여, 독자는 어떤 것은 피하고 다른 것은 받아들인다."
+      },
+      {
+        "en": "It \"remote-controls\" the reader towards a meaning chosen in advance.",
+        "ko": "그것은 독자를 미리 선택된 의미 쪽으로 '원격 제어한다'. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "meaning",
+        "의미"
+      ],
+      [
+        "reader",
+        "독자"
+      ],
+      [
+        "text",
+        "텍스트"
+      ],
+      [
+        "interpretations",
+        "해석"
+      ],
+      [
+        "advertising",
+        "광고"
+      ],
+      [
+        "specific",
+        "구체적인"
+      ],
+      [
+        "symbolic",
+        "상징적인"
+      ],
+      [
+        "barthes",
+        "바르트"
+      ],
+      [
+        "towards",
+        "쪽으로"
+      ],
+      [
+        "images",
+        "이미지"
+      ],
+      [
+        "viewer",
+        "뷰어"
+      ],
+      [
+        "image",
+        "이미지"
+      ],
+      [
+        "remote-controls",
+        "리모콘"
+      ],
+      [
+        "identification",
+        "신분증"
+      ],
+      [
+        "interpretation",
+        "해석"
+      ],
+      [
+        "photographs",
+        "사진"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 34번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "the reader avoids some and receives others",
+          "the textual cues are disregarded by the audience",
+          "the emotional impact of the text is completely erased",
+          "the viewer focuses on the artistic quality of the image",
+          "the image and the accompanying text work in isolation"
+        ],
+        "answer": 0,
+        "explanation": "공식 정답은 1번입니다. 글의 핵심: 이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "20",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 36,
+    "title": "사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화",
+    "sentences": [
+      {
+        "en": "For most animals the struggle to survive takes up all their time.",
+        "ko": "대부분의 동물들에게 생존하기 위한 고투는 그들의 모든 시간을 차지한다."
+      },
+      {
+        "en": "Finding food and drink, keeping warm and clean, avoiding predators, migrating and reproducing use up all their energies.",
+        "ko": "먹이와 마실 것을 찾는 것, 체온과 청결함을 유지하는 것, 포식자를 피하는 것, 이동하는 것과 번식하는 것은 그들의 모든 에너지를 소모한다."
+      },
+      {
+        "en": "If they do have any time to spare, they spend it resting or sleeping.",
+        "ko": "만약 그들이 아낀 시간이 조금이라도 있다면, 그들은 그것을 쉬거나 잠자는 데에 쓴다."
+      },
+      {
+        "en": "Only very young animals, under the protection of their parents, have enough surplus energy to engage in lively bouts of play.",
+        "ko": "아주 어린 동물들만이, 그들 부모의 보호 아래에서, 활기찬 놀이의 한 차례들에 참여할 수 있을 만큼 충분한 잉여 에너지를 가지고 있다."
+      },
+      {
+        "en": "This was also true for our early ancestors.",
+        "ko": "이는 우리의 초기 조상들에게도 또한 사실이었다."
+      },
+      {
+        "en": "The constant search for food would have put heavy demands upon them.",
+        "ko": "끊임없는 식량 찾기는 그들에게 큰 부담을 주었을 것이다."
+      },
+      {
+        "en": "But as they slowly evolved into more and more efficient hunters, the situation changed.",
+        "ko": "그러나 그들이 점점 더 효율적인 사냥꾼으로 서서히 진화함에 따라, 상황은 달라졌다."
+      },
+      {
+        "en": "The secret of their success was the development of much greater intelligence.",
+        "ko": "그들의 성공 비결은 훨씬 더 뛰어난 지능의 발달이었다."
+      },
+      {
+        "en": "They used brain not brawn to kill their prey.",
+        "ko": "그들은 그들의 먹잇감을 죽이기 위해 근육이 아니라 두뇌를 사용했다."
+      },
+      {
+        "en": "At the end of the long hunting era, before they turned to farming, they were already enjoying some degree of affluence.",
+        "ko": "오랜 사냥 시대 끝에서, 그들이 농경으로 전환하기 전, 그들은 이미 어느 정도의 풍부함을 누리고 있는 중이었다."
+      },
+      {
+        "en": "In certain regions, at particular times of year, the prey was sufficiently plentiful and their hunting techniques sufficiently advanced for them to experience a remarkable degree of prosperity.",
+        "ko": "특정 지역들에서는, 한 해의 특정 시기에, 먹잇감은 충분히 풍부했고 그들의 사냥 기술들이 충분히 발전해서 그들이 놀라울 정도의 번영을 경험했다."
+      },
+      {
+        "en": "They had time on their hands.",
+        "ko": "그들은 여유 시간이 있었다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "sufficiently",
+        "충분히"
+      ],
+      [
+        "animals",
+        "동물"
+      ],
+      [
+        "hunting",
+        "사냥"
+      ],
+      [
+        "degree",
+        "정도"
+      ],
+      [
+        "food",
+        "음식"
+      ],
+      [
+        "prey",
+        "먹이"
+      ],
+      [
+        "intelligence",
+        "지능"
+      ],
+      [
+        "reproducing",
+        "재생산"
+      ],
+      [
+        "development",
+        "개발"
+      ],
+      [
+        "protection",
+        "보호"
+      ],
+      [
+        "particular",
+        "특별한"
+      ],
+      [
+        "techniques",
+        "기술"
+      ],
+      [
+        "experience",
+        "경험"
+      ],
+      [
+        "remarkable",
+        "주목할 만한"
+      ],
+      [
+        "prosperity",
+        "번영"
+      ],
+      [
+        "predators",
+        "포식자"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 36번",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+        "choices": [
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)",
+          "(C) - (B) - (A)"
+        ],
+        "answer": 1,
+        "explanation": "공식 정답은 2번입니다. 글의 핵심: 사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "21",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 37,
+    "title": "위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
+    "sentences": [
+      {
+        "en": "Think about a time when you were startled.",
+        "ko": "당신이 깜짝 놀랐던 한 순간에 대해 생각해 보라."
+      },
+      {
+        "en": "Did you come to a sudden stop, freeze all your movements, and hold your breath as you scanned the environment for a threat?",
+        "ko": "당신은 위협에 대해 주변 환경을 살피는 동안 갑자기 정지하고, 당신의 모든 움직임들을 멈추고, 그리고 당신의 숨을 참았는가?"
+      },
+      {
+        "en": "All these responses maximize our ability to avoid detection, locate the source of possible danger, and prepare to fight or flee.",
+        "ko": "이러한 모든 반응들은 탐지를 피하고, 잠재적 위험의 근원을 찾아내며, 싸우거나 도망칠 준비를 하는 우리의 능력을 최대화한다."
+      },
+      {
+        "en": "As sophisticated as language has become, it is still the creation of sound that might give away our location to a potential predator.",
+        "ko": "언어가 아무리 정교해졌다고 해도, 잠재적인 포식자에게 우리의 위치를 드러낼지도 모르는 것은 바로 여전히 소리의 생성이다."
+      },
+      {
+        "en": "Because of this, the freeze response results in the inhibition of language in highly stressful and traumatic situations.",
+        "ko": "이것 때문에, 동결 반응은 매우 스트레스가 크고 외상적인 상황들에서 언어의 억제를 초래한다."
+      },
+      {
+        "en": "Natural selection promoted the evolution of language but conserved the freeze rule.",
+        "ko": "자연 선택은 언어의 진화를 촉진했지만 동결 규칙은 보존했다."
+      },
+      {
+        "en": "When the threat passes, we begin to relax and find our voices again, perhaps even to laugh at our own reactions.",
+        "ko": "그 위협이 지나갈 때, 우리는 긴장을 풀기 시작하고 다시 우리의 목소리들을 찾으며, 아마도 심지어 우리 자신의 반응들에 웃기까지 한다."
+      },
+      {
+        "en": "But what if we can never relax?",
+        "ko": "그러나 만약 우리가 결코 긴장을 풀 수 없다면 어떨까?"
+      },
+      {
+        "en": "What if our experiences shape our brain to be in a constant state of fear?",
+        "ko": "우리의 경험이 뇌를 지속적인 공포 상태에 있도록 만든다면 어떨까?"
+      },
+      {
+        "en": "This interference with the proper development and integration of neural networks can result in chronic stress and even mental illness.",
+        "ko": "신경망의 적절한 발달과 통합에 대한 이러한 방해는 만성적인 스트레스와 심지어 정신 질환을 초래할 수 있다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "language",
+        "언어"
+      ],
+      [
+        "freeze",
+        "얼다"
+      ],
+      [
+        "threat",
+        "위협"
+      ],
+      [
+        "relax",
+        "긴장을 풀다"
+      ],
+      [
+        "sophisticated",
+        "정교한"
+      ],
+      [
+        "interference",
+        "간섭"
+      ],
+      [
+        "environment",
+        "환경"
+      ],
+      [
+        "experiences",
+        "경험"
+      ],
+      [
+        "development",
+        "개발"
+      ],
+      [
+        "integration",
+        "통합"
+      ],
+      [
+        "inhibition",
+        "억제"
+      ],
+      [
+        "situations",
+        "상황"
+      ],
+      [
+        "movements",
+        "움직임"
+      ],
+      [
+        "responses",
+        "응답"
+      ],
+      [
+        "detection",
+        "탐지"
+      ],
+      [
+        "potential",
+        "잠재력"
+      ]
+    ],
+    "phrases": [
+      [
+        "result in",
+        "~을 초래하다"
+      ],
+      [
+        "come to",
+        "~하게 되다"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 37번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)",
+          "(C) - (B) - (A)"
+        ],
+        "answer": 4,
+        "explanation": "공식 정답은 5번입니다. 글의 핵심: 위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "22",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 36,
+    "title": "자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적",
+    "sentences": [
+      {
+        "en": "We're naturally wired to organize the world into a hierarchy.",
+        "ko": "우리는 본래 세상을 위계로 조직화하도록 되어 있다."
+      },
+      {
+        "en": "We do this to help make sense of the world, maintain our beliefs, and generally feel better.",
+        "ko": "우리는 세상을 이해하고, 우리의 신념을 유지하며, 일반적으로 기분이 나아지도록 하기 위해 이것을 한다."
+      },
+      {
+        "en": "But when someone infringes on our place in the world and our understanding of how it works, we react without thinking.",
+        "ko": "그러나 누군가가 세상에서의 우리의 위치와 그것이 어떻게 작동하는지에 대한 우리의 이해를 침해할 때 우리는 생각하지 않고 반응한다."
+      },
+      {
+        "en": "When someone cuts you off on the highway and road rage kicks in, that's your unconscious mind saying, \"Who are you to cut me off?\"",
+        "ko": "누군가가 고속 도로에서 여러분에게 끼어들어 운전자의 분노가 발생했을 때, 그것은 \"네가 뭔데 나에게 끼어들었어?\"라고 말하는 여러분의 무의식적인 마음이다."
+      },
+      {
+        "en": "You're reacting to a threat to your inherent sense of hierarchy.",
+        "ko": "여러분은 여러분의 내재한 위계 의식에 대한 위협에 반응하고 있다."
+      },
+      {
+        "en": "On the road we are all equals.",
+        "ko": "도로 위에서 우리는 모두 평등하다."
+      },
+      {
+        "en": "We're all supposed to play by the same rules.",
+        "ko": "우리는 모두 같은 규칙에 따라 행동해야 한다."
+      },
+      {
+        "en": "Cutting someone off violates those rules and implies higher status.",
+        "ko": "누군가에게 끼어드는 것은 그러한 규칙을 위반하는 것이며 더 높은 지위를 의미한다."
+      },
+      {
+        "en": "Or consider when you get frustrated with your kids and end an argument with \"Because I said so.\" (Or the office equivalent: \"Because I'm the boss.\")",
+        "ko": "또는 여러분이 여러분의 자녀에게 실망하게 되어 말다툼을 \"내가 그렇게 말했으니까.\"라고 말하며 끝낼 때(또는 동일한 사무실 상황, \"내가 상사니까.\")를 생각해 봐라."
+      },
+      {
+        "en": "In these moments you've stopped thinking and regressed to your biological tendencies of reaffirming the hierarchy.",
+        "ko": "이런 순간에 여러분은 생각하는 것을 멈추었고 위계를 재확인하는 여러분의 생물학적 성향으로 되돌아갔다. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "hierarchy",
+        "계층 구조"
+      ],
+      [
+        "someone",
+        "누군가"
+      ],
+      [
+        "world",
+        "세계"
+      ],
+      [
+        "thinking",
+        "생각"
+      ],
+      [
+        "we're",
+        "우리는"
+      ],
+      [
+        "sense",
+        "감각"
+      ],
+      [
+        "rules",
+        "규칙"
+      ],
+      [
+        "road",
+        "도로"
+      ],
+      [
+        "understanding",
+        "이해"
+      ],
+      [
+        "unconscious",
+        "무의식"
+      ],
+      [
+        "reaffirming",
+        "재확인"
+      ],
+      [
+        "frustrated",
+        "좌절하다"
+      ],
+      [
+        "equivalent",
+        "동등한"
+      ],
+      [
+        "biological",
+        "생물학적"
+      ],
+      [
+        "tendencies",
+        "경향"
+      ],
+      [
+        "naturally",
+        "자연스럽게"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 36번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)",
+          "(C) - (B) - (A)"
+        ],
+        "answer": 4,
+        "explanation": "공식 정답은 5번입니다. 글의 핵심: 자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "23",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 37,
+    "title": "못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의",
+    "sentences": [
+      {
+        "en": "Once a nail is hammered in, it is friction that holds it in place.",
+        "ko": "일단 못이 망치로 두들겨 박히면 그것을 제자리에 붙들고 있는 것은 바로 마찰이다."
+      },
+      {
+        "en": "Friction is the force that arises when two surfaces are sliding, or trying to slide, against each other.",
+        "ko": "마찰은 두 표면이 서로에 저항해 미끄러지거나 미끄러지려고 할 때 발생하는 힘이다."
+      },
+      {
+        "en": "If you try to pull apart two blocks of wood that have been nailed together, the wood fibers grip the shaft of the nail.",
+        "ko": "만약 여러분이 함께 못 박혀 있는 두 개의 나무 블록을 떼어 내려고 하면, 나무 섬유가 못의 축을 잡고 있다."
+      },
+      {
+        "en": "The nail feels a force trying to rip it apart along its length, and we call that force tension.",
+        "ko": "못은 그것의 길이대로 그것을 쪼개려고 하는 힘을 받고, 우리는 그 힘을 장력이라고 부른다."
+      },
+      {
+        "en": "Your experiment can now fail in one of two ways — either the nail stretches and splits in half because the tension force is too large for the nail, or the nail comes loose because the friction force is overcome.",
+        "ko": "여러분의 시도는 이제 두 가지 방법 중 하나로 실패할 수 있는데, 장력이 못이 견디기에는 너무 커서 못이 늘어나 반으로 갈라지거나, 또는 마찰력이 극복되어 못이 헐거워지는 둘 중 하나이다."
+      },
+      {
+        "en": "The force it would take to stretch the nail is much larger than the friction forces on the surface, so we don't have to worry too much about the former.",
+        "ko": "못을 늘리는 데 들힘은 표면의 마찰력보다 훨씬 더 커서 전자에 대해 우리는 너무 많이 걱정할 필요가 없다."
+      },
+      {
+        "en": "It's the friction with which we need to concern ourselves.",
+        "ko": "우리가 신경 쓸 필요가 있는 것은 바로 마찰이다. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "nail",
+        "네일"
+      ],
+      [
+        "force",
+        "힘"
+      ],
+      [
+        "friction",
+        "마찰"
+      ],
+      [
+        "tension",
+        "긴장"
+      ],
+      [
+        "trying",
+        "노력하다"
+      ],
+      [
+        "apart",
+        "떨어져서"
+      ],
+      [
+        "wood",
+        "나무"
+      ],
+      [
+        "experiment",
+        "실험"
+      ],
+      [
+        "stretches",
+        "뻗어"
+      ],
+      [
+        "ourselves",
+        "우리 자신"
+      ],
+      [
+        "hammered",
+        "망치질하다"
+      ],
+      [
+        "surfaces",
+        "표면"
+      ],
+      [
+        "together",
+        "함께"
+      ],
+      [
+        "overcome",
+        "극복하다"
+      ],
+      [
+        "sliding",
+        "슬라이딩"
+      ],
+      [
+        "against",
+        "반대하다"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 37번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)",
+          "(C) - (B) - (A)"
+        ],
+        "answer": 2,
+        "explanation": "공식 정답은 3번입니다. 글의 핵심: 못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "24",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 38,
+    "title": "폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성",
+    "sentences": [
+      {
+        "en": "Video gaming is one of the most studied technologies with regard to empathy.",
+        "ko": "비디오 게임하기는 공감과 관련하여 가장 많이 연구된 기술들 중 하나이다."
+      },
+      {
+        "en": "Because there have been longstanding concerns about the impact of violent video games on youth, much research has been conducted over the last couple of decades on the topic.",
+        "ko": "청소년에게 미치는 폭력적인 비디오 게임의 영향에 대해 오랫동안 지속되어 온 우려들이 존재해 왔기 때문에, 그 주제에 대해 많은 연구가 지난 이삼십 년 동안 수행되어 왔다."
+      },
+      {
+        "en": "While measuring and documenting the impact of video game violence, scientists have formulated credible explanations of how video gaming could affect empathy.",
+        "ko": "비디오 게임 폭력의 영향을 측정하고 기록하는 동안, 과학자들은 어떻게 비디오 게임을 하는 것이 공감에 영향을 미칠 수 있는지에 대한 신뢰할 만한 설명들을 명확하게 내놓았다."
+      },
+      {
+        "en": "Part of a normal, healthy reaction to witnessing violent events is to feel negative emotions, and to experience physiological arousal that is connected to fear or disgust.",
+        "ko": "폭력적인 사건들을 목격하는 것에 대한 정상적이고 건강한 반응의 부분은 부정적인 감정들을 느끼는 것이고, 두려움이나 혐오와 연결된 생리적 각성을 경험하는 것이다."
+      },
+      {
+        "en": "With repeated exposure to violent events — such as what might happen when a person plays violent video games — this normal reaction might become blunted, a phenomenon known as desensitization.",
+        "ko": "폭력적인 사건들에 대한 반복된 노출과 함께 — 한 사람이 폭력적인 비디오 게임들을 할 때 일어날 수 있는 것과 같은 — 이러한 정상적인 반응은 무뎌질 수 있는데, 탈감각이라고 알려진 현상이다."
+      },
+      {
+        "en": "The next step in this problematic process would be having diminished emotional responses to violence, which could also interfere with the ability to recognize and/or to sympathize with others, leading to reduced empathy.",
+        "ko": "이 문제적인 과정의 다음 단계는 폭력에 대한 감소된 정서적 반응들을 가지는 것일 것이며, 이는 또한 다른 사람들을 인식하고/인식하거나 공감하는 능력을 방해할 수 있어서, 감소된 공감으로 이어진다."
+      },
+      {
+        "en": "A significant body of work shows an association between extensive violent video gaming and reduced empathy in people.",
+        "ko": "일단의 상당한 연구가 사람들에게서 광범위한 폭력적 비디오 게임을 하는 것과 감소된 공감 사이의 연관성을 보여 준다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "video",
+        "비디오"
+      ],
+      [
+        "violent",
+        "폭력적인"
+      ],
+      [
+        "empathy",
+        "공감"
+      ],
+      [
+        "gaming",
+        "게임"
+      ],
+      [
+        "violence",
+        "폭력"
+      ],
+      [
+        "reaction",
+        "반응"
+      ],
+      [
+        "reduced",
+        "감소"
+      ],
+      [
+        "impact",
+        "영향"
+      ],
+      [
+        "normal",
+        "정상"
+      ],
+      [
+        "events",
+        "이벤트"
+      ],
+      [
+        "games",
+        "게임"
+      ],
+      [
+        "desensitization",
+        "둔감화"
+      ],
+      [
+        "physiological",
+        "생리학적"
+      ],
+      [
+        "technologies",
+        "기술"
+      ],
+      [
+        "longstanding",
+        "오랫동안"
+      ],
+      [
+        "explanations",
+        "설명"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 38번",
+        "question": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+        "choices": [
+          "①의 위치",
+          "②의 위치",
+          "③의 위치",
+          "④의 위치",
+          "⑤의 위치"
+        ],
+        "answer": 4,
+        "explanation": "공식 정답은 5번입니다. 글의 핵심: 폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "25",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 39,
+    "title": "뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로",
+    "sentences": [
+      {
+        "en": "Paper's mechanical properties lend themselves to folding and bending.",
+        "ko": "종이의 물리적 특성은 접고 구부리기에 적합하다."
+      },
+      {
+        "en": "The cellulose fibers of which it is made can be partially snapped in the area of maximum bend, allowing a permanent crease to form, while sufficient fibers remain undamaged for the material not to crack and fall apart.",
+        "ko": "그것을 만드는 셀룰로오스 섬유는 최대로 구부러지는 부분에서 부분적으로 꺾일 수 있어 영구적인 주름이 형성되도록 하는 동시에, 충분한 섬유가 완전하게 남아 재료가 갈라지고 떨어지지 않는다."
+      },
+      {
+        "en": "Indeed, in this state it pretty much maintains its ability to resist being pulled apart, but it can also be torn easily and accurately along the crease if a point of weakness — a small, initial tear — is opened up.",
+        "ko": "실제로, 이러한 상태에서 그것은 잡아당겨짐에 저항하는 능력을 상당히 유지하지만, 그것은 또한 작은 초기의 찢김 같은 약한 지점이 열리면 주름을 따라 쉽고 정확하게 찢어질 수 있다."
+      },
+      {
+        "en": "This winning combination of mechanical properties allows it to assume the shape of any object through creasing and folding — hence the art of origami.",
+        "ko": "이러한 물리적 특성의 우수한 조합은 그것이 주름짐과 접힘을 통해 어떤 물체의 모양도 취할 수 있도록 하며, 이러한 점에서 종이접기 예술이 생겼다."
+      },
+      {
+        "en": "There are very few materials as good: metal foils can hold a crease, but control of the crease is somewhat more difficult.",
+        "ko": "이만큼 좋은 재료들은 매우 드문데, 금속 호일은 주름을 유지할 수 있지만, 주름의 통제가 다소 더 어렵다."
+      },
+      {
+        "en": "Plastic sheeting doesn't tend to hold a crease at all, unless it is very soft, in which case it lacks the rigidity required of a good wrapping material.",
+        "ko": "플라스틱 시트는 매우 부드럽지 않은 한 주름을 전혀 유지하지 않는 경향이 있고, 매우 부드러운 경우에는 좋은 포장재에 요구되는 단단함이 부족하다."
+      },
+      {
+        "en": "So it is its ability to hold a crease while remaining stiff that makes paper uniquely suited to this purpose.",
+        "ko": "따라서 종이를 이 용도에 특별히 적합하도록 만드는 것은 바로 뻣뻣한 상태를 유지하면서 주름을 유지하는 그것의 능력이다. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "crease",
+        "주름"
+      ],
+      [
+        "hold",
+        "보류"
+      ],
+      [
+        "mechanical",
+        "기계적인"
+      ],
+      [
+        "properties",
+        "속성"
+      ],
+      [
+        "material",
+        "재료"
+      ],
+      [
+        "folding",
+        "접는"
+      ],
+      [
+        "ability",
+        "능력"
+      ],
+      [
+        "fibers",
+        "섬유"
+      ],
+      [
+        "apart",
+        "떨어져서"
+      ],
+      [
+        "good",
+        "좋아"
+      ],
+      [
+        "combination",
+        "조합"
+      ],
+      [
+        "themselves",
+        "그들 자신"
+      ],
+      [
+        "sufficient",
+        "충분하다"
+      ],
+      [
+        "accurately",
+        "정확하게"
+      ],
+      [
+        "cellulose",
+        "셀룰로오스"
+      ],
+      [
+        "partially",
+        "부분적으로"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 39번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "①의 위치",
+          "②의 위치",
+          "③의 위치",
+          "④의 위치",
+          "⑤의 위치"
+        ],
+        "answer": 3,
+        "explanation": "공식 정답은 4번입니다. 글의 핵심: 뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "26",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 39,
+    "title": "진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
+    "sentences": [
+      {
+        "en": "Realising the benefits of differentiation, some brands broadcast their social purpose before they do much actual good.",
+        "ko": "차별화의 이점들을 인식하면서, 몇몇 브랜드들은 그들이 많은 실제적인 선을 행하기 전에 그들의 사회적 목적을 널리 알린다."
+      },
+      {
+        "en": "Their marketers are using social purpose to boost the brand's reputation, rather than embracing the purpose itself.",
+        "ko": "그들의 마케터들은 그 목적 자체를 받아들이기보다는, 그 브랜드의 명성을 끌어올리기 위해 사회적 목적을 이용하고 있다."
+      },
+      {
+        "en": "Making a real difference with social problems is hard enough; to succeed, it has to follow from an authentic, company-wide commitment to the purpose.",
+        "ko": "사회적 문제들에 대해서 실제적인 차이를 만들어 내는 것은 충분히 어려우므로 성공하기 위해, 그것은 그 목적에 대한 진정한, 회사 전체에 걸친 헌신의 결과로 일어나야 한다."
+      },
+      {
+        "en": "Otherwise the mission is just window-dressing, or what we call \"purpose-washing\" — similar to green- washing, where purpose-driven activities serve mainly for publicity purposes.",
+        "ko": "그렇지 않으면 그 임무는 단지 겉치레에 불과하며, 또는 우리가 \"목적-세탁\"이라고 부르는 것 — 그린-워싱과 유사하며, 그 경우에는 목적 주도 활동들이 주로 홍보 목적의 역할을 한다."
+      },
+      {
+        "en": "We end up with what Anand Giridhardas describes in Winners Take All:",
+        "ko": "우리는 결국 Anand Giridhardas가 Winners Take All에서 묘사하는 것에 이르게 된다."
+      },
+      {
+        "en": "\"social purpose that just furthers the charade of elites disrupting the old order without giving much back\".",
+        "ko": "\"많은 것을 되돌려 주지 않으면서 옛 질서를 붕괴시키는 엘리트들의 뻔한 속임수를 단지 더 부추길 뿐인 사회적 목적\"."
+      },
+      {
+        "en": "Purpose-washing brands gain one of the benefits of social purpose, differentiation, but only for a short while.",
+        "ko": "목적-세탁 브랜드들은 사회적 목적의 이점들 중 하나, 차별화를 얻지만, 그러나 단지 잠깐 동안만이다."
+      },
+      {
+        "en": "They lose out on positioning for future markets, and they might even make employees feel worse about working for them.",
+        "ko": "그들은 미래 시장들을 위한 포지셔닝에서 손해를 보며, 그들은 심지어 직원들로 하여금 그것들을 위해 일하는 것에 대해 더 나쁘게 느끼게 만들지도 모른다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "purpose",
+        "목적"
+      ],
+      [
+        "social",
+        "사회적"
+      ],
+      [
+        "differentiation",
+        "차별화"
+      ],
+      [
+        "purpose-washing",
+        "목적 세척"
+      ],
+      [
+        "benefits",
+        "혜택"
+      ],
+      [
+        "brands",
+        "브랜드"
+      ],
+      [
+        "window-dressing",
+        "창문 장식"
+      ],
+      [
+        "purpose-driven",
+        "목적 중심의"
+      ],
+      [
+        "company-wide",
+        "전사적으로"
+      ],
+      [
+        "giridhardas",
+        "기리다르다스"
+      ],
+      [
+        "positioning",
+        "포지셔닝"
+      ],
+      [
+        "reputation",
+        "평판"
+      ],
+      [
+        "difference",
+        "차이"
+      ],
+      [
+        "commitment",
+        "헌신"
+      ],
+      [
+        "activities",
+        "활동"
+      ],
+      [
+        "disrupting",
+        "방해하는"
+      ]
+    ],
+    "phrases": [
+      [
+        "rather than",
+        "~라기보다"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 39번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "①의 위치",
+          "②의 위치",
+          "③의 위치",
+          "④의 위치",
+          "⑤의 위치"
+        ],
+        "answer": 1,
+        "explanation": "공식 정답은 2번입니다. 글의 핵심: 진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "27",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 40,
+    "title": "예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력",
+    "sentences": [
+      {
+        "en": "The brain needs to create a model of a constant pulse — a schema — so that we know when the musicians are not conforming to it.",
+        "ko": "뇌는 우리가 언제 음악가들이 그것에 따르고 있지 않는지를 알게 하기 위해 일정한 박자의 모형 — 도식 — 을 창조할 필요가 있다."
+      },
+      {
+        "en": "This is similar to variations of a melody: We need to have a mental representation of what the melody is in order to know — and appreciate — when the musician is taking liberties with it.",
+        "ko": "이는 멜로디의 변주들과 유사한데, 즉 우리는 언제 음악가가 멋대로 그것을 바꾸는지를 인지하고 — 그리고 판단하기 위해 — 그 멜로디가 무엇인지에 대한 정신적 표상을 가지고 있을 필요가 있다."
+      },
+      {
+        "en": "Metrical extraction, knowing what the pulse is and when we expect it to occur, is a crucial part of musical emotion.",
+        "ko": "박자적 추출, 즉 박자가 무엇인지와 언제 우리가 그것이 발생할 것이라고 기대하는 지를 아는 것은 음악적 감정의 중요한 한 부분이다."
+      },
+      {
+        "en": "Music communicates to us emotionally through systematic violations of expectations.",
+        "ko": "음악은 기대에 대한 체계적인 위반들을 통해 우리에게 감정적으로 소통한다."
+      },
+      {
+        "en": "These violations can occur in any domain — the domain of pitch, rhythm, tempo, and so on — but occur they must.",
+        "ko": "이러한 위반은 어떤 영역 — 음높이, 리듬, 속도 등의 영역 — 에서든 발생할 수 있지만 그것들은 반드시 발생해야 한다."
+      },
+      {
+        "en": "Music is organized sound, but the organization has to involve some element of the unexpected or it is emotionally flat and robotic.",
+        "ko": "음악은 조직화된 소리이지만, 그 조직화는 예상치 못한 약간의 요소를 포함해야만 하며 그렇지 않으면 그것은 감정적으로 밋밋하고 기계적이다."
+      },
+      {
+        "en": "Too much organization may technically still be music, but it would be music that no one wants to listen to.",
+        "ko": "너무 많은 조직화는 기술적으로는 여전히 음악일 수도 있지만, 그것은 아무도 듣고 싶어 하지 않는 음악일 것이다."
+      },
+      {
+        "en": "[Summary] The brain models anticipated musical patterns, which creates the possibility for emotional impact to arise when musicians break these patterns, making music engaging.",
+        "ko": "[Summary] 뇌는 예상된 음악적 패턴을 모델링하는데, 이것은 음악가들이 이러한 패턴을 깨뜨릴 때 감정적 영향이 발생할 가능성을 만들어 내며, 음악을 매력적으로 만든다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "music",
+        "음악"
+      ],
+      [
+        "occur",
+        "발생하다"
+      ],
+      [
+        "organization",
+        "조직"
+      ],
+      [
+        "emotionally",
+        "감정적으로"
+      ],
+      [
+        "violations",
+        "위반"
+      ],
+      [
+        "musicians",
+        "음악가"
+      ],
+      [
+        "patterns",
+        "패턴"
+      ],
+      [
+        "musical",
+        "뮤지컬"
+      ],
+      [
+        "melody",
+        "멜로디"
+      ],
+      [
+        "domain",
+        "도메인"
+      ],
+      [
+        "brain",
+        "뇌"
+      ],
+      [
+        "pulse",
+        "맥박"
+      ],
+      [
+        "know",
+        "알고있다"
+      ],
+      [
+        "representation",
+        "표현"
+      ],
+      [
+        "communicates",
+        "의사소통하다"
+      ],
+      [
+        "expectations",
+        "기대"
+      ]
+    ],
+    "phrases": [
+      [
+        "in order to",
+        "~하기 위해"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 40번",
+        "question": "가장 적절한 것을 고르시오.",
+        "choices": [
+          "unpredictable  ……    repeat",
+          "unpredictable  ……   disobey",
+          "anticipated ……   maintain",
+          "anticipated ……   break",
+          "established     ……   embody"
+        ],
+        "answer": 3,
+        "explanation": "공식 정답은 4번입니다. 글의 핵심: 예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  },
+  {
+    "id": "28",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 40,
+    "title": "어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두",
+    "sentences": [
+      {
+        "en": "Mother cats can tell which kittens belong to them — when litters are mixed up they use their kittens' scent to distinguish them from offspring of other mothers.",
+        "ko": "어미 고양이는 어느 새끼 고양이가 자신의 것인지를 구별할 수 있는데, 새끼들이 섞여 있으면 그것들은 자신의 새끼 고양이를 다른 어미 고양이의 새끼와 구별하기 위해 자기 새끼 고양이의 냄새를 사용한다."
+      },
+      {
+        "en": "Despite this, when faced with a selection of kittens who have wandered from the nest, her own and others that aren't hers, a mother cat doesn't appear to favor her own offspring when retrieving them.",
+        "ko": "이에도 불구하고, 보금자리에서 벗어나 헤매는 그녀 자신의 것과 그녀의 것이 아닌 새끼 고양이들을 선별하는 상황을 직면했을 때, 어미 고양이는 새끼들을 되찾아올 때 자기 자신의 새끼를 편애하는 것으로 보이지 않는다."
+      },
+      {
+        "en": "The reason for this is uncertain, although distress vocalizations from kittens that are lost from their nest are known to be very powerful, so it may just be hard for the mother to resist retrieving them, regardless of whether they are hers.",
+        "ko": "비록 보금자리에서 길을 잃은 새끼 고양이의 조난 발성이 매우 강력하다고 알려져 있고, 그래서 자신의 새끼인지의 여부와 상관없이, 어미가 새끼들을 되찾아오는 것을 거부하는 것이 어려울 수 있음에도 불구하고, 이것에 대한 이유는 불확실하다."
+      },
+      {
+        "en": "In the wild, a squeaking kitten out in the open is likely to attract predators, which is bad news for any other kittens around it.",
+        "ko": "야생에서는, 외부 개방된 곳에서 끽하는 소리를 내는 새끼 고양이는 포식자를 유인할 가능성이 높은데, 이는 그것 주변의 다른 어떤 새끼 고양이들에게도 나쁜 소식이다."
+      },
+      {
+        "en": "A rapid rescue of any crying kitten would be a good strategy to prevent them from drawing unwanted attention.",
+        "ko": "어떤 울고 있는 새끼 고양이라도 신속하게 구조하는 것은 원치 않는 관심을 끄는 것을 막는 좋은 전략일 것이다."
+      },
+      {
+        "en": "[Summary] Although mother cats can identify their own offspring, they are likely to collect any lost crying kittens, possibly to reduce the chances of being detected by predators.",
+        "ko": "[Summary] 어미 고양이들이 자기 자신의 새끼를 식별할 수 있음에도 불구하고, 그들은 아마도 포식자들에 의해 탐지될 가능성을 줄이기 위해 길을 잃고 우는 어떠한 새끼 고양이들이라도 데려올 가능성이 크다. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "kittens",
+        "새끼 고양이"
+      ],
+      [
+        "mother",
+        "어머니"
+      ],
+      [
+        "offspring",
+        "자손"
+      ],
+      [
+        "retrieving",
+        "검색 중"
+      ],
+      [
+        "predators",
+        "포식자"
+      ],
+      [
+        "although",
+        "그래도"
+      ],
+      [
+        "kitten",
+        "새끼 고양이"
+      ],
+      [
+        "likely",
+        "아마도"
+      ],
+      [
+        "crying",
+        "울고"
+      ],
+      [
+        "cats",
+        "고양이"
+      ],
+      [
+        "nest",
+        "둥지"
+      ],
+      [
+        "hers",
+        "그녀의 것"
+      ],
+      [
+        "lost",
+        "잃어버린"
+      ],
+      [
+        "vocalizations",
+        "발성"
+      ],
+      [
+        "distinguish",
+        "구별하다"
+      ],
+      [
+        "regardless",
+        "상관없이"
+      ]
+    ],
+    "phrases": [
+      [
+        "regardless of",
+        "~와 관계없이"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 40번",
+        "question": "다음 글을 읽고 물음에 답하시오.",
+        "choices": [
+          "raise ……   deceived",
+          "collect  ……   detected",
+          "collect  ……   distracted",
+          "abandon ……   awakened",
+          "abandon ……   chased"
+        ],
+        "answer": 1,
+        "explanation": "공식 정답은 2번입니다. 글의 핵심: 어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "29",
+    "exam": "25-9",
+    "examLabel": "2025년 9월",
+    "examNumber": 41,
+    "title": "저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두",
+    "sentences": [
+      {
+        "en": "Many animals pursue a mixed strategy of accumulating both body fat and food, which leads one to ask, \"What are the relative advantages and disadvantages of these two forms of energy storage?\"",
+        "ko": "많은 동물은 체지방과 식량 둘 다 축적하는 혼합 전략을 추구하는데, 이는 우리가 \"이 두 가지 에너지 저장 형태의 상대적인 장점과 단점은 무엇인가?\"라고 질문하게 한다."
+      },
+      {
+        "en": "Maximum fat deposition increases with body mass whereas maximum food storage is not constrained by body size.",
+        "ko": "최대 지방 축적량은 체질량에 따라 증가하는 반면 최대 식량 저장량은 신체 크기에 제한을 받지 않는다."
+      },
+      {
+        "en": "This means that animals, especially small animals, can accumulate much greater energy reserves in the form of stored food than they can in the form of body fat.",
+        "ko": "이는 동물, 특히 작은 동물은 그들이 체지방 형태로 축적할 수 있는 것보다 훨씬 더 많은 에너지 비축량을 저장된 식량의 형태로 축적할 수 있다는 것을 의미한다."
+      },
+      {
+        "en": "Further, stored food is more economical than body fat because fat contributes to body mass, and metabolic rate increases with body mass.",
+        "ko": "게다가, 지방은 체질량에 기여하고, 신진대사율도 체질량에 따라 높아지기 때문에 저장된 식량은 체지방보다 더 경제적이다."
+      },
+      {
+        "en": "In other words, there is a metabolic expense to maintaining fat.",
+        "ko": "다시 말해, 체지방을 유지하는 데 신진대사 비용이 존재한다."
+      },
+      {
+        "en": "Excessive fat accumulations may also have a negative effect on an animal's ability to avoid predators.",
+        "ko": "과도한 체지방 축적은 또한 포식자를 피하는 동물의 능력에 부정적인 영향을 미칠지도 모른다."
+      },
+      {
+        "en": "And, if maintaining a high body temperature is advantageous, animals might be expected to accumulate more energy in the form of a food store than as body fat.",
+        "ko": "그리고, 만약 높은 체온을 유지하는 것이 유리하다면, 동물은 체지방으로 보다 저장된 식량의 형태로 더 많은 에너지를 축적할 것으로 예상될 수 있다."
+      },
+      {
+        "en": "On the other hand, stored food may rot over time, may be removed by robbers, or may simply be lost.",
+        "ko": "반면에 저장된 식량은 시간이 지남에 따라 상할 수 있고, 도둑에 의해 제거되거나, 단순히 분실될 수 있다."
+      },
+      {
+        "en": "Many animals must expend energy managing and protecting their food stores.",
+        "ko": "많은 동물은 저장된 식량을 관리하고 보호하는 데 에너지를 소비해야 한다."
+      },
+      {
+        "en": "Eating food and converting it to fat avoids these types of losses and the energetic costs of managing stored food.",
+        "ko": "식량을 먹고 그것을 지방으로 전환하는 것은 이러한 유형의 손실과 저장된 식량을 관리하는 데 드는 에너지 비용을 피한다. [고2]2025년9월모의고사­한줄해석"
+      },
+      {
+        "en": "A large accumulation of body fat adds to an animal's fasting capacity, especially large animals, permitting some animals to enter prolonged dormancy in the relative security of a hibernaculum.",
+        "ko": "체지방의 많은 축적은 동물의 금식 능력을 높여주는데, 특히 큰 동물에게 그러하며, 어떤 동물들이 동면 장소의 상대적인 안전함 속에서 장기간의 휴면 상태에 들게 해 준다."
+      },
+      {
+        "en": "Thus, both fat accumulation and food storage have some decided advantages.",
+        "ko": "따라서 지방 축적과 식량 저장 둘 다 몇 가지 결정적인 이점이 있다. [고2]2025년9월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "body",
+        "몸"
+      ],
+      [
+        "food",
+        "음식"
+      ],
+      [
+        "animals",
+        "동물"
+      ],
+      [
+        "energy",
+        "에너지"
+      ],
+      [
+        "stored",
+        "저장됨"
+      ],
+      [
+        "storage",
+        "저장"
+      ],
+      [
+        "mass",
+        "질량"
+      ],
+      [
+        "form",
+        "형태"
+      ],
+      [
+        "accumulation",
+        "축적"
+      ],
+      [
+        "maintaining",
+        "유지"
+      ],
+      [
+        "advantages",
+        "장점"
+      ],
+      [
+        "especially",
+        "특히"
+      ],
+      [
+        "accumulate",
+        "축적하다"
+      ],
+      [
+        "increases",
+        "증가하다"
+      ],
+      [
+        "metabolic",
+        "대사"
+      ],
+      [
+        "relative",
+        "친척"
+      ]
+    ],
+    "phrases": [
+      [
+        "on the other hand",
+        "반면에"
+      ],
+      [
+        "in other words",
+        "다시 말해"
+      ]
+    ],
+    "questions": [
+      {
+        "title": "원래 기출 41번",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "The Body Sizes of Animals: Is Bigger Better?",
+          "Fat Storage and Its Impact on Body Temperature",
+          "Energy Reserves: The Role of Fat in Animal Sleep",
+          "How Animals Convert Food into Body Fat for Survival",
+          "Animal Energy Storage: Why Inside and Why Outside?"
+        ],
+        "answer": 4,
+        "explanation": "공식 정답은 5번입니다. 글의 핵심: 저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두",
+        "kind": "original"
+      },
+      {
+        "title": "원래 기출 42번",
+        "question": "밑줄 친 (a)~(e) 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+        "choices": [
+          "(a)",
+          "(b)",
+          "(c)",
+          "(d)",
+          "(e)"
+        ],
+        "answer": 3,
+        "explanation": "공식 정답은 4번입니다. 글의 핵심: 저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2025년 9월 고2 변형문제 샘플 240문항",
+      "url": "https://files-scs.pstatic.net/2025/09/16/QPWmYOaRtv/%5BSAMPLE%5D%20%EB%B3%80%ED%98%95%EB%AC%B8%EC%A0%9C%20(%EC%9C%A0%ED%98%95%ED%8E%B8)%20(240%EB%AC%B8%ED%95%AD)-%209%EC%9B%94%20%EA%B3%A02%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.pdf",
+      "note": "같은 시험 지문을 유형별로 변형한 공개 샘플 PDF"
+    }
+  },
+  {
+    "id": "30",
+    "exam": "26-6",
+    "examLabel": "2026년 6월",
+    "examNumber": 41,
+    "title": "유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
+    "sentences": [
+      {
+        "en": "The major consumer of oil is transport.",
+        "ko": "석유의 주요 소비자는 운송이다."
+      },
+      {
+        "en": "But consider what has happened over the last 30 years or so to the technology involved in producing the internal combustion engine.",
+        "ko": "그러나 지난 30여 년에 걸쳐 내연기관 생산에 관련된 기술에 어떤 일이 일어났는지 생각해 보자."
+      },
+      {
+        "en": "Because oil is expensive, car engines today are far more efficient in their consumption of fuel (and far less polluting) than they were in 1972.",
+        "ko": "석유가 비싸기 때문에, 오늘날 자동차 엔진들은 1972년에 그들이 그랬던 것보다 그들의 연료 소모에 있어서 훨씬 더 효율적이다(그리고 오염도 훨씬 더 적다)."
+      },
+      {
+        "en": "The cars that Asia buys tomorrow will certainly not be anything like those Americans use today.",
+        "ko": "아시아가 내일 구매할 자동차는 분명히 미국인들이 오늘 사용하는 자동차와 전혀 다를 것이다."
+      },
+      {
+        "en": "Americans will not buy today's cars tomorrow either.",
+        "ko": "미국인들도 오늘의 자동차를 내일 구매하지는 않을 것이다."
+      },
+      {
+        "en": "In fact, if the price of oil does rise much further then fuel cell technology (which produces energy from water!) will receive yet another momentum.",
+        "ko": "사실, 석유 가격이 훨씬 더 상승한다면 연료전지 기술(물로부터 에너지를 생산하는!)이 또 다른 모멘텀을 받을 것이다."
+      },
+      {
+        "en": "The big car multinationals have already produced the prototype motors — they are currently racing to try and get prices down and engine performances up.",
+        "ko": "대형 자동차 다국적 기업들은 시제품 모터들을 이미 생산해 오고 있다 — 그들은 현재 가격들을 낮추고 엔진 성능들을 높이려고 애쓰는 중이다."
+      },
+      {
+        "en": "Their future profits depend upon it.",
+        "ko": "그들의 미래 이익은 이것에 달려 있다."
+      },
+      {
+        "en": "Imagine now if there is a breakthrough in fuel cell technology.",
+        "ko": "이제 연료전지 기술에 획기적인 발전이 있다고 상상해보자."
+      },
+      {
+        "en": "What would happen to oil prices?",
+        "ko": "무슨 일이 석유 가격들에 일어날까?"
+      },
+      {
+        "en": "They would fall dramatically — signalling much less demand than supply — and oil companies and OPEC oil producers would stand to lose much income.",
+        "ko": "그것들은 급락할 것이며 — 공급보다 훨씬 더 적은 수요를 나타내며 — 그리고 석유 회사들과 OPEC 산유국들은 막대한 수입을 잃게 될 것이다."
+      },
+      {
+        "en": "The fact that this threat is real is driving the producers to look for alternative sources of income.",
+        "ko": "이 위협이 실재한다는 사실은 생산자들이 대체 수입원들을 찾도록 몰아가고 있다."
+      },
+      {
+        "en": "The 'oil majors' have diversified and are now more energy companies than oil companies these days and the OPEC countries are urgently attempting to develop other industries.",
+        "ko": "'석유 메이저들'은 사업을 다각화하여, 오늘날에는 이제 석유 회사라기보다 더욱 에너지 기업들이 되었으며, OPEC 국가들은 다른 산업들을 개발하고자 긴급하게 시도하는 중이다. [고2]2026년6월모의고사­한줄해석"
+      }
+    ],
+    "words": [
+      [
+        "technology",
+        "기술"
+      ],
+      [
+        "companies",
+        "회사"
+      ],
+      [
+        "fuel",
+        "연료"
+      ],
+      [
+        "americans",
+        "미국인"
+      ],
+      [
+        "producers",
+        "생산자"
+      ],
+      [
+        "tomorrow",
+        "내일"
+      ],
+      [
+        "engine",
+        "엔진"
+      ],
+      [
+        "energy",
+        "에너지"
+      ],
+      [
+        "prices",
+        "가격"
+      ],
+      [
+        "income",
+        "소득"
+      ],
+      [
+        "today",
+        "오늘"
+      ],
+      [
+        "less",
+        "덜"
+      ],
+      [
+        "cars",
+        "자동차"
+      ],
+      [
+        "fact",
+        "사실"
+      ],
+      [
+        "cell",
+        "세포"
+      ],
+      [
+        "opec",
+        "OPEC"
+      ]
+    ],
+    "phrases": [],
+    "questions": [
+      {
+        "title": "원래 기출 41번",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "Oil Under Threat: Innovation Reshapes the Energy Landscape",
+          "Suppliers’ Strategies Overwhelmed by Consumer Power",
+          "Lost Compass in the Jungle of Energy Competition",
+          "Competition for Efficiency Harms Product Quality",
+          "Common Cycle: How Oil Prices Go Up and Down"
+        ],
+        "answer": 0,
+        "explanation": "공식 정답은 1번입니다. 글의 핵심: 유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
+        "kind": "original"
+      },
+      {
+        "title": "원래 기출 42번",
+        "question": "밑줄 친 (a)~(e) 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+        "choices": [
+          "(a)",
+          "(b)",
+          "(c)",
+          "(d)",
+          "(e)"
+        ],
+        "answer": 4,
+        "explanation": "공식 정답은 5번입니다. 글의 핵심: 유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
+        "kind": "original"
+      }
+    ],
+    "relatedSource": {
+      "label": "2026년 6월 고2 한줄해석·관련 자료 안내",
+      "url": "https://flowedu.tistory.com/934",
+      "note": "같은 시험의 무료 한줄해석과 별도 연계 자료를 안내하는 페이지"
+    }
+  }
+]

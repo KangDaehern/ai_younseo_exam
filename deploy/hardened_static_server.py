@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import re
 import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -36,7 +37,7 @@ class StudyHandler(BaseHTTPRequestHandler):
         if not request_path.startswith(prefix):
             return None
         parts = request_path[len(prefix) :].strip("/").split("/")
-        if len(parts) != 2 or parts[0] != "01" or parts[1] not in {"test", "yunseo"}:
+        if len(parts) != 2 or not re.fullmatch(r"(?:0[1-9]|[12][0-9]|30)", parts[0]) or parts[1] not in {"test", "yunseo"}:
             return None
         return parts[0], parts[1]
 
@@ -50,7 +51,7 @@ class StudyHandler(BaseHTTPRequestHandler):
             try:
                 data = json.loads(state_file.read_text(encoding="utf-8"))
             except (OSError, json.JSONDecodeError):
-                data = {"version": 1, "known": {}, "unknown": {}, "quiz": {}, "hiddenSentences": {}}
+                data = {"version": 1, "known": {}, "unknown": {}, "quiz": {}, "hiddenSentences": {}, "readingMode": "easy"}
         self._send_json(200, data)
 
     def _save_state(self) -> None:
@@ -107,6 +108,7 @@ class StudyHandler(BaseHTTPRequestHandler):
             "unknown": boolean_map("unknown", 200),
             "quiz": quiz,
             "hiddenSentences": boolean_map("hiddenSentences", 100),
+            "readingMode": "hard" if incoming.get("readingMode") == "hard" else "easy",
         }
 
     def _send_json(self, status: int, data: object) -> None:
@@ -131,6 +133,8 @@ class StudyHandler(BaseHTTPRequestHandler):
         if relative_path in ("", "index.html"):
             filename = "index.html"
         elif relative_path == "01_fallacy-of-composition.html":
+            filename = "study.html"
+        elif relative_path in {"study.html", "data/passages.json"}:
             filename = relative_path
         else:
             self.send_error(404, "Not found")
@@ -145,7 +149,8 @@ class StudyHandler(BaseHTTPRequestHandler):
             return
 
         self.send_response(200)
-        self.send_header("Content-Type", "text/html; charset=utf-8")
+        content_type = "application/json; charset=utf-8" if filename.endswith(".json") else "text/html; charset=utf-8"
+        self.send_header("Content-Type", content_type)
         self.send_header("Content-Length", str(len(payload)))
         self.send_header("Cache-Control", "no-cache")
         self.send_header("X-Content-Type-Options", "nosniff")
