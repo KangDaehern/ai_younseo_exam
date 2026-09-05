@@ -216,6 +216,25 @@ def select_words(sentences: list[dict], count: int = 200) -> list[str]:
     return ranked[:count]
 
 
+EASY_STUDY_WORDS = STOPWORDS | set(
+    "good bad new old big small long short high low same different right left first last next "
+    "day days year years man men woman women child children name place part kind point group team "
+    "work works worked working person project school home world life hand help need want know think "
+    "look see come came go went take took give gave make made say said tell told find found show "
+    "start stop keep put set let call try ask answer problem question change move lead live learn read "
+    "example parts everyone result results overall involved highly sometimes suppose equally charge "
+    "you're you've we're we've they're they've isn't aren't wasn't weren't don't doesn't didn't can't couldn't won't wouldn't".split()
+)
+
+
+def select_study_words(sentences: list[dict], count: int = 20) -> list[str]:
+    """Return a compact memorization list while the click dictionary stays broad."""
+    words = re.findall(r"[A-Za-z][A-Za-z'-]{3,}", " ".join(item["en"] for item in sentences).lower())
+    frequencies = Counter(word.strip("'-") for word in words if word.strip("'-") not in EASY_STUDY_WORDS)
+    ranked = sorted(frequencies, key=lambda word: (frequencies[word], len(word)), reverse=True)
+    return ranked[:count]
+
+
 def split_chunks(sentence: str) -> list[str]:
     """Split a sentence into short meaning units while preserving every word."""
     normalized = re.sub(r"\s+", " ", sentence).strip()
@@ -249,11 +268,12 @@ def build() -> list[dict]:
         exam, first_number = code_match.group(1), int(code_match.group(2))
         section = translated[exam][first_number]
         words = select_words(section["sentences"])
+        study_words = select_study_words(section["sentences"])
         for sentence in section["sentences"]:
             sentence["chunkTexts"] = split_chunks(sentence["en"])
             all_chunks.extend(chunk for chunk in sentence["chunkTexts"] if chunk not in all_chunks)
         all_terms.extend(word for word in words if word not in all_terms)
-        drafts.append((page, raw, exam, first_number, section, words))
+        drafts.append((page, raw, exam, first_number, section, words, study_words))
 
     meanings: dict[str, str] = {}
     chunk_meanings: dict[str, str] = {}
@@ -261,7 +281,7 @@ def build() -> list[dict]:
     if OUTPUT.exists():
         try:
             previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
-            meanings = {word: meaning for item in previous for word, meaning in item.get("words", [])}
+            meanings = {word: meaning for item in previous for key in ("words", "lookupWords") for word, meaning in item.get(key, [])}
             chunk_meanings = {chunk[0]: chunk[1] for item in previous for sentence in item.get("sentences", []) for chunk in sentence.get("chunks", [])}
             choice_meanings = {choice: meaning for item in previous for question in item.get("questions", []) for choice, meaning in zip(question.get("choices", []), question.get("choiceMeanings", [])) if meaning}
         except (json.JSONDecodeError, OSError, ValueError):
@@ -269,7 +289,7 @@ def build() -> list[dict]:
     meanings.update(translate_terms([term for term in all_terms if term not in meanings]))
     chunk_meanings.update(translate_terms([chunk for chunk in all_chunks if chunk not in chunk_meanings]))
     passages = []
-    for page, raw, exam, first_number, section, words in drafts:
+    for page, raw, exam, first_number, section, words, study_words in drafts:
         groups = extract_choices(raw)
         if not groups and 8 <= page <= 11:
             marked = re.findall(r"[①②③④⑤]\s*([A-Za-z][A-Za-z'-]*(?:\s+[A-Za-z][A-Za-z'-]*){0,2})", raw)
@@ -310,7 +330,8 @@ def build() -> list[dict]:
             "examNumber": first_number,
             "title": section["title"],
             "sentences": section["sentences"],
-            "words": [[word, meanings[word]] for word in words],
+            "words": [[word, meanings[word]] for word in study_words],
+            "lookupWords": [[word, meanings[word]] for word in words],
             "phrases": phrases,
             "questions": original_questions,
             "relatedSource": SOURCES[exam],
@@ -321,7 +342,7 @@ def build() -> list[dict]:
     for passage in passages:
         choice_text = " ".join(choice for question in passage["questions"] for choice in question["choices"])
         choice_words = select_words([{"en": choice_text}], count=200)
-        existing_words = {word for word, _ in passage["words"]}
+        existing_words = {word for word, _ in passage["lookupWords"]}
         choice_words_by_passage[passage["id"]] = [word for word in choice_words if word not in existing_words]
         extra_choice_terms.extend(word for word in choice_words_by_passage[passage["id"]] if word not in meanings and word not in extra_choice_terms)
         existing_phrases = {phrase for phrase, _ in passage["phrases"]}
@@ -335,7 +356,7 @@ def build() -> list[dict]:
     meanings.update(translate_terms(extra_choice_terms))
     choice_meanings.update(translate_terms(choices_to_translate))
     for passage in passages:
-        passage["words"].extend([word, meanings[word]] for word in choice_words_by_passage[passage["id"]])
+        passage["lookupWords"].extend([word, meanings[word]] for word in choice_words_by_passage[passage["id"]])
         for question in passage["questions"]:
             question["choiceMeanings"] = [choice_meanings.get(choice, "") if re.search(r"[A-Za-z]", choice) else "" for choice in question["choices"]]
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
