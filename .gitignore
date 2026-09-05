@@ -28,3 +28,6 @@ data/extracted/
 
 # Local study-state backups exported by the web page
 윤서영어_학습상태_*.json
+
+# Machine-local deployment helpers and settings
+.local/
