@@ -1,0 +1,2 @@
+@reboot /home/kd6/gitView/ai/ai_younseo_exam/deploy/start_static_server.sh
+
