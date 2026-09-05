@@ -68,6 +68,24 @@
     .card { padding: clamp(20px, 4vw, 34px); background: rgba(255,253,248,.94); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
     .original { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.12rem, 3.6vw, 1.35rem); line-height: 1.95; }
     .original p { margin: 0 0 1.2em; }
+    .lookup {
+      display: inline; margin: 0; padding: 0 1px; border: 0; border-bottom: 2px dotted currentColor;
+      color: var(--forest); background: transparent; font: inherit; line-height: inherit; cursor: pointer;
+      -webkit-tap-highlight-color: rgba(227,107,50,.2);
+    }
+    .lookup.phrase { color: #b24c22; }
+    .lookup:focus-visible { outline: 3px solid rgba(227,107,50,.35); outline-offset: 3px; border-radius: 3px; }
+    .lookup:active { color: var(--orange); }
+    .lookup-hint { margin: 0 0 14px; color: var(--muted); font-size: .92rem; }
+    .meaning-toast {
+      position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom)); z-index: 30;
+      width: min(90vw, 620px); padding: 15px 18px; border: 1px solid rgba(255,255,255,.25); border-radius: 15px;
+      color: white; background: rgba(23,77,58,.97); box-shadow: 0 15px 42px rgba(20,35,28,.28);
+      text-align: center; transform: translate(-50%, 18px); opacity: 0; pointer-events: none;
+      transition: opacity .18s ease, transform .18s ease;
+    }
+    .meaning-toast.visible { transform: translate(-50%, 0); opacity: 1; }
+    .meaning-toast strong { color: #ffd0b3; font-family: Georgia, serif; }
     .key-note { margin-top: 20px; padding: 18px; border-left: 5px solid var(--orange); background: var(--orange-soft); border-radius: 0 14px 14px 0; }
 
     .sentence-list { display: grid; gap: 18px; }
@@ -150,12 +168,13 @@
 
     <section class="panel" id="originalPanel" role="tabpanel" aria-labelledby="originalTab">
       <h2>영어 원문</h2>
+      <p class="lookup-hint">초록색 단어와 주황색 표현을 누르면 뜻이 5초 동안 나타나요.</p>
       <article class="card original">
-        <p>We can sometimes assume that the whole will be as good as each of its parts.</p>
-        <p>Suppose, for example, you’re in charge of a startup, and you know that everyone you’ve brought on board is productive and efficient. It might seem logical to assume that, as a result, the startup will be productive and efficient, too—but this isn’t necessarily true.</p>
-        <p>The fallacy of composition fails to allow for how the different “parts” interact with each other—if, for example, your efficient administrator and your highly skilled head of IT each assumes the other is in charge of collating prototype test results, then you have a problem.</p>
-        <p>Equally, a unit composed of good people can still be working on a doomed project, and a project composed of good ideas may lack a stable center.</p>
-        <p>When assembling a team with a common goal, always check the overall view as well as the individuals involved.</p>
+        <p>We can sometimes <button class="lookup" data-meaning="~라고 생각하다, 가정하다">assume</button> that the <button class="lookup" data-meaning="전체">whole</button> will be <button class="lookup phrase" data-meaning="~만큼 좋은">as good as</button> each of its <button class="lookup" data-meaning="부분, 구성 요소">parts</button>.</p>
+        <p><button class="lookup" data-meaning="가정해 보다">Suppose</button>, <button class="lookup phrase" data-meaning="예를 들어">for example</button>, you’re <button class="lookup phrase" data-meaning="~을 책임지다, 맡다">in charge of</button> a <button class="lookup" data-meaning="신생 기업">startup</button>, and you know that everyone you’ve <button class="lookup phrase" data-meaning="팀에 합류시키다, 영입하다">brought on board</button> is <button class="lookup" data-meaning="생산적인, 성과를 내는">productive</button> and <button class="lookup" data-meaning="효율적인">efficient</button>. It might seem <button class="lookup" data-meaning="논리적인">logical</button> to <button class="lookup" data-meaning="~라고 생각하다, 가정하다">assume</button> that, <button class="lookup phrase" data-meaning="그 결과">as a result</button>, the startup will be productive and efficient, too—but this <button class="lookup phrase" data-meaning="반드시 ~인 것은 아니다">isn’t necessarily</button> true.</p>
+        <p>The <button class="lookup phrase" data-meaning="구성의 오류: 부분이 좋으면 전체도 좋다고 잘못 판단하는 것">fallacy of composition</button> fails to <button class="lookup phrase" data-meaning="~을 고려하다">allow for</button> how the different “parts” <button class="lookup phrase" data-meaning="서로 상호 작용하다">interact with each other</button>—if, for example, your efficient <button class="lookup" data-meaning="관리자">administrator</button> and your highly <button class="lookup" data-meaning="숙련된">skilled</button> head of IT each <button class="lookup" data-meaning="~라고 생각하다, 가정하다">assumes</button> the other is in charge of <button class="lookup" data-meaning="대조·확인하여 정리하는 것">collating</button> <button class="lookup" data-meaning="시제품">prototype</button> test results, then you have a problem.</p>
+        <p>Equally, a <button class="lookup" data-meaning="하나의 조직, 팀">unit</button> <button class="lookup phrase" data-meaning="~로 구성된">composed of</button> good people can still be <button class="lookup phrase" data-meaning="~을 작업하다, 진행하다">working on</button> a <button class="lookup" data-meaning="실패할 운명인">doomed</button> project, and a project composed of good ideas may <button class="lookup" data-meaning="~이 부족하다, 없다">lack</button> a <button class="lookup" data-meaning="안정된">stable</button> center.</p>
+        <p>When <button class="lookup" data-meaning="모으는, 구성하는">assembling</button> a team with a common goal, always check the <button class="lookup" data-meaning="전체적인">overall</button> view <button class="lookup phrase" data-meaning="~뿐만 아니라 …도">as well as</button> the <button class="lookup" data-meaning="개인들">individuals</button> <button class="lookup" data-meaning="관련된, 참여한">involved</button>.</p>
       </article>
       <div class="key-note"><strong>핵심 한 줄</strong><br>Good parts do not always make a good whole.</div>
     </section>
@@ -194,6 +213,7 @@
 
     <p class="footer-note">2026년 6월 고2 전국연합학력평가 영어 20번 · 기기 안에서 작동하는 오프라인 학습 페이지</p>
   </main>
+  <div class="meaning-toast" id="meaningToast" role="status" aria-live="polite"></div>
 
   <script>
     const sentences = [
@@ -307,6 +327,20 @@
       document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== tab.getAttribute("aria-controls"));
       window.scrollTo({ top: 0, behavior: "smooth" });
     }));
+
+    let meaningTimer;
+    document.getElementById("originalPanel").addEventListener("click", event => {
+      const target = event.target.closest(".lookup");
+      if (!target) return;
+      const toast = document.getElementById("meaningToast");
+      clearTimeout(meaningTimer);
+      toast.innerHTML = `<strong>${target.textContent}</strong> · ${target.dataset.meaning}`;
+      toast.classList.add("visible");
+      meaningTimer = setTimeout(() => {
+        toast.classList.remove("visible");
+        setTimeout(() => { if (!toast.classList.contains("visible")) toast.textContent = ""; }, 200);
+      }, 5000);
+    });
 
     document.getElementById("vocabPanel").addEventListener("click", event => {
       const button = event.target.closest("[data-action]");
