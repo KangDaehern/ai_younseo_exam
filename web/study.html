@@ -22,7 +22,7 @@
   </style>
 </head>
 <body><main class="shell">
-  <div class="topline"><a class="home" href="./">☰ 30개 지문</a><select id="passageSelect" class="passage-select" aria-label="지문 선택"></select><a class="move" id="nextLink" href="#">다음 ›</a></div>
+  <div class="topline"><a class="home" href="./">☰ 30개 지문</a><a class="move" id="prevLink" href="#">‹ 이전</a><select id="passageSelect" class="passage-select" aria-label="지문 선택"></select><a class="move" id="nextLink" href="#">다음 ›</a></div>
   <div class="profile"><p><strong id="profileName">테스트용 기록</strong><br><small id="syncStatus">서버에서 불러오는 중...</small></p><div class="profiles"><button class="profile-button active" data-profile="test">테스트용</button><button class="profile-button" data-profile="yunseo">윤서 실전용</button></div></div>
   <nav class="tabs" role="tablist"><button class="tab" data-panel="originalPanel" aria-selected="true">원문만</button><button class="tab" data-panel="readingPanel" aria-selected="false">직독직해</button><button class="tab" data-panel="vocabPanel" aria-selected="false">숙어·단어</button><button class="tab" data-panel="quizPanel" aria-selected="false">기출·연관 문제</button></nav>
   <section class="panel" id="originalPanel"><p class="meta" id="originalMeta"></p><article class="card original" id="originalText"></article></section>
@@ -32,6 +32,7 @@
 </main><div class="toast" id="meaningToast" role="status"></div>
 <script>
   const params=new URLSearchParams(location.search), passageId=/^(0[1-9]|[12][0-9]|30)$/.test(params.get('id')||'')?params.get('id'):'01';
+  const previous=Math.max(1,Number(passageId)-1).toString().padStart(2,'0'),prevLink=document.getElementById('prevLink');prevLink.href=previous==='01'?'01_fallacy-of-composition.html':`study.html?id=${previous}`;prevLink.style.visibility=passageId==='01'?'hidden':'';
   const emptyState=()=>({version:1,known:{},unknown:{},quiz:{},hiddenSentences:{},readingMode:'easy'}); let data=[],passage,state=emptyState(),profile=sessionStorage.getItem('yunseo-profile')==='yunseo'?'yunseo':'test',revealKnown=false,revealSentences=false,answers=false,quizFilter='all',saveQueue=Promise.resolve(),revealedTranslations=new Set(),openQuizzes=new Set();
   const escapeHtml=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const api=p=>new URL(`api/state/${passageId}/${p}`,document.baseURI);
