@@ -103,8 +103,17 @@
     details.quiz { background: var(--white); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); }
     details.quiz summary { padding: 18px 20px; font-weight: 800; cursor: pointer; }
     .quiz-body { padding: 0 20px 20px; }
-    .quiz-body ol { padding-left: 1.5rem; }
-    .answer { margin-top: 15px; padding: 14px 16px; background: var(--forest-soft); border-radius: 12px; }
+    .quiz-passage { padding: 14px 16px; border-left: 4px solid var(--forest); background: var(--forest-soft); border-radius: 0 12px 12px 0; font-family: Georgia, serif; white-space: pre-line; }
+    .quiz-choices { display: grid; gap: 8px; margin: 14px 0; }
+    .quiz-choice { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; padding: 11px 13px; border: 1px solid var(--line); border-radius: 12px; cursor: pointer; }
+    .quiz-choice:has(input:checked) { border-color: var(--forest); background: var(--forest-soft); }
+    .quiz-choice input { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--forest); }
+    .check-answer { min-height: 44px; padding: 8px 16px; color: white; background: var(--forest); border: 0; border-radius: 11px; font-weight: 800; cursor: pointer; }
+    .feedback { margin: 12px 0 0; padding: 12px 14px; border-radius: 11px; font-weight: 800; }
+    .feedback.correct { color: #11543c; background: #dff2e8; }
+    .feedback.wrong { color: #8d351c; background: var(--orange-soft); }
+    .answer { display: none; margin-top: 12px; padding: 14px 16px; background: var(--forest-soft); border-radius: 12px; }
+    .answer.visible { display: block; }
     .answer strong { color: var(--forest); }
     .footer-note { margin-top: 30px; color: var(--muted); font-size: .88rem; text-align: center; }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
@@ -175,7 +184,11 @@
 
     <section class="panel" id="quizPanel" role="tabpanel" aria-labelledby="quizTab" hidden>
       <h2>윤서용 재구성 문제</h2>
-      <p class="storage-note">온라인 변형문제의 중복을 합치고 일부 영어 선택지를 한국어로 바꾼 학습용 문제입니다. 원문 그대로의 기출문제가 아닙니다. 문제를 먼저 풀고 각 상자를 눌러 정답과 해설을 확인하세요.</p>
+      <p class="storage-note">중복은 줄였지만 원자료에서 영어로 나온 선택지와 문장은 영어로 유지했습니다. 답을 고른 뒤 `채점하기`를 누르세요.</p>
+      <div class="tool-row">
+        <button class="tool-button primary" id="toggleAnswers">정답 및 해설 보기</button>
+        <button class="tool-button" id="resetQuiz">푼 문제 초기화</button>
+      </div>
       <div class="quiz-list" id="quizList"></div>
     </section>
 
@@ -210,14 +223,14 @@
     ];
 
     const quizzes = [
-      { title: "1. 함축 의미", q: "a stable center가 의미하는 것은?", choices: ["팀이 함께 일하는 고정 장소", "업무를 나누는 관리자 한 명", "계속 바뀌는 방향", "프로젝트에 방향과 통일성을 주는 중심 원리", "외부 투자를 공급하는 회사"], a: "④", why: "실제 장소나 사람 한 명이 아니라 아이디어들을 하나의 방향으로 묶어 주는 안정된 중심을 뜻해요." },
-      { title: "2. 내용 일치", q: "글의 내용과 일치하는 것은?", choices: ["구성원 각자가 유능해도 상호 작용 문제로 팀 전체가 비효율적일 수 있다.", "개인의 생산성이 높으면 팀 전체의 성공이 보장된다.", "상호 작용만 좋으면 어떤 프로젝트든 성공한다.", "좋은 아이디어가 많으면 안정된 중심이 반드시 생긴다.", "팀 실패의 유일한 원인은 능력 부족이다."], a: "①", why: "글은 개인의 능력만으로 전체 성공을 보장할 수 없다고 말해요." },
-      { title: "3. 제목", q: "가장 적절한 제목은?", choices: ["개인의 숨겨진 강점", "스타트업에 관리자가 필요한 이유", "실패할 프로젝트를 피하는 법", "좋은 아이디어가 성공을 보장하는 이유", "부분만으로 팀 전체를 판단하는 오류"], a: "⑤", why: "글 전체가 fallacy of composition, 즉 부분만 보고 전체도 같다고 판단하는 오류를 설명해요." },
-      { title: "4. 문맥상 어휘", q: "A unit composed of good people can still be working on a promising project. 문맥상 어색한 낱말을 고치면?", choices: ["composed → composing", "good → skilled", "still → always", "promising → doomed", "project → result"], a: "④", why: "좋은 사람들의 팀도 실패할 운명인(doomed) 프로젝트를 할 수 있다는 반대 예시가 필요해요." },
-      { title: "5. 무관한 문장", q: "흐름과 관계없는 문장은?", choices: ["모든 구성원이 효율적이면 회사 전체도 효율적일 것이라고 생각하기 쉽다.", "하지만 부분이 좋다고 전체까지 반드시 좋은 것은 아니다.", "구성의 오류는 각 부분의 상호 작용을 고려하지 못한다.", "초기 스타트업은 경쟁사보다 먼저 고객을 늘리기 위해 외부 투자를 구하기도 한다.", "팀을 만들 때 개인뿐 아니라 전체도 확인해야 한다."], a: "④", why: "④만 외부 투자와 시장 경쟁 이야기이고, 나머지는 부분·전체·상호 작용으로 이어져요." },
-      { title: "6. 글의 순서", q: "예시(B), 구성의 오류 설명(C), 추가 예시와 결론(A)의 올바른 순서는?", choices: ["A-C-B", "B-A-C", "B-C-A", "C-A-B", "C-B-A"], a: "③ B-C-A", why: "구체적인 스타트업 예시를 들고 → 문제의 원인을 설명하고 → 추가 예시 뒤 결론을 내려요." },
-      { title: "7. 요약문", q: "Interactions can (A) ___ the outcome, so examine the (B) ___ view.", choices: ["weaken / individual", "weaken / comprehensive", "improve / comprehensive", "improve / individual", "distort / partial"], a: "②", why: "상호 작용이 전체 결과를 약화할 수 있으므로 종합적(comprehensive) 관점이 필요해요." },
-      { title: "8. 어법", q: "Each of the two managers assume the other is in charge. 고칠 부분은?", choices: ["Each → All", "managers → manager", "assume → assumes", "the other → another", "is → are"], a: "③", why: "each는 ‘각각’이므로 단수 동사 assumes를 써요." }
+      { title: "1. 함축 의미", q: "a stable center가 의미하는 바로 가장 적절한 것은?", choices: ["a fixed physical location for the team", "a reliable person who leads the group", "a manager who assigns roles to individuals", "a constantly changing direction of work", "a coherent organizing principle that gives the project direction"], correct: 4, why: "실제 장소나 사람 한 명이 아니라 아이디어들을 하나의 방향으로 묶어 주는 안정된 중심을 뜻해요." },
+      { title: "2. 내용 일치", q: "글의 내용과 일치하는 것은?", choices: ["구성원 각자가 유능해도 상호 작용 문제로 팀 전체가 비효율적일 수 있다.", "개인의 생산성이 높으면 팀 전체의 성공이 보장된다.", "상호 작용만 좋으면 어떤 프로젝트든 성공한다.", "좋은 아이디어가 많으면 안정된 중심이 반드시 생긴다.", "팀 실패의 유일한 원인은 능력 부족이다."], correct: 0, why: "글은 개인의 능력만으로 전체 성공을 보장할 수 없다고 말해요." },
+      { title: "3. 제목", q: "다음 글의 제목으로 가장 적절한 것은?", choices: ["The Hidden Strengths of Individual Talent", "The Reason Startups Need More Efficient Administrators", "The Importance of Avoiding Doomed Projects", "The Way Good Ideas Guarantee Project Success", "The Fallacy of Judging a Team by Its Parts"], correct: 4, why: "글 전체가 fallacy of composition, 즉 부분만 보고 전체도 같다고 판단하는 오류를 설명해요." },
+      { title: "4. 문맥상 어휘", q: "A unit composed of good people can still be working on a promising project. 문맥상 어색한 낱말을 고치면?", choices: ["composed → composing", "good → skilled", "still → always", "promising → doomed", "project → result"], correct: 3, why: "좋은 사람들의 팀도 실패할 운명인(doomed) 프로젝트를 할 수 있다는 반대 예시가 필요해요." },
+      { title: "5. 무관한 문장", q: "글의 흐름과 관계없는 문장은?", choices: ["It might seem logical to assume that the startup will be productive and efficient.", "But this is not necessarily true.", "The fallacy of composition fails to allow for how the different parts interact.", "Early startups often seek outside funding to expand their customer base before competitors enter the market.", "When assembling a team, check the overall view as well as the individuals involved."], correct: 3, why: "④만 외부 투자와 시장 경쟁 이야기이고, 나머지는 부분·전체·상호 작용으로 이어져요." },
+      { title: "6. 글의 순서", q: "주어진 첫 문장 다음에 이어질 글의 순서로 가장 적절한 것은?", passage: "We can sometimes assume that the whole will be as good as each of its parts.\n\n(A) Equally, a unit composed of good people can still be working on a doomed project, and a project composed of good ideas may lack a stable center. When assembling a team with a common goal, always check the overall view as well as the individuals involved.\n\n(B) Suppose, for example, you’re in charge of a startup, and you know that everyone you’ve brought on board is productive and efficient. It might seem logical to assume that, as a result, the startup will be productive and efficient, too—but this isn’t necessarily true.\n\n(C) The fallacy of composition fails to allow for how the different “parts” interact with each other—if your administrator and head of IT each assumes the other is in charge of collating test results, then you have a problem.", choices: ["(A)-(C)-(B)", "(B)-(A)-(C)", "(B)-(C)-(A)", "(C)-(A)-(B)", "(C)-(B)-(A)"], correct: 2, why: "구체적인 스타트업 예시를 들고 → 문제의 원인을 설명하고 → 추가 예시 뒤 결론을 내려요." },
+      { title: "7. 요약문", q: "When forming a team, interactions among individuals can (A) ___ the overall outcome, so it is essential to examine the (B) ___ view.", choices: ["undermine / individual", "undermine / comprehensive", "enhance / comprehensive", "enhance / individual", "distort / partial"], correct: 1, why: "상호 작용이 전체 결과를 undermine(약화)할 수 있으므로 comprehensive(종합적인) 관점이 필요해요." },
+      { title: "8. 어법", q: "Each of the two managers assume the other is in charge. 고칠 부분은?", choices: ["Each → All", "managers → manager", "assume → assumes", "the other → another", "is → are"], correct: 2, why: "each는 ‘각각’이므로 단수 동사 assumes를 써요." }
     ];
 
     const storeKey = "yunseo-english-01-v1";
@@ -272,8 +285,21 @@
       document.getElementById("emptyState").hidden = revealKnown || known !== total;
     }
 
+    let answersVisible = false;
+    function numberSymbol(index) { return ["①", "②", "③", "④", "⑤"][index]; }
     function renderQuizzes() {
-      document.getElementById("quizList").innerHTML = quizzes.map(x => `<details class="quiz"><summary>${x.title}</summary><div class="quiz-body"><p><strong>${x.q}</strong></p><ol>${x.choices.map(c => `<li>${c}</li>`).join("")}</ol><div class="answer"><strong>정답 ${x.a}</strong><br>${x.why}</div></div></details>`).join("");
+      document.getElementById("quizList").innerHTML = quizzes.map((x, quizIndex) => `<details class="quiz" open>
+        <summary>${x.title}</summary>
+        <div class="quiz-body">
+          <p><strong>${x.q}</strong></p>
+          ${x.passage ? `<div class="quiz-passage">${x.passage}</div>` : ""}
+          <div class="quiz-choices">${x.choices.map((choice, choiceIndex) => `<label class="quiz-choice"><input type="radio" name="quiz-${quizIndex}" value="${choiceIndex}"><span>${numberSymbol(choiceIndex)} ${choice}</span></label>`).join("")}</div>
+          <button class="check-answer" data-quiz="${quizIndex}">채점하기</button>
+          <p class="feedback" id="feedback-${quizIndex}" hidden></p>
+          <div class="answer ${answersVisible ? "visible" : ""}" id="answer-${quizIndex}"><strong>정답 ${numberSymbol(x.correct)}</strong><br>${x.why}</div>
+        </div>
+      </details>`).join("");
+      document.getElementById("toggleAnswers").textContent = answersVisible ? "정답 및 해설 숨기기" : "정답 및 해설 보기";
     }
 
     document.querySelectorAll(".tab").forEach(tab => tab.addEventListener("click", () => {
@@ -317,6 +343,37 @@
         state = { known: imported.known, unknown: imported.unknown }; safeSave(); renderVocab(); alert("학습 상태를 가져왔어요.");
       } catch (_) { alert("올바른 학습 상태 파일이 아니에요."); }
       event.target.value = "";
+    });
+
+    document.getElementById("quizPanel").addEventListener("click", event => {
+      const button = event.target.closest(".check-answer");
+      if (!button) return;
+      const quizIndex = Number(button.dataset.quiz);
+      const selected = document.querySelector(`input[name="quiz-${quizIndex}"]:checked`);
+      const feedback = document.getElementById(`feedback-${quizIndex}`);
+      feedback.hidden = false;
+      if (!selected) {
+        feedback.className = "feedback wrong";
+        feedback.textContent = "먼저 답을 하나 선택하세요.";
+        return;
+      }
+      const isCorrect = Number(selected.value) === quizzes[quizIndex].correct;
+      feedback.className = `feedback ${isCorrect ? "correct" : "wrong"}`;
+      feedback.textContent = isCorrect ? "정답입니다! 잘했어요." : "오답입니다. 다시 생각해 보세요.";
+    });
+
+    document.getElementById("toggleAnswers").addEventListener("click", () => {
+      answersVisible = !answersVisible;
+      document.querySelectorAll(".answer").forEach(answer => answer.classList.toggle("visible", answersVisible));
+      document.getElementById("toggleAnswers").textContent = answersVisible ? "정답 및 해설 숨기기" : "정답 및 해설 보기";
+    });
+
+    document.getElementById("resetQuiz").addEventListener("click", () => {
+      document.querySelectorAll('#quizPanel input[type="radio"]').forEach(input => { input.checked = false; });
+      document.querySelectorAll(".feedback").forEach(feedback => { feedback.hidden = true; feedback.textContent = ""; });
+      answersVisible = false;
+      document.querySelectorAll(".answer").forEach(answer => answer.classList.remove("visible"));
+      document.getElementById("toggleAnswers").textContent = "정답 및 해설 보기";
     });
 
     safeLoad(); renderSentences(); renderVocab(); renderQuizzes();

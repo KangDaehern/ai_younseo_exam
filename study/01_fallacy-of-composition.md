@@ -236,7 +236,7 @@
 
 ## 10. 연관 변형문제 - 윤서용 재구성
 
-> **자료 성격:** 아래 문제는 온라인에서 찾은 문제를 그대로 옮긴 기출 원문이 아니다. 국내 모의고사 형식이라 원자료의 문제 지시문은 한글이지만, 선택지는 문제 유형에 따라 한글 또는 영어였다. 중복 문제를 합치는 과정에서 일부 영어 선택지를 한국어로 번역하고 문장을 윤서 수준에 맞게 줄여 **학습용으로 재구성**했다. 원문 그대로의 문제는 하단에 표시된 PDF에서 확인한다.
+> **자료 성격:** 아래 문제는 온라인에서 찾은 문제의 중복을 줄여 **학습용으로 재구성**한 것이다. 국내 모의고사 형식이라 원자료의 문제 지시문은 한글이지만, 선택지는 문제 유형에 따라 한글 또는 영어였다. 원자료에서 영어로 제시된 선택지·지문·배열 문장은 영어로 유지했다. 원문 전체 문제지는 하단에 표시된 PDF에서 확인한다.
 
 온라인에서 확인한 문제 중 같은 내용을 단순히 반복하는 `주장·요지·주제` 문제와 원문을 그대로 비워 둔 쉬운 빈칸 문제는 합쳤다. 아래에는 서로 다른 독해 능력을 연습할 수 있는 대표 문제만 남겼다.
 
@@ -244,11 +244,11 @@
 
 다음 문맥에서 `a stable center`가 의미하는 바로 가장 적절한 것은?
 
-1. 팀이 함께 일하는 고정된 장소
-2. 구성원에게 업무를 나누어 주는 관리자 한 명
-3. 계속 바뀌는 프로젝트의 방향
-4. 프로젝트에 방향과 통일성을 주는 일관된 중심 원리
-5. 외부 투자를 안정적으로 공급하는 회사
+1. a fixed physical location for the team
+2. a reliable person who leads the group
+3. a manager who assigns roles to individuals
+4. a constantly changing direction of work
+5. a coherent organizing principle that gives the project direction
 
 ### 문제 2 - 내용 일치
 
@@ -264,11 +264,11 @@
 
 다음 글의 제목으로 가장 적절한 것은?
 
-1. 개인의 숨겨진 강점을 발견하는 법
-2. 스타트업에 더 많은 관리자가 필요한 이유
-3. 실패할 프로젝트를 미리 피하는 방법
-4. 좋은 아이디어가 성공을 보장하는 이유
-5. 부분만으로 팀 전체를 판단하는 오류
+1. The Hidden Strengths of Individual Talent
+2. The Reason Startups Need More Efficient Administrators
+3. The Importance of Avoiding Doomed Projects
+4. The Way Good Ideas Guarantee Project Success
+5. The Fallacy of Judging a Team by Its Parts
 
 ### 문제 4 - 문맥상 어휘
 
@@ -284,11 +284,15 @@
 
 글의 흐름과 관계없는 문장은?
 
-① 모든 구성원이 효율적이면 회사 전체도 효율적일 것이라고 생각하기 쉽다.  
-② 그러나 부분이 좋다고 전체까지 반드시 좋은 것은 아니다.  
-③ 구성의 오류는 각 부분의 상호 작용을 고려하지 못한다.  
-④ 초기 스타트업은 경쟁사보다 먼저 고객을 늘리기 위해 외부 투자를 구하기도 한다.  
-⑤ 그러므로 팀을 만들 때 개인뿐 아니라 전체적인 모습도 확인해야 한다.
+① It might seem logical to assume that the startup will be productive and efficient.
+
+② But this is not necessarily true.
+
+③ The fallacy of composition fails to allow for how the different parts interact.
+
+④ Early startups often seek outside funding to expand their customer base before competitors enter the market.
+
+⑤ When assembling a team, check the overall view as well as the individuals involved.
 
 ### 문제 6 - 글의 순서
 
@@ -296,9 +300,9 @@
 
 > 부분들이 좋으면 전체도 좋을 것이라고 우리는 때때로 생각한다.
 
-- (A) 마찬가지로 좋은 사람들의 팀도 실패할 프로젝트를 맡을 수 있다. 따라서 개인뿐 아니라 전체를 확인해야 한다.
-- (B) 예를 들어, 유능한 사람들을 영입한 스타트업 전체도 효율적일 것처럼 보이지만 반드시 그렇지는 않다.
-- (C) 구성의 오류는 부분들의 상호 작용을 놓친다. 두 책임자가 서로 상대방이 한 업무를 맡았다고 생각하면 문제가 생긴다.
+- (A) Equally, a unit composed of good people can still be working on a doomed project, and a project composed of good ideas may lack a stable center. When assembling a team with a common goal, always check the overall view as well as the individuals involved.
+- (B) Suppose, for example, you’re in charge of a startup, and you know that everyone you’ve brought on board is productive and efficient. It might seem logical to assume that, as a result, the startup will be productive and efficient, too - but this isn’t necessarily true.
+- (C) The fallacy of composition fails to allow for how the different “parts” interact with each other - if, for example, your efficient administrator and your highly skilled head of IT each assumes the other is in charge of collating prototype test results, then you have a problem.
 
 1. (A) - (C) - (B)
 2. (B) - (A) - (C)
@@ -312,10 +316,10 @@
 
 > When forming a team, interactions among individuals can **(A)** the overall outcome, so it is essential to examine the **(B)** view.
 
-1. (A) weaken / (B) individual
-2. (A) weaken / (B) comprehensive
-3. (A) improve / (B) comprehensive
-4. (A) improve / (B) individual
+1. (A) undermine / (B) individual
+2. (A) undermine / (B) comprehensive
+3. (A) enhance / (B) comprehensive
+4. (A) enhance / (B) individual
 5. (A) distort / (B) partial
 
 ### 문제 8 - 어법 고쳐쓰기
@@ -331,7 +335,7 @@
 
 ### 문제 1
 
-- 정답: **4**
+- 정답: **5**
 - `stable center`는 실제 장소나 관리자 한 명이 아니라 좋은 아이디어들을 하나의 방향으로 묶어 주는 안정된 중심을 뜻한다.
 
 ### 문제 2
@@ -362,7 +366,7 @@
 ### 문제 7
 
 - 정답: **2**
-- 구성원의 상호 작용은 전체 결과를 `weaken(약화)`할 수 있으므로 `comprehensive(종합적인·전체적인)` 관점이 필요하다.
+- 구성원의 상호 작용은 전체 결과를 `undermine(약화시키다)`할 수 있으므로 `comprehensive(종합적인·전체적인)` 관점이 필요하다.
 
 ### 문제 8
 
