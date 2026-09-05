@@ -184,6 +184,23 @@ def select_words(sentences: list[dict], count: int = 16) -> list[str]:
     return ranked[:count]
 
 
+def split_chunks(sentence: str) -> list[str]:
+    """Split a sentence into short meaning units while preserving every word."""
+    normalized = re.sub(r"\s+", " ", sentence).strip()
+    parts = re.split(
+        r"(?<=[,;:])\s+|\s+(?=(?:but|because|although|while|when|if|which|who|that|so that|in order to)\b)",
+        normalized,
+        flags=re.I,
+    )
+    chunks: list[str] = []
+    for part in parts:
+        if len(part.split()) > 14:
+            chunks.extend(re.split(r"\s+(?=(?:and|or|as|than|to)\b)", part, maxsplit=1, flags=re.I))
+        else:
+            chunks.append(part)
+    return [chunk.strip() for chunk in chunks if chunk.strip()]
+
+
 def build() -> list[dict]:
     translated = {
         "26-6": parse_translation_pdf(TRANSLATIONS["26-6"], "26", "6"),
@@ -191,6 +208,7 @@ def build() -> list[dict]:
     }
     drafts = []
     all_terms: list[str] = []
+    all_chunks: list[str] = []
     for page in range(1, 31):
         raw = clean_raw((PAGES / f"{page:02}.txt").read_text(encoding="utf-8"))
         code_match = re.search(r"(25-9|26-6)-(\d+)(?:~(\d+))?", raw)
@@ -199,17 +217,25 @@ def build() -> list[dict]:
         exam, first_number = code_match.group(1), int(code_match.group(2))
         section = translated[exam][first_number]
         words = select_words(section["sentences"])
+        for sentence in section["sentences"]:
+            sentence["chunkTexts"] = split_chunks(sentence["en"])
+            all_chunks.extend(chunk for chunk in sentence["chunkTexts"] if chunk not in all_chunks)
         all_terms.extend(word for word in words if word not in all_terms)
         drafts.append((page, raw, exam, first_number, section, words))
 
     meanings: dict[str, str] = {}
+    chunk_meanings: dict[str, str] = {}
+    choice_meanings: dict[str, str] = {}
     if OUTPUT.exists():
         try:
             previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
             meanings = {word: meaning for item in previous for word, meaning in item.get("words", [])}
+            chunk_meanings = {chunk[0]: chunk[1] for item in previous for sentence in item.get("sentences", []) for chunk in sentence.get("chunks", [])}
+            choice_meanings = {choice: meaning for item in previous for question in item.get("questions", []) for choice, meaning in zip(question.get("choices", []), question.get("choiceMeanings", [])) if meaning}
         except (json.JSONDecodeError, OSError, ValueError):
             meanings = {}
     meanings.update(translate_terms([term for term in all_terms if term not in meanings]))
+    chunk_meanings.update(translate_terms([chunk for chunk in all_chunks if chunk not in chunk_meanings]))
     passages = []
     for page, raw, exam, first_number, section, words in drafts:
         groups = extract_choices(raw)
@@ -243,6 +269,8 @@ def build() -> list[dict]:
                     pass
         english = " ".join(item["en"] for item in section["sentences"])
         phrases = [[phrase, meaning] for phrase, meaning in PHRASES.items() if phrase.lower() in english.lower()]
+        for sentence in section["sentences"]:
+            sentence["chunks"] = [[chunk, chunk_meanings.get(chunk, "문맥 속 뜻 확인")] for chunk in sentence.pop("chunkTexts")]
         passages.append({
             "id": f"{page:02}",
             "exam": exam,
@@ -255,6 +283,14 @@ def build() -> list[dict]:
             "questions": original_questions,
             "relatedSource": SOURCES[exam],
         })
+    choices_to_translate = []
+    for passage in passages:
+        for question in passage["questions"]:
+            choices_to_translate.extend(choice for choice in question["choices"] if re.search(r"[A-Za-z]", choice) and choice not in choice_meanings and choice not in choices_to_translate)
+    choice_meanings.update(translate_terms(choices_to_translate))
+    for passage in passages:
+        for question in passage["questions"]:
+            question["choiceMeanings"] = [choice_meanings.get(choice, "") if re.search(r"[A-Za-z]", choice) else "" for choice in question["choices"]]
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(passages, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return passages
