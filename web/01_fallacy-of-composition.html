@@ -39,17 +39,6 @@
     button { touch-action: manipulation; }
     .shell { width: min(960px, 100%); margin: 0 auto; padding: 22px 18px 70px; }
     .eyebrow { margin: 0 0 6px; color: var(--orange); font-weight: 800; letter-spacing: .05em; }
-    h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 8vw, 4.8rem); line-height: 1.02; }
-    .subtitle { max-width: 680px; margin: 16px 0 24px; color: var(--muted); font-size: 1.04rem; }
-
-    .progress-card {
-      display: grid; grid-template-columns: 1fr auto; gap: 12px 18px; align-items: center;
-      padding: 17px 19px; background: var(--forest); color: white; border-radius: var(--radius); box-shadow: var(--shadow);
-    }
-    .progress-card p { margin: 0; }
-    .progress-track { grid-column: 1 / -1; height: 8px; overflow: hidden; border-radius: 99px; background: rgba(255,255,255,.2); }
-    .progress-fill { width: 0; height: 100%; border-radius: inherit; background: #ffc093; transition: width .25s ease; }
-    .progress-count { font-weight: 800; }
 
     .tabs {
       position: sticky; top: 0; z-index: 10; display: flex; gap: 8px; overflow-x: auto;
@@ -105,7 +94,7 @@
     .tool-button { min-height: 44px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); color: var(--ink); font-weight: 720; cursor: pointer; }
     .tool-button.primary { color: white; background: var(--forest); border-color: var(--forest); }
     .tool-button.danger { color: #8d351c; background: var(--orange-soft); border-color: #edb99f; }
-    .profile-bar { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: center; margin: 18px 0 0; padding: 15px 17px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,253,248,.86); }
+    .profile-bar { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: center; margin: 4px 0 0; padding: 12px 14px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,253,248,.86); }
     .profile-bar p { margin: 0; }
     .profile-buttons { display: flex; gap: 8px; }
     .profile-button { min-height: 44px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 12px; background: white; font-weight: 780; cursor: pointer; }
@@ -154,8 +143,6 @@
       .chunk { grid-template-columns: 1fr; gap: 2px; }
       .vocab-grid { grid-template-columns: 1fr; }
       .card { padding: 20px; }
-      .progress-card { grid-template-columns: 1fr; }
-      .progress-card .progress-count { justify-self: start; }
       .profile-bar { grid-template-columns: 1fr; }
       .profile-buttons { display: grid; grid-template-columns: 1fr 1fr; }
       .sentence-head { grid-template-columns: 1fr; }
@@ -167,13 +154,6 @@
   <main class="shell">
     <header>
       <p class="eyebrow">윤서 영어 · 01</p>
-      <h1>Good parts,<br>good whole?</h1>
-      <p class="subtitle">부분이 모두 훌륭해도 전체가 반드시 훌륭한 것은 아니야. 오늘은 문장을 짧게 나누어 읽고, 모르는 표현만 남겨서 공부해 보자.</p>
-      <div class="progress-card" aria-live="polite">
-        <p><strong>단어 학습 현황</strong><br><small>‘알아요’를 누르면 목록에서 자동으로 숨겨져요.</small></p>
-        <p class="progress-count" id="progressCount">0 / 0 알아요</p>
-        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
-      </div>
       <div class="profile-bar">
         <p><strong id="profileName">테스트용 기록</strong><br><small id="syncStatus">서버에서 불러오는 중...</small></p>
         <div class="profile-buttons" aria-label="학습 기록 선택">
@@ -376,8 +356,6 @@
       document.getElementById("phraseGrid").innerHTML = phrases.map(i => vocabCard("phrase", i)).join("");
       const total = words.length + phrases.length;
       const known = Object.keys(state.known).filter(k => state.known[k]).length;
-      document.getElementById("progressCount").textContent = `${known} / ${total} 알아요`;
-      document.getElementById("progressFill").style.width = `${total ? known / total * 100 : 0}%`;
       document.getElementById("showKnown").textContent = revealKnown ? "아는 단어 다시 숨기기" : `숨긴 단어 보기 (${known})`;
       document.getElementById("emptyState").hidden = revealKnown || known !== total;
     }
