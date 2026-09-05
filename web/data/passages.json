@@ -1512,6 +1512,93 @@
           "실제 배고픔을 무시하는 데 도움이 되는 현명한 유전 전략",
           "두뇌가 정신적 이미지를 분류하는 독창적인 방법"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는",
+          "불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는",
+          "이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는",
+          "뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로",
+          "현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상"
+        ],
+        "answer": 4,
+        "explanation": "글 전체의 핵심은 ‘현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Our brains evolved this ability to create an internal mental picture or model of the world in which we can rehearse forthcoming actions, without the risks or the penalties of doing them in the _______ world.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "imagine",
+          "hungry",
+          "model",
+          "real",
+          "internal"
+        ],
+        "answer": 3,
+        "explanation": "원문에 사용된 단어는 ‘real’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "상상하다",
+          "배고픈",
+          "모델",
+          "진짜",
+          "내부"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "You would have no _______ to find real food and would soon starve to death.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "hungry",
+          "model",
+          "incentive",
+          "internal",
+          "imagine"
+        ],
+        "answer": 2,
+        "explanation": "원문에 사용된 단어는 ‘incentive’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "배고픈",
+          "모델",
+          "인센티브",
+          "내부",
+          "상상하다"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nHumans excel at visual imagery.\n\n(A) But evolution has seen to it that such internally generated representations are never as authentic as the real thing. This is a wise bit of self-restraint on your genes' part.\n\n(B) If your internal model of the world were a perfect substitute, then anytime you felt hungry you could simply imagine yourself at a banquet, consuming a feast. You would have no incentive to find real food and would soon starve to death. As the Bard said, \"You cannot cloy the hungry edge of appetite by bare imagination of a feast.\"\n\n(C) Our brains evolved this ability to create an internal mental picture or model of the world in which we can rehearse forthcoming actions, without the risks or the penalties of doing them in the real world. There are even hints from brain-imaging studies by Harvard University psychologist Steve Kosslyn showing that your brain uses the same regions to imagine a scene as when you actually view one.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -2085,6 +2172,93 @@
           "거울 뉴런을 가진 동물들로부터 끊임없이 숨으려고 노력합니다.",
           "다른 종과의 자원 갈등 가능성에 주의"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는",
+          "사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화",
+          "진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
+          "집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이",
+          "할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능"
+        ],
+        "answer": 3,
+        "explanation": "글 전체의 핵심은 ‘집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "And this is exactly where modern research now stands: all researchers know so far is that apes _______ mirror neurons.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "mirror",
+          "tightly-knit",
+          "possess",
+          "neurons",
+          "animals"
+        ],
+        "answer": 2,
+        "explanation": "원문에 사용된 단어는 ‘possess’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "거울",
+          "촘촘하게 짜여진",
+          "소유하다",
+          "뉴런",
+          "동물"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "I can see a _______ waving its fin at us.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "tightly-knit",
+          "goldfish",
+          "neurons",
+          "animals",
+          "mirror"
+        ],
+        "answer": 1,
+        "explanation": "원문에 사용된 단어는 ‘goldfish’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "촘촘하게 짜여진",
+          "금붕어",
+          "뉴런",
+          "동물",
+          "거울"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nMirror neurons are the hardware of empathy, and so what would make more sense than to look and see which animals possess these cells?\n\n(A) Scientists often publicly speculate that we can probably expect surprises here, too. They assume that all animals that live in herds or large groups possess similar brain mechanisms, because social units function only if individuals can see things from the perspective of others in the group and feel what they are feeling.\n\n(B) I can see a goldfish waving its fin at us. As an animal that travels around in a tightly-knit group, it's on board with this idea — or at least swimming alongside the boat.\n\n(C) And this is exactly where modern research now stands: all researchers know so far is that apes possess mirror neurons. We still need to test to see which other species are like us in this respect.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -2545,6 +2719,93 @@
           "",
           "",
           ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
+          "예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력",
+          "낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향",
+          "관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정",
+          "접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향"
+        ],
+        "answer": 2,
+        "explanation": "글 전체의 핵심은 ‘낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "When we make decisions, do we treat a one-_______ chance just like one percent, or like something else?",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "chance",
+          "percent",
+          "events",
+          "low-probability",
+          "probability"
+        ],
+        "answer": 1,
+        "explanation": "원문에 사용된 단어는 ‘percent’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "기회",
+          "퍼센트",
+          "이벤트",
+          "확률이 낮은",
+          "확률"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "For example, people who play the lottery are often optimistic about _______.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "winning",
+          "events",
+          "low-probability",
+          "probability",
+          "chance"
+        ],
+        "answer": 0,
+        "explanation": "원문에 사용된 단어는 ‘winning’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "승리",
+          "이벤트",
+          "확률이 낮은",
+          "확률",
+          "기회"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nFor each objective probability — from one percent to 100 percent — we want to know the subjective probability weight.\n\n(A) Low-probability events tend to factor more into decisions than they should. That is, an event that has an objective one-percent chance of occurring could subjectively seem like it has a five-percent chance of occurring. We overestimate the likelihood of these low-probability events.\n\n(B) In general, the smaller the probability, the more we overestimate its likelihood. For example, people who play the lottery are often optimistic about winning. However, the odds of a single ticket winning the largest, most popular U.S. lotteries are on the order of one in 175 million.\n\n(C) When we make decisions, do we treat a one-percent chance just like one percent, or like something else? Events that could happen but aren't likely — low-probability events — can be defined as probabilities up to about 25 percent.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -3038,6 +3299,14 @@
         "이유"
       ],
       [
+        "addicts",
+        "중독자"
+      ],
+      [
+        "husband",
+        "남편"
+      ],
+      [
         "caused",
         "원인"
       ],
@@ -3056,6 +3325,10 @@
       [
         "risk",
         "위험"
+      ],
+      [
+        "guy",
+        "남자"
       ]
     ],
     "phrases": [
@@ -3096,6 +3369,93 @@
           "공통 통화 시스템의 경제적 이점",
           "현금거래에 대한 엄격한 규제가 필요하다",
           "투자 위험을 감수하는 다양한 이유"
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두",
+          "공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식",
+          "대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요",
+          "addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
+          "자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적"
+        ],
+        "answer": 1,
+        "explanation": "글 전체의 핵심은 ‘공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "중독자·남편·남자의 의미있는 위치를 표시해 주는 인간의 창조와 사회의 위치를 끊임없이",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Transaction _______ are significant for companies — not only the straight exchange costs, but also the cost of converting, paying, and hedging funds just to pay for the goods and services.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "costs",
+          "transaction",
+          "barriers",
+          "currency",
+          "benefit"
+        ],
+        "answer": 0,
+        "explanation": "원문에 사용된 단어는 ‘costs’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "비용",
+          "거래",
+          "장벽",
+          "통화",
+          "혜택"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "By unifying some of the currencies, whole economies _______ and grow more than they would as independents.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "transaction",
+          "barriers",
+          "currency",
+          "common",
+          "benefit"
+        ],
+        "answer": 4,
+        "explanation": "원문에 사용된 단어는 ‘benefit’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "거래",
+          "장벽",
+          "통화",
+          "공통의",
+          "혜택"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nMany of the barriers to trade exist not because of a lack of markets or customers, but because there are major barriers to getting products to market at competitive prices.\n\n(A) Having a common currency means that many of those transaction costs disappear and the savings can be reinvested back into firms' productivity and innovation. Basically, useless costs turn into productive costs — with longer-term benefits to the whole economy.\n\n(B) By unifying some of the currencies, whole economies benefit and grow more than they would as independents. So a common currency provides for a strong economic foundation that all can benefit from.\n\n(C) Transaction costs are significant for companies — not only the straight exchange costs, but also the cost of converting, paying, and hedging funds just to pay for the goods and services.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -3642,6 +4002,93 @@
           "문맥 속 뜻 확인",
           "문맥 속 뜻 확인",
           "문맥 속 뜻 확인"
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성",
+          "공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
+          "환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정",
+          "못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의",
+          "저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두"
+        ],
+        "answer": 0,
+        "explanation": "글 전체의 핵심은 ‘먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "When we look at the stars, we are looking _______ in time.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "further",
+          "light",
+          "universe",
+          "reach",
+          "back"
+        ],
+        "answer": 4,
+        "explanation": "원문에 사용된 단어는 ‘back’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "더 나아가",
+          "빛",
+          "우주",
+          "도달하다",
+          "뒤로"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "Their _______, familiar to generations of humans, has travelled at least 1,000 years to reach us.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "universe",
+          "reach",
+          "stars",
+          "light",
+          "further"
+        ],
+        "answer": 3,
+        "explanation": "원문에 사용된 단어는 ‘light’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "우주",
+          "도달하다",
+          "별",
+          "빛",
+          "더 나아가"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nThe light from even our nearest stellar neighbour takes four years to reach us.\n\n(A) The further we can collect light from, the further back in time we can look. If you look at the bright star Betelgeuse, which glows in the Orion constellation, you wind time back more than six hundred years. Its reddish glow started its journey to Earth in the Middle Ages.\n\n(B) The stars in Orion's belt are even further away. Their light, familiar to generations of humans, has travelled at least 1,000 years to reach us. This means we have a chance of understanding the history of the universe because we can see the more distant parts of it as they were in the past, thousands or millions or billions of years ago.\n\n(C) When we look at the stars, we are looking back in time. This is an incredible gift. We can see parts of space, parts of our universe, as they were many years ago.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -4226,6 +4673,93 @@
           "문맥 속 뜻 확인",
           "문맥 속 뜻 확인"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점",
+          "비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체",
+          "폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성",
+          "유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
+          "연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는"
+        ],
+        "answer": 4,
+        "explanation": "글 전체의 핵심은 ‘연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Still, we create and mindlessly adopt sharp _______, and those distinctions change lives far more dramatically than marginal differences ever do.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "between",
+          "score",
+          "arbitrariness",
+          "distinctions",
+          "differences"
+        ],
+        "answer": 3,
+        "explanation": "원문에 사용된 단어는 ‘distinctions’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "사이에",
+          "점수",
+          "임의성",
+          "구별",
+          "차이점"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "We don't have to be statisticians to know there is not a meaningful difference _______ 69 and 70.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "arbitrariness",
+          "statisticians",
+          "between",
+          "differences",
+          "score"
+        ],
+        "answer": 2,
+        "explanation": "원문에 사용된 단어는 ‘between’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "임의성",
+          "통계학자",
+          "사이에",
+          "차이점",
+          "점수"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nEverything in the world exists on a continuum, whether in speed, size, or any other possible descriptor you could think of.\n\n(A) I call this resulting damage \"the borderline effect.\" The examples are endless.\n\n(B) Someone's IQ is 69 and someone else's is 70 — but only the score of 70 is deemed to be within the range of normal. We don't have to be statisticians to know there is not a meaningful difference between 69 and 70. Yet once the person with the lower score is labeled \"cognitively impaired,\" his or her life will unfold differently than the person with a one-point advantage.\n\n(C) Still, we create and mindlessly adopt sharp distinctions, and those distinctions change lives far more dramatically than marginal differences ever do. Indeed, all differences are arbitrary, but drawing hard lines between categories hides this arbitrariness and can be severely damaging.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -4803,6 +5337,93 @@
           "문맥 속 뜻 확인",
           "문맥 속 뜻 확인"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는",
+          "뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로",
+          "구성의 오류가 보여 주는 개별 우수성과 전체 성공의 차이",
+          "할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능",
+          "불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는"
+        ],
+        "answer": 3,
+        "explanation": "글 전체의 핵심은 ‘할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Take, for example, the \"advance\" _______ to civilization by the discount coupon, which allows consumers to assume that they will receive a reduced purchase price by presenting the coupon.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "civilization",
+          "advantage",
+          "offered",
+          "coupons",
+          "expect"
+        ],
+        "answer": 2,
+        "explanation": "원문에 사용된 단어는 ‘offered’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "문명",
+          "장점",
+          "제공",
+          "쿠폰",
+          "기대하다"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "Not only do we _______ them to save us money, we also expect them to save us the time and mental energy required to think about how to do it.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "discount",
+          "expect",
+          "coupons",
+          "civilization",
+          "advantage"
+        ],
+        "answer": 1,
+        "explanation": "원문에 사용된 단어는 ‘expect’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "할인",
+          "기대하다",
+          "쿠폰",
+          "문명",
+          "장점"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nThe renowned British philosopher Alfred North Whitehead asserted that \"civilization advances by extending the number of operations we can perform without thinking about them.\"\n\n(A) Mailed-out coupons that — because of a printing error — offered no savings to recipients produced just as much customer response as did error-free coupons that offered substantial savings. The obvious but instructive point here is that we expect discount coupons to do double duty.\n\n(B) Not only do we expect them to save us money, we also expect them to save us the time and mental energy required to think about how to do it. In today's world, we need the first advantage to handle pocketbook strain; but we need the second advantage to handle something potentially more important — brain strain.\n\n(C) Take, for example, the \"advance\" offered to civilization by the discount coupon, which allows consumers to assume that they will receive a reduced purchase price by presenting the coupon. The extent to which we have learned to operate mechanically on that assumption is illustrated in the experience of one automobile-tire company.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -5268,6 +5889,93 @@
           "문맥 속 뜻 확인",
           "문맥 속 뜻 확인",
           "문맥 속 뜻 확인"
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
+          "현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상",
+          "관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정",
+          "개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는",
+          "사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화"
+        ],
+        "answer": 2,
+        "explanation": "글 전체의 핵심은 ‘관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Our choice of which _______ to mark depends firstly on what we can observe and secondly on what is important in our lives.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "depends",
+          "differences",
+          "mark",
+          "calendar",
+          "observe"
+        ],
+        "answer": 1,
+        "explanation": "원문에 사용된 단어는 ‘differences’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "의존한다",
+          "차이점",
+          "마크",
+          "달력",
+          "관찰하다"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "Conversely, among the largely nomadic peoples of Arabia, for whom seasonal changes were less significant, the lunar _______ was a more sensible choice.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "calendar",
+          "mark",
+          "observe",
+          "depends",
+          "choice"
+        ],
+        "answer": 0,
+        "explanation": "원문에 사용된 단어는 ‘calendar’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "달력",
+          "마크",
+          "관찰하다",
+          "의존한다",
+          "선택"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nAll human cultures mark the passing of time by the differences they observe in the world around them.\n\n(A) How we mark the differences — the shapes of our calendars and our rituals — depends on the connections we make between those two things. In the agricultural society of pre-modern Europe, where higher latitudes make the seasons easily observable, it was natural to monitor the solar cycle.\n\n(B) Conversely, among the largely nomadic peoples of Arabia, for whom seasonal changes were less significant, the lunar calendar was a more sensible choice. That did not make it inevitable that Islam would use a lunar calendar and Roman Christianity a solar one, but political and religious decisions were made from options limited by geography and lifestyle, filtered through tradition.\n\n(C) Our choice of which differences to mark depends firstly on what we can observe and secondly on what is important in our lives.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -5846,6 +6554,93 @@
           "문맥 속 뜻 확인",
           "문맥 속 뜻 확인"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이",
+          "대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요",
+          "접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향",
+          "위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
+          "예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력"
+        ],
+        "answer": 1,
+        "explanation": "글 전체의 핵심은 ‘대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "This means that high variation in _______, an increase as well as a decrease, does not significantly modify demand.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "price",
+          "products",
+          "product",
+          "significantly",
+          "manufacturer"
+        ],
+        "answer": 0,
+        "explanation": "원문에 사용된 단어는 ‘price’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "가격",
+          "제품",
+          "제품",
+          "상당히",
+          "제조업체"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "At that stage, the competitors are not interested in lowering their price _______ whatsoever, because they are chasing the same categories of customers, not sensitive to price.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "products",
+          "product",
+          "manufacturer",
+          "innovative",
+          "significantly"
+        ],
+        "answer": 4,
+        "explanation": "원문에 사용된 단어는 ‘significantly’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "제품",
+          "제품",
+          "제조업체",
+          "혁신적인",
+          "상당히"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nUsually, innovative high-tech products have low price elasticity.\n\n(A) Additionally, at the first stage of the technology, buyers — either innovators or forerunners — are less sensitive to price than to additional performance; they often have deep pockets or are ready to spend a lot for a new innovative and outstanding product. For instance, with its new product range, a high-end mobile phone manufacturer is aiming at the 3% of millionaire households with assets of more than $2.5 million; those are customers who are ready to accept the price range the manufacturer has set.\n\n(B) At that stage, the competitors are not interested in lowering their price significantly whatsoever, because they are chasing the same categories of customers, not sensitive to price. Furthermore, the high price of these products is often perceived as a sign of quality and reinforces a customer's confidence in the company.\n\n(C) This means that high variation in price, an increase as well as a decrease, does not significantly modify demand. These high-tech products have few substitutes, meaning that the costs to switch to another product are high.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -6406,6 +7201,18 @@
       [
         "efficient",
         "효율적인"
+      ],
+      [
+        "addicts",
+        "중독자"
+      ],
+      [
+        "husband",
+        "남편"
+      ],
+      [
+        "guy",
+        "남자"
       ]
     ],
     "phrases": [
@@ -6442,6 +7249,93 @@
           "경우에 효율적",
           "정확하게 할 수 없다",
           "사회적 추구"
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
+          "addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
+          "자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적",
+          "어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두",
+          "낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향"
+        ],
+        "answer": 0,
+        "explanation": "글 전체의 핵심은 ‘공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "중독자·남편·남자의 의미있는 위치를 표시해 주는 인간의 창조와 사회의 위치를 끊임없이",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Critics of _______ argue that empathy will not save us from interpersonal and intergroup conflict.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "argue",
+          "empathize",
+          "conflict",
+          "critics",
+          "empathy"
+        ],
+        "answer": 4,
+        "explanation": "원문에 사용된 단어는 ‘empathy’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "논쟁하다",
+          "공감하다",
+          "갈등",
+          "비평가",
+          "공감"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "Finally, even when we try to _______ with others who are dissimilar from us or in unfamiliar contexts, sometimes we are unable to accurately empathize with their experiences, causing further misunderstandings and frustration.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "conflict",
+          "critics",
+          "out-groups",
+          "empathize",
+          "argue"
+        ],
+        "answer": 3,
+        "explanation": "원문에 사용된 단어는 ‘empathize’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "갈등",
+          "비평가",
+          "외집단",
+          "공감하다",
+          "논쟁하다"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nAlthough empathy is widely praised by scholars and public figures, not everyone is an empathy booster.\n\n(A) These critics maintain that empathy can be exhausting and lead to burnout or insensitivity to suffering. They argue that we tend to empathize strongly with our in-group and resist empathizing with out-groups, and even enjoy the suffering of out-groups in competitive or threatening contexts. Thus, the prescription for more empathy is often counterproductive in cases of conflict.\n\n(B) Empathy, they argue, can further encourage conflict and force us into an us vs. them mentality. Finally, even when we try to empathize with others who are dissimilar from us or in unfamiliar contexts, sometimes we are unable to accurately empathize with their experiences, causing further misunderstandings and frustration. Critics of empathy argue that we should give up on empathy and employ other tools in pursuit of social harmony, e.g., rational compassion or moral emotions like fear, anger, and shame.\n\n(C) Critics of empathy argue that empathy will not save us from interpersonal and intergroup conflict. In fact, they argue, empathy makes such conflicts worse.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -7036,6 +7930,93 @@
           "건축 혁신",
           "공동작업"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정",
+          "못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의",
+          "저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두",
+          "공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식",
+          "변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점"
+        ],
+        "answer": 4,
+        "explanation": "글 전체의 핵심은 ‘변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "The ancient medieval squares in _______ like Marrakesh and Siena are still places where stuff is sold every day, even if the stuff itself has changed over the last five hundred years.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "great",
+          "future-proof",
+          "predicted",
+          "places",
+          "city"
+        ],
+        "answer": 3,
+        "explanation": "원문에 사용된 단어는 ‘places’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "대단해",
+          "미래에도 사용할 수 있는",
+          "예측됨",
+          "장소",
+          "도시"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "Jane Jacobs, the great prophet of the _______ economy, made much of this fact in her books, including The Death and Life of Great American Cities and The Nature of Economies.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "predicted",
+          "shopping",
+          "city",
+          "great",
+          "future-proof"
+        ],
+        "answer": 2,
+        "explanation": "원문에 사용된 단어는 ‘city’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "예측됨",
+          "쇼핑",
+          "도시",
+          "대단해",
+          "미래에도 사용할 수 있는"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nOne easily underappreciated feature of a city street or square is its \"future-proof\" nature.\n\n(A) For example, the same physical store that once sold buggy whips and typewriters might now repair damaged phones and sell bubble tea. The same infrastructure supports evolving uses.\n\n(B) Jane Jacobs, the great prophet of the city economy, made much of this fact in her books, including The Death and Life of Great American Cities and The Nature of Economies. As she pointed out, the great advantage of a city architecture is its ability to support change in uses, and Jacobs correctly predicted the persistence of the city itself, unlike those who predicted the rise of the Internet would mean the death of the city.\n\n(C) The ancient medieval squares in places like Marrakesh and Siena are still places where stuff is sold every day, even if the stuff itself has changed over the last five hundred years. The city square is a fairly future-proof technology, as is the shopping street, even in an age of online shopping.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -7617,6 +8598,93 @@
           "의존",
           "취약성"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성",
+          "유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
+          "먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성",
+          "불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는",
+          "비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체"
+        ],
+        "answer": 3,
+        "explanation": "글 전체의 핵심은 ‘불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Think of events that shake you out of your everyday routine: maybe attending a family wedding, making a big _______, or going somewhere you've never been.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "paradoxically",
+          "uncertainty",
+          "presentation",
+          "it's",
+          "feel"
+        ],
+        "answer": 2,
+        "explanation": "원문에 사용된 단어는 ‘presentation’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "역설적이게도",
+          "불확실성",
+          "프레젠테이션",
+          "그것은",
+          "느낌"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "Good news, _______ rewards, and gifts are more enjoyable if they are surprises.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "uncertainty",
+          "financial",
+          "it's",
+          "feel",
+          "paradoxically"
+        ],
+        "answer": 1,
+        "explanation": "원문에 사용된 단어는 ‘financial’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "불확실성",
+          "금융",
+          "그것은",
+          "느낌",
+          "역설적이게도"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nParadoxically, it's uncertainty that makes us feel most alive.\n\n(A) The same holds true if the experience is risky, like mountain climbing or parasailing. Your senses are sharper. You notice more.\n\n(B) Thanks to the release of a feel-good chemical in the brain called dopamine, you get a greater rush of pleasure from chance encounters with people than planned meetings. Good news, financial rewards, and gifts are more enjoyable if they are surprises. It's why the most popular television shows and movies are the ones with unexpected plot twists and astonishing endings.\n\n(C) Think of events that shake you out of your everyday routine: maybe attending a family wedding, making a big presentation, or going somewhere you've never been. It's on those occasions that time seems to slow down a little, and you feel more fully engaged.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -8196,6 +9264,93 @@
           "협상 기술을 사용하여 경쟁을 피하기 위해",
           "자신의 행동을 통해 자신의 지식을 드러내는 것"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "구성의 오류가 보여 주는 개별 우수성과 전체 성공의 차이",
+          "연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는",
+          "개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는",
+          "이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는",
+          "뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로"
+        ],
+        "answer": 2,
+        "explanation": "글 전체의 핵심은 ‘개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "This stands in contrast to many strategic situations — for example, in political negotiations — in which it is wise not to let the other side know what one's true _______ or production capacities are.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "behavior",
+          "preferences",
+          "items",
+          "individuals",
+          "production"
+        ],
+        "answer": 1,
+        "explanation": "원문에 사용된 단어는 ‘preferences’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "행동",
+          "환경 설정",
+          "아이템",
+          "개인",
+          "생산"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "They stop buying _______ that do not satisfy their needs and stop selling items that do not provide them with optimal gains, maybe switching to the production of other items.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "items",
+          "individuals",
+          "production",
+          "behavior",
+          "market"
+        ],
+        "answer": 0,
+        "explanation": "원문에 사용된 단어는 ‘items’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "아이템",
+          "개인",
+          "생산",
+          "행동",
+          "시장"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nA great strength of the market mechanism is that there are incentives for individuals to reveal their knowledge through their behavior.\n\n(A) A perfectly competitive market that clears on the spot leaves no room for such strategies. If prices are not sticky — as many models assume — individuals adapt their behavior instantaneously, whenever their preferences or the circumstances change.\n\n(B) They stop buying items that do not satisfy their needs and stop selling items that do not provide them with optimal gains, maybe switching to the production of other items. If they have motivational problems, for example, falling into denial about the fact that there is no demand for their products, markets reveal to them, sometimes in quite brutal ways, that they better accept this fact.\n\n(C) This stands in contrast to many strategic situations — for example, in political negotiations — in which it is wise not to let the other side know what one's true preferences or production capacities are.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -8722,6 +9877,93 @@
           "번식률을 높여라",
           "그들의 방어 능력을 방해한다",
           "최대 높이를 늘리세요"
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능",
+          "접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향",
+          "사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화",
+          "진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
+          "현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상"
+        ],
+        "answer": 1,
+        "explanation": "글 전체의 핵심은 ‘접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Peering at the genes of _______ thaliana, a weedy plant in the mustard family and the lab rat of the plant biology world, researchers saw that touch quietly triggered such a dramatic response in their hormones and gene expression that it could substantially inhibit their growth.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "arabidopsis",
+          "plant",
+          "touched",
+          "percent",
+          "plants"
+        ],
+        "answer": 0,
+        "explanation": "원문에 사용된 단어는 ‘arabidopsis’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "애기장대",
+          "식물",
+          "만진",
+          "퍼센트",
+          "식물"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "Clearly, the _______ was reorganizing its priorities to deal with the disturbance, and rerouting energy away from the hard work of getting taller.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "touched",
+          "percent",
+          "plants",
+          "growth",
+          "plant"
+        ],
+        "answer": 4,
+        "explanation": "원문에 사용된 단어는 ‘plant’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "만진",
+          "퍼센트",
+          "식물",
+          "성장",
+          "식물"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nThe genomics revolution made it possible to see just how impactful touch is to plants on a deeper level.\n\n(A) They stroked the arabidopsis with soft paintbrushes, and then analyzed the plants' genetic responses. Within thirty minutes of being touched, 10 percent of the plant's genome was altered.\n\n(B) Clearly, the plant was reorganizing its priorities to deal with the disturbance, and rerouting energy away from the hard work of getting taller. Touched multiple times, arabidopsis cut its upward growth rate by as much as 30 percent.\n\n(C) Peering at the genes of Arabidopsis thaliana, a weedy plant in the mustard family and the lab rat of the plant biology world, researchers saw that touch quietly triggered such a dramatic response in their hormones and gene expression that it could substantially inhibit their growth.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -9468,6 +10710,93 @@
           "오랫동안 배워야 한다",
           "끊임없이 변화하는 인간 발명의 반영이다"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
+          "위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
+          "예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력",
+          "집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이",
+          "관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정"
+        ],
+        "answer": 0,
+        "explanation": "글 전체의 핵심은 ‘addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "중독자·남편·남자의 의미있는 위치를 표시해 주는 인간의 창조와 사회의 위치를 끊임없이",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "In Roman times, \"addicts\" were people who were unable to pay their debts and gave _______ as slaves to their creditors.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "word",
+          "means",
+          "eventually",
+          "yourself",
+          "themselves"
+        ],
+        "answer": 4,
+        "explanation": "원문에 사용된 단어는 ‘themselves’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "단어",
+          "의미한다",
+          "결국",
+          "너 자신",
+          "그들 자신"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "In American slang, bad _______ good, cool means great, and wicked means excellent.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "eventually",
+          "yourself",
+          "you'd",
+          "means",
+          "word"
+        ],
+        "answer": 3,
+        "explanation": "원문에 사용된 단어는 ‘means’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "결국",
+          "너 자신",
+          "당신은",
+          "의미한다",
+          "단어"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nDictionary definitions are constantly revised to keep up with our changing uses and knowledge.\n\n(A) But because owning your own property made it more likely you'd find a mate, the word eventually came to mean a male who has been wed. On November 5th, 1605, Guy Fawkes tried to blow up the British Parliament. He was captured and put to death.\n\n(B) Loyalists burned his effigy, which they nicknamed the \"guy.\" Centuries later, the word lost its negative connotation and a musical named Guys and Dolls ran on Broadway. In American slang, bad means good, cool means great, and wicked means excellent. If you could transport yourself one hundred years into the future, you'd find yourself confused by your great-grandchildren's speech because language itself is an ever-changing reflection of human invention.\n\n(C) In Roman times, \"addicts\" were people who were unable to pay their debts and gave themselves as slaves to their creditors. The word eventually came to be associated with drug dependency: one becomes a slave to one's addiction. The word \"husband\" originally referred to being a homeowner; it had nothing to do with being married.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -10016,6 +11345,93 @@
           "자연의 균형을 맞추는 방법을 찾습니다",
           "종들이 서로 경쟁하게 만든다.",
           "점점 털이 많은 동물의 생존을 위협하고 있습니다."
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적",
+          "어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두",
+          "낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향",
+          "대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요",
+          "환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정"
+        ],
+        "answer": 4,
+        "explanation": "글 전체의 핵심은 ‘환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Such _______ do happen when we are dealing with a timescale as long as the evolutionary one.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "temperature",
+          "evolution",
+          "selection",
+          "changes",
+          "average"
+        ],
+        "answer": 3,
+        "explanation": "원문에 사용된 단어는 ‘changes’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "온도",
+          "진화",
+          "선택",
+          "변화",
+          "평균"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "If there is a steady downward drift in the _______ temperature in the area, a drift that persists over centuries, successive generations of animals will be propelled by a steady selection 'pressure' in the direction, say, of growing longer coats of hair.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "selection",
+          "pressure",
+          "average",
+          "temperature",
+          "evolution"
+        ],
+        "answer": 2,
+        "explanation": "원문에 사용된 단어는 ‘average’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "선택",
+          "압력",
+          "평균",
+          "온도",
+          "진화"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nEvolution will come to a standstill until something in the conditions changes: the onset of an ice age, a change in the average rainfall of the area, a shift in the prevailing wind.\n\n(A) As a consequence, evolution normally does not come to a halt, but constantly tracks the changing environment.\n\n(B) If there is a steady downward drift in the average temperature in the area, a drift that persists over centuries, successive generations of animals will be propelled by a steady selection 'pressure' in the direction, say, of growing longer coats of hair. If after a few thousand years of reduced temperature the trend reverses and average temperatures creep up again, the animals will come under the influence of a new selection pressure, and will be pushed towards growing shorter coats again.\n\n(C) Such changes do happen when we are dealing with a timescale as long as the evolutionary one.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -10642,6 +12058,93 @@
           "잠재 고객을 유치하기 위해 비즈니스를 홍보합니다.",
           "값비싼 상업 공간을 공공 보도로 대체"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두",
+          "공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식",
+          "공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
+          "비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체",
+          "못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의"
+        ],
+        "answer": 3,
+        "explanation": "글 전체의 핵심은 ‘비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "For example, in New _______ City, as in many large cities, sidewalk vending carts sell everything from hot dogs to ice cream.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "city",
+          "dogs",
+          "york",
+          "space",
+          "public"
+        ],
+        "answer": 2,
+        "explanation": "원문에 사용된 단어는 ‘york’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "도시",
+          "개",
+          "요크",
+          "공간",
+          "대중"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "Aside from the necessary public permits, however, _______ on the public sidewalk is free to vendors.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "commercial",
+          "space",
+          "public",
+          "city",
+          "dogs"
+        ],
+        "answer": 1,
+        "explanation": "원문에 사용된 단어는 ‘space’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "상업",
+          "공간",
+          "대중",
+          "도시",
+          "개"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nThe high price of land in metropolitan areas has implications for the efficient employment of resources.\n\n(A) Consider the resources used to supply hot dogs: land, labor, capital, entrepreneurial ability, plus intermediate goods such as hot dogs, buns, and other ingredients. Which of these do you suppose is most expensive in New York City? Retail space along Madison Avenue rents for an average of $550 a year per square foot.\n\n(B) Because operating a hot dog cart requires about 4 square yards, it could cost as much as $20,000 a year to rent that much commercial space. Aside from the necessary public permits, however, space on the public sidewalk is free to vendors. Profit-maximizing street vendors substitute public sidewalks for costly commercial space.\n\n(C) For example, in New York City, as in many large cities, sidewalk vending carts sell everything from hot dogs to ice cream. Why are these carts so popular, with over 3,000 in New York City alone?",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -11201,6 +12704,93 @@
           "텍스트의 정서적 영향이 완전히 지워집니다.",
           "시청자는 이미지의 예술적 품질에 중점을 둡니다.",
           "이미지와 그에 수반되는 텍스트는 분리되어 작동합니다."
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성",
+          "변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점",
+          "이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는",
+          "폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성",
+          "유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정"
+        ],
+        "answer": 2,
+        "explanation": "글 전체의 핵심은 ‘이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Of all possible literal or implied interpretations an image could elicit, _______ would point the viewer towards a desired, specific direction.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "advertising",
+          "text",
+          "meaning",
+          "reader",
+          "interpretations"
+        ],
+        "answer": 1,
+        "explanation": "원문에 사용된 단어는 ‘text’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "광고",
+          "텍스트",
+          "의미",
+          "독자",
+          "해석"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "The headline or tagline of an ad directs the _______ through the intended meanings of the image, so that the reader avoids some and receives others.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "reader",
+          "meaning",
+          "interpretations",
+          "advertising",
+          "specific"
+        ],
+        "answer": 0,
+        "explanation": "원문에 사용된 단어는 ‘reader’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "독자",
+          "의미",
+          "해석",
+          "광고",
+          "구체적인"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nThe term \"anchoring\" was introduced by Roland Barthes who observed that text is often used next to images (his focus was on photographs) to confine meaning.\n\n(A) The viewer is not asked to recognize what they see but to understand why they see it and what it means to them. By combining images with text, advertising produces symbolic meaning that is accurate and specific on the one hand, richer on the other, thus adding depth and eliminating breadth of rational and emotional interpretations.\n\n(B) The headline or tagline of an ad directs the reader through the intended meanings of the image, so that the reader avoids some and receives others. It \"remote-controls\" the reader towards a meaning chosen in advance.\n\n(C) Of all possible literal or implied interpretations an image could elicit, text would point the viewer towards a desired, specific direction. In advertising, as Barthes argues, the symbolic message does not guide identification but interpretation.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -11799,6 +13389,93 @@
           "(B) - (C) - (A)",
           "(C) - (A) - (B)",
           "(C) - (B) - (A)"
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는",
+          "사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화",
+          "뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로",
+          "구성의 오류가 보여 주는 개별 우수성과 전체 성공의 차이",
+          "연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는"
+        ],
+        "answer": 1,
+        "explanation": "글 전체의 핵심은 ‘사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Finding _______ and drink, keeping warm and clean, avoiding predators, migrating and reproducing use up all their energies.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "food",
+          "sufficiently",
+          "animals",
+          "hunting",
+          "degree"
+        ],
+        "answer": 0,
+        "explanation": "원문에 사용된 단어는 ‘food’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "음식",
+          "충분히",
+          "동물",
+          "사냥",
+          "정도"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "In certain regions, at particular times of year, the prey was _______ plentiful and their hunting techniques sufficiently advanced for them to experience a remarkable degree of prosperity.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "animals",
+          "hunting",
+          "degree",
+          "prey",
+          "sufficiently"
+        ],
+        "answer": 4,
+        "explanation": "원문에 사용된 단어는 ‘sufficiently’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "동물",
+          "사냥",
+          "정도",
+          "먹이",
+          "충분히"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nFor most animals the struggle to survive takes up all their time.\n\n(A) This was also true for our early ancestors. The constant search for food would have put heavy demands upon them. But as they slowly evolved into more and more efficient hunters, the situation changed. The secret of their success was the development of much greater intelligence.\n\n(B) They used brain not brawn to kill their prey. At the end of the long hunting era, before they turned to farming, they were already enjoying some degree of affluence. In certain regions, at particular times of year, the prey was sufficiently plentiful and their hunting techniques sufficiently advanced for them to experience a remarkable degree of prosperity. They had time on their hands.\n\n(C) Finding food and drink, keeping warm and clean, avoiding predators, migrating and reproducing use up all their energies. If they do have any time to spare, they spend it resting or sleeping. Only very young animals, under the protection of their parents, have enough surplus energy to engage in lively bouts of play.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -12399,6 +14076,93 @@
           "(C) - (A) - (B)",
           "(C) - (B) - (A)"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
+          "진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
+          "현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상",
+          "할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능",
+          "개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는"
+        ],
+        "answer": 0,
+        "explanation": "글 전체의 핵심은 ‘위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Did you come to a sudden stop, _______ all your movements, and hold your breath as you scanned the environment for a threat?",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "language",
+          "threat",
+          "relax",
+          "sophisticated",
+          "freeze"
+        ],
+        "answer": 4,
+        "explanation": "원문에 사용된 단어는 ‘freeze’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "언어",
+          "위협",
+          "긴장을 풀다",
+          "정교한",
+          "얼다"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "What if our _______ shape our brain to be in a constant state of fear?",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "threat",
+          "relax",
+          "sophisticated",
+          "experiences",
+          "language"
+        ],
+        "answer": 3,
+        "explanation": "원문에 사용된 단어는 ‘experiences’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "위협",
+          "긴장을 풀다",
+          "정교한",
+          "경험",
+          "언어"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nThink about a time when you were startled.\n\n(A) Because of this, the freeze response results in the inhibition of language in highly stressful and traumatic situations. Natural selection promoted the evolution of language but conserved the freeze rule. When the threat passes, we begin to relax and find our voices again, perhaps even to laugh at our own reactions.\n\n(B) But what if we can never relax? What if our experiences shape our brain to be in a constant state of fear? This interference with the proper development and integration of neural networks can result in chronic stress and even mental illness.\n\n(C) Did you come to a sudden stop, freeze all your movements, and hold your breath as you scanned the environment for a threat? All these responses maximize our ability to avoid detection, locate the source of possible danger, and prepare to fight or flee. As sophisticated as language has become, it is still the creation of sound that might give away our location to a potential predator.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -12913,6 +14677,93 @@
           "(C) - (A) - (B)",
           "(C) - (B) - (A)"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력",
+          "집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이",
+          "관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정",
+          "접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향",
+          "자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적"
+        ],
+        "answer": 4,
+        "explanation": "글 전체의 핵심은 ‘자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "We do this to help make _______ of the world, maintain our beliefs, and generally feel better.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "someone",
+          "thinking",
+          "rules",
+          "sense",
+          "hierarchy"
+        ],
+        "answer": 3,
+        "explanation": "원문에 사용된 단어는 ‘sense’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "누군가",
+          "생각",
+          "규칙",
+          "감각",
+          "계층 구조"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "Or consider when you get _______ with your kids and end an argument with \"Because I said so.\" (Or the office equivalent: \"Because I'm the boss.\")",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "thinking",
+          "rules",
+          "frustrated",
+          "hierarchy",
+          "someone"
+        ],
+        "answer": 2,
+        "explanation": "원문에 사용된 단어는 ‘frustrated’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "생각",
+          "규칙",
+          "좌절하다",
+          "계층 구조",
+          "누군가"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nWe're naturally wired to organize the world into a hierarchy.\n\n(A) You're reacting to a threat to your inherent sense of hierarchy. On the road we are all equals. We're all supposed to play by the same rules.\n\n(B) Cutting someone off violates those rules and implies higher status. Or consider when you get frustrated with your kids and end an argument with \"Because I said so.\" (Or the office equivalent: \"Because I'm the boss.\") In these moments you've stopped thinking and regressed to your biological tendencies of reaffirming the hierarchy.\n\n(C) We do this to help make sense of the world, maintain our beliefs, and generally feel better. But when someone infringes on our place in the world and our understanding of how it works, we react without thinking. When someone cuts you off on the highway and road rage kicks in, that's your unconscious mind saying, \"Who are you to cut me off?\"",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -13361,6 +15212,18 @@
       [
         "now",
         "지금"
+      ],
+      [
+        "addicts",
+        "중독자"
+      ],
+      [
+        "husband",
+        "남편"
+      ],
+      [
+        "guy",
+        "남자"
       ]
     ],
     "phrases": [
@@ -13389,6 +15252,93 @@
           "(B) - (C) - (A)",
           "(C) - (A) - (B)",
           "(C) - (B) - (A)"
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향",
+          "대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요",
+          "addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
+          "못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의",
+          "어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두"
+        ],
+        "answer": 3,
+        "explanation": "글 전체의 핵심은 ‘못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "중독자·남편·남자의 의미있는 위치를 표시해 주는 인간의 창조와 사회의 위치를 끊임없이",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Friction is the _______ that arises when two surfaces are sliding, or trying to slide, against each other.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "tension",
+          "trying",
+          "force",
+          "nail",
+          "friction"
+        ],
+        "answer": 2,
+        "explanation": "원문에 사용된 단어는 ‘force’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "긴장",
+          "노력하다",
+          "힘",
+          "네일",
+          "마찰"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "The force it would take to stretch the _______ is much larger than the friction forces on the surface, so we don't have to worry too much about the former.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "apart",
+          "nail",
+          "friction",
+          "tension",
+          "trying"
+        ],
+        "answer": 1,
+        "explanation": "원문에 사용된 단어는 ‘nail’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "떨어져서",
+          "네일",
+          "마찰",
+          "긴장",
+          "노력하다"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nOnce a nail is hammered in, it is friction that holds it in place.\n\n(A) The nail feels a force trying to rip it apart along its length, and we call that force tension. Your experiment can now fail in one of two ways — either the nail stretches and splits in half because the tension force is too large for the nail, or the nail comes loose because the friction force is overcome.\n\n(B) The force it would take to stretch the nail is much larger than the friction forces on the surface, so we don't have to worry too much about the former. It's the friction with which we need to concern ourselves.\n\n(C) Friction is the force that arises when two surfaces are sliding, or trying to slide, against each other. If you try to pull apart two blocks of wood that have been nailed together, the wood fibers grip the shaft of the nail.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -13925,6 +15875,93 @@
           "",
           "",
           ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
+          "환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정",
+          "폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성",
+          "저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두",
+          "공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식"
+        ],
+        "answer": 2,
+        "explanation": "글 전체의 핵심은 ‘폭력적 비디오 게임 반복 노출이 탈감각과 공감 감소로 이어질 가능성’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Because there have been longstanding concerns about the impact of violent _______ games on youth, much research has been conducted over the last couple of decades on the topic.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "violence",
+          "video",
+          "violent",
+          "empathy",
+          "gaming"
+        ],
+        "answer": 1,
+        "explanation": "원문에 사용된 단어는 ‘video’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "폭력",
+          "비디오",
+          "폭력적인",
+          "공감",
+          "게임"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "The next step in this problematic process would be having diminished emotional responses to violence, which could also interfere with the ability to recognize and/or to sympathize with others, leading to reduced _______.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "empathy",
+          "violent",
+          "gaming",
+          "violence",
+          "reaction"
+        ],
+        "answer": 0,
+        "explanation": "원문에 사용된 단어는 ‘empathy’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "공감",
+          "폭력적인",
+          "게임",
+          "폭력",
+          "반응"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nVideo gaming is one of the most studied technologies with regard to empathy.\n\n(A) Part of a normal, healthy reaction to witnessing violent events is to feel negative emotions, and to experience physiological arousal that is connected to fear or disgust. With repeated exposure to violent events — such as what might happen when a person plays violent video games — this normal reaction might become blunted, a phenomenon known as desensitization.\n\n(B) The next step in this problematic process would be having diminished emotional responses to violence, which could also interfere with the ability to recognize and/or to sympathize with others, leading to reduced empathy. A significant body of work shows an association between extensive violent video gaming and reduced empathy in people.\n\n(C) Because there have been longstanding concerns about the impact of violent video games on youth, much research has been conducted over the last couple of decades on the topic. While measuring and documenting the impact of video game violence, scientists have formulated credible explanations of how video gaming could affect empathy.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -14502,6 +16539,93 @@
           "",
           ""
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "비싼 상업 공간 대신 공공 보행로를 활용하는 노점상의 자원 대체",
+          "뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로",
+          "유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
+          "먼 별빛을 통해 우주의 과거를 보고 역사를 이해할 수 있는 가능성",
+          "변화하는 용도를 받아들이며 오래 지속되는 도시 거리와 광장의 장점"
+        ],
+        "answer": 1,
+        "explanation": "글 전체의 핵심은 ‘뻣뻣함을 유지하면서 주름을 만들 수 있는 종이의 물리적 특성이 접기와 포장에 독보적으로’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "The cellulose fibers of which it is made can be partially snapped in the area of maximum bend, allowing a permanent _______ to form, while sufficient fibers remain undamaged for the material not to crack and fall apart.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "crease",
+          "hold",
+          "mechanical",
+          "properties",
+          "material"
+        ],
+        "answer": 0,
+        "explanation": "원문에 사용된 단어는 ‘crease’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "주름",
+          "보류",
+          "기계적인",
+          "속성",
+          "재료"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "Plastic sheeting doesn't tend to _______ a crease at all, unless it is very soft, in which case it lacks the rigidity required of a good wrapping material.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "mechanical",
+          "properties",
+          "material",
+          "folding",
+          "hold"
+        ],
+        "answer": 4,
+        "explanation": "원문에 사용된 단어는 ‘hold’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "기계적인",
+          "속성",
+          "재료",
+          "접는",
+          "보류"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nPaper's mechanical properties lend themselves to folding and bending.\n\n(A) This winning combination of mechanical properties allows it to assume the shape of any object through creasing and folding — hence the art of origami. There are very few materials as good: metal foils can hold a crease, but control of the crease is somewhat more difficult.\n\n(B) Plastic sheeting doesn't tend to hold a crease at all, unless it is very soft, in which case it lacks the rigidity required of a good wrapping material. So it is its ability to hold a crease while remaining stiff that makes paper uniquely suited to this purpose.\n\n(C) The cellulose fibers of which it is made can be partially snapped in the area of maximum bend, allowing a permanent crease to form, while sufficient fibers remain undamaged for the material not to crack and fall apart. Indeed, in this state it pretty much maintains its ability to resist being pulled apart, but it can also be torn easily and accurately along the crease if a point of weakness — a small, initial tear — is opened up.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -15020,6 +17144,93 @@
           "",
           "",
           ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제",
+          "구성의 오류가 보여 주는 개별 우수성과 전체 성공의 차이",
+          "연속적인 차이에 자의적인 경계를 설정함으로써 미미한 차이가 개인의 삶을 크게 바꾸는",
+          "불확실성과 예상 밖의 경험이 감각과 몰입을 높이고 도파민 분비를 통해 더 큰 즐거움을 주는",
+          "이미지에 텍스트를 결합해 해석의 폭을 제한하고 독자를 의도된 의미로 이끄는"
+        ],
+        "answer": 0,
+        "explanation": "글 전체의 핵심은 ‘진정한 헌신 없는 사회적 목적 홍보가 목적-세탁과 신뢰 손실로 이어지는 문제’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Their marketers are using social _______ to boost the brand's reputation, rather than embracing the purpose itself.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "social",
+          "differentiation",
+          "purpose-washing",
+          "benefits",
+          "purpose"
+        ],
+        "answer": 4,
+        "explanation": "원문에 사용된 단어는 ‘purpose’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "사회적",
+          "차별화",
+          "목적 세척",
+          "혜택",
+          "목적"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "Purpose-washing brands gain one of the benefits of _______ purpose, differentiation, but only for a short while.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "purpose-washing",
+          "benefits",
+          "brands",
+          "social",
+          "differentiation"
+        ],
+        "answer": 3,
+        "explanation": "원문에 사용된 단어는 ‘social’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "목적 세척",
+          "혜택",
+          "브랜드",
+          "사회적",
+          "차별화"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nRealising the benefits of differentiation, some brands broadcast their social purpose before they do much actual good.\n\n(A) Otherwise the mission is just window-dressing, or what we call \"purpose-washing\" — similar to green- washing, where purpose-driven activities serve mainly for publicity purposes. We end up with what Anand Giridhardas describes in Winners Take All:\n\n(B) \"social purpose that just furthers the charade of elites disrupting the old order without giving much back\". Purpose-washing brands gain one of the benefits of social purpose, differentiation, but only for a short while. They lose out on positioning for future markets, and they might even make employees feel worse about working for them.\n\n(C) Their marketers are using social purpose to boost the brand's reputation, rather than embracing the purpose itself. Making a real difference with social problems is hard enough; to succeed, it has to follow from an authentic, company-wide commitment to the purpose.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -15592,6 +17803,93 @@
           "예상 …… 휴식",
           "설립 …… 구현"
         ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "현실 행동을 예행 연습하게 하지만 실제 경험을 대체하지 못하는 시각적 심상",
+          "할인 쿠폰이 돈뿐 아니라 사고에 드는 시간과 정신적 에너지를 줄이는 기능",
+          "개인의 행동을 통해 숨겨진 선호와 생산 정보를 드러내고 변화한 현실을 받아들이게 하는",
+          "사냥 기술과 지능의 발달이 초기 조상에게 여유와 풍요를 가져온 변화",
+          "예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력"
+        ],
+        "answer": 4,
+        "explanation": "글 전체의 핵심은 ‘예상된 음악적 패턴을 깨뜨릴 때 생기는 감정적 몰입과 음악의 매력’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "This is similar to variations of a _______: We need to have a mental representation of what the melody is in order to know — and appreciate — when the musician is taking liberties with it.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "occur",
+          "organization",
+          "emotionally",
+          "melody",
+          "music"
+        ],
+        "answer": 3,
+        "explanation": "원문에 사용된 단어는 ‘melody’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "발생하다",
+          "조직",
+          "감정적으로",
+          "멜로디",
+          "음악"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "Too much organization may technically still be _______, but it would be music that no one wants to listen to.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "emotionally",
+          "violations",
+          "music",
+          "occur",
+          "organization"
+        ],
+        "answer": 2,
+        "explanation": "원문에 사용된 단어는 ‘music’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "감정적으로",
+          "위반",
+          "음악",
+          "발생하다",
+          "조직"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nThe brain needs to create a model of a constant pulse — a schema — so that we know when the musicians are not conforming to it.\n\n(A) Music communicates to us emotionally through systematic violations of expectations. These violations can occur in any domain — the domain of pitch, rhythm, tempo, and so on — but occur they must.\n\n(B) Music is organized sound, but the organization has to involve some element of the unexpected or it is emotionally flat and robotic. Too much organization may technically still be music, but it would be music that no one wants to listen to. [Summary] The brain models anticipated musical patterns, which creates the possibility for emotional impact to arise when musicians break these patterns, making music engaging.\n\n(C) This is similar to variations of a melody: We need to have a mental representation of what the melody is in order to know — and appreciate — when the musician is taking liberties with it. Metrical extraction, knowing what the pulse is and when we expect it to occur, is a crucial part of musical emotion.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ]
       }
     ],
     "relatedSource": {
@@ -16130,6 +18428,93 @@
           "수집 …… 산만함",
           "버림…… 깨어났어",
           "포기하다……쫓기다"
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "관찰 가능한 자연환경과 생활상의 중요성이 전통·정치·종교와 결합하여 서로 다른 시간 측정",
+          "접촉이 애기장대의 유전자 반응과 에너지 배분을 바꿔 성장을 억제하는 영향",
+          "위협 상황의 동결 반응이 언어를 막고 만성 공포가 마음에 남기는 영향",
+          "어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두",
+          "집단생활에는 타인의 관점과 감정을 이해하는 능력이 필요하므로 다양한 동물에게 거울 뉴런이"
+        ],
+        "answer": 3,
+        "explanation": "글 전체의 핵심은 ‘어미 고양이가 자기 새끼를 구별하면서도 포식자의 접근을 막기 위해 우는 새끼라면 모두’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Despite this, when faced with a selection of _______ who have wandered from the nest, her own and others that aren't hers, a mother cat doesn't appear to favor her own offspring when retrieving them.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "retrieving",
+          "predators",
+          "kittens",
+          "mother",
+          "offspring"
+        ],
+        "answer": 2,
+        "explanation": "원문에 사용된 단어는 ‘kittens’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "검색 중",
+          "포식자",
+          "새끼 고양이",
+          "어머니",
+          "자손"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "A rapid rescue of any crying _______ would be a good strategy to prevent them from drawing unwanted attention.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "predators",
+          "kitten",
+          "mother",
+          "offspring",
+          "retrieving"
+        ],
+        "answer": 1,
+        "explanation": "원문에 사용된 단어는 ‘kitten’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "포식자",
+          "새끼 고양이",
+          "어머니",
+          "자손",
+          "검색 중"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nMother cats can tell which kittens belong to them — when litters are mixed up they use their kittens' scent to distinguish them from offspring of other mothers.\n\n(A) The reason for this is uncertain, although distress vocalizations from kittens that are lost from their nest are known to be very powerful, so it may just be hard for the mother to resist retrieving them, regardless of whether they are hers. In the wild, a squeaking kitten out in the open is likely to attract predators, which is bad news for any other kittens around it.\n\n(B) A rapid rescue of any crying kitten would be a good strategy to prevent them from drawing unwanted attention. [Summary] Although mother cats can identify their own offspring, they are likely to collect any lost crying kittens, possibly to reduce the chances of being detected by predators.\n\n(C) Despite this, when faced with a selection of kittens who have wandered from the nest, her own and others that aren't hers, a mother cat doesn't appear to favor her own offspring when retrieving them.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -16783,6 +19168,14 @@
         "외부"
       ],
       [
+        "addicts",
+        "중독자"
+      ],
+      [
+        "husband",
+        "남편"
+      ],
+      [
         "bigger",
         "더 큰"
       ],
@@ -16809,6 +19202,10 @@
       [
         "role",
         "역할"
+      ],
+      [
+        "guy",
+        "남자"
       ]
     ],
     "phrases": [
@@ -16870,6 +19267,93 @@
           "(다)",
           "(디)",
           "(e)"
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "addicts·husband·guy의 의미 변화가 보여 주는 인간의 창조와 사회 변화를 끊임없이",
+          "자신의 지위가 위협받을 때 이성적 사고를 멈추고 기존 위계를 재확인하려는 인간의 본능적",
+          "저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두",
+          "낮은 객관적 확률일수록 주관적으로 더 크게 느끼는 판단 편향",
+          "대체품 부족과 성능 중시로 가격에 둔감한 혁신 첨단 제품의 수요"
+        ],
+        "answer": 2,
+        "explanation": "글 전체의 핵심은 ‘저장량과 관리 비용에서는 식량이, 분실 방지와 장기 단식에서는 체지방이 유리한 두’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "중독자·남편·남자의 의미있는 위치를 표시해 주는 인간의 창조와 사회의 위치를 끊임없이",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "Maximum fat deposition increases with _______ mass whereas maximum food storage is not constrained by body size.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "stored",
+          "body",
+          "food",
+          "animals",
+          "energy"
+        ],
+        "answer": 1,
+        "explanation": "원문에 사용된 단어는 ‘body’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "저장됨",
+          "몸",
+          "음식",
+          "동물",
+          "에너지"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "A large accumulation of body fat adds to an animal's fasting capacity, especially large _______, permitting some animals to enter prolonged dormancy in the relative security of a hibernaculum.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "animals",
+          "food",
+          "energy",
+          "stored",
+          "storage"
+        ],
+        "answer": 0,
+        "explanation": "원문에 사용된 단어는 ‘animals’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "동물",
+          "음식",
+          "에너지",
+          "저장됨",
+          "저장"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nMany animals pursue a mixed strategy of accumulating both body fat and food, which leads one to ask, \"What are the relative advantages and disadvantages of these two forms of energy storage?\"\n\n(A) In other words, there is a metabolic expense to maintaining fat. Excessive fat accumulations may also have a negative effect on an animal's ability to avoid predators. And, if maintaining a high body temperature is advantageous, animals might be expected to accumulate more energy in the form of a food store than as body fat. On the other hand, stored food may rot over time, may be removed by robbers, or may simply be lost.\n\n(B) Many animals must expend energy managing and protecting their food stores. Eating food and converting it to fat avoids these types of losses and the energetic costs of managing stored food. A large accumulation of body fat adds to an animal's fasting capacity, especially large animals, permitting some animals to enter prolonged dormancy in the relative security of a hibernaculum. Thus, both fat accumulation and food storage have some decided advantages.\n\n(C) Maximum fat deposition increases with body mass whereas maximum food storage is not constrained by body size. This means that animals, especially small animals, can accumulate much greater energy reserves in the form of stored food than they can in the form of body fat. Further, stored food is more economical than body fat because fat contributes to body mass, and metabolic rate increases with body mass.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],
@@ -17619,6 +20103,93 @@
           "(다)",
           "(디)",
           "(e)"
+        ]
+      },
+      {
+        "title": "연관 변형 · 제목",
+        "question": "윗글의 제목으로 가장 적절한 것은?",
+        "choices": [
+          "못 박은 목재의 결합을 유지하고 분리 여부를 좌우하는 핵심이 못의 장력보다 표면의",
+          "유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정",
+          "공동 통화가 거래 비용을 줄여 생산성과 경제 성장에 기여하는 방식",
+          "공감이 소진과 집단 편향을 일으켜 갈등을 키울 수 있다는 한계와 이성적 연민 등 대안의",
+          "환경 변화와 선택 압력에 맞춰 계속 이어지는 진화의 과정"
+        ],
+        "answer": 1,
+        "explanation": "글 전체의 핵심은 ‘유가 상승이 자동차 효율화와 연료전지 개발, 에너지 산업 다각화를 촉진하는 과정’입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 1",
+        "passage": "But consider what has happened over the last 30 years or so to the _______ involved in producing the internal combustion engine.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "technology",
+          "companies",
+          "fuel",
+          "americans",
+          "producers"
+        ],
+        "answer": 0,
+        "explanation": "원문에 사용된 단어는 ‘technology’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "기술",
+          "회사",
+          "연료",
+          "미국인",
+          "생산자"
+        ]
+      },
+      {
+        "title": "연관 변형 · 문맥 어휘 2",
+        "passage": "The fact that this threat is real is driving the _______ to look for alternative sources of income.",
+        "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+        "choices": [
+          "companies",
+          "fuel",
+          "americans",
+          "tomorrow",
+          "producers"
+        ],
+        "answer": 4,
+        "explanation": "원문에 사용된 단어는 ‘producers’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "회사",
+          "연료",
+          "미국인",
+          "내일",
+          "생산자"
+        ]
+      },
+      {
+        "title": "연관 변형 · 글의 순서",
+        "passage": "주어진 글\nThe major consumer of oil is transport.\n\n(A) In fact, if the price of oil does rise much further then fuel cell technology (which produces energy from water!) will receive yet another momentum. The big car multinationals have already produced the prototype motors — they are currently racing to try and get prices down and engine performances up. Their future profits depend upon it. Imagine now if there is a breakthrough in fuel cell technology.\n\n(B) What would happen to oil prices? They would fall dramatically — signalling much less demand than supply — and oil companies and OPEC oil producers would stand to lose much income. The fact that this threat is real is driving the producers to look for alternative sources of income. The 'oil majors' have diversified and are now more energy companies than oil companies these days and the OPEC countries are urgently attempting to develop other industries.\n\n(C) But consider what has happened over the last 30 years or so to the technology involved in producing the internal combustion engine. Because oil is expensive, car engines today are far more efficient in their consumption of fuel (and far less polluting) than they were in 1972. The cars that Asia buys tomorrow will certainly not be anything like those Americans use today. Americans will not buy today's cars tomorrow either.",
+        "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+        "choices": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
+        ],
+        "answer": 4,
+        "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+        "kind": "reconstructed",
+        "choiceMeanings": [
+          "(A) - (B) - (C)",
+          "(A) - (C) - (B)",
+          "(B) - (A) - (C)",
+          "(B) - (C) - (A)",
+          "(C) - (A) - (B)"
         ]
       }
     ],

@@ -252,6 +252,73 @@ def split_chunks(sentence: str) -> list[str]:
     return [chunk.strip() for chunk in chunks if chunk.strip()]
 
 
+def add_reconstructed_questions(passages: list[dict]) -> None:
+    """Add repeatable school-exam style practice without copying paid worksheets."""
+    order_choices = ["(A) - (B) - (C)", "(A) - (C) - (B)", "(B) - (A) - (C)", "(B) - (C) - (A)", "(C) - (A) - (B)"]
+    for index, passage in enumerate(passages):
+        if passage["id"] == "01":
+            continue
+
+        # Title question: neighboring passage titles make plausible but clearly sourced distractors.
+        title_pool = [passages[(index + offset) % len(passages)]["title"] for offset in (0, 5, 11, 17, 23)]
+        shift = index % 5
+        title_choices = title_pool[shift:] + title_pool[:shift]
+        passage["questions"].append({
+            "title": "연관 변형 · 제목",
+            "question": "윗글의 제목으로 가장 적절한 것은?",
+            "choices": title_choices,
+            "answer": title_choices.index(passage["title"]),
+            "explanation": f"글 전체의 핵심은 ‘{passage['title']}’입니다.",
+            "kind": "reconstructed",
+        })
+
+        # Two vocabulary-in-context questions use actual sentences and words from this passage.
+        sentences = passage["sentences"]
+        candidates = [word for word, _ in passage["words"]]
+        used: set[str] = set()
+        for variant_no, sentence_index in enumerate((1, max(1, len(sentences) - 2)), start=1):
+            sentence = sentences[min(sentence_index, len(sentences) - 1)]["en"]
+            answer_word = next((word for word in candidates if word not in used and re.search(rf"\b{re.escape(word)}\b", sentence, re.I)), None)
+            if not answer_word:
+                answer_word = next((word for word, _ in passage["lookupWords"] if word not in used and re.search(rf"\b{re.escape(word)}\b", sentence, re.I)), None)
+            if not answer_word:
+                continue
+            used.add(answer_word)
+            distractors = [word for word in candidates if word != answer_word and word not in used][:4]
+            distractors.extend(word for word, _ in passage["lookupWords"] if word != answer_word and word not in distractors and word not in used)
+            choices = [answer_word] + distractors[:4]
+            shift = (index + variant_no) % 5
+            choices = choices[shift:] + choices[:shift]
+            blanked = re.sub(rf"\b{re.escape(answer_word)}\b", "_______", sentence, count=1, flags=re.I)
+            passage["questions"].append({
+                "title": f"연관 변형 · 문맥 어휘 {variant_no}",
+                "passage": blanked,
+                "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+                "choices": choices,
+                "answer": choices.index(answer_word),
+                "explanation": f"원문에 사용된 단어는 ‘{answer_word}’입니다. 문장 전체의 뜻과 함께 확인하세요.",
+                "kind": "reconstructed",
+            })
+
+        # Paragraph order question includes every required (A), (B), (C) marker above the choices.
+        if len(sentences) >= 4:
+            rest = [item["en"] for item in sentences[1:]]
+            cut1 = max(1, len(rest) // 3)
+            cut2 = max(cut1 + 1, (len(rest) * 2) // 3)
+            original_groups = [" ".join(rest[:cut1]), " ".join(rest[cut1:cut2]), " ".join(rest[cut2:])]
+            labeled_groups = [original_groups[1], original_groups[2], original_groups[0]]
+            question_passage = "주어진 글\n" + sentences[0]["en"] + "\n\n" + "\n\n".join(f"({label}) {text}" for label, text in zip("ABC", labeled_groups))
+            passage["questions"].append({
+                "title": "연관 변형 · 글의 순서",
+                "passage": question_passage,
+                "question": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+                "choices": order_choices,
+                "answer": 4,
+                "explanation": "원문의 흐름은 세 번째 묶음(C) → 첫 번째 묶음(A) → 두 번째 묶음(B) 순서입니다.",
+                "kind": "reconstructed",
+            })
+
+
 def build() -> list[dict]:
     translated = {
         "26-6": parse_translation_pdf(TRANSLATIONS["26-6"], "26", "6"),
@@ -336,6 +403,7 @@ def build() -> list[dict]:
             "questions": original_questions,
             "relatedSource": SOURCES[exam],
         })
+    add_reconstructed_questions(passages)
     choices_to_translate = []
     choice_words_by_passage: dict[str, list[str]] = {}
     extra_choice_terms: list[str] = []
